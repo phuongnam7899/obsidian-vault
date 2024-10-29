@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Kelly's formula.md",
+                "file": "2- Source Material/Videos/Mô hình Trục quay tối ưu Frontend.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kelly's formula"
+              "title": "Mô hình Trục quay tối ưu Frontend"
             }
           },
           {
@@ -196,12 +196,14 @@
   },
   "active": "77c174ba057a29e6",
   "lastOpenFiles": [
-    "6 - Main Notes/What is good UX-UI like.md",
     "2- Source Material/Articles/The 4 Golden Rules of UI Design.md",
+    "2- Source Material/Videos/Mô hình Trục quay tối ưu Frontend.md",
+    "6 - Main Notes/Kelly's formula.md",
+    "2- Source Material/Videos",
+    "6 - Main Notes/What is good UX-UI like.md",
     "What is good UX",
     "5 - Templates/Source Material.md",
     "5 - Templates/Main Note.md",
-    "6 - Main Notes/Kelly's formula.md",
     "3 - Tags/Invest.md",
     "6 - Main Notes/2 types of feedback.md",
     "3 - Tags/Communication.md",
@@ -221,7 +223,6 @@
     "3 - Tags",
     "2- Source Material/Others",
     "2- Source Material/Videos",
-    "2- Source Material/Books",
-    "2- Source Material/Articles"
+    "2- Source Material/Books"
   ]
 }
