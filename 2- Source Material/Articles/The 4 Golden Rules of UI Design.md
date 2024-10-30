@@ -1,6 +1,6 @@
 Source link: https://xd.adobe.com/ideas/process/ui-design/4-golden-rules-ui-design/
 
-Status: #source-absorbing
+Status: #source-absorbed
 
 ---
 
