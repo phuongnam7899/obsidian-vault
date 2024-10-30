@@ -11,30 +11,13 @@
             "id": "7e739d496eae70b8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/ERPNext xử lý batch item trong stock entry thế nào.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "ERPNext xử lý batch item trong stock entry thế nào"
-            }
-          },
-          {
-            "id": "0d662c4ece6f357a",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "6 - Main Notes/Drawing 2024-10-30 14.35.19.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2024-10-30 14.35.19.excalidraw"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - Main Notes/Drawing 2024-10-30 14.35.19.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +98,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Drawing 2024-10-30 14.35.19.excalidraw"
+              "title": "Backlinks"
             }
           },
           {
@@ -152,10 +134,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/Drawing 2024-10-30 14.35.19.excalidraw.md"
+                "file": "7 - Files/ERPNext xử lý batch item trong stock entry thế nào 2024-10-30 14.37.03.excalidraw.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Drawing 2024-10-30 14.35.19.excalidraw"
+              "title": "Outline of ERPNext xử lý batch item trong stock entry thế nào 2024-10-30 14.37.03.excalidraw"
             }
           },
           {
@@ -210,9 +192,10 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "0d662c4ece6f357a",
+  "active": "3b58730af2b80326",
   "lastOpenFiles": [
     "6 - Main Notes/ERPNext xử lý batch item trong stock entry thế nào.md",
+    "7 - Files/ERPNext xử lý batch item trong stock entry thế nào 2024-10-30 14.37.03.excalidraw.md",
     "6 - Main Notes/Drawing 2024-10-30 14.35.19.excalidraw.md",
     "smart-chats",
     "6 - Main Notes/6 Principles in Down theory.md",
@@ -241,7 +224,6 @@
     "7 - Files",
     "3 - Tags/Python.md",
     "3 - Tags/Redis.md",
-    "3 - Tags/Docker.md",
     "6 - Main Notes",
     "5 - Templates",
     "4- Indexes",
