@@ -11,10 +11,14 @@
             "id": "7e739d496eae70b8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/What is good UX-UI like.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "What is good UX-UI like"
             }
           }
         ]
@@ -134,10 +138,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "7 - Files/ERPNext xử lý batch item trong stock entry thế nào 2024-10-30 14.37.03.excalidraw.md"
+                "file": "6 - Main Notes/What is good UX-UI like.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of ERPNext xử lý batch item trong stock entry thế nào 2024-10-30 14.37.03.excalidraw"
+              "title": "Outline of What is good UX-UI like"
             }
           },
           {
@@ -166,8 +170,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -184,10 +188,15 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false,
+      "callout-manager:Insert Callout": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3b58730af2b80326",
+  "active": "7e739d496eae70b8",
   "lastOpenFiles": [
     "6 - Main Notes/ERPNext xử lý batch item trong stock entry thế nào.md",
     "7 - Files/ERPNext xử lý batch item trong stock entry thế nào 2024-10-30 14.37.03.excalidraw.md",
