@@ -133,11 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "conflict-files-obsidian-git.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of conflict-files-obsidian-git"
+              "title": "Outline"
             }
           },
           {
@@ -192,7 +190,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6a2fc9cd813311bb",
+  "active": "3b58730af2b80326",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "7 - Files/7 main properties of User Experience 2024-10-30 21.23.31.excalidraw.md",
