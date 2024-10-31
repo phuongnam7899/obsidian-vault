@@ -1,0 +1,3 @@
+- serial_and_batch_bundle.py
+- available_qty được tính trong set_incoming_rate_for_outward_transaction:
+	- với mỗi "Serial And Batch Entry"
