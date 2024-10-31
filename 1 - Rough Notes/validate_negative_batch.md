@@ -1,3 +1,4 @@
-- serial_and_batch_bundle.py
+- serial_and_batch_bundle.py ("Serial and Batch Bundle" doctype)
 - available_qty được tính trong set_incoming_rate_for_outward_transaction:
-	- với mỗi "Serial And Batch Entry"
+	- cộng tổng **available_qty** của các **"Serial And Batch Entry"** (Là bảng con của **"Serial and Batch Bundle"**) mà **không có serial** (not has_serial_no):
+		- available_qty của từng phần tử đc lấy từ sn_obj(**BatchNoValuation**):
