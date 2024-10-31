@@ -4,51 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "24b128ce654c2f84",
+        "id": "444a6f27b4e852c3",
         "type": "tabs",
         "children": [
           {
-            "id": "ad3964873c83378f",
+            "id": "43bb968300ea4968",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
-              },
-              "icon": "git-pull-request",
-              "title": "Diff View (workspace.json)"
-            }
-          },
-          {
-            "id": "2b82c4d847560c3c",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
-              },
-              "icon": "git-pull-request",
-              "title": "Diff View (workspace.json)"
-            }
-          },
-          {
-            "id": "33f952dd72b71800",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -223,7 +192,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "33f952dd72b71800",
+  "active": "6a2fc9cd813311bb",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "7 - Files/7 main properties of User Experience 2024-10-30 21.23.31.excalidraw.md",
