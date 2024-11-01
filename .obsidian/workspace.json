@@ -11,10 +11,14 @@
             "id": "a6f9e13446936c27",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Cách tính khấu hao đường thẳng cho tài sản.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cách tính khấu hao đường thẳng cho tài sản"
             }
           },
           {
@@ -103,6 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "6 - Main Notes/Cách tính khấu hao đường thẳng cho tài sản.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Cách tính khấu hao đường thẳng cho tài sản"
             }
           },
           {
@@ -147,9 +152,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "6 - Main Notes/Cách tính khấu hao đường thẳng cho tài sản.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Cách tính khấu hao đường thẳng cho tài sản"
             }
           },
           {
@@ -204,12 +211,13 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "6a2fc9cd813311bb",
+  "active": "a6f9e13446936c27",
   "lastOpenFiles": [
+    "1 - Rough Notes/logic tính khấu hao tài sản erpnext.md",
+    "6 - Main Notes/Cách tính khấu hao đường thẳng cho tài sản.md",
+    "1 - Rough Notes/validate_negative_batch.md",
     "conflict-files-obsidian-git.md",
     "7 - Files/logic tính khấu hao tài sản erpnext 2024-11-01 10.10.53.excalidraw.md",
-    "1 - Rough Notes/validate_negative_batch.md",
-    "1 - Rough Notes/logic tính khấu hao tài sản erpnext.md",
     "1 - Rough Notes",
     "6 - Main Notes/Life Style.md",
     "6 - Main Notes/Regex anchor with carret and dollar.md",
@@ -232,7 +240,6 @@
     "6 - Main Notes/2 types of feedback.md",
     "6 - Main Notes/What is good UX-UI like.md",
     "6 - Main Notes/Kelly's formula.md",
-    "6 - Main Notes/ERPNext xử lý batch item trong stock entry thế nào.md",
     "smart-chats",
     "What is good UX",
     "7 - Files/Pasted image 20241027141904.png",
