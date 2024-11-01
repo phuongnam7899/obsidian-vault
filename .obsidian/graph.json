@@ -48,6 +48,20 @@
         "a": 1,
         "rgb": 6073814
       }
+    },
+    {
+      "query": "tag:#psychology  ",
+      "color": {
+        "a": 1,
+        "rgb": 6053078
+      }
+    },
+    {
+      "query": "tag:",
+      "color": {
+        "a": 1,
+        "rgb": 11361494
+      }
     }
   ],
   "collapse-display": false,
@@ -61,5 +75,5 @@
   "linkStrength": 1,
   "linkDistance": 154,
   "scale": 0.6554983534946921,
-  "close": false
+  "close": true
 }
