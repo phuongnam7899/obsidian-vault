@@ -6,6 +6,7 @@
       {
         "id": "444a6f27b4e852c3",
         "type": "tabs",
+        "dimension": 39.61318051575931,
         "children": [
           {
             "id": "43bb968300ea4968",
@@ -19,6 +20,25 @@
               },
               "icon": "lucide-file",
               "title": "logic tính khấu hao tài sản erpnext"
+            }
+          }
+        ]
+      },
+      {
+        "id": "7afa71d8420d1d3d",
+        "type": "tabs",
+        "dimension": 60.38681948424068,
+        "children": [
+          {
+            "id": "d7b9070238cce8b0",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "7 - Files/logic tính khấu hao tài sản erpnext 2024-11-01 10.10.53.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "logic tính khấu hao tài sản erpnext 2024-11-01 10.10.53.excalidraw"
             }
           }
         ]
@@ -77,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "7294abffb9d354a3",
@@ -179,7 +200,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,8 +220,9 @@
   },
   "active": "43bb968300ea4968",
   "lastOpenFiles": [
-    "1 - Rough Notes/validate_negative_batch.md",
+    "7 - Files/logic tính khấu hao tài sản erpnext 2024-11-01 10.10.53.excalidraw.md",
     "1 - Rough Notes/logic tính khấu hao tài sản erpnext.md",
+    "1 - Rough Notes/validate_negative_batch.md",
     "1 - Rough Notes",
     "conflict-files-obsidian-git.md",
     "7 - Files/7 main properties of User Experience 2024-10-30 21.23.31.excalidraw.md",
@@ -225,7 +248,6 @@
     "6 - Main Notes/Creativity.md",
     "6 - Main Notes/6 levels of personal finance.md",
     "2- Source Material/Articles/The 4 Golden Rules of UI Design.md",
-    "6 - Main Notes/4 ways to generate solution ideas.md",
     "What is good UX",
     "7 - Files/Pasted image 20241027141904.png",
     "7 - Files",
