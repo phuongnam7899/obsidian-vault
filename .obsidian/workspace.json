@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Begining of scientific revolution.md",
+                "file": "6 - Main Notes/Blocks in markdown.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Begining of scientific revolution"
+              "title": "Blocks in markdown"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - Main Notes/Begining of scientific revolution.md",
+                "file": "6 - Main Notes/Blocks in markdown.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Begining of scientific revolution"
+              "title": "Backlinks for Blocks in markdown"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/Begining of scientific revolution.md"
+                "file": "6 - Main Notes/Blocks in markdown.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Begining of scientific revolution"
+              "title": "Outline of Blocks in markdown"
             }
           },
           {
@@ -199,8 +199,17 @@
   },
   "active": "a6f9e13446936c27",
   "lastOpenFiles": [
-    "6 - Main Notes/Base of human cooporation.md",
+    "3 - Tags/Markdown.md",
+    "6 - Main Notes/Blocks in markdown.md",
+    "6 - Main Notes/Water can kill you, beer will not.md",
+    "6 - Main Notes/Types of Beer.md",
+    "6 - Main Notes/Beer components.md",
+    "3 - Tags/Drinks.md",
+    "3 - Tags/Beer.md",
+    "6 - Main Notes/Mạch nha - Malt.md",
     "6 - Main Notes/Begining of scientific revolution.md",
+    "3 - Tags/History.md",
+    "6 - Main Notes/Base of human cooporation.md",
     "3 - Tags/Human.md",
     "3 - Tags/Management.md",
     "6 - Main Notes/Avoid side effects when write function.md",
@@ -216,15 +225,6 @@
     "3 - Tags/Regex.md",
     "3 - Tags/Psychology.md",
     "3 - Tags/JS.md",
-    "3 - Tags/Frontend.md",
-    "3 - Tags/CSS.md",
-    "3 - Tags/Animation.md",
-    "6 - Main Notes/Agile maniesto.md",
-    "3 - Tags/Agile.md",
-    "6 - Main Notes/Animation controlled by scroll.md",
-    "1 - Rough Notes/logic tính khấu hao tài sản erpnext.md",
-    "1 - Rough Notes/validate_negative_batch.md",
-    "6 - Main Notes/Cách tính khấu hao đường thẳng cho tài sản.md",
     "Untitled.canvas",
     "1 - Rough Notes",
     "smart-chats",
