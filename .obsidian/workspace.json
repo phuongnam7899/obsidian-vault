@@ -6,7 +6,6 @@
       {
         "id": "444a6f27b4e852c3",
         "type": "tabs",
-        "dimension": 39.61318051575931,
         "children": [
           {
             "id": "43bb968300ea4968",
@@ -20,25 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "logic tính khấu hao tài sản erpnext"
-            }
-          }
-        ]
-      },
-      {
-        "id": "7afa71d8420d1d3d",
-        "type": "tabs",
-        "dimension": 60.38681948424068,
-        "children": [
-          {
-            "id": "d7b9070238cce8b0",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "7 - Files/logic tính khấu hao tài sản erpnext 2024-11-01 10.10.53.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "logic tính khấu hao tài sản erpnext 2024-11-01 10.10.53.excalidraw"
             }
           }
         ]
@@ -114,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "7 - Files/logic tính khấu hao tài sản erpnext 2024-11-01 10.10.53.excalidraw.md",
+                "file": "1 - Rough Notes/logic tính khấu hao tài sản erpnext.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for logic tính khấu hao tài sản erpnext 2024-11-01 10.10.53.excalidraw"
+              "title": "Backlinks for logic tính khấu hao tài sản erpnext"
             }
           },
           {
@@ -160,10 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "7 - Files/logic tính khấu hao tài sản erpnext 2024-11-01 10.10.53.excalidraw.md"
+                "file": "1 - Rough Notes/logic tính khấu hao tài sản erpnext.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of logic tính khấu hao tài sản erpnext 2024-11-01 10.10.53.excalidraw"
+              "title": "Outline of logic tính khấu hao tài sản erpnext"
             }
           },
           {
@@ -218,10 +198,10 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "d7b9070238cce8b0",
+  "active": "43bb968300ea4968",
   "lastOpenFiles": [
-    "1 - Rough Notes/logic tính khấu hao tài sản erpnext.md",
     "7 - Files/logic tính khấu hao tài sản erpnext 2024-11-01 10.10.53.excalidraw.md",
+    "1 - Rough Notes/logic tính khấu hao tài sản erpnext.md",
     "1 - Rough Notes/validate_negative_batch.md",
     "1 - Rough Notes",
     "conflict-files-obsidian-git.md",

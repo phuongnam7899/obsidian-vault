@@ -1,3 +1,5 @@
--  
--  tính đến thời điểm hiện tại (**value_after_depreciation**) -> Update vào finance book row
-![[logic tính khấu hao tài sản erpnext 2024-11-01 10.10.53.excalidraw]]
+- Validate các thông tin về **finance book** (Finance book là child của Asset)
+- Tính **giá trị sau khi khấu hao** tính đến thời điểm hiện tại (**value_after_depreciation**) -> Update vào finance book row
+- Tính số lần khấu hao còn lại (final_number_of_depreciations)
+	- Tổng số lần khauashao - số lần khấu hao đã ghi nhận
+	- nếu là pro_data => số lần khấu hao +1 (là pro_data )
