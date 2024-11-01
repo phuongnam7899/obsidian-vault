@@ -182,7 +182,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -203,8 +204,13 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "a6f9e13446936c27",
+  "active": "6a2fc9cd813311bb",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "7 - Files/logic tính khấu hao tài sản erpnext 2024-11-01 10.10.53.excalidraw.md",
+    "1 - Rough Notes/validate_negative_batch.md",
+    "1 - Rough Notes/logic tính khấu hao tài sản erpnext.md",
+    "1 - Rough Notes",
     "6 - Main Notes/Life Style.md",
     "6 - Main Notes/Regex anchor with carret and dollar.md",
     "6 - Main Notes/Regex.md",
@@ -227,11 +233,7 @@
     "6 - Main Notes/What is good UX-UI like.md",
     "6 - Main Notes/Kelly's formula.md",
     "6 - Main Notes/ERPNext xử lý batch item trong stock entry thế nào.md",
-    "7 - Files/ERPNext xử lý batch item trong stock entry thế nào 2024-10-30 14.37.03.excalidraw.md",
-    "6 - Main Notes/Drawing 2024-10-30 14.35.19.excalidraw.md",
     "smart-chats",
-    "3 - Tags/Technical Analysis.md",
-    "6 - Main Notes/3 levels of expenses.md",
     "What is good UX",
     "7 - Files/Pasted image 20241027141904.png",
     "7 - Files",
@@ -240,7 +242,6 @@
     "4 - Indexes",
     "3 - Tags",
     "2- Source Material/Others",
-    "2- Source Material/Videos",
-    "2- Source Material/Books"
+    "2- Source Material/Videos"
   ]
 }
