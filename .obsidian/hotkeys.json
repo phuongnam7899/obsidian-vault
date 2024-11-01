@@ -16,15 +16,7 @@
       "key": "H"
     }
   ],
-  "editor:open-search-replace": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "H"
-    }
-  ],
+  "editor:open-search-replace": [],
   "editor:insert-callout": [
     {
       "modifiers": [

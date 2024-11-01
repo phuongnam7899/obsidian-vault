@@ -11,7 +11,7 @@ Tags: [[Finance]] [[Accounting]]
 - Số kỳ khấu hao (**Total Depreciation Periods**): sau bao nhiêu kỳ khấu hao thì tài sản hết giá trị
 ## Tính khấu hao đường thẳng
 - Trước tiên phải tính khấu khao trung bình mỗi kỳ (Depreciation Amount):
-```
+```python
 depreciation_amount = total_asset_value / total_depreciation_periods
 ```
 - Ta chia các lần khấu hao thành 3 nhóm:
@@ -20,8 +20,8 @@ depreciation_amount = total_asset_value / total_depreciation_periods
 	- Các lần khấu hao còn lại
 ### Tính lần khấu hao đầu tiên
 - Lần khấu hao đầu tiên phụ thuộc vào việc ngày tài sản được đưa vào sử dụng có gần với ngày bắt đầu 1 chu kỳ mới không, càng gần thì giá trị khấu hao lần đầu càng ít, cụ thể
-```
-first_depreciation = (days_until_next_period / )
+```python
+first_depreciation = (days_until_next_period / total_days_in_one_period) / depreciation_amount
 ```
 ---
 # References

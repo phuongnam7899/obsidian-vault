@@ -91,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "7294abffb9d354a3",
@@ -213,8 +213,10 @@
   },
   "active": "a6f9e13446936c27",
   "lastOpenFiles": [
-    "6 - Main Notes/Accounting.md",
+    "5 - Templates/Source Material.md",
+    "5 - Templates/Main Note.md",
     "6 - Main Notes/Cách tính khấu hao đường thẳng cho tài sản.md",
+    "6 - Main Notes/Accounting.md",
     "6 - Main Notes/Finance.md",
     "1 - Rough Notes/logic tính khấu hao tài sản erpnext.md",
     "1 - Rough Notes/validate_negative_batch.md",
@@ -229,7 +231,6 @@
     "6 - Main Notes/Agile.md",
     "6 - Main Notes/Aesthetic-Usability Effect.md",
     "6 - Main Notes/Psychology.md",
-    "5 - Templates/Main Note.md",
     "2- Source Material/Articles/React Server Component Document.md",
     "2- Source Material/Videos/Mô hình Trục quay tối ưu Frontend.md",
     "2- Source Material/Articles/The 4 Golden Rules of UI Design.md",
@@ -239,7 +240,6 @@
     "6 - Main Notes/7 main properties of User Experience.md",
     "7 - Files/7 main properties of User Experience 2024-10-30 21.23.31.excalidraw.md",
     "6 - Main Notes/Creativity.md",
-    "6 - Main Notes/2 types of feedback.md",
     "smart-chats",
     "What is good UX",
     "7 - Files/Pasted image 20241027141904.png",
