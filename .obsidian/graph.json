@@ -57,10 +57,38 @@
       }
     },
     {
-      "query": "tag:",
+      "query": "tag:#life-style  ",
       "color": {
         "a": 1,
         "rgb": 11361494
+      }
+    },
+    {
+      "query": "tag:#management  ",
+      "color": {
+        "a": 1,
+        "rgb": 14048429
+      }
+    },
+    {
+      "query": "tag:#human  ",
+      "color": {
+        "a": 1,
+        "rgb": 14048348
+      }
+    },
+    {
+      "query": "tag:#history  ",
+      "color": {
+        "a": 1,
+        "rgb": 14069084
+      }
+    },
+    {
+      "query": "tag:#clean-code  ",
+      "color": {
+        "a": 1,
+        "rgb": 11392604
       }
     }
   ],
@@ -74,6 +102,6 @@
   "repelStrength": 9.75051975051975,
   "linkStrength": 1,
   "linkDistance": 154,
-  "scale": 0.6554983534946921,
+  "scale": 0.42967809143425245,
   "close": true
 }

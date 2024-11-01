@@ -5,7 +5,7 @@ Tags: [[Markdown]]
 ---
 
 ## 1. Code
-## Multi lines
+### Multi lines
 ```
 	```
 	Code block
@@ -13,23 +13,23 @@ Tags: [[Markdown]]
 	```
 ```
 
-## Single line
+### Single line
 ```
 	`Single line code`
 ```
 
-# LaTeX
+## LaTeX
 ```
 	$$ \pi + (m * c / z) ^ 2 $$
 ```
 $$ \pi + (m * c / z) ^ 2 $$
 
-# Comment 
+## Comment 
 ```
 	%% Some thing not shown %%
 ```
 %% Some thing not shown %%
-# Quote
+## Quote
 ```
 	> an amazing quote
 ```
