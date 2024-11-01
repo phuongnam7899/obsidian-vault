@@ -5,4 +5,7 @@
 	- nếu là pro_data => số lần khấu hao +1 (là pro_data: depreciation_amount cho kỳ đầu và kỳ cuối sẽ khác nhau, trong trường hợp asset được sử dụng từ giữa tháng)
 
 ## Cách tính giá trị khấu hao tháng đầu tiên
-- Tính giá trị ngày bắt đầu = asset available_for_use_date - 1
+- Tính giá trị ngày bắt đầu **from_date** = asset available_for_use_date - 1
+- Tính sô ngày (**days**) từ ngày bắt đầu (**from_date**) tới **depreciation_start_date** của financial book
+- tính total days = 
+- tính giá trị khấu hao tháng đầu tiên = khấu hao tháng * days / 
