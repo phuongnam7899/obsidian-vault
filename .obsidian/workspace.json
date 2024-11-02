@@ -13,12 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Rough Notes/logic tính khấu hao tài sản erpnext.md",
+                "file": "6 - Main Notes/Environments in product life cycle.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "logic tính khấu hao tài sản erpnext"
+              "title": "Environments in product life cycle"
+            }
+          }
+        ]
+      },
+      {
+        "id": "66fb7a39445b889b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "944408a874d139cc",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "7 - Files/Environments in product life cycle 2024-11-02 13.51.31.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Environments in product life cycle 2024-11-02 13.51.31.excalidraw"
             }
           }
         ]
@@ -139,10 +157,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Rough Notes/logic tính khấu hao tài sản erpnext.md"
+                "file": "7 - Files/Environments in product life cycle 2024-11-02 13.51.31.excalidraw.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of logic tính khấu hao tài sản erpnext"
+              "title": "Outline of Environments in product life cycle 2024-11-02 13.51.31.excalidraw"
             }
           },
           {
@@ -197,8 +215,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "43bb968300ea4968",
+  "active": "944408a874d139cc",
   "lastOpenFiles": [
+    "6 - Main Notes/Environments in product life cycle.md",
+    "7 - Files/Environments in product life cycle 2024-11-02 13.51.31.excalidraw.md",
+    "6 - Main Notes/Book Value Per Share (BVPS).md",
+    "3 - Tags/Fundamental Analysis.md",
+    "6 - Main Notes/Breakthrough in monetary history.md",
+    "1 - Rough Notes/logic tính khấu hao tài sản erpnext.md",
     "7 - Files/Pasted image 20241101224436.png",
     "6 - Main Notes/When not to split code.md",
     "6 - Main Notes/Water can kill you, beer will not.md",
@@ -220,11 +244,6 @@
     "3 - Tags/Management.md",
     "3 - Tags/Life Style.md",
     "3 - Tags/JS.md",
-    "3 - Tags/Human.md",
-    "3 - Tags/History.md",
-    "3 - Tags/Frontend.md",
-    "3 - Tags/Finance.md",
-    "3 - Tags/Drinks.md",
     "1 - Rough Notes",
     "smart-chats",
     "What is good UX",
