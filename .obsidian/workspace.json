@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Characters match in regex.md",
+                "file": "6 - Main Notes/Clean function parameters.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Characters match in regex"
+              "title": "Clean function parameters"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/Characters match in regex.md"
+                "file": "6 - Main Notes/Clean function parameters.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Characters match in regex"
+              "title": "Outline of Clean function parameters"
             }
           },
           {
@@ -199,8 +199,20 @@
   },
   "active": "43bb968300ea4968",
   "lastOpenFiles": [
-    "3 - Tags/Regex.md",
+    "6 - Main Notes/CLean function body.md",
+    "6 - Main Notes/Clean function parameters.md",
+    "6 - Main Notes/What is clean code.md",
+    "6 - Main Notes/Class diagram.md",
+    "3 - Tags/UML.md",
+    "2- Source Material/Books/How to trade in stock.md",
+    "2- Source Material/Videos/Mô hình Trục quay tối ưu Frontend.md",
+    "2- Source Material/Articles/The 4 Golden Rules of UI Design.md",
+    "2- Source Material/Articles/React Server Component Document.md",
+    "6 - Main Notes/China town.md",
+    "2- Source Material/Books",
     "6 - Main Notes/Characters match in regex.md",
+    "3 - Tags/Boardgame.md",
+    "3 - Tags/Regex.md",
     "6 - Main Notes/Capitalist and consumerist ethic.md",
     "3 - Tags/Economic.md",
     "6 - Main Notes/CANSLIM methods.md",
@@ -217,17 +229,6 @@
     "6 - Main Notes/When not to split code.md",
     "6 - Main Notes/Water can kill you, beer will not.md",
     "6 - Main Notes/Types of Beer.md",
-    "6 - Main Notes/Regex anchor with carret and dollar.md",
-    "6 - Main Notes/Mạch nha - Malt.md",
-    "6 - Main Notes/Cách tính khấu hao đường thẳng cho tài sản.md",
-    "6 - Main Notes/Breadcrumb.md",
-    "6 - Main Notes/Blocks in markdown.md",
-    "6 - Main Notes/Begining of scientific revolution.md",
-    "6 - Main Notes/Beer components.md",
-    "6 - Main Notes/Base of human cooporation.md",
-    "6 - Main Notes/Avoid side effects when write function.md",
-    "6 - Main Notes/Animation controlled by scroll.md",
-    "6 - Main Notes/ATR.md",
     "1 - Rough Notes",
     "smart-chats",
     "What is good UX",
@@ -237,7 +238,6 @@
     "5 - Templates",
     "4- Indexes",
     "3 - Tags",
-    "2- Source Material/Others",
-    "2- Source Material/Videos"
+    "2- Source Material/Others"
   ]
 }
