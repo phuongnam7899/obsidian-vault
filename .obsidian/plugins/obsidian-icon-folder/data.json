@@ -5,7 +5,11 @@
     "fontSize": 16,
     "emojiStyle": "native",
     "iconColor": null,
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "LiLoader",
+      "🥘",
+      "LiTag"
+    ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
     "extraMargin": {
@@ -26,5 +30,11 @@
     "iconIdentifier": ":",
     "lucideIconPackType": "native",
     "debugMode": false
-  }
+  },
+  "3 - Tags": {
+    "iconName": "LiTag",
+    "iconColor": "#ec5b5b"
+  },
+  "2- Source Material": "🥘",
+  "1 - Rough Notes": "LiLoader"
 }
