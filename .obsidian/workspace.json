@@ -13,30 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Combining analysis.md",
+                "file": "6 - Main Notes/Compound componets in ReactJS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Combining analysis"
-            }
-          }
-        ]
-      },
-      {
-        "id": "e8ba4019c1a6ba01",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c7d2f21090fe7f29",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "7 - Files/Combining analysis 2024-11-02 15.02.23.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Combining analysis 2024-11-02 15.02.23.excalidraw"
+              "title": "Compound componets in ReactJS"
             }
           }
         ]
@@ -157,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "7 - Files/Combining analysis 2024-11-02 15.02.23.excalidraw.md"
+                "file": "6 - Main Notes/Compound componets in ReactJS.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Combining analysis 2024-11-02 15.02.23.excalidraw"
+              "title": "Outline of Compound componets in ReactJS"
             }
           },
           {
@@ -215,8 +197,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c7d2f21090fe7f29",
+  "active": "43bb968300ea4968",
   "lastOpenFiles": [
+    "3 - Tags/ReactJS.md",
+    "6 - Main Notes/Compound componets in ReactJS.md",
+    "3 - Tags/Design Pattern.md",
+    "6 - Main Notes/How to do competitor market research.md",
+    "7 - Files/Pasted image 20241102150954.png",
+    "6 - Main Notes/Bad and good comments in code.md",
     "6 - Main Notes/Combining analysis.md",
     "7 - Files/Combining analysis 2024-11-02 15.02.23.excalidraw.md",
     "3 - Tags/Analysis.md",
@@ -239,13 +227,8 @@
     "6 - Main Notes/Characters match in regex.md",
     "3 - Tags/Boardgame.md",
     "3 - Tags/Regex.md",
-    "6 - Main Notes/Capitalist and consumerist ethic.md",
-    "3 - Tags/Economic.md",
-    "6 - Main Notes/CANSLIM methods.md",
-    "6 - Main Notes/Japanese candle practice examples.md",
     "7 - Files/Pasted image 20241102140633.png",
     "7 - Files/Pasted image 20241102140525.png",
-    "6 - Main Notes/Environments in product life cycle.md",
     "7 - Files/Pasted image 20241101224436.png",
     "1 - Rough Notes",
     "smart-chats",
