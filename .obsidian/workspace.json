@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/What is Joint Venture.md",
+                "file": "6 - Main Notes/Cursor select exercise.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "What is Joint Venture"
+              "title": "Cursor select exercise"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/What is Joint Venture.md"
+                "file": "6 - Main Notes/Cursor select exercise.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of What is Joint Venture"
+              "title": "Outline of Cursor select exercise"
             }
           },
           {
@@ -199,8 +199,14 @@
   },
   "active": "43bb968300ea4968",
   "lastOpenFiles": [
-    "6 - Main Notes/What is Joint Stock Company.md",
+    "6 - Main Notes/Repeat pattern regex.md",
+    "6 - Main Notes/Cursor select exercise.md",
+    "6 - Main Notes/Create reusable animation components.md",
+    "6 - Main Notes/CP Niêm yết và CP lưu hành.md",
+    "6 - Main Notes/Cost and quality.md",
+    "6 - Main Notes/What is factory function.md",
     "6 - Main Notes/What is Joint Venture.md",
+    "6 - Main Notes/What is Joint Stock Company.md",
     "6 - Main Notes/Quyết định đặc biệt.md",
     "3 - Tags/Business.md",
     "6 - Main Notes/Algorithm create the power and wealth concentration.md",
@@ -220,12 +226,6 @@
     "6 - Main Notes/What is code formatting.md",
     "6 - Main Notes/Clean function parameters.md",
     "6 - Main Notes/CLean function body.md",
-    "6 - Main Notes/What is clean code.md",
-    "6 - Main Notes/Class diagram.md",
-    "3 - Tags/UML.md",
-    "2- Source Material/Books/How to trade in stock.md",
-    "2- Source Material/Videos/Mô hình Trục quay tối ưu Frontend.md",
-    "2- Source Material/Articles/The 4 Golden Rules of UI Design.md",
     "2- Source Material/Books",
     "7 - Files/Pasted image 20241102140633.png",
     "7 - Files/Pasted image 20241102140525.png",
