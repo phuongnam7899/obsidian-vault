@@ -4,7 +4,7 @@ Tags: [[Clean Code]]
 
 ---
 
-==You should depen upon abstrctions, not concretions==
+==You should depen upon abstractions, not concretions==
 
 ## Bad
 ```ts
