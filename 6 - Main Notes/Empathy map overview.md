@@ -11,4 +11,3 @@ Tags: [[Product Design]] [[Product Management]]
 
 ---
 # References
-- [[4 main components of empathy map]]
