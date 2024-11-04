@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Problem statement format.md",
+                "file": "6 - Main Notes/Dependancy Inversion Principle.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Problem statement format"
+              "title": "Dependancy Inversion Principle"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/Problem statement format.md"
+                "file": "6 - Main Notes/Dependancy Inversion Principle.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Problem statement format"
+              "title": "Outline of Dependancy Inversion Principle"
             }
           },
           {
@@ -199,8 +199,9 @@
   },
   "active": "43bb968300ea4968",
   "lastOpenFiles": [
-    "6 - Main Notes/Data team roles.md",
     "6 - Main Notes/Problem statement format.md",
+    "6 - Main Notes/Dependancy Inversion Principle.md",
+    "6 - Main Notes/Data team roles.md",
     "3 - Tags/Data Analysis.md",
     "6 - Main Notes/Customer Journey Map.md",
     "7 - Files/Pasted image 20241104110720.png",
@@ -226,7 +227,6 @@
     "3 - Tags/Analysis.md",
     "6 - Main Notes/What is Cognitive dissonance.md",
     "3 - Tags/Culture.md",
-    "6 - Main Notes/Cognitive computing and machine learning.md",
     "2- Source Material/Books",
     "7 - Files/Pasted image 20241102140633.png",
     "7 - Files/Pasted image 20241102140525.png",
