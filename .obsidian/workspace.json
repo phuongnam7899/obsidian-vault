@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - Rough Notes/logic tính khấu hao tài sản erpnext.md",
+                "file": "6 - Main Notes/What is user group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for logic tính khấu hao tài sản erpnext"
+              "title": "Backlinks for What is user group"
             }
           },
           {
@@ -190,12 +190,12 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 488.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,10 +212,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "f5662be9739971d2",
+  "active": "6a2fc9cd813311bb",
   "lastOpenFiles": [
-    "6 - Main Notes/Apply empathy in user interview.md",
+    "3 - Tags/Marketing.md",
     "6 - Main Notes/What is user group.md",
+    "6 - Main Notes/Apply empathy in user interview.md",
     "6 - Main Notes/Mindset of empathy.md",
     "6 - Main Notes/Empathy vs sympathy.md",
     "6 - Main Notes/Elliot waves.md",
@@ -241,7 +242,6 @@
     "6 - Main Notes/What is Joint Venture.md",
     "6 - Main Notes/What is Joint Stock Company.md",
     "6 - Main Notes/Quyết định đặc biệt.md",
-    "3 - Tags/Business.md",
     "7 - Files/Pasted image 20241102150954.png",
     "2- Source Material/Books",
     "7 - Files/Pasted image 20241102140633.png",
