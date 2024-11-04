@@ -140,12 +140,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6 - Main Notes/6 Principles in Down theory.md",
+                "file": "6 - Main Notes/Empathy map overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 6 Principles in Down theory"
+              "title": "Outgoing links from Empathy map overview"
             }
           },
           {
@@ -203,7 +203,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -224,11 +225,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a6f9e13446936c27",
+  "active": "370650ef4bd62f81",
   "lastOpenFiles": [
+    "6 - Main Notes/4 main components of empathy map.md",
     "6 - Main Notes/2 types of empathy map.md",
     "6 - Main Notes/Empathy map overview.md",
-    "6 - Main Notes/4 main components of empathy map.md",
     "7 - Files/Empathy mapping 2024-11-04 21.15.09.excalidraw.md",
     "6 - Main Notes/Elliot waves.md",
     "7 - Files/Pasted image 20241104172405.png",

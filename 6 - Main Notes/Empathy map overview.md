@@ -1,6 +1,6 @@
 2024-11-04 21:11
 
-Tags: [[Product Design]] [[Product Management]] [[Empathy Map]]
+Tags: [[Product Design]] [[Product Management]]
 
 ---
 
