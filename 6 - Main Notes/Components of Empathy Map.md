@@ -1,11 +1,9 @@
-2024-11-04 21:11
+2024-11-04 21:27
 
-Tags: [[Product Design]] [[Product Management]]
+Tags: [[Product Design]]
 
 ---
 
-- Bản đồ giúp UX Designer, UX Research, Product team ==hiều về kiểu người dùng== => hiểu pain point, nhu cầu và hành vi người dùng
-- ==Dựa vào transcript==
 ## Các thành phần
 - **Say**: 👄
 	- Đoạn ==trích nguyên== câu văn người dùng nói về vấn đề của mình
@@ -21,7 +19,11 @@ Tags: [[Product Design]] [[Product Management]]
 	- Thực hiện được sau khi phân tích hành động người tham gia 
 	- Dùng nhiều khi làm usability testing
 ## 2 loại empathy map
-- One-user
+- One-user: dựa trên data từ 1 buổi interview cho 1 user cụ thể
+- Multiple-users:
+	- Dựa trên nhiều one-user empathy map
+	- Đại diện cho 1 User group
+
 
 ---
 # References
