@@ -30,11 +30,5 @@
     "iconIdentifier": ":",
     "lucideIconPackType": "native",
     "debugMode": false
-  },
-  "3 - Tags": {
-    "iconName": "LiTag",
-    "iconColor": "#ec5b5b"
-  },
-  "2- Source Material": "🥘",
-  "1 - Rough Notes": "LiLoader"
+  }
 }

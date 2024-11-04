@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Cursor select exercise.md",
+                "file": "6 - Main Notes/Problem statement format.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cursor select exercise"
+              "title": "Problem statement format"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/Cursor select exercise.md"
+                "file": "6 - Main Notes/Problem statement format.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Cursor select exercise"
+              "title": "Outline of Problem statement format"
             }
           },
           {
@@ -199,8 +199,13 @@
   },
   "active": "43bb968300ea4968",
   "lastOpenFiles": [
-    "6 - Main Notes/Repeat pattern regex.md",
+    "6 - Main Notes/Data team roles.md",
+    "6 - Main Notes/Problem statement format.md",
+    "3 - Tags/Data Analysis.md",
+    "6 - Main Notes/Customer Journey Map.md",
+    "7 - Files/Pasted image 20241104110720.png",
     "6 - Main Notes/Cursor select exercise.md",
+    "6 - Main Notes/Repeat pattern regex.md",
     "6 - Main Notes/Create reusable animation components.md",
     "6 - Main Notes/CP Niêm yết và CP lưu hành.md",
     "6 - Main Notes/Cost and quality.md",
@@ -222,10 +227,6 @@
     "6 - Main Notes/What is Cognitive dissonance.md",
     "3 - Tags/Culture.md",
     "6 - Main Notes/Cognitive computing and machine learning.md",
-    "3 - Tags/Machine Learning.md",
-    "6 - Main Notes/What is code formatting.md",
-    "6 - Main Notes/Clean function parameters.md",
-    "6 - Main Notes/CLean function body.md",
     "2- Source Material/Books",
     "7 - Files/Pasted image 20241102140633.png",
     "7 - Files/Pasted image 20241102140525.png",
