@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Dependancy Inversion Principle.md",
+                "file": "6 - Main Notes/Elliot waves.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dependancy Inversion Principle"
+              "title": "Elliot waves"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/Dependancy Inversion Principle.md"
+                "file": "6 - Main Notes/Elliot waves.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Dependancy Inversion Principle"
+              "title": "Outline of Elliot waves"
             }
           },
           {
@@ -199,9 +199,15 @@
   },
   "active": "d9d9228f7ec570e7",
   "lastOpenFiles": [
+    "7 - Files/Pasted image 20241104172405.png",
+    "6 - Main Notes/Doji candle meaning.md",
+    "6 - Main Notes/Elliot waves.md",
+    "6 - Main Notes/How long should we let users wait - Doherty Threshold.md",
+    "6 - Main Notes/Do we choose desire randomly or freely.md",
+    "6 - Main Notes/Điều kiện nhận cổ tức.md",
+    "6 - Main Notes/Dependancy Inversion Principle.md",
     "1 - Rough Notes/logic tính khấu hao tài sản erpnext.md",
     "6 - Main Notes/Cách tính khấu hao đường thẳng cho tài sản.md",
-    "6 - Main Notes/Dependancy Inversion Principle.md",
     "6 - Main Notes/Problem statement format.md",
     "6 - Main Notes/Data team roles.md",
     "3 - Tags/Data Analysis.md",
@@ -220,13 +226,7 @@
     "6 - Main Notes/Algorithm create the power and wealth concentration.md",
     "6 - Main Notes/Compound componets in ReactJS.md",
     "3 - Tags/ReactJS.md",
-    "3 - Tags/Design Pattern.md",
-    "6 - Main Notes/How to do competitor market research.md",
     "7 - Files/Pasted image 20241102150954.png",
-    "6 - Main Notes/Bad and good comments in code.md",
-    "6 - Main Notes/Combining analysis.md",
-    "7 - Files/Combining analysis 2024-11-02 15.02.23.excalidraw.md",
-    "3 - Tags/Analysis.md",
     "2- Source Material/Books",
     "7 - Files/Pasted image 20241102140633.png",
     "7 - Files/Pasted image 20241102140525.png",
