@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Purpose of Empathy map.md",
+                "file": "6 - Main Notes/Empathy map overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Purpose of Empathy map"
+              "title": "Empathy map overview"
+            }
+          },
+          {
+            "id": "3b294adb652867db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/2 types of empathy map.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2 types of empathy map"
             }
           },
           {
@@ -27,16 +41,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Components of Empathy Map.md",
+                "file": "6 - Main Notes/4 main components of empathy map.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Components of Empathy Map"
+              "title": "4 main components of empathy map"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - Main Notes/Components of Empathy Map.md",
+                "file": "6 - Main Notes/Empathy map overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +131,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Components of Empathy Map"
+              "title": "Backlinks for Empathy map overview"
             }
           },
           {
@@ -154,10 +167,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/Components of Empathy Map.md"
+                "file": "6 - Main Notes/Empathy map overview.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Components of Empathy Map"
+              "title": "Outline of Empathy map overview"
             }
           },
           {
@@ -211,10 +224,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7c22aa6a2102383a",
+  "active": "a6f9e13446936c27",
   "lastOpenFiles": [
-    "6 - Main Notes/Purpose of Empathy map.md",
-    "6 - Main Notes/Components of Empathy Map.md",
+    "6 - Main Notes/2 types of empathy map.md",
+    "6 - Main Notes/Empathy map overview.md",
+    "6 - Main Notes/4 main components of empathy map.md",
     "7 - Files/Empathy mapping 2024-11-04 21.15.09.excalidraw.md",
     "6 - Main Notes/Elliot waves.md",
     "7 - Files/Pasted image 20241104172405.png",
@@ -243,7 +257,6 @@
     "6 - Main Notes/Environments in product life cycle.md",
     "6 - Main Notes/Empathy vs sympathy.md",
     "6 - Main Notes/Doji candle meaning.md",
-    "6 - Main Notes/Do we choose desire randomly or freely.md",
     "7 - Files/Pasted image 20241101224436.png",
     "Untitled.canvas",
     "1 - Rough Notes",

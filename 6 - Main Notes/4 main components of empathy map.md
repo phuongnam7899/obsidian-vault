@@ -4,7 +4,6 @@ Tags: [[Product Design]]
 
 ---
 
-## Các thành phần
 - **Say**: 👄
 	- Đoạn ==trích nguyên== câu văn người dùng nói về vấn đề của mình
 	- Tập trung vào ==cách họ nói== về công việc, thách thức họ phải đối mặt
@@ -18,12 +17,6 @@ Tags: [[Product Design]]
 	- Những gì người dùng làm để hoàn thành nhiệm vụ
 	- Thực hiện được sau khi phân tích hành động người tham gia 
 	- Dùng nhiều khi làm usability testing
-## 2 loại empathy map
-- One-user: dựa trên data từ 1 buổi interview cho 1 user cụ thể
-- Multiple-users:
-	- Dựa trên nhiều one-user empathy map
-	- Đại diện cho 1 User group
-
 
 ---
 # References
