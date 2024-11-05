@@ -167,7 +167,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -182,11 +183,24 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
-      "callout-manager:Insert Callout": false
+      "callout-manager:Insert Callout": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "d9d9228f7ec570e7",
+  "active": "6a2fc9cd813311bb",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "6 - Main Notes/Frappe.md",
+    "6 - Main Notes/Empathy map overview.md",
+    "6 - Main Notes/4 main components of empathy map.md",
+    "6 - Main Notes/2 types of empathy map.md",
+    "3 - Tags/Technology.md",
+    "3 - Tags/Programming.md",
+    "3 - Tags/Entertainment.md",
+    "3 - Tags/ERP.md",
+    "3 - Tags/Devops.md",
     "6 - Main Notes/ASCII.md",
     "6 - Main Notes/How much are my basic and normal expenses.md",
     "3 - Tags/ERPNext.md",
@@ -204,17 +218,7 @@
     "6 - Main Notes/Do we choose desire randomly or freely.md",
     "6 - Main Notes/Điều kiện nhận cổ tức.md",
     "6 - Main Notes/Dependancy Inversion Principle.md",
-    "1 - Rough Notes/logic tính khấu hao tài sản erpnext.md",
-    "6 - Main Notes/Cách tính khấu hao đường thẳng cho tài sản.md",
-    "6 - Main Notes/Problem statement format.md",
-    "6 - Main Notes/Data team roles.md",
-    "3 - Tags/Data Analysis.md",
-    "6 - Main Notes/Customer Journey Map.md",
     "7 - Files/Pasted image 20241104110720.png",
-    "6 - Main Notes/Cursor select exercise.md",
-    "6 - Main Notes/Repeat pattern regex.md",
-    "6 - Main Notes/Create reusable animation components.md",
-    "6 - Main Notes/CP Niêm yết và CP lưu hành.md",
     "7 - Files/Pasted image 20241102150954.png",
     "2- Source Material/Books",
     "7 - Files/Pasted image 20241102140633.png",
