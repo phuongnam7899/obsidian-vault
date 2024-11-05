@@ -1,6 +1,6 @@
 2024-11-01 22:37
 
-Tags: [[Beer]] [[Drinks]]
+Tags: [[Beer]] 
 
 ---
 

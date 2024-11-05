@@ -1,6 +1,6 @@
 2024-11-03 09:26
 
-Tags: [[Frontend]] [[CSS]] [[JS]]
+Tags: [[CSS]] [[JS]] [[Education]]
 
 ---
 

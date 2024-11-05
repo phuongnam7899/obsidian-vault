@@ -1,6 +1,6 @@
 2024-10-30 21:53
 
-Tags: [[Agile]]  [[Product Management]]
+Tags: [[Agile]] 
 
 ---
 

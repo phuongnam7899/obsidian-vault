@@ -1,6 +1,6 @@
 2024-11-02 13:45
 
-Tags: [[Invest]] [[Fundamental Analysis]]
+Tags: [[Fundamental Analysis]]
 
 ---
 
