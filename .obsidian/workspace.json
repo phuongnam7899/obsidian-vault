@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/US vs EU number format style.md",
+                "file": "2- Source Material/Articles/Chính sách tài khóa.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "US vs EU number format style"
+              "title": "Chính sách tài khóa"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - Main Notes/US vs EU number format style.md",
+                "file": "2- Source Material/Articles/Chính sách tài khóa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for US vs EU number format style"
+              "title": "Backlinks for Chính sách tài khóa"
             }
           },
           {
@@ -138,10 +138,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/US vs EU number format style.md"
+                "file": "2- Source Material/Articles/Chính sách tài khóa.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of US vs EU number format style"
+              "title": "Outline of Chính sách tài khóa"
             }
           },
           {
@@ -199,6 +199,7 @@
   "active": "6880e989b12f895b",
   "lastOpenFiles": [
     "6 - Main Notes/US vs EU number format style.md",
+    "2- Source Material/Articles/Chính sách tài khóa.md",
     "6 - Main Notes/Elliot waves.md",
     "3 - Tags/CSS.md",
     "conflict-files-obsidian-git.md",
@@ -224,7 +225,6 @@
     "7 - Files/Pasted image 20241104172405.png",
     "6 - Main Notes/Doji candle meaning.md",
     "6 - Main Notes/How long should we let users wait - Doherty Threshold.md",
-    "6 - Main Notes/Do we choose desire randomly or freely.md",
     "7 - Files/Pasted image 20241104110720.png",
     "7 - Files/Pasted image 20241102150954.png",
     "2- Source Material/Books",
