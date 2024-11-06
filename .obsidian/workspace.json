@@ -16,8 +16,21 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "02ba934cc86cc1f3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.5"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.5"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,12 +197,12 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "callout-manager:Insert Callout": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "debf685463c13d46",
+  "active": "02ba934cc86cc1f3",
   "lastOpenFiles": [
     "3 - Tags/Data Analysis.md",
     "6 - Main Notes/Why we call them end-user.md",
