@@ -60,5 +60,13 @@
       ],
       "key": "Q"
     }
+  ],
+  "obsidian-footnotes:insert-autonumbered-footnote": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "="
+    }
   ]
 }
