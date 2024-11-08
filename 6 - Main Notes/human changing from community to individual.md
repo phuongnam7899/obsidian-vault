@@ -1,6 +1,6 @@
 2024-11-08 11:03
 
-Tags: [[Human]] [[History]]
+Tags: [[Human]] [[History]] [[Culture]]
 
 ---
 
