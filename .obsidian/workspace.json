@@ -27,30 +27,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/human changing from community to individual.md",
+                "file": "1 - Rough Notes/validate_negative_batch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "human changing from community to individual"
+              "title": "validate_negative_batch"
             }
           },
           {
-            "id": "a1f4d626bc91e28c",
+            "id": "50cc65c09c0cd104",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/What is imagine orders.md",
+                "file": "6 - Main Notes/Ideate là gì.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "What is imagine orders"
+              "title": "Ideate là gì"
+            }
+          },
+          {
+            "id": "b11ed4fb19a6d0c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Crazy 8.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Crazy 8"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -167,10 +181,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/human changing from community to individual.md"
+                "file": "6 - Main Notes/Crazy 8.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of human changing from community to individual"
+              "title": "Outline of Crazy 8"
             }
           },
           {
@@ -225,10 +239,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "633771f9481eed95",
+  "active": "b11ed4fb19a6d0c2",
   "lastOpenFiles": [
-    "6 - Main Notes/human in view off dataist.md",
+    "6 - Main Notes/Ideate là gì.md",
+    "6 - Main Notes/Crazy 8.md",
+    "6 - Main Notes/How might we.md",
+    "6 - Main Notes/Competitive Audit.md",
+    "1 - Rough Notes/validate_negative_batch.md",
     "6 - Main Notes/human changing from community to individual.md",
+    "6 - Main Notes/human in view off dataist.md",
     "6 - Main Notes/how to make a person want something.md",
     "6 - Main Notes/how to advoid deeply nested conditions.md",
     "6 - Main Notes/how did humans organise themselves in mass-cooperation networks.md",
@@ -258,11 +277,6 @@
     "6 - Main Notes/Who read the feature specs.md",
     "6 - Main Notes/What is flat design.md",
     "6 - Main Notes/What is Gelsalt Principles.md",
-    "6 - Main Notes/What is Game theory.md",
-    "6 - Main Notes/Structure of feature spec.md",
-    "6 - Main Notes/Special characters select in regex.md",
-    "6 - Main Notes/So sánh hệ thống tóa án Việt-Mỹ.md",
-    "6 - Main Notes/Questions that should be answered in a feature spec.md",
     "2- Source Material/Books",
     "1 - Rough Notes",
     "smart-chats",
