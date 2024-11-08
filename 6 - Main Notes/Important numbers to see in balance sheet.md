@@ -4,8 +4,6 @@ Tags: [[Finance]] [[Invest]]
 
 ---
 
-# Đọc hiểu ngôn ngữ kinh doanh: Bảng cân đối kế toán (Balance Sheet)
-
 -   Balance: Tài sản - Nợ = Nguồn vốn (khác vốn chủ sở hữu)
 -   Tài sản:
     -   Nhà, xe, đồ đạc
