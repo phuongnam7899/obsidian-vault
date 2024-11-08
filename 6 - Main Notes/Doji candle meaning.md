@@ -1,6 +1,6 @@
 2024-11-04 17:21
 
-Tags: [[Invest]] [[Technical Analysis]]
+Tags: [[Technical Analysis]]
 
 ---
 

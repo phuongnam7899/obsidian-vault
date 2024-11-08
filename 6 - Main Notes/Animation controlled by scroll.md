@@ -1,6 +1,6 @@
 2024-11-01 22:12
 
-Tags: [[Frontend]] [[Animation]] [[JS]] [[CSS]]
+Tags: [[Animation]] [[JS]] [[CSS]]
 
 ---
 

@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "c194f49c08900b8b",
+        "id": "ff21ae936793a218",
         "type": "tabs",
         "children": [
           {
-            "id": "6880e989b12f895b",
+            "id": "debf685463c13d46",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2- Source Material/Articles/Chính sách tài khóa.md",
+                "file": "6 - Main Notes/Structure of feature spec.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chính sách tài khóa"
+              "title": "Structure of feature spec"
+            }
+          },
+          {
+            "id": "7177588052db3cd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/So sánh hệ thống tóa án Việt-Mỹ.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "So sánh hệ thống tóa án Việt-Mỹ"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +108,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2- Source Material/Articles/Chính sách tài khóa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Chính sách tài khóa"
+              "title": "Backlinks"
             }
           },
           {
@@ -138,10 +152,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2- Source Material/Articles/Chính sách tài khóa.md"
+                "file": "6 - Main Notes/So sánh hệ thống tóa án Việt-Mỹ.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Chính sách tài khóa"
+              "title": "Outline of So sánh hệ thống tóa án Việt-Mỹ"
             }
           },
           {
@@ -179,7 +193,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 488.5
+    "width": 408.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,50 +210,54 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6880e989b12f895b",
+  "active": "7177588052db3cd4",
   "lastOpenFiles": [
-    "6 - Main Notes/US vs EU number format style.md",
-    "2- Source Material/Articles/Chính sách tài khóa.md",
-    "6 - Main Notes/Elliot waves.md",
-    "3 - Tags/CSS.md",
-    "conflict-files-obsidian-git.md",
-    "6 - Main Notes/Frappe.md",
-    "6 - Main Notes/Empathy map overview.md",
-    "6 - Main Notes/4 main components of empathy map.md",
-    "6 - Main Notes/2 types of empathy map.md",
-    "3 - Tags/Technology.md",
-    "3 - Tags/Programming.md",
-    "3 - Tags/Entertainment.md",
-    "3 - Tags/ERP.md",
-    "3 - Tags/Devops.md",
-    "6 - Main Notes/ASCII.md",
-    "6 - Main Notes/How much are my basic and normal expenses.md",
-    "3 - Tags/ERPNext.md",
-    "6 - Main Notes/Empathy vs sympathy.md",
-    "6 - Main Notes/Class diagram.md",
-    "6 - Main Notes/Pasted image 20220603112816.png.md",
-    "6 - Main Notes/What is user group.md",
-    "3 - Tags/Marketing.md",
-    "6 - Main Notes/Apply empathy in user interview.md",
-    "6 - Main Notes/Mindset of empathy.md",
-    "7 - Files/Pasted image 20241104172405.png",
-    "6 - Main Notes/Doji candle meaning.md",
-    "6 - Main Notes/How long should we let users wait - Doherty Threshold.md",
-    "7 - Files/Pasted image 20241104110720.png",
-    "7 - Files/Pasted image 20241102150954.png",
-    "2- Source Material/Books",
-    "7 - Files/Pasted image 20241102140633.png",
-    "7 - Files/Pasted image 20241102140525.png",
-    "7 - Files/Pasted image 20241101224436.png",
+    "7 - Files/Pasted image 20241106220335.png",
+    "7 - Files/Pasted image 20241106220324.png",
+    "3 - Tags/Politics.md",
+    "6 - Main Notes/So sánh hệ thống tóa án Việt-Mỹ.md",
+    "6 - Main Notes/Marketing make human sad.md",
+    "6 - Main Notes/Herd behaviour.md",
+    "6 - Main Notes/Grouing in regex.md",
+    "6 - Main Notes/Key different of UIUX design and Graphic Design.md",
+    "6 - Main Notes/google search ui exercise.md",
+    "6 - Main Notes/How to engage someone do something.md",
+    "6 - Main Notes/Goal-Gradient Effect.md",
+    "6 - Main Notes/What is Gelsalt Principles.md",
+    "7 - Files/Pasted image 20241106214532.png",
+    "7 - Files/Pasted image 20241106214452.png",
+    "7 - Files/Pasted image 20241106214416.png",
+    "7 - Files/Pasted image 20241106214321.png",
+    "6 - Main Notes/What is Game theory.md",
+    "6 - Main Notes/fundamental insight of polytheism.md",
+    "3 - Tags/Religion.md",
+    "6 - Main Notes/gift vs disount.md",
+    "3 - Tags/Sale.md",
+    "6 - Main Notes/What is flat design.md",
+    "7 - Files/Pasted image 20241106212622.png",
+    "7 - Files/Pasted image 20241106212554.png",
+    "6 - Main Notes/How to fix wifi not show up.md",
+    "7 - Files/Pasted image 20241106212314.png",
+    "3 - Tags/Computer.md",
+    "6 - Main Notes/Five things to consider when choose metric.md",
+    "7 - Files/Pasted image 20241106212015.png",
+    "6 - Main Notes/How long user take to acquire the target - Fitt Law.md",
+    "6 - Main Notes/Who read the feature specs.md",
+    "6 - Main Notes/Structure of feature spec.md",
+    "6 - Main Notes/Quality Assurance.md",
+    "3 - Tags/Product Document.md",
+    "6 - Main Notes/Questions that should be answered in a feature spec.md",
+    "7 - Files/Pasted image 20241105215634.png",
+    "Untitled.canvas",
     "1 - Rough Notes",
     "smart-chats",
     "What is good UX",
-    "7 - Files/Pasted image 20241027141904.png",
     "7 - Files",
     "6 - Main Notes",
     "5 - Templates",
-    "4- Indexes",
+    "4 - Indexes",
     "3 - Tags",
-    "2- Source Material/Others"
+    "2- Source Material/Others",
+    "2- Source Material/Videos"
   ]
 }

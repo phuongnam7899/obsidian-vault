@@ -1,6 +1,6 @@
 2024-11-03 09:23
 
-Tags: [[ReactJS]] [[Frontend]] [[Animation]] 
+Tags: [[ReactJS]] [[Animation]] 
 
 ---
 

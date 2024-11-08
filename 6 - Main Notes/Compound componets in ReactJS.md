@@ -1,6 +1,6 @@
 2024-11-02 15:10
 
-Tags: [[ReactJS]] [[Design Pattern]] [[Frontend]]
+Tags: [[ReactJS]] [[Design Pattern]]
 
 ---
 
