@@ -218,11 +218,11 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 838.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,7 +240,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "fffc1cd0de463e20",
+  "active": "6a2fc9cd813311bb",
   "lastOpenFiles": [
     "6 - Main Notes/to get benefit of indexing in db.md",
     "6 - Main Notes/UTM.md",
