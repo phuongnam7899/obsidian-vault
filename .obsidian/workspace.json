@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Product Design"
             }
+          },
+          {
+            "id": "01099b9508c5fd1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -152,10 +166,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3 - Tags/Product Design.md"
+                "file": "conflict-files-obsidian-git.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Product Design"
+              "title": "Outline of conflict-files-obsidian-git"
             }
           },
           {
@@ -210,43 +224,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7177588052db3cd4",
+  "active": "01099b9508c5fd1c",
   "lastOpenFiles": [
-    "6 - Main Notes/So sánh hệ thống tóa án Việt-Mỹ.md",
-    "7 - Files/Pasted image 20241106220335.png",
-    "7 - Files/Pasted image 20241106220324.png",
-    "3 - Tags/Politics.md",
-    "6 - Main Notes/Marketing make human sad.md",
-    "6 - Main Notes/Herd behaviour.md",
-    "6 - Main Notes/Grouing in regex.md",
-    "6 - Main Notes/Key different of UIUX design and Graphic Design.md",
-    "6 - Main Notes/google search ui exercise.md",
-    "6 - Main Notes/How to engage someone do something.md",
-    "6 - Main Notes/Goal-Gradient Effect.md",
-    "6 - Main Notes/What is Gelsalt Principles.md",
-    "7 - Files/Pasted image 20241106214532.png",
-    "7 - Files/Pasted image 20241106214452.png",
-    "7 - Files/Pasted image 20241106214416.png",
-    "7 - Files/Pasted image 20241106214321.png",
-    "6 - Main Notes/What is Game theory.md",
-    "6 - Main Notes/fundamental insight of polytheism.md",
-    "3 - Tags/Religion.md",
-    "6 - Main Notes/gift vs disount.md",
-    "3 - Tags/Sale.md",
-    "6 - Main Notes/What is flat design.md",
-    "7 - Files/Pasted image 20241106212622.png",
-    "7 - Files/Pasted image 20241106212554.png",
-    "6 - Main Notes/How to fix wifi not show up.md",
-    "7 - Files/Pasted image 20241106212314.png",
-    "3 - Tags/Computer.md",
-    "6 - Main Notes/Five things to consider when choose metric.md",
-    "7 - Files/Pasted image 20241106212015.png",
-    "6 - Main Notes/How long user take to acquire the target - Fitt Law.md",
-    "6 - Main Notes/Who read the feature specs.md",
-    "6 - Main Notes/Structure of feature spec.md",
-    "6 - Main Notes/Quality Assurance.md",
-    "3 - Tags/Product Document.md",
-    "6 - Main Notes/Questions that should be answered in a feature spec.md",
+    "3 - Tags/Product Design.md",
+    "conflict-files-obsidian-git.md",
+    "7 - Files/UTM 2024-11-09 16.38.31.excalidraw.md",
+    "7 - Files/Pasted image 20241109155644.png",
+    "7 - Files/Pasted image 20241109155332.png",
+    "7 - Files/Pasted image 20241109155103.png",
+    "7 - Files/Pasted image 20241109154857.png",
+    "7 - Files/Pasted image 20241109152150.png",
+    "7 - Files/Pasted image 20241109151315.png",
+    "7 - Files/Pasted image 20241109151241.png",
+    "7 - Files/Pasted image 20241109141739.png",
+    "7 - Files/Pasted image 20241109141720.png",
+    "7 - Files/Pasted image 20241109141648.png",
+    "6 - Main Notes/why pre-agricultural people more happy.md",
+    "6 - Main Notes/what is techno-humanism.md",
+    "6 - Main Notes/what is pain point.md",
+    "6 - Main Notes/use of time.md",
+    "6 - Main Notes/universal order.md",
+    "6 - Main Notes/to get benefit of indexing in db.md",
+    "6 - Main Notes/timer exercise.md",
+    "6 - Main Notes/suger is deadlier than gunpowder.md",
+    "6 - Main Notes/strategy when uptrend.md",
+    "6 - Main Notes/repeater select regex.md",
+    "6 - Main Notes/religion vs science aims.md",
+    "6 - Main Notes/real test of knowledge.md",
+    "6 - Main Notes/react query.md",
+    "6 - Main Notes/rap for her.md",
+    "6 - Main Notes/psychology of colors.md",
+    "6 - Main Notes/pivot patterns.md",
+    "6 - Main Notes/people will need more and more.md",
+    "6 - Main Notes/or select in regex.md",
+    "6 - Main Notes/Peak-end rule.md",
+    "6 - Main Notes/Paradoxicality of sacrifies.md",
+    "6 - Main Notes/PEG index.md",
+    "6 - Main Notes/P-E.md",
+    "6 - Main Notes/P-B.md",
     "Untitled.canvas",
     "1 - Rough Notes",
     "smart-chats",
