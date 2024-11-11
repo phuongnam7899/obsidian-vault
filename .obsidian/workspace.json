@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/So sánh hệ thống tóa án Việt-Mỹ.md",
+                "file": "3 - Tags/Product Design.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "So sánh hệ thống tóa án Việt-Mỹ"
+              "title": "Product Design"
             }
           }
         ],
@@ -152,10 +152,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/So sánh hệ thống tóa án Việt-Mỹ.md"
+                "file": "3 - Tags/Product Design.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of So sánh hệ thống tóa án Việt-Mỹ"
+              "title": "Outline of Product Design"
             }
           },
           {
@@ -205,17 +205,17 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "callout-manager:Insert Callout": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "smart-connections:Open: Smart Chat Conversation": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "7177588052db3cd4",
   "lastOpenFiles": [
+    "6 - Main Notes/So sánh hệ thống tóa án Việt-Mỹ.md",
     "7 - Files/Pasted image 20241106220335.png",
     "7 - Files/Pasted image 20241106220324.png",
     "3 - Tags/Politics.md",
-    "6 - Main Notes/So sánh hệ thống tóa án Việt-Mỹ.md",
     "6 - Main Notes/Marketing make human sad.md",
     "6 - Main Notes/Herd behaviour.md",
     "6 - Main Notes/Grouing in regex.md",
@@ -247,7 +247,6 @@
     "6 - Main Notes/Quality Assurance.md",
     "3 - Tags/Product Document.md",
     "6 - Main Notes/Questions that should be answered in a feature spec.md",
-    "7 - Files/Pasted image 20241105215634.png",
     "Untitled.canvas",
     "1 - Rough Notes",
     "smart-chats",
