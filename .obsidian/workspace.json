@@ -27,30 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Tags/Product Design.md",
+                "file": "6 - Main Notes/who domesticated homo sapiens.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Product Design"
-            }
-          },
-          {
-            "id": "01099b9508c5fd1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "who domesticated homo sapiens"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,10 +152,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "6 - Main Notes/who domesticated homo sapiens.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of conflict-files-obsidian-git"
+              "title": "Outline of who domesticated homo sapiens"
             }
           },
           {
@@ -224,11 +210,35 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "01099b9508c5fd1c",
+  "active": "7177588052db3cd4",
   "lastOpenFiles": [
-    "3 - Tags/Product Design.md",
+    "6 - Main Notes/what is benefit of data.md",
+    "6 - Main Notes/who domesticated homo sapiens.md",
+    "3 - Tags/Data Analysis.md",
+    "6 - Main Notes/Rule of thumbs to split function.md",
+    "6 - Main Notes/Main goal of MVP.md",
+    "6 - Main Notes/What make a good metric.md",
+    "6 - Main Notes/What is unatural.md",
+    "6 - Main Notes/What is actually religion.md",
+    "6 - Main Notes/what is good data strategy.md",
+    "6 - Main Notes/What is BA and what value provide.md",
+    "6 - Main Notes/Purpose of visual design.md",
+    "6 - Main Notes/Waterfall.md",
+    "7 - Files/Pasted image 20241111210522.png",
+    "6 - Main Notes/Vốn điều lệ - Authorized capital.md",
+    "6 - Main Notes/Volume analyze.md",
+    "6 - Main Notes/Elements of visual design.md",
+    "6 - Main Notes/viral cycle time.md",
+    "6 - Main Notes/viral coefficient.md",
+    "6 - Main Notes/How to format code horizontally.md",
+    "6 - Main Notes/Verival formatting.md",
+    "6 - Main Notes/Horizontal formatting.md",
+    "6 - Main Notes/Vanity metrics.md",
+    "6 - Main Notes/5 things to consider when choose metric.md",
+    "6 - Main Notes/Problems of Sciencism.md",
+    "6 - Main Notes/Elements of UX.md",
     "conflict-files-obsidian-git.md",
-    "7 - Files/UTM 2024-11-09 16.38.31.excalidraw.md",
+    "3 - Tags/Product Design.md",
     "7 - Files/Pasted image 20241109155644.png",
     "7 - Files/Pasted image 20241109155332.png",
     "7 - Files/Pasted image 20241109155103.png",
@@ -238,30 +248,6 @@
     "7 - Files/Pasted image 20241109151241.png",
     "7 - Files/Pasted image 20241109141739.png",
     "7 - Files/Pasted image 20241109141720.png",
-    "7 - Files/Pasted image 20241109141648.png",
-    "6 - Main Notes/why pre-agricultural people more happy.md",
-    "6 - Main Notes/what is techno-humanism.md",
-    "6 - Main Notes/what is pain point.md",
-    "6 - Main Notes/use of time.md",
-    "6 - Main Notes/universal order.md",
-    "6 - Main Notes/to get benefit of indexing in db.md",
-    "6 - Main Notes/timer exercise.md",
-    "6 - Main Notes/suger is deadlier than gunpowder.md",
-    "6 - Main Notes/strategy when uptrend.md",
-    "6 - Main Notes/repeater select regex.md",
-    "6 - Main Notes/religion vs science aims.md",
-    "6 - Main Notes/real test of knowledge.md",
-    "6 - Main Notes/react query.md",
-    "6 - Main Notes/rap for her.md",
-    "6 - Main Notes/psychology of colors.md",
-    "6 - Main Notes/pivot patterns.md",
-    "6 - Main Notes/people will need more and more.md",
-    "6 - Main Notes/or select in regex.md",
-    "6 - Main Notes/Peak-end rule.md",
-    "6 - Main Notes/Paradoxicality of sacrifies.md",
-    "6 - Main Notes/PEG index.md",
-    "6 - Main Notes/P-E.md",
-    "6 - Main Notes/P-B.md",
     "Untitled.canvas",
     "1 - Rough Notes",
     "smart-chats",
