@@ -36,4 +36,4 @@ Tags: [[Clean Code]]
 ```
 
 # References
-- [[Verival formatting]]
+- [[Vertical formatting]]
