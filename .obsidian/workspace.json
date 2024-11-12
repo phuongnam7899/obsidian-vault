@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/thought about modest.md",
+                "file": "6 - Main Notes/what is Kubenetes Ingress.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "thought about modest"
+              "title": "what is Kubenetes Ingress"
             }
           },
           {
@@ -181,10 +181,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/thought about modest.md"
+                "file": "6 - Main Notes/what is Kubenetes Ingress.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of thought about modest"
+              "title": "Outline of what is Kubenetes Ingress"
             }
           },
           {
@@ -262,8 +262,10 @@
   },
   "active": "fffc1cd0de463e20",
   "lastOpenFiles": [
-    "6 - Main Notes/everything is depends.md",
+    "3 - Tags/Kubenetes.md",
+    "6 - Main Notes/what is Kubenetes Ingress.md",
     "6 - Main Notes/thought about modest.md",
+    "6 - Main Notes/everything is depends.md",
     "6 - Main Notes/wildcard combo select in regex.md",
     "6 - Main Notes/thinking about fist job hopping.md",
     "3 - Tags/Career.md",
@@ -287,8 +289,6 @@
     "6 - Main Notes/What is BA and what value provide.md",
     "6 - Main Notes/Waterfall.md",
     "6 - Main Notes/Vốn điều lệ - Authorized capital.md",
-    "6 - Main Notes/Volume analyze.md",
-    "6 - Main Notes/Verival formatting.md",
     "7 - Files/Pasted image 20241109155644.png",
     "7 - Files/Pasted image 20241109155332.png",
     "7 - Files/Pasted image 20241109155103.png",
