@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/what is Kubenetes Ingress.md",
+                "file": "6 - Main Notes/types of trade orders.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "what is Kubenetes Ingress"
+              "title": "types of trade orders"
             }
           },
           {
@@ -181,10 +181,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/what is Kubenetes Ingress.md"
+                "file": "6 - Main Notes/types of trade orders.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of what is Kubenetes Ingress"
+              "title": "Outline of types of trade orders"
             }
           },
           {
@@ -262,8 +262,9 @@
   },
   "active": "fffc1cd0de463e20",
   "lastOpenFiles": [
-    "3 - Tags/Kubenetes.md",
     "6 - Main Notes/what is Kubenetes Ingress.md",
+    "6 - Main Notes/types of trade orders.md",
+    "3 - Tags/Kubenetes.md",
     "6 - Main Notes/thought about modest.md",
     "6 - Main Notes/everything is depends.md",
     "6 - Main Notes/wildcard combo select in regex.md",
@@ -288,7 +289,6 @@
     "6 - Main Notes/What is actually religion.md",
     "6 - Main Notes/What is BA and what value provide.md",
     "6 - Main Notes/Waterfall.md",
-    "6 - Main Notes/Vốn điều lệ - Authorized capital.md",
     "7 - Files/Pasted image 20241109155644.png",
     "7 - Files/Pasted image 20241109155332.png",
     "7 - Files/Pasted image 20241109155103.png",
