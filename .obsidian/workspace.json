@@ -39,10 +39,28 @@
             "id": "fffc1cd0de463e20",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/thought about modest.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "thought about modest"
+            }
+          },
+          {
+            "id": "ed192227151141c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Why sapiens rule the world.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Why sapiens rule the world"
             }
           }
         ],
@@ -162,9 +180,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "6 - Main Notes/thought about modest.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of thought about modest"
             }
           },
           {
@@ -222,7 +242,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 838.5
+    "width": 424.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -242,6 +262,18 @@
   },
   "active": "fffc1cd0de463e20",
   "lastOpenFiles": [
+    "6 - Main Notes/everything is depends.md",
+    "6 - Main Notes/thought about modest.md",
+    "6 - Main Notes/wildcard combo select in regex.md",
+    "6 - Main Notes/thinking about fist job hopping.md",
+    "3 - Tags/Career.md",
+    "6 - Main Notes/wwhy capitalism defeat communism.md",
+    "6 - Main Notes/work-life balance is not make sense.md",
+    "6 - Main Notes/Wireframe kits checklist.md",
+    "6 - Main Notes/what is wildcard characters.md",
+    "6 - Main Notes/why neandethal lost to homo sapiens.md",
+    "6 - Main Notes/Why sapiens rule the world.md",
+    "6 - Main Notes/why a religion won another.md",
     "conflict-files-obsidian-git.md",
     "7 - Files/Pasted image 20241111210522.png",
     "6 - Main Notes/who domesticated homo sapiens.md",
@@ -257,18 +289,6 @@
     "6 - Main Notes/Vốn điều lệ - Authorized capital.md",
     "6 - Main Notes/Volume analyze.md",
     "6 - Main Notes/Verival formatting.md",
-    "6 - Main Notes/Vanity metrics.md",
-    "6 - Main Notes/Rule of thumbs to split function.md",
-    "6 - Main Notes/Purpose of visual design.md",
-    "6 - Main Notes/Problems of Sciencism.md",
-    "6 - Main Notes/Main goal of MVP.md",
-    "6 - Main Notes/Elements of visual design.md",
-    "6 - Main Notes/Elements of UX.md",
-    "6 - Main Notes/5 things to consider when choose metric.md",
-    "6 - Main Notes/to get benefit of indexing in db.md",
-    "6 - Main Notes/UTM.md",
-    "7 - Files/UTM 2024-11-09 16.38.31.excalidraw.md",
-    "6 - Main Notes/Cognitive computing and machine learning.md",
     "7 - Files/Pasted image 20241109155644.png",
     "7 - Files/Pasted image 20241109155332.png",
     "7 - Files/Pasted image 20241109155103.png",
