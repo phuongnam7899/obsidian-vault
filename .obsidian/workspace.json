@@ -11,10 +11,14 @@
             "id": "987f414b9482921f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "2- Source Material/Articles/Chính sách tài khóa.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chính sách tài khóa"
             }
           }
         ]
@@ -133,9 +137,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "2- Source Material/Articles/Chính sách tài khóa.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Chính sách tài khóa"
             }
           },
           {
@@ -213,6 +219,8 @@
   },
   "active": "987f414b9482921f",
   "lastOpenFiles": [
+    "5 - Templates/Source Material.md",
+    "2- Source Material/Articles/Chính sách tài khóa.md",
     "6 - Main Notes/Why sapiens rule the world.md",
     "6 - Main Notes/Jamstack berfore and now.md",
     "6 - Main Notes/Vertical formatting.md",
@@ -238,8 +246,6 @@
     "7 - Files/Pasted image 20241111210522.png",
     "6 - Main Notes/who domesticated homo sapiens.md",
     "6 - Main Notes/what is good data strategy.md",
-    "6 - Main Notes/what is benefit of data.md",
-    "6 - Main Notes/viral cycle time.md",
     "7 - Files/Pasted image 20241109155644.png",
     "7 - Files/Pasted image 20241109155332.png",
     "7 - Files/Pasted image 20241109155103.png",
