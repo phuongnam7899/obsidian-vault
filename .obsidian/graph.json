@@ -90,18 +90,46 @@
         "a": 1,
         "rgb": 11392604
       }
+    },
+    {
+      "query": "tag:#data-analysis  ",
+      "color": {
+        "a": 1,
+        "rgb": 6084188
+      }
+    },
+    {
+      "query": "tag:#religion  ",
+      "color": {
+        "a": 1,
+        "rgb": 6084269
+      }
+    },
+    {
+      "query": "tag:#cultutre  ",
+      "color": {
+        "a": 1,
+        "rgb": 6073814
+      }
+    },
+    {
+      "query": "tag:#programming  ",
+      "color": {
+        "a": 1,
+        "rgb": 6053078
+      }
     }
   ],
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1.84963617463617,
-  "lineSizeMultiplier": 1.84963617463617,
+  "nodeSizeMultiplier": 1.85619469026549,
+  "lineSizeMultiplier": 1.52072838665759,
   "collapse-forces": false,
   "centerStrength": 0,
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 500,
-  "scale": 0.019895204996544673,
+  "scale": 0.04476421210770053,
   "close": true
 }
