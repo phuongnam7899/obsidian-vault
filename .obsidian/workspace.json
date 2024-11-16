@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Chính sách tài khóa"
             }
+          },
+          {
+            "id": "0037b6a2c7610213",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.6"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -211,13 +224,10 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "callout-manager:Insert Callout": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "987f414b9482921f",
+  "active": "0037b6a2c7610213",
   "lastOpenFiles": [
     "5 - Templates/Source Material.md",
     "2- Source Material/Articles/Chính sách tài khóa.md",
