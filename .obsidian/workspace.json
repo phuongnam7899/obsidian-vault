@@ -13,28 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2- Source Material/Articles/Chính sách tài khóa.md",
+                "file": "2- Source Material/Articles/React Server Component Document.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chính sách tài khóa"
-            }
-          },
-          {
-            "id": "0037b6a2c7610213",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.6"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.6"
+              "title": "React Server Component Document"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -151,10 +138,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2- Source Material/Articles/Chính sách tài khóa.md"
+                "file": "2- Source Material/Articles/React Server Component Document.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Chính sách tài khóa"
+              "title": "Outline of React Server Component Document"
             }
           },
           {
@@ -224,13 +211,16 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "callout-manager:Insert Callout": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "0037b6a2c7610213",
+  "active": "987f414b9482921f",
   "lastOpenFiles": [
-    "5 - Templates/Source Material.md",
     "2- Source Material/Articles/Chính sách tài khóa.md",
+    "5 - Templates/Source Material.md",
     "6 - Main Notes/Why sapiens rule the world.md",
     "6 - Main Notes/Jamstack berfore and now.md",
     "6 - Main Notes/Vertical formatting.md",
