@@ -51,6 +51,24 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "30a985276b7a5e74",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ac38ed5e721dba46",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "7 - Files/Nexus 2024-11-17 07.46.39.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Nexus 2024-11-17 07.46.39.excalidraw"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -167,10 +185,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2- Source Material/Books/Nexus.md"
+                "file": "7 - Files/Nexus 2024-11-17 07.46.39.excalidraw.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Nexus"
+              "title": "Outline of Nexus 2024-11-17 07.46.39.excalidraw"
             }
           },
           {
@@ -246,10 +264,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "01e00b2e36ecd351",
+  "active": "ac38ed5e721dba46",
   "lastOpenFiles": [
-    "2- Source Material/Books/How to trade in stock.md",
     "2- Source Material/Books/Nexus.md",
+    "7 - Files/Nexus 2024-11-17 07.46.39.excalidraw.md",
+    "2- Source Material/Books/How to trade in stock.md",
     "2- Source Material/Articles/React Server Component Document.md",
     "2- Source Material/Articles/Chính sách tài khóa.md",
     "2- Source Material/Articles/The 4 Golden Rules of UI Design.md",
@@ -273,7 +292,6 @@
     "5 - Templates/Source Material.md",
     "6 - Main Notes/Why sapiens rule the world.md",
     "6 - Main Notes/Jamstack berfore and now.md",
-    "6 - Main Notes/Vertical formatting.md",
     "7 - Files/Pasted image 20241111210522.png",
     "7 - Files/Pasted image 20241109155644.png",
     "7 - Files/Pasted image 20241109155332.png",

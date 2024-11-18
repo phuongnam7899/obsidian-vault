@@ -24,7 +24,14 @@ Status: #source-eating
 ---
 - ==Cuốn sách lại cho răng HẦU HẾT THÔNG TIN trong xã hội KHÔNG ĐẠI DIỆN CHO ĐIỀU GÌ==
 ### Sự thật là gì?
-- 
+- Sự thật là một ==sự thể hiện== ==chính xác== nhất của ==thực tại==
+- -> Tiền đề là tồn tại một thực tại phổ quát
+![[Nexus 2024-11-17 07.46.39.excalidraw]]
+---
+- Các quốc gia, nền văn hóa, tôn giáo khác nhau có thể có đức tin, cảm xúc trái ngược, nhưng không thể sở hữu thực tại trái ngược
+- -> Tìm kiếm sự thật = tìm kiếm thứ chung cho tất cả mọi người (phổ quát)
+- ---
+- Nhưng sự tật và thực tại khó đồng nhất
 
 
 
