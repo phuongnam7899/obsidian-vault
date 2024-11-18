@@ -51,24 +51,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "30a985276b7a5e74",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ac38ed5e721dba46",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "7 - Files/Nexus 2024-11-17 07.46.39.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Nexus 2024-11-17 07.46.39.excalidraw"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -185,10 +167,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "7 - Files/Nexus 2024-11-17 07.46.39.excalidraw.md"
+                "file": "2- Source Material/Books/Nexus.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Nexus 2024-11-17 07.46.39.excalidraw"
+              "title": "Outline of Nexus"
             }
           },
           {
@@ -246,7 +228,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 424.5
+    "width": 297.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -264,10 +246,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ac38ed5e721dba46",
+  "active": "01e00b2e36ecd351",
   "lastOpenFiles": [
-    "2- Source Material/Books/Nexus.md",
     "7 - Files/Nexus 2024-11-17 07.46.39.excalidraw.md",
+    "2- Source Material/Books/Nexus.md",
     "2- Source Material/Books/How to trade in stock.md",
     "2- Source Material/Articles/React Server Component Document.md",
     "2- Source Material/Articles/Chính sách tài khóa.md",

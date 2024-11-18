@@ -22,9 +22,9 @@ Status: #source-eating
 - Nói cách khác, ==thông tin = nỗ lực phản ánh thực tại==. Nếu phản ánh thành công -> sự thật
 - ==Sự thật== là sự miêu tả chuẩn xác thực tại
 ---
-- ==Cuốn sách lại cho răng HẦU HẾT THÔNG TIN trong xã hội KHÔNG ĐẠI DIỆN CHO ĐIỀU GÌ==
+- <mark style="background: #FFB8EBA6;">Cuốn sách lại cho răng HẦU HẾT THÔNG TIN trong xã hội KHÔNG ĐẠI DIỆN CHO ĐIỀU GÌ</mark>
 ### Sự thật là gì?
-- Sự thật là một ==sự thể hiện== ==chính xác== nhất của ==thực tại==
+- <mark style="background: #FFB8EBA6;">Sự thật là một sự thể hiện chính xác nhất của thực tại</mark>
 - -> Tiền đề là tồn tại một thực tại phổ quát
 ![[Nexus 2024-11-17 07.46.39.excalidraw]]
 ---
