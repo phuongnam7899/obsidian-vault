@@ -22,24 +22,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "d8c27fefc67c1ce4",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8f72dc85fde8703d",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "7 - Files/Công thức tối ưu Frontend 2024-11-19 15.54.56.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Công thức tối ưu Frontend 2024-11-19 15.54.56.excalidraw"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -237,6 +219,8 @@
   },
   "active": "b5c8d03bbb5d0d48",
   "lastOpenFiles": [
+    "7 - Files/Pasted image 20241119162126.png",
+    "7 - Files/Pasted image 20241119162045.png",
     "7 - Files/Công thức tối ưu Frontend 2024-11-19 15.54.56.excalidraw.md",
     "2- Source Material/Videos/Công thức tối ưu Frontend.md",
     "7 - Files/Pasted image 20241119160705.png",
@@ -271,7 +255,6 @@
     "7 - Files/Pasted image 20241109152150.png",
     "7 - Files/Pasted image 20241109151315.png",
     "7 - Files/Pasted image 20241109151241.png",
-    "7 - Files/Pasted image 20241109141739.png",
     "2- Source Material/Books",
     "1 - Rough Notes",
     "smart-chats",
