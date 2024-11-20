@@ -35,13 +35,18 @@ Thay vì tìm tips & trick -> Cần biết gốc rễ là cách mà browser hi�
 > [!info] Nếu bất kỳ bước nào trong số 4 bước đầu bị chậm -> chậm tới bước Pain
 
 ## Blocking resources
-- Là những resouce mà khiến browser phải dừng lại để tải hoàn tất thì mới có thể đi tới bước tiếp theo
+- Là những ==resouce mà khiến browser phải dừng lại chờ== để tải hoàn tất thì mới có thể đi tới bước tiếp theo
 - 2 loại:
 	- **Render blocking**: tài nguyên block việc render của browser (tức là ==ngăn từ bước 2 sang bước 3== trong CRP)
-	- Parser blocking: tài nguyên ngăn chạn việc parseHTML (tức là ngăn cảm HTML -> DOM trong bước 2)
-		- Ví dụ (thẻ script nằm giữa html)
+	- **Parser blocking**: tài nguyên ngăn chạn việc parseHTML (tức là ngăn cảm HTML -> DOM trong bước 2)
+		- Ví dụ (thẻ script nằm giữa html) -> browser đọc file html từ trên xuống -> sẽ bị block tới khi script đc load xong (vì JS có thể tác động được tói DOM/CSS DOM, browser không chắc script có tác động không -> buộc phải chờ cho chắc)
 
-## Kỹ thuật
+# Kỹ thuật
+- 3 cạnh
+## Tối ưu về size - Giảm kích thước cần load
+- Kích thước to -> Xử lý lâu
+## Tối ưu cache - Giảm số lần load
+## Tối ưu wait - Giảm thời gian load
 ## Công cụ
 ## Demo
 
