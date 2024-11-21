@@ -45,6 +45,21 @@ Thay vì tìm tips & trick -> Cần biết gốc rễ là cách mà browser hi�
 - 3 cạnh
 ## Tối ưu về size - Giảm kích thước cần load
 - Kích thước to -> Xử lý lâu
+### Minified
+- Khi develop, con người cần có xuoogns dòng, tab, khoảng trống, comment để đọc code dễ hơn
+- Nhưng máy thì ko cần -> bỏ các phần đó đi có thể giúp giảm kích thước file
+- -> Minified giúp thực hiện điềun đó
+- Ở thực tế thường tích hợp sẵn công cụ build (như webpack/vite) giúp minified code
+### Tree-shaking
+ - Rung cây -> cành lá héo rụng ~ cắt bỏ các hàm không được dùng đến
+ - Các build tool có thể support ddieuf này ==nếu như== sử dụng import đúng (chỉ import những hàm có sử dụng) 
+![[Pasted image 20241121140330.png]]
+- Công cụ check tree-shaking cho npm: bundlephobia
+### Phân tích file bundle
+- Bundle analyzer
+- Khi sử dụng tool sẽ cho ra kết quả:
+![[Pasted image 20241121141720.png]]
+- Có thể nhận biết xem file nào lớn hoặc bị load những hàm ko cần thiết
 ## Tối ưu cache - Giảm số lần load
 ## Tối ưu wait - Giảm thời gian load
 ## Công cụ
