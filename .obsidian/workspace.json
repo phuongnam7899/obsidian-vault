@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "Công thức tối ưu Frontend"
             }
-          },
-          {
-            "id": "5b0f24bad3ab9953",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.7"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -150,9 +137,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "2- Source Material/Videos/Công thức tối ưu Frontend.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Công thức tối ưu Frontend"
             }
           },
           {
@@ -228,7 +217,7 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "5b0f24bad3ab9953",
+  "active": "b5c8d03bbb5d0d48",
   "lastOpenFiles": [
     "7 - Files/Pasted image 20241119162126.png",
     "7 - Files/Pasted image 20241119162045.png",
