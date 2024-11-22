@@ -43,13 +43,14 @@ Thay vì tìm tips & trick -> Cần biết gốc rễ là cách mà browser hi�
 
 # Kỹ thuật
 - 3 cạnh
-## Tối ưu về size - Giảm kích thước cần load
+## 1. Tối ưu về size - Giảm kích thước cần load
 - Kích thước to -> Xử lý lâu
 ### Minified
 - Khi develop, con người cần có xuoogns dòng, tab, khoảng trống, comment để đọc code dễ hơn
 - Nhưng máy thì ko cần -> bỏ các phần đó đi có thể giúp giảm kích thước file
 - -> Minified giúp thực hiện điềun đó
 - Ở thực tế thường tích hợp sẵn công cụ build (như webpack/vite) giúp minified code
+	- babel-minify-webpack-pluggin
 ### Tree-shaking
  - Rung cây -> cành lá héo rụng ~ cắt bỏ các hàm không được dùng đến
  - Các build tool có thể support ddieuf này ==nếu như== sử dụng import đúng (chỉ import những hàm có sử dụng) 
@@ -60,8 +61,70 @@ Thay vì tìm tips & trick -> Cần biết gốc rễ là cách mà browser hi�
 - Khi sử dụng tool sẽ cho ra kết quả:
 ![[Pasted image 20241121141720.png]]
 - Có thể nhận biết xem file nào lớn hoặc bị load những hàm ko cần thiết
-## Tối ưu cache - Giảm số lần load
+### Code split - Lazy loading
+- Nguyên tắc: chỉ load những gì cần load trước
+- Ví dụ: 
+![[Pasted image 20241121155140.png]]
+- Bản chất Tương tự với việc split database => Partition 
+### Compress
+- Cần xử lý compress ở server
+- 2 thuật toán zip:
+	- gzip: re trước
+	- br: ra sau, tối ưu hơn
+- Để biết đã áp dụng thành công chưa, xem trong request load resourse có `content-encoding: gzip` chưa
+![[Pasted image 20241121155708.png]]
+
+![[Công thức tối ưu Frontend 2024-11-21 16.00.16.excalidraw]]
+### Đối với ảnh
+- Cách 1: Làm dung lượng ảnh nhỏ đi nhưng chất lượng ko đổi -> tool: tinypng.com
+- Cách 2: chuyển sang định dạng khác (WebP)
+	- <mark style="background: #BBFABBA6;">Giảm kích thước</mark> rất nhiều
+	- <mark style="background: #BBFABBA6;">Chất lượng ảnh không đổi</mark>
+	- <mark style="background: #FFB8EBA6;">Chưa chắc được support </mark>bởi tất cả trình duyệt (có thể check qua caniuse.com)
+## 2. Tối ưu cache - Giảm số lần load
+- Phừ hợp với các loại resource ==ít thay đổi + sử dụng nhiều==
+- Đảnh đổi với sự sai sót nếu data bị thay đổi thường xuyên
+- CDN - Content delivery network
+	- Bản chất là để các resource ở nhiều server khác nhau trên thế giới
+	- User ở đâu -> load từ server gần đó
+- Cache trên máy user
+	- Kiểm tra xem có ùng cache không -> check header có `Expires`(thời hạn cache đến bao giờ)
+		![[Pasted image 20241121163312.png]]
+	- Sử dụng ==IndexedDB==:
+		- Tại sao ko dùng local storage hay session storage? -> vì giới hạn dung lượng
+
 ## Tối ưu wait - Giảm thời gian load
+### Async & Defer
+- Để giải quyết parser blocking
+	- async: 
+		- xây dựng DOM chạy song song với load script, chỉ dừng lại khi execute script
+		- hường áp dụng cho script như google analytic -> do ==cần chạy script nhanh nhất== có thể
+	- defer: 
+		- Xây dựng DOM chạy song song với load script, không dừng lại để execute mà chờ parsing xong mới execute
+		- Thường áp dụng với script ==ko cần chạy luôn== (popup quảng cáo,...)
+![[Pasted image 20241121164301.png]] 
+### Lazy loading
+- Bản chất: ==chỉ load những gì cần trước==
+- Fold: ngăn cách giữa cái nhìn thấy và ko thấy
+	![[Pasted image 20241121165126.png]]
+- Chỉ load những cái phía trên Fold
+- Có thể áp dụng ==IntersectionObserver== cho:
+	- Ảnh
+	- Call API
+- Ảnh/iframe cũng có thể dung propertiy `loading="lazy"` để lazy loading
+- Áp dụng Virtual Scroll: lấy sẵn, chỉ giảm thiểu xây dựng DOM
+	- Call Lấy hết 100 bản ghi
+	- Hiện lần lượt khi scroll xuống
+- Áp dụng Infinity Scroll: giảm thiểu cả việc lấy
+	- Call lấy 1 phần
+	- Khi scroll xuống -> call tiếp
+### Optimize long tasks
+- Chia thành các chunk
+- Chạy lần lượt từng chunk, chạy settimeout 0
+![[Pasted image 20241121170511.png]]
+
+### Web worker - Xử lý multi thread
+- 
 ## Công cụ
 ## Demo
 
