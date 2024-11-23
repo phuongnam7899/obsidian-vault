@@ -124,8 +124,30 @@ Thay vì tìm tips & trick -> Cần biết gốc rễ là cách mà browser hi�
 ![[Pasted image 20241121170511.png]]
 
 ### Web worker - Xử lý multi thread
+- [[Web Workers - Công cụ tăng hiệu năng trang web mạnh mẽ]]
+### Pref-X
+- Cốt lõi: Phỏng đoán cần gì -> chuẩn bị trước
+#### Preload
+- Ngược với lazyload
 - 
+- Ví dụ:
+	- Load trước ảnh: `<link rel="preload" href="image.png" as="image">`
+#### Prefetch
+- Tải trước để cache lại những tài nguyên cần dùng trong tương lai
+#### Preconnect
+- Thiết lập kết nối với bên thứ 3 (GG Analytics,...) song song với việc render
+- Nên giới hạn 3-4 preconnect để đỡ tranh chấp tài nguyên
+#### DNS Prefetch
+- Sử dụng để phân giải domain trước
+- Dùng cho các resource chưa cần luôn khi load trang
 ## Công cụ
+### Lighthouse
+- Đánh giá trang và đưa ra hướng tối ưu
+### Coverage
+- Kiểm tra % code đã sử dụng
+### Request blocking
+- Chặn thử ko load để Xác định cái nào quan trọng cái nào không
 ## Demo
+
 
 ---
