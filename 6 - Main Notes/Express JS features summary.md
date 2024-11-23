@@ -29,9 +29,24 @@ Could be
 ## Route parameters
 ```javascript
 app.get('/users/:userId/books/:bookId', (req, res) => {
-  res.send(req.params)
+  res.send(req.params) // {userId: "", bookId: ""}
 })
 ```
+## Route handler
+- Can pass multiple callbacks to a route define -> previous one behave like a middleware
+```js
+app.get('/example/b', (req, res, next) => {
+  console.log('the response will be sent by the next function ...')
+  next()
+}, (req, res) => {
+  res.send('Hello from B!')
+})
+```
+## Response methods
+
+| Method | Description |
+| ------ | ----------- |
+|        |             |
 
 
 ---
