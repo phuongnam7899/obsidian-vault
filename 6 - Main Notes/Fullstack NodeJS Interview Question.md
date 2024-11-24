@@ -17,18 +17,42 @@ Tags: [[Interview]] [[ReactJS]] [[JS]] [[Typescript]] [[Devops]]
 ### **React.js Questions**
 
 1. What are the key differences between class components and functional components in React?
+	1. Old vs new
+	2. Hooks
+	3. life cycle vs props-state
 2. Explain the concept of React Hooks. Can you name and describe the use of some commonly used hooks?
+	1. Hook = function that can use react feature
 3. How do you manage state in a large React application?
+	1. useState for local
+	2. useContext for bigger
+	4. Redux - global state manage (RTK)
+	5. React query forr server state
 4. What strategies do you use to optimize performance in React applications?
+	1. Using hooks like (useMemo, useCallback)
+	2. Lazyload and Suspense
+	3. Import optimize
+	4. Infinite loading
+	5. image
+	6. ssr
+	7. caching
 5. Can you explain how React handles reconciliation?
+	1. Compare previous virtual dom with new one if props changed
+	2. Commit 
 6. Have you worked with microfrontends using React? How did you manage inter-microfrontend communication?
+	1. Pub-sub (window.dispatchEvent() and addEventListener)
+	2. Shared state woth global store
+	3. Event bus (RxJS or EventEmitter)
 
 ---
 
 ### **Node.js Questions**
 
 1. How does the event loop work in Node.js?
+	1. Call stack - Web APIs (Node API) - Task queue (MIcro/Macro)
+	2. Event loop: continuously check call stack -> when empty, run microtassk -> macro task
 2. Explain how you would handle asynchronous operations in Node.js.
+	1. Then
+	2. Async await
 3. Can you walk us through how you would design an API using Express.js or NestJS?
 4. How do you handle error management in a Node.js application?
 5. What are some best practices for structuring a Node.js backend application?
@@ -108,20 +132,50 @@ Tags: [[Interview]] [[ReactJS]] [[JS]] [[Typescript]] [[Devops]]
 ### **Authentication and Authorization**
 
 1. What is the difference between authentication and authorization?
+	1. "who are you" vs "what you can do"
 2. How do you implement JWT-based authentication?
 3. Can you explain the OAuth2 flow?
+	1. Client redirect to login url
+	2. User login
+	3. Reddirect back to main page with authorization code (access/refresh token)
+	4. Client use token to make request to resources
 4. How do you handle token expiration and renewal in an application?
 5. How would you design a secure login system for a web application?
+	1. bcript to hash user password
+	2. jwt to generate token when login
+	3. token sent to server through http-only cookie / header
+	4. middleware to check token
+	5. token need to be expirable
+	6. refresh token
 
 ---
 
 ### **Performance Optimization**
 
 1. What caching strategies have you implemented to optimize application performance?
+	1. In-memory
+	2. CDN cache
+	3. DB caching
+	4. HTTP cache
+	5. Browser cache (IndexedDB)
+	6. Distributed cache (cache across multi instance)
 2. How do you measure and improve the performance of a React or Node.js application?
 3. What tools do you use to monitor performance in production?
+	1. React devtoool
+	2. Lighthouse
 4. How would you handle large datasets in a client-server interaction?
+	1. Pagination
+	2. Lazy load (infinity scroll)
+	3. Cached
 5. What techniques do you use to reduce bundle size in React applications?
+	1. Code Splitting (React.lazy, React.Suspense)
+	2. Tree Shaking
+	3. Optimize Dependencies
+	4. Minification
+	5. Image Optimization (compress, webp, lazy)
+	6. CDN
+	7. Bundle analyzer
+	8. SSR
 
 ---
 
