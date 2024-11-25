@@ -18,6 +18,12 @@ Tags: [[ReactJS]] [[JS]]
     - Dynamic imports.
     - Microfrontend architecture and inter-app communication.
 
+- Create an app to expose the components/event bus
+- Create app to:
+	- remote the app that expose the components/event bus
+	- Dynamic import
+	- Use the event bus to communicate between micro-frontends
+
 ---
 
 2. **Complex State Management**  
