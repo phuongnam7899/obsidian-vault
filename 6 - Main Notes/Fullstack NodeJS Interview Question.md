@@ -137,7 +137,7 @@ Tags: [[Interview]] [[ReactJS]] [[JS]] [[Typescript]] [[Devops]]
 3. Can you explain the OAuth2 flow?
 	1. Client redirect to login url
 	2. User login
-	3. Reddirect back to main page with authorization code (access/refresh token)
+	3. Redirect back to main page with authorization code (access/refresh token)
 	4. Client use token to make request to resources
 4. How do you handle token expiration and renewal in an application?
 5. How would you design a secure login system for a web application?
