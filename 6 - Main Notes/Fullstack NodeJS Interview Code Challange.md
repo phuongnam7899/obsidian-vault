@@ -38,6 +38,10 @@ Tags: [[ReactJS]] [[JS]]
     - Scalable state management.
     - Asynchronous state handling with proper TypeScript integration.
 
+- Create taskSlice with redux toolkit that define add, edit, undo reducers
+- Create store with redducers config included the taskSlice reducer
+- Provide the store to the app
+
 ---
 
 ### **Advanced Backend Tasks**
