@@ -164,9 +164,71 @@ return res.send( data.replace('<div id="root"></div>', '<div id="root">${rendere
 1. What is the difference between Docker images and containers?
 	1. Image = Container blueprint
 2. How do you use Docker to containerize an application?
-3. Can you explain the role of Kubernetes in container orchestration?
-4. How do you manage scalability and load balancing in a Kubernetes environment?
-5. What are some common challenges in deploying containerized applications, and how do you address them?
+	1. Define image with dockerfile
+	2. Build the image (`docker build -t my-app .`)
+		1. `.`: context to build image
+		2. `-t my-app`: tag for the image
+	3. Run the container from image (`docker run -p 8080:8080 my-app`)
+		1. `8080:8080`: expose from port 8080 in container to port 8080 trong local machine
+	4. Verify container is on (`docker ps`)
+	5. Use docker compose to manage multiple services
+		1. `volumes: .:/usr/src/app`:  mount current dir into the container
+		2.  `build: .`: app is built from dockerfile inside current folder and run
+		3. `image`: for prebuilt images (fetch from Docker Hub)
+	6. Push image to Registry (Docker Hub/Amazon ECR, GCR)
+	7. Cleanup
+		1. Remove container: `docker rm <container-id>`
+		2. Remove image: `docker rmi <image-id>`
+		3. Remove all stopped containers: `docker container prune`
+		4. Remove all stopped images: `docker image prune`
+```dockerfile
+# Use an official Node.js runtime as a parent image
+FROM node:16
+
+# Set the working directory in the container
+WORKDIR /usr/src/app
+
+# Copy the package.json and package-lock.json to the container
+COPY package*.json ./
+
+# Install the app dependencies inside the container
+RUN npm install
+
+# Copy the rest of the application code to the container
+COPY . .
+
+# Expose the port that the app will run on
+EXPOSE 8080
+
+# Define the command to run the app
+CMD ["npm", "start"]
+
+```
+
+```yaml
+version: "3.8"
+services:
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/usr/src/app
+    environment:
+      - NODE_ENV=production
+  db:
+    image: mongo
+    ports:
+      - "27017:27017"
+
+```
+1. Can you explain the role of Kubernetes in container orchestration?
+	1. Automate the deployment, scaling and manage the containers
+		1. Restart if down
+		2. Built-in load balanciung
+		3. Connect between containers
+2. How do you manage scalability and load balancing in a Kubernetes environment?
+3. What are some common challenges in deploying containerized applications, and how do you address them?
 
 ---
 
