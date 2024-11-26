@@ -104,9 +104,14 @@ Tags: [[Interview]] [[ReactJS]] [[JS]] [[Typescript]] [[Devops]]
 2. How do interfaces and types differ in TypeScript?
 	1. interface is for object only, type is not
 	2. interface could be implemented by other class, type cannot
-	3. 
 3. Can you explain TypeScript’s `any`, `unknown`, and `never` types?
+	1. any: could be any (like normal JS)
+	2. unknown: could be any, but need specify before use
+	3. never: the value never occurs
 4. How do you use generics in TypeScript? Provide an example.
+	1. API response (statusCode: number, message; string, data: T)
+	2. UtilityType
+	3. Table component
 5. How do you set up and enforce strict typing in a large project?
 
 ---
@@ -114,9 +119,24 @@ Tags: [[Interview]] [[ReactJS]] [[JS]] [[Typescript]] [[Devops]]
 ### **Microfrontend Architecture Questions**
 
 1. What are the advantages and challenges of using microfrontends?
+	1. Advantages
+		1. Independant
+		2. Paralell development
+		3. Téchstack flexible
+		4. Performance (lazy load each parrt)
+	2. Challenge
+		1. Complexity in collaborate
+		2. Shared library depends
+		3. Conssistent UI
 2. How do you ensure consistency in a microfrontend architecture?
+	1. Shared componenrt
+	2. Shared global state (redux, rxjs)
+	3. Communication (event bus, global events)
 3. Can you describe a scenario where you implemented communication between microfrontends?
 4. What tools or frameworks have you used for microfrontend architecture?
+	1. Webpack module federation
+	2. Redux for global state
+	3. Docker/K8S for containerization
 5. How do you handle shared state or dependencies across multiple microfrontends?
 
 ---
@@ -126,6 +146,14 @@ Tags: [[Interview]] [[ReactJS]] [[JS]] [[Typescript]] [[Devops]]
 1. What are the differences between Express.js and NestJS?
 2. How would you implement middleware in Express.js or NestJS?
 3. Explain how server-side rendering (SSR) is implemented in NestJS.
+```js
+const indexFile = path.resolve(__dirname, 'build', 'index.html');
+fs.readFile(indexFile, 'utf-8', (err, data) => { if (err) { return res.status(500).send('Some error occurred'); } 
+const renderedApp = ReactDOMServer.renderToString(<App />);
+												  
+return res.send( data.replace('<div id="root"></div>', '<div id="root">${renderedApp}</div>') ); });
+												
+```
 4. How do you design RESTful APIs to be both scalable and maintainable?
 5. Have you implemented authentication mechanisms in a backend framework? If so, how?
 
@@ -134,6 +162,7 @@ Tags: [[Interview]] [[ReactJS]] [[JS]] [[Typescript]] [[Devops]]
 ### **Containerization and Orchestration**
 
 1. What is the difference between Docker images and containers?
+	1. Image = Container blueprint
 2. How do you use Docker to containerize an application?
 3. Can you explain the role of Kubernetes in container orchestration?
 4. How do you manage scalability and load balancing in a Kubernetes environment?
