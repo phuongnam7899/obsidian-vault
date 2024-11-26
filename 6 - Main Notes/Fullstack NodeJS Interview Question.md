@@ -105,6 +105,10 @@ Tags: [[Interview]] [[ReactJS]] [[JS]] [[Typescript]] [[Devops]]
 2. Can you explain indexing in databases and its impact on performance?
 3. How do you handle migrations in a database schema?
 4. Have you implemented transactions in a database? How do they work in MongoDB or SQL?
+	1. Start transaction
+	2. Make change
+	3. Commit/rollback if failed
+	4. ACID: atomicity, consistency, isolation, durability
 5. How do you optimize database queries in a high-traffic application?
 
 ---
