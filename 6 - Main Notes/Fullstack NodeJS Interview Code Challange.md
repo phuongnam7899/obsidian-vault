@@ -18,9 +18,9 @@ Tags: [[ReactJS]] [[JS]]
     - Dynamic imports.
     - Microfrontend architecture and inter-app communication.
 
-- Create an app to expose the components/event bus
+- Create an app use **Webpack Module Federation** to expose the components/event bus
 - Create app to:
-	- remote the app that expose the components/event bus
+	- remote the app that expose the components/event bus uusinbg **Webpack Module Federation**
 	- Dynamic import
 	- Use the event bus to communicate between micro-frontends
 
@@ -169,6 +169,10 @@ Tags: [[ReactJS]] [[JS]]
     **Focus:**
     
     - Performance debugging and optimization techniques.
+
+- react-window -> render only elements in the window
+- lazyloading - infinity scroll/pagination
+
 
 ---
 
