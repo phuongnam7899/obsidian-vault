@@ -54,8 +54,47 @@ Tags: [[Interview]] [[ReactJS]] [[JS]] [[Typescript]] [[Devops]]
 	1. Then
 	2. Async await
 3. Can you walk us through how you would design an API using Express.js or NestJS?
+	1. Understand requirements
+	2. Define model
+	3. Add routes
+	4. Add controller to handle logic
+		1. Write test case
+		2. Validate the data
+		3. Authorize if need
+		4. Error handling
 4. How do you handle error management in a Node.js application?
+	1. Using middleware to centralize the error
+		1. throw error with `next(new Error('Something went wrong'));`
+		2. handle in the middleware put in the last
+	2. Custom error classes
+	3. Log the error
+	4. Apply retry if need
 5. What are some best practices for structuring a Node.js backend application?
+	1. Model: db model
+	2. Controller: logic for route
+	3. Route
+	4. Service: business logic share accross controller
+	5. Utils
+	6. Config
+	7. Middlewares
+6. What are some best practices for structuring a Node.js backend application follow DDD
+	1. shared: common business logic used by multiple module
+		1. errors
+		2. utils
+		3. middleware
+		4. validation
+	2. infrastructure: technical concern like db, queue, cache,...
+		1. database
+		2. message-broker
+		3. mailer
+		4. api client: for external api
+	3. modules: each module contain bounded context
+		1. controller
+		2. service
+		3. model
+		4. routes
+		5. useCase
+		6. event
 
 ---
 
@@ -63,6 +102,9 @@ Tags: [[Interview]] [[ReactJS]] [[JS]] [[Typescript]] [[Devops]]
 
 1. What are the advantages of using TypeScript over JavaScript?
 2. How do interfaces and types differ in TypeScript?
+	1. interface is for object only, type is not
+	2. interface could be implemented by other class, type cannot
+	3. 
 3. Can you explain TypeScript’s `any`, `unknown`, and `never` types?
 4. How do you use generics in TypeScript? Provide an example.
 5. How do you set up and enforce strict typing in a large project?
