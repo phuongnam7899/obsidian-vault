@@ -74,6 +74,9 @@ Tags: [[ReactJS]] [[JS]]
     - Distributed systems.
     - Fault tolerance.
 
+- Connect to redis in producer app -> rPush to add new queueEvent
+- Connet to same redis in consumer app -> lPop to read the task -> handle logic
+
 ---
 
 ### **Fullstack Tasks**
@@ -90,6 +93,15 @@ Tags: [[ReactJS]] [[JS]]
     - WebSocket implementation.
     - Synchronizing real-time data between server and client.
 
+- Create a backend app:
+	- create socket gateway to handle connection/disconnection/emit
+	- create a service that create function that use socket gateway emit()
+	- use the function when needed
+- Create FE app
+	- Connect to the socket server through server url
+	- Listen to the event
+	- Disconnect when unmount
+
 ---
 
 6. **End-to-End Application with Microservices**  
@@ -105,6 +117,8 @@ Tags: [[ReactJS]] [[JS]]
     
     - Microservices design.
     - Authentication and inter-service communication.
+
+- 
 
 ---
 
@@ -123,6 +137,8 @@ Tags: [[ReactJS]] [[JS]]
     
     - Scalability and caching.
     - API design best practices.
+
+- 
 
 ---
 
