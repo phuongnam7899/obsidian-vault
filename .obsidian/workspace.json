@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,12 +140,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6 - Main Notes/Fullstack NodeJS Interview Code Challange.md",
+                "file": "6 - Main Notes/Fullstack NodeJS Interview Question.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Fullstack NodeJS Interview Code Challange"
+              "title": "Outgoing links from Fullstack NodeJS Interview Question"
             }
           },
           {
@@ -167,10 +167,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/Fullstack NodeJS Interview Code Challange.md"
+                "file": "6 - Main Notes/Fullstack NodeJS Interview Question.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Fullstack NodeJS Interview Code Challange"
+              "title": "Outline of Fullstack NodeJS Interview Question"
             }
           },
           {
@@ -241,15 +241,15 @@
       "obsidian-git:Open Git source control": false,
       "callout-manager:Insert Callout": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "bb775ff8d79f8847",
+  "active": "1f91e22098133618",
   "lastOpenFiles": [
-    "6 - Main Notes/Fullstack NodeJS Interview Question.md",
     "6 - Main Notes/Fullstack NodeJS Interview Code Challange.md",
+    "6 - Main Notes/Fullstack NodeJS Interview Question.md",
     "3 - Tags/Interview.md",
     "2- Source Material/Videos/Công thức tối ưu Frontend.md",
     "2- Source Material/Videos/Web Workers - Công cụ tăng hiệu năng trang web mạnh mẽ.md",
