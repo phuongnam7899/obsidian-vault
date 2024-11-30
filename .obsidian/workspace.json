@@ -6,6 +6,7 @@
       {
         "id": "cae611b8b519cff9",
         "type": "tabs",
+        "dimension": 51.75202156334232,
         "children": [
           {
             "id": "b5c8d03bbb5d0d48",
@@ -27,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Fullstack NodeJS Interview Question.md",
+                "file": "2- Source Material/Videos/Thiết kế hệ thống mạng xã hội 200tr Users - System Design.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fullstack NodeJS Interview Question"
+              "title": "Thiết kế hệ thống mạng xã hội 200tr Users - System Design"
             }
           },
           {
@@ -51,6 +52,25 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "b8939b7d7f2ec9f5",
+        "type": "tabs",
+        "dimension": 48.24797843665768,
+        "children": [
+          {
+            "id": "bb7bdfa00ccec8dc",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "7 - Files/Thiết kế hệ thống mạng xã hội 200tr Users - System Design 2024-11-30 09.58.59.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Thiết kế hệ thống mạng xã hội 200tr Users - System Design 2024-11-30 09.58.59.excalidraw"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -140,12 +160,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6 - Main Notes/Fullstack NodeJS Interview Question.md",
+                "file": "2- Source Material/Videos/Thiết kế hệ thống mạng xã hội 200tr Users - System Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Fullstack NodeJS Interview Question"
+              "title": "Outgoing links from Thiết kế hệ thống mạng xã hội 200tr Users - System Design"
             }
           },
           {
@@ -167,10 +187,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/Fullstack NodeJS Interview Question.md"
+                "file": "2- Source Material/Videos/Thiết kế hệ thống mạng xã hội 200tr Users - System Design.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Fullstack NodeJS Interview Question"
+              "title": "Outline of Thiết kế hệ thống mạng xã hội 200tr Users - System Design"
             }
           },
           {
@@ -228,7 +248,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -248,12 +269,14 @@
   },
   "active": "1f91e22098133618",
   "lastOpenFiles": [
-    "6 - Main Notes/Fullstack NodeJS Interview Code Challange.md",
-    "6 - Main Notes/Fullstack NodeJS Interview Question.md",
-    "3 - Tags/Interview.md",
+    "7 - Files/Thiết kế hệ thống mạng xã hội 200tr Users - System Design 2024-11-30 09.58.59.excalidraw.md",
+    "2- Source Material/Videos/Thiết kế hệ thống mạng xã hội 200tr Users - System Design.md",
     "2- Source Material/Videos/Công thức tối ưu Frontend.md",
     "2- Source Material/Videos/Web Workers - Công cụ tăng hiệu năng trang web mạnh mẽ.md",
     "2- Source Material/Videos/Mô hình Trục quay tối ưu Frontend.md",
+    "6 - Main Notes/Fullstack NodeJS Interview Question.md",
+    "6 - Main Notes/Fullstack NodeJS Interview Code Challange.md",
+    "3 - Tags/Interview.md",
     "6 - Main Notes/Express JS features summary.md",
     "6 - Main Notes/What is octet stream.md",
     "6 - Main Notes/Local storage, session storage and cookie.md",
@@ -282,8 +305,6 @@
     "2- Source Material/Books/Nexus.md",
     "7 - Files/Nexus 2024-11-17 07.46.39.excalidraw.md",
     "2- Source Material/Books/How to trade in stock.md",
-    "2- Source Material/Articles/React Server Component Document.md",
-    "2- Source Material/Articles/Chính sách tài khóa.md",
     "2- Source Material/Books",
     "1 - Rough Notes",
     "smart-chats",
