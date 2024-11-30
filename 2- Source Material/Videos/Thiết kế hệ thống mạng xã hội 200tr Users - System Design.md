@@ -37,7 +37,9 @@ Status: #source-eating
 - Post processor <mark style="background: #BBFABBA6;">chỉ tìm + cập nhật home cho user online</mark>
 - Vấn đề phát sinh: user active/inactive khi online lại không thấy bài viết mới -> <mark style="background: #FFB8EBA6;">không đáp ứng</mark> <mark style="background: #FFB8EBA6;">được nhất quán dữ liệu</mark>
 # Giải pháp
-- Update timeline service -> query secondary db -> lấy các post mới của user mà user đó theo dõi
+- Update timeline service: khi active user online -> query secondary db -> lấy các post:
+	- của user mà người đó theo dõi
+	- có thời gian post sau lần gần nhất user đó offline
 - 
 
 ---
