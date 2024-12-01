@@ -1,0 +1,286 @@
+{
+  "main": {
+    "id": "6c4f5fe974e81fd7",
+    "type": "split",
+    "children": [
+      {
+        "id": "cae611b8b519cff9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b5c8d03bbb5d0d48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2- Source Material/Videos/Thiết kế hệ thống mạng xã hội 200tr Users - System Design.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Thiết kế hệ thống mạng xã hội 200tr Users - System Design"
+            }
+          },
+          {
+            "id": "bb775ff8d79f8847",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Fullstack NodeJS Interview Code Challange.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Fullstack NodeJS Interview Code Challange"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "39334f530e2c55fa",
+    "type": "split",
+    "children": [
+      {
+        "id": "98cdac0bbd7e6942",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3b58730af2b80326",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d54b7381ec464fcd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#source-absorbing",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "618c7321b78e943d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "7294abffb9d354a3",
+    "type": "split",
+    "children": [
+      {
+        "id": "1866fd2bc27464b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b8460f12beab91cf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "370650ef4bd62f81",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2- Source Material/Videos/Thiết kế hệ thống mạng xã hội 200tr Users - System Design.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Thiết kế hệ thống mạng xã hội 200tr Users - System Design"
+            }
+          },
+          {
+            "id": "582add89f3713b23",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "891bcd924694ca65",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2- Source Material/Videos/Thiết kế hệ thống mạng xã hội 200tr Users - System Design.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Thiết kế hệ thống mạng xã hội 200tr Users - System Design"
+            }
+          },
+          {
+            "id": "958b5c2345f33e61",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "38fc5e4157b4c6a9",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-chat-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "6a2fc9cd813311bb",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "33c465ab71332d5e",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "6077f91baa659a6f",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false,
+      "callout-manager:Insert Callout": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "b5c8d03bbb5d0d48",
+  "lastOpenFiles": [
+    "7 - Files/Thiết kế hệ thống mạng xã hội 200tr Users - System Design 2024-12-01 13.42.20.excalidraw.md",
+    "2- Source Material/Videos/Thiết kế hệ thống mạng xã hội 200tr Users - System Design.md",
+    "Untitled 1.canvas",
+    "2- Source Material/Videos/Công thức tối ưu Frontend.md",
+    "Untitled.canvas",
+    "7 - Files/Thiết kế hệ thống mạng xã hội 200tr Users - System Design 2024-11-30 09.58.59.excalidraw.md",
+    "2- Source Material/Videos/Web Workers - Công cụ tăng hiệu năng trang web mạnh mẽ.md",
+    "2- Source Material/Videos/Mô hình Trục quay tối ưu Frontend.md",
+    "6 - Main Notes/Fullstack NodeJS Interview Question.md",
+    "6 - Main Notes/Fullstack NodeJS Interview Code Challange.md",
+    "3 - Tags/Interview.md",
+    "6 - Main Notes/Express JS features summary.md",
+    "6 - Main Notes/What is octet stream.md",
+    "6 - Main Notes/Local storage, session storage and cookie.md",
+    "6 - Main Notes/Typescript features summary.md",
+    "6 - Main Notes/Common HTTP Methods.md",
+    "7 - Files/Pasted image 20241121170511.png",
+    "7 - Files/Pasted image 20241121165126.png",
+    "7 - Files/Pasted image 20241121164301.png",
+    "7 - Files/Pasted image 20241121163312.png",
+    "7 - Files/Công thức tối ưu Frontend 2024-11-21 16.00.16.excalidraw.md",
+    "7 - Files/Pasted image 20241121155708.png",
+    "7 - Files/Pasted image 20241121155140.png",
+    "7 - Files/Pasted image 20241121141720.png",
+    "7 - Files/Pasted image 20241121140330.png",
+    "7 - Files/Pasted image 20241119162126.png",
+    "7 - Files/Pasted image 20241119162045.png",
+    "7 - Files/Công thức tối ưu Frontend 2024-11-19 15.54.56.excalidraw.md",
+    "7 - Files/Công thức tối ưu Frontend 2024-11-19 15.48.27.excalidraw.md",
+    "6 - Main Notes/how to use web worker.md",
+    "6 - Main Notes/Web worker flow.md",
+    "6 - Main Notes/2 pshychology when invest.md",
+    "6 - Main Notes/Why to use Web Worker.md",
+    "6 - Main Notes/how to recognize a pivotal point.md",
+    "6 - Main Notes/Main thread (UI thread) in JS.md",
+    "7 - Files/Web Workers - Công cụ tăng hiệu năng trang web mạnh mẽ 2024-11-18 21.07.12.excalidraw.md",
+    "2- Source Material/Books/Nexus.md",
+    "7 - Files/Nexus 2024-11-17 07.46.39.excalidraw.md",
+    "2- Source Material/Books",
+    "1 - Rough Notes",
+    "smart-chats",
+    "What is good UX",
+    "7 - Files",
+    "6 - Main Notes",
+    "5 - Templates",
+    "4- Indexes",
+    "3 - Tags",
+    "2- Source Material/Others"
+  ]
+}
