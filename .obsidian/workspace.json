@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "React Server Component Document"
             }
+          },
+          {
+            "id": "36ed2f67d91fa613",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.6"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -136,11 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2- Source Material/Articles/React Server Component Document.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of React Server Component Document"
+              "title": "Outline"
             }
           },
           {
@@ -191,12 +202,12 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "callout-manager:Insert Callout": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "062f117462a938ea",
+  "active": "36ed2f67d91fa613",
   "lastOpenFiles": [
     "2- Source Material/Videos/Mô hình Trục quay tối ưu Frontend.md",
     "2- Source Material/Books/How to trade in stock.md",
