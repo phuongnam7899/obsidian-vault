@@ -24,19 +24,19 @@
         ]
       },
       {
-        "id": "f3e97ebf46785312",
+        "id": "788cb1705704bb6a",
         "type": "tabs",
         "children": [
           {
-            "id": "52f72ba48393116f",
+            "id": "a62b26325b82074f",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "7 - Files/Dive into Design Pattern 2024-12-01 15.57.03.excalidraw.md"
+                "file": "7 - Files/Dive into Design Pattern 2024-12-01 20.44.28.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Dive into Design Pattern 2024-12-01 15.57.03.excalidraw"
+              "title": "Dive into Design Pattern 2024-12-01 20.44.28.excalidraw"
             }
           }
         ]
@@ -156,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "7 - Files/Dive into Design Pattern 2024-12-01 15.57.03.excalidraw.md"
+                "file": "7 - Files/Dive into Design Pattern 2024-12-01 20.44.28.excalidraw.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Dive into Design Pattern 2024-12-01 15.57.03.excalidraw"
+              "title": "Outline of Dive into Design Pattern 2024-12-01 20.44.28.excalidraw"
             }
           },
           {
@@ -231,14 +231,18 @@
       "obsidian-git:Open Git source control": false,
       "callout-manager:Insert Callout": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "52f72ba48393116f",
+  "active": "a62b26325b82074f",
   "lastOpenFiles": [
     "2- Source Material/Books/Dive into Design Pattern.md",
+    "7 - Files/Dive into Design Pattern 2024-12-01 20.44.28.excalidraw.md",
+    "7 - Files/Dive into Design Pattern 2024-12-01 20.38.48.excalidraw.md",
+    "7 - Files/Dive into Design Pattern 2024-12-01 20.29.35.excalidraw.md",
+    "7 - Files/Dive into Design Pattern 2024-12-01 20.22.20.excalidraw.md",
     "7 - Files/Dive into Design Pattern 2024-12-01 15.57.03.excalidraw.md",
     "Untitled 2.canvas",
     "2- Source Material/Videos/How to deploy Nodejs with AWS EKS.md",
@@ -273,10 +277,6 @@
     "7 - Files/Công thức tối ưu Frontend 2024-11-19 15.48.27.excalidraw.md",
     "6 - Main Notes/how to use web worker.md",
     "6 - Main Notes/Web worker flow.md",
-    "6 - Main Notes/2 pshychology when invest.md",
-    "6 - Main Notes/Why to use Web Worker.md",
-    "6 - Main Notes/how to recognize a pivotal point.md",
-    "6 - Main Notes/Main thread (UI thread) in JS.md",
     "2- Source Material/Books",
     "1 - Rough Notes",
     "smart-chats",
