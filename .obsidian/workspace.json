@@ -129,12 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2- Source Material/Videos/Thiết kế hệ thống mạng xã hội 200tr Users - System Design.md",
+                "file": "7 - Files/Dive into Design Pattern 2024-12-01 20.44.28.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Thiết kế hệ thống mạng xã hội 200tr Users - System Design"
+              "title": "Outgoing links from Dive into Design Pattern 2024-12-01 20.44.28.excalidraw"
             }
           },
           {
@@ -213,12 +213,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 531.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -236,7 +235,7 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "a62b26325b82074f",
+  "active": "6a2fc9cd813311bb",
   "lastOpenFiles": [
     "2- Source Material/Books/Dive into Design Pattern.md",
     "7 - Files/Dive into Design Pattern 2024-12-01 20.44.28.excalidraw.md",
