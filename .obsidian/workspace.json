@@ -13,28 +13,46 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2- Source Material/Articles/React Server Component Document.md",
+                "file": "2- Source Material/Books/Dive into Design Pattern.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "React Server Component Document"
+              "title": "Dive into Design Pattern"
             }
           },
           {
-            "id": "36ed2f67d91fa613",
+            "id": "bb9bfa6e8700d775",
             "type": "leaf",
             "state": {
               "type": "release-notes",
               "state": {
-                "currentVersion": "1.7.6"
+                "currentVersion": "1.7.7"
               },
               "icon": "lucide-file",
-              "title": "Release Notes 1.7.6"
+              "title": "Release Notes 1.7.7"
             }
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "6e37b6a6314863ef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a48f95a26132c868",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "7 - Files/Dive into Design Pattern 2024-12-02 21.39.16.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Dive into Design Pattern 2024-12-02 21.39.16.excalidraw"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -149,9 +167,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "7 - Files/Dive into Design Pattern 2024-12-02 21.39.16.excalidraw.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Dive into Design Pattern 2024-12-02 21.39.16.excalidraw"
             }
           },
           {
@@ -189,7 +209,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 364.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,8 +227,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "36ed2f67d91fa613",
+  "active": "a48f95a26132c868",
   "lastOpenFiles": [
+    "7 - Files/Dive into Design Pattern 2024-12-02 21.39.16.excalidraw.md",
+    "2- Source Material/Books/Dive into Design Pattern.md",
+    "2- Source Material/Articles/React Server Component Document.md",
     "conflict-files-obsidian-git.md",
     "Untitled.canvas",
     "Untitled 2.canvas",
@@ -239,15 +262,12 @@
     "2- Source Material/Videos/Mô hình Trục quay tối ưu Frontend.md",
     "2- Source Material/Books/How to trade in stock.md",
     "2- Source Material/Articles/The 4 Golden Rules of UI Design.md",
-    "2- Source Material/Articles/React Server Component Document.md",
     "2- Source Material/Articles/Chính sách tài khóa.md",
     "1 - Rough Notes/validate_negative_batch.md",
     "1 - Rough Notes/logic tính khấu hao tài sản erpnext.md",
     "6 - Main Notes/Fiscal policy - chính sách tài khóa.md",
     "6 - Main Notes/Structure of feature spec.md",
     "6 - Main Notes/Sources of deficit financing.md",
-    "6 - Main Notes/Tools of government for fiscal policy.md",
-    "3 - Tags/Government.md",
     "1 - Rough Notes",
     "smart-chats",
     "What is good UX",
