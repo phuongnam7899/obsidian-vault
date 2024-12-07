@@ -201,4 +201,18 @@ function getTaxRate(country) {
 		![[Pasted image 20241207174037.png]]
 	- After: make the `getEmployees()` as abstract
 		![[Pasted image 20241207174923.png]]
+
+### Composition over Inheritance
+- Inheritance is the easiest wat to reuse code, but problem will appear when there are a lot of classes:
+	- **Redundant code**: Sub class cannot reduce the interface of parent: still need define even if not use
+	- **Risk of break when override**: When override method of child -> Need to ensure new thing compatible with existing ones (For example: when update what a cat `eat()` -> need make sure the cat  can `digest()` it)
+	- **Encapsulation broke**: Inheritance break the encapsulation of parent (children still can access to props/methods of parent, and vice versa)
+	- **Tightly coupled**: changes in parent may break the sub classes
+	- Create parallel hierarchy when there're 2+ dimension
+- Composition: "has a" (instead of "is a" of Inheritance)
+- Also apply to aggregation (contain but not maintain the life cycle more relaxed way of composition)
+- 
+
+
+
 ---
