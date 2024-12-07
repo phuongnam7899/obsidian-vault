@@ -8,7 +8,9 @@
   "smart_notices": {
     "muted": {
       "embedding_progress": true,
-      "embedding_complete": true
+      "embedding_complete": true,
+      "done_import": true,
+      "Notice_muted": true
     }
   },
   "system_prompts_folder": "smart prompts",
