@@ -22,24 +22,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "788cb1705704bb6a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a62b26325b82074f",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "7 - Files/Dive into Design Pattern 2024-12-01 20.44.28.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Dive into Design Pattern 2024-12-01 20.44.28.excalidraw"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -156,10 +138,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "7 - Files/Dive into Design Pattern 2024-12-01 20.44.28.excalidraw.md"
+                "file": "2- Source Material/Books/Dive into Design Pattern.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Dive into Design Pattern 2024-12-01 20.44.28.excalidraw"
+              "title": "Outline of Dive into Design Pattern"
             }
           },
           {
@@ -235,8 +217,9 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "a62b26325b82074f",
+  "active": "bdfefb814382138d",
   "lastOpenFiles": [
+    "2- Source Material/Books/How to trade in stock.md",
     "2- Source Material/Books/Dive into Design Pattern.md",
     "7 - Files/Dive into Design Pattern 2024-12-01 20.44.28.excalidraw.md",
     "7 - Files/Dive into Design Pattern 2024-12-01 20.38.48.excalidraw.md",
@@ -275,7 +258,6 @@
     "7 - Files/Công thức tối ưu Frontend 2024-11-19 15.54.56.excalidraw.md",
     "7 - Files/Công thức tối ưu Frontend 2024-11-19 15.48.27.excalidraw.md",
     "6 - Main Notes/how to use web worker.md",
-    "6 - Main Notes/Web worker flow.md",
     "2- Source Material/Books",
     "1 - Rough Notes",
     "smart-chats",
