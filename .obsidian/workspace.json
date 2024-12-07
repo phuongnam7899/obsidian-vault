@@ -22,24 +22,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "fa452756e4037007",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "47894227074d608e",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "7 - Files/Dive into Design Pattern 2024-12-07 14.35.39.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Dive into Design Pattern 2024-12-07 14.35.39.excalidraw"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -217,7 +199,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 526.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -235,8 +217,10 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "6a2fc9cd813311bb",
+  "active": "bdfefb814382138d",
   "lastOpenFiles": [
+    "7 - Files/Pasted image 20241207164212.png",
+    "7 - Files/Pasted image 20241207164152.png",
     "conflict-files-obsidian-git.md",
     "2- Source Material/Books/Dive into Design Pattern.md",
     "7 - Files/Dive into Design Pattern 2024-12-07 14.35.39.excalidraw.md",
@@ -273,9 +257,7 @@
     "7 - Files/Pasted image 20241121165126.png",
     "7 - Files/Pasted image 20241121164301.png",
     "7 - Files/Pasted image 20241121163312.png",
-    "7 - Files/Công thức tối ưu Frontend 2024-11-21 16.00.16.excalidraw.md",
     "7 - Files/Pasted image 20241121155708.png",
-    "7 - Files/Pasted image 20241121155140.png",
     "2- Source Material/Books",
     "1 - Rough Notes",
     "smart-chats",

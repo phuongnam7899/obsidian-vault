@@ -118,7 +118,7 @@ class Professor:
 		- Behavioral Pattern: define the object communication and assign responsibility for objects
 # Software design principles
 ## Features of good design
-### Code reuse
+### Reusability
 - Is the most common way to reduce development time
 - What reduce code reuse?
 	- Tight coupling
@@ -126,10 +126,65 @@ class Professor:
 	- Hardcode
 - 3 levels of code reuse
 	- Level1: Classes reuse
-	- Level 2: Patterns
+		- Like libraries
+		- Only reuse in specific programing language
 	- Level 3: Framework
 		- Pre-define all the abstraction things
 		- Only need to sub-class somewhere to define custom behaviors
-		- 
+		- Most risk and effort to make
+	- Level 2: Patterns
+		- In the middle of those 2 levels
+### Extensibility
+- Changes are inevitable in programming
+## Design Principles
+### 1. Encapsulated what varied
+
+> [!info] Identify what is the varied parts and separate them from the stable ones
+
+- Main goal: minified the effect of changed part to the stable part
+#### On method-level
+- Origin `getOrderValue()`:
+```js
+function getOrderValue(order) {
+	let total = order.lineItems.reduce((item) => item.value);
+	
+	if (order.country === "US") total *= 1.1;
+	else if (order.country === "VI") total *= 1.05;
+
+	return total;
+}
+```
+- <mark style="background: #FFB8EBA6;">Problem</mark>: when want to change the way of tax rate retrieve (not the way  of calculating original value) => still need to update the function
+- <mark style="background: #BBFABBA6;">Solution</mark>: encapsulate tax retrieve logic to a function
+```js
+function getOrderValue(order) {
+	let total = order.lineItems.reduce((item) => item.value);
+	
+	total *= (1 + getTaxRate(order.country))
+
+	return total;
+}
+
+function getTaxRate(country) {
+	return {
+		"US": 0.1,
+		"VI": 0.05
+	}[country]
+}
+
+```
+
+#### On class-level
+- Over time, when add more responsibility to a method => Need more helper fields and method for it => Blur the meaning of original one => It's time to separate it to classes
+- Before:
+	![[Pasted image 20241207164152.png]]
+- After: tax calculate logic is hidden from Order
+	![[Pasted image 20241207164212.png]]
+### 2. Interface, not Implementation
+
+> [!info] Program to an Interface, not an Implementation. Depends on abstractions, not concrete class
+
+- Concrete class: class that could be directly create instances from it
+- Abstract class: class that only contain only defines methods and properties, not leave anything for child classes to implement
 
 ---
