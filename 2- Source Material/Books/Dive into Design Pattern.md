@@ -184,7 +184,21 @@ function getTaxRate(country) {
 
 > [!info] Program to an Interface, not an Implementation. Depends on abstractions, not concrete class
 
-- Concrete class: class that could be directly create instances from it
-- Abstract class: class that only contain only defines methods and properties, not leave anything for child classes to implement
-
+- Concrete vs Abstract:
+	- Concrete class: class that could be directly create instances from it
+	- Abstract class: class that only contain only defines methods and properties, not leave anything for child classes to implement
+- How to? When make a class depend on another:
+	- Define the ==exact thing== that the class 1 need from the other
+	- Extract that exact thing to an abstract class/ interface
+	- Let class 1 use the created abstract class/interface
+	- Create a new class that implement that abstract class/interface
+- Example:
+![[Pasted image 20241207172418.png]]
+- More example:
+	- Before: Company is tightly coupled to Designer, Programmer and Tester
+		![[Pasted image 20241207174000.png]]
+	- Better: Polymorphism help to make Company only depend on the Employee -> Still not good enough, when create new company with other type of Employee -> need to rework on the logic
+		![[Pasted image 20241207174037.png]]
+	- After: make the `getEmployees()` as abstract
+		![[Pasted image 20241207174923.png]]
 ---
