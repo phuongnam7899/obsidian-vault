@@ -22,6 +22,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "11d9db95a8f8a34d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a28f719ffe52827",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "7 - Files/Dive into Design Pattern 2024-12-08 15.26.06.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Dive into Design Pattern 2024-12-08 15.26.06.excalidraw"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -219,6 +237,10 @@
   },
   "active": "bdfefb814382138d",
   "lastOpenFiles": [
+    "7 - Files/Dive into Design Pattern 2024-12-08 15.26.06.excalidraw.md",
+    "2- Source Material/Books/Dive into Design Pattern.md",
+    "7 - Files/Pasted image 20241208151657.png",
+    "7 - Files/Pasted image 20241208151642.png",
     "7 - Files/Pasted image 20241207185326.png",
     "7 - Files/Pasted image 20241207184951.png",
     "7 - Files/Pasted image 20241207174923.png",
@@ -228,7 +250,6 @@
     "7 - Files/Pasted image 20241207164212.png",
     "7 - Files/Pasted image 20241207164152.png",
     "conflict-files-obsidian-git.md",
-    "2- Source Material/Books/Dive into Design Pattern.md",
     "7 - Files/Dive into Design Pattern 2024-12-07 14.35.39.excalidraw.md",
     "7 - Files/Dive into Design Pattern 2024-12-02 21.39.16.excalidraw.md",
     "2- Source Material/Books/How to trade in stock.md",
@@ -240,9 +261,6 @@
     "Untitled 2.canvas",
     "2- Source Material/Videos/How to deploy Nodejs with AWS EKS.md",
     "6 - Main Notes/Fullstack NodeJS Interview Code Challange.md",
-    "7 - Files/Pasted image 20241201145132.png",
-    "7 - Files/Pasted image 20241201145106.png",
-    "7 - Files/Pasted image 20241201144931.png",
     "2- Source Material/Videos/Thiết kế hệ thống mạng xã hội 200tr Users - System Design.md",
     "7 - Files/Thiết kế hệ thống mạng xã hội 200tr Users - System Design 2024-12-01 13.42.20.excalidraw.md",
     "Untitled 1.canvas",

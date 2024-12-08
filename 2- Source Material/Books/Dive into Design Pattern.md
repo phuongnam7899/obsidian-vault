@@ -219,6 +219,39 @@ function getTaxRate(country) {
 
 >[!warning] Don't use them mindlessly -> Cost of applying is make code more complex than it should
 
+### 1. Single Responsibility
+
+> [!info] A class should have only ONE reason to change
+
+- When a class grow over time -> it become too hard to remember the detail -> need top scan over the class/file to find something
+- When a class does many things -> need to change it even when you want to change only one thing -> risk of break other things
+- Example:
+	- Before: when the report printing format change -> need to update the Employee
+		![[Pasted image 20241208151642.png]]
+	- After: Move to other class
+		![[Pasted image 20241208151657.png]]
+### 2. Open-closing
+
+> [!info] Classes should be open for extend but closed for modification
+
+- Main idea: ==avoid breaking== when add new features
+- Open = ==Extendable== = Can create subclass from it and add new fields/methods or override
+- Closed = ==100% ready to be used== by the other -> avoid modify -> extend instead
+- 
+![[Dive into Design Pattern 2024-12-08 15.26.06.excalidraw]]
+
+- A class ==could be both open== (for extend) ==and closed== (for modify) at ==the same time==
+- <mark style="background: #FFB8EBA6;">DON'T apply</mark> this principle <mark style="background: #FFB8EBA6;">for bug fix</mark>
+
+
+
+
+
+
+
+
+
+
 
 
 ---
