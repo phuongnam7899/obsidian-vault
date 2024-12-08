@@ -242,8 +242,11 @@ function getTaxRate(country) {
 
 - A class ==could be both open== (for extend) ==and closed== (for modify) at ==the same time==
 - <mark style="background: #FFB8EBA6;">DON'T apply</mark> this principle <mark style="background: #FFB8EBA6;">for bug fix</mark>
-
-
+- Example:
+	- Before: when new shipping type appear -> need to update the Order (not closed for modification) 
+		![[Pasted image 20241208155034.png]]
+	- After: apply Strategy pattern -> when new shipping apprear -> just add new class that extend Shipping -> open for extend
+		![[Pasted image 20241208155245.png]]
 
 
 
