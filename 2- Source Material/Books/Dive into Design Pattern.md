@@ -208,10 +208,16 @@ function getTaxRate(country) {
 	- **Risk of break when override**: When override method of child -> Need to ensure new thing compatible with existing ones (For example: when update what a cat `eat()` -> need make sure the cat  can `digest()` it)
 	- **Encapsulation broke**: Inheritance break the encapsulation of parent (children still can access to props/methods of parent, and vice versa)
 	- **Tightly coupled**: changes in parent may break the sub classes
-	- Create parallel hierarchy when there're 2+ dimension
+	- Create **parallel hierarchy** when there're 2+ dimension
+		![[Pasted image 20241207184951.png]]
 - Composition: "has a" (instead of "is a" of Inheritance)
 - Also apply to aggregation (contain but not maintain the life cycle more relaxed way of composition)
-- 
+- Example:
+![[Pasted image 20241207185326.png]]
+## SOLID Principles
+- Principles to make software design flexible, understandable and maintainable
+
+>[!warning] Don't use them mindlessly -> Cost of applying is make code more complex than it should
 
 
 
