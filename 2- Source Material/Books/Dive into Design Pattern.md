@@ -247,6 +247,28 @@ function getTaxRate(country) {
 		![[Pasted image 20241208155034.png]]
 	- After: apply Strategy pattern -> when new shipping apprear -> just add new class that extend Shipping -> open for extend
 		![[Pasted image 20241208155245.png]]
+### Liskov Substitution
+
+> [!info] When extending a class, make sure that we can put the subclass in place of parent without any issue
+
+- Subclass should only extend, not create many different things
+- Specially important in developing libraries/framework because they're used in many place
+- Checklist
+	- 1. ==Parameter of methods== of subclass should be ==same or more abstract== than superclass
+	- 2. ==Return type of methods== of subclass should be ==same or subtype== of those in superclass
+	- 3. ==Type of exception== thrown by subclass should be ==same or subtype== of those  from superclass
+	- 4. Subclass ==shouldn't strengthen the pre-condition==
+		- For example: Parent say param be int, but subclass say it should be positive
+	- 5. Subclass ==shouldn't weaken the post-condition==
+		- For example: Parent close the connection before end method, subclass does not
+	- 6. ==Invariants== of parent ==should be preserved==
+		- Example: Cat's subclasses should be meow -able
+	- 7. Subclass should ==not change private values of parent==
+- Example:
+	- Before: Violate 3,5 
+		![[Pasted image 20241208204514.png]]
+	- After:
+		![[Pasted image 20241208204618.png]]
 
 
 
