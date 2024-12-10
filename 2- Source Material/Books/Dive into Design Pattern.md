@@ -313,6 +313,9 @@ function getTaxRate(country) {
 - If many other parts of code coupled to `Truck` class, it will be hard to add `Ship` into the app
 #### Solution
 - Replace direct object construction calls with calls to Factory method
+![[Pasted image 20241210104632.png]]
+- -> Allow subclass to override the `createTransport()`
+- Limitation: 
 
 ### 2. Abstract Factory
 
