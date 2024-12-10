@@ -310,7 +310,9 @@ function getTaxRate(country) {
 
 #### Problem
 ![[Pasted image 20241210093907.png]]
-- If many other parts of code coupled to `Truck` class and 
+- If many other parts of code coupled to `Truck` class, it will be hard to add `Ship` into the app
+#### Solution
+- Replace direct object construction calls with calls to Factory method
 
 ### 2. Abstract Factory
 
