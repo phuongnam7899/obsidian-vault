@@ -322,12 +322,12 @@ function getTaxRate(country) {
 
 ![[Pasted image 20241210112342.png]]
 - **Product**: interface that common to all object created by the creator (and its subclasses)
-- Concrete products: different implementation of Product
-- Creator: contain the factory method that return new Product
+- **Concrete products**: different implementation of Product
+- **Creator**: contain the factory method that return new Product
 	- Return type of factory method should match the product interface
 	- Could declare the factory method to be abstract, or return default value
 	- Creator could also contain other logic related to the products
-- Concrete Creator: override the factory method of superclass
+- **Concrete Creator**: override the factory method of superclass
 	- Factory method doesn't need to create new instance all time, it could return existing object also
 
 ### 2. Abstract Factory
