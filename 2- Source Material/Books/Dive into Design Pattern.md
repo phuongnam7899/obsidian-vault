@@ -298,6 +298,44 @@ function getTaxRate(country) {
 	- After: Easily change/extend/create new the low-level classes -> Low-level classes depend on high-level abstractions
 		![[Pasted image 20241209171115.png]]
 
+# Catalog of Design Pattern
+
+## Creational Patterns
+
+> [!info] Patterns that provide object creation mechanism
+
+### 1. Factory Method (Virtual Constructor)
+
+> [!info] Provide interface for creating objects in a superclass. but allows subclass to alter the type of objects that created
+
+#### Problem
+![[Pasted image 20241210093907.png]]
+- If many other parts of code coupled to `Truck` class and 
+
+### 2. Abstract Factory
+
+> [!!info] Let you produce families of related objects without specifying their concrete classes
+
+### 3. Builder
+
+> [!info] To construct complex object step by step. Allow produce diferrent types and representations of an object using the same construction code
+
+### 4. Prototype
+
+> [!info] Let you copy the existing objects without making code depend on their class
+
+### 5. Singleton
+
+> [!info] Make sure that a class has only one instance, and provide global access point to the instance
+
+
+
+
+
+
+
+
+
 
 
 
