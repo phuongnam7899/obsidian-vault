@@ -270,8 +270,33 @@ function getTaxRate(country) {
 	- After:
 		![[Pasted image 20241208204618.png]]
 
+### Interface Segregation
 
+> [!info] Clients shouldn't be forced to depend on methods they not use
 
+- Example:
+	- Before: some methods of `CloudProvider` are not implemented in `Dropbox`
+		![[Pasted image 20241209164322.png]]
+	- After:
+		![[Pasted image 20241209164522.png]]
+> [!warning] Do not overdo it, stop divide when the interface is specific enough
+
+### Dependency Inversion
+
+> [!info] High-level classes should not depend on low-level ones. Both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions
+
+- Low-level classes: implement basic operation (working with file, disk, connecting to database, send requests,...)
+- High-level classes: contain complex business logic -> use low-level classes
+- Normally: Design low-level then High level classes -> high level tend to depend on the low-level
+- This principle suggest change the direction:
+	- First, describe ==interfaces== ==for low-level== operation in business term (`openReport` instead of `openFile` + `readBytes` + `closeFile`)
+	- Then, ==make high-level classes== depend on interface -> softer than concrete low-level ones
+	- Then, ==implement the low-level== classes that implement the interfaces
+- Example:
+	- Before: when low-level changed -> high-level might break
+		![[Pasted image 20241209171013.png]]
+	- After: Easily change/extend/create new the low-level classes -> Low-level classes depend on high-level abstractions
+		![[Pasted image 20241209171115.png]]
 
 
 
