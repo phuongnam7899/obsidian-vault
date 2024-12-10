@@ -315,7 +315,20 @@ function getTaxRate(country) {
 - Replace direct object construction calls with calls to Factory method
 ![[Pasted image 20241210104632.png]]
 - -> Allow subclass to override the `createTransport()`
-- Limitation: 
+- Limitation: subclasses may return different types of product only if the products have common base class/interface
+![[Pasted image 20241210111212.png]]
+- Client (the code that use the product created by factory) will only know that there is a method `deliver()` but not need to know the logic of `deliver()` 
+#### Structure
+
+![[Pasted image 20241210112342.png]]
+- **Product**: interface that common to all object created by the creator (and its subclasses)
+- Concrete products: different implementation of Product
+- Creator: contain the factory method that return new Product
+	- Return type of factory method should match the product interface
+	- Could declare the factory method to be abstract, or return default value
+	- Creator could also contain other logic related to the products
+- Concrete Creator: override the factory method of superclass
+	- Factory method doesn't need to create new instance all time, it could return existing object also
 
 ### 2. Abstract Factory
 
