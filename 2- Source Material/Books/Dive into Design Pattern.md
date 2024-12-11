@@ -315,38 +315,95 @@ function getTaxRate(country) {
 - Replace direct object construction calls with calls to Factory method
 ![[Pasted image 20241210104632.png]]
 - -> Allow subclass to override the `createTransport()`
+
 - Limitation: subclasses may return different types of product only if the products have common base class/interface
 ![[Pasted image 20241210111212.png]]
 - Client (the code that use the product created by factory) will only know that there is a method `deliver()` but not need to know the logic of `deliver()` 
 #### Structure
 
 ![[Pasted image 20241210112342.png]]
-- **Product**: interface that common to all object created by the creator (and its subclasses)
-- **Concrete products**: different implementation of Product
-- **Creator**: contain the factory method that return new Product
+- **Product**: ==interface== that ==common to all object created== by the creator (and its subclasses)
+- **Concrete products**: ==different== ==implementation== of Product
+- **Creator**: ==contain the factory method== that return new Product
 	- Return type of factory method should match the product interface
 	- Could declare the factory method to be abstract, or return default value
 	- Creator could also contain other logic related to the products
-- **Concrete Creator**: override the factory method of superclass
+- **Concrete Creator**: ==override the factory method== of superclass
 	- Factory method doesn't need to create new instance all time, it could return existing object also
+#### Applicability
+- When ==don't know beforehand== the exact ==types and dependencies== of the objects that the code should work with
+- When want to ==provide== ==library/framework users== with ==a way to extend== the internal components
+- When want to save resource by ==reusing existing objects== instead of rebuild
+#### How to Implement
+1. Make ==all  products== ==follow a interface== (that make sense to every product)
+2. Add empty factory method to creator class -> return type match the interface created in (1)
+3. Replace all product constructor of Creator by the factory method calls (can ==add a temp param== to control the type of returned product)
+4. ==Create a set of subclasses== for each type of product created in (3) -> override the factory methods
+5. (Optional) If there're too many product types -> reuse the control param created in (3)
+6. After all, if the factory method:
+	1. become empty -> make it abstract
+	2. still has something left -> make it default behavior
+#### Pros & Cons
+- Pros:
+	- <mark style="background: #BBFABBA6;">Avoid tight coupling</mark> between creator and thew concrete products 
+	- Applied <mark style="background: #BBFABBA6;">Single Responsibility</mark> Principle (creation code moved to one place)
+	- <mark style="background: #BBFABBA6;">Open/Closed</mark> principle: open to extend new product types
+- Cons:
+	- There might be <mark style="background: #FFB8EBA6;">a lot of subclasses</mark> (of product and creator) -> more complicated code
+#### Relation with other Patterns
+- Factory method can ==evolve== to ==Abstract Factory, Prototype or Builder==
+- Can ==use== Factory Method ==along with== ==Iterator== -> let collection subclasses return different iterator types that compatible with collection
+- Factory method may ==serve as a step== in ==Template Method==
 
 ### 2. Abstract Factory
 
 > [!!info] Let you produce families of related objects without specifying their concrete classes
 
+#### Problem
+- You have a set of related objects (family) that have multiple themes/variants
+![[Pasted image 20241211115857.png]]
+- 
+
+#### Solution
+#### Structure
+#### Applicability
+#### How to Implement
+#### Pros & Cons
+#### Relation with other Patterns
+
 ### 3. Builder
 
 > [!info] To construct complex object step by step. Allow produce diferrent types and representations of an object using the same construction code
 
+#### Problem
+#### Solution
+#### Structure
+#### Applicability
+#### How to Implement
+#### Pros & Cons
+#### Relation with other Patterns
 ### 4. Prototype
 
 > [!info] Let you copy the existing objects without making code depend on their class
 
+#### Problem
+#### Solution
+#### Structure
+#### Applicability
+#### How to Implement
+#### Pros & Cons
+#### Relation with other Patterns
 ### 5. Singleton
 
 > [!info] Make sure that a class has only one instance, and provide global access point to the instance
 
-
+#### Problem
+#### Solution
+#### Structure
+#### Applicability
+#### How to Implement
+#### Pros & Cons
+#### Relation with other Patterns
 
 
 

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "11d9db95a8f8a34d",
+        "id": "d1bb81b3b27d1f45",
         "type": "tabs",
         "children": [
           {
-            "id": "9a28f719ffe52827",
+            "id": "732021b90ce52f80",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -218,8 +218,13 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "9a28f719ffe52827",
+  "active": "732021b90ce52f80",
   "lastOpenFiles": [
+    "7 - Files/Pasted image 20241211115857.png",
+    "5 - Templates/Design Pattern.md",
+    "5 - Templates/Source Material.md",
+    "5 - Templates/Main Note.md",
+    "2- Source Material/Books/Dive into Design Pattern.md",
     "7 - Files/Pasted image 20241210112342.png",
     "7 - Files/Pasted image 20241210111212.png",
     "7 - Files/Pasted image 20241210104632.png",
@@ -230,12 +235,10 @@
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "2- Source Material/Books/Dive into Design Pattern.md",
     "7 - Files/Pasted image 20241209164522.png",
     "7 - Files/Pasted image 20241209164322.png",
     "7 - Files/Pasted image 20241208204618.png",
     "7 - Files/Pasted image 20241208204514.png",
-    "7 - Files/Pasted image 20241208155245.png",
     "conflict-files-obsidian-git.md",
     "7 - Files/Dive into Design Pattern 2024-12-07 14.35.39.excalidraw.md",
     "7 - Files/Dive into Design Pattern 2024-12-02 21.39.16.excalidraw.md",
@@ -256,9 +259,6 @@
     "6 - Main Notes/Fullstack NodeJS Interview Question.md",
     "3 - Tags/Interview.md",
     "6 - Main Notes/Express JS features summary.md",
-    "6 - Main Notes/What is octet stream.md",
-    "6 - Main Notes/Local storage, session storage and cookie.md",
-    "6 - Main Notes/Typescript features summary.md",
     "2- Source Material/Books",
     "1 - Rough Notes",
     "smart-chats",

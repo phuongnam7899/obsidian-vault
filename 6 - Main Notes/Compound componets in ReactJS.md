@@ -1,6 +1,6 @@
 2024-11-02 15:10
 
-Tags: [[ReactJS]] [[Design Pattern]]
+Tags: [[ReactJS]] [[3 - Tags/Design Pattern]]
 
 ---
 
