@@ -1,7 +1,5 @@
 # Title: CRP - The core of Front-end Optimization
 
-I used to chase after every **performance tip and trick** I came across, hoping to make my front-end applications faster.
+I used to chase after every performance tip and trick I came across, hoping to make the applications faster. But they're like butterflies—when mindlessly chasing them, I wasn't aware of the bigger picture, then ended up getting lost when there're too many of tips appear. And when I first knew about the CRP, I felt it like a map for connecting all of them, and help me to optimize more strategically.
+That's why I chose it as the starting point of this series.
 
-But here’s the problem: tips and tricks are like scattered breadcrumbs—they lead you somewhere, but rarely to the big picture. I felt like a child chasing butterflies, each one promising answers, until I realized I was lost in a forest of fragmented advice.
-
-That’s when I discovered the **Critical Rendering Path (CRP)**—the foundation of front-end optimization. Instead of wandering, I finally understood **what truly matters** and how to optimize methodically.
