@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2- Source Material/Videos/Công thức tối ưu Frontend.md",
+                "file": "8 - Content Factory/Front-end Optimization (Part 2).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Công thức tối ưu Frontend"
+              "title": "Front-end Optimization (Part 2)"
             }
           }
         ],
@@ -153,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2- Source Material/Videos/Công thức tối ưu Frontend.md"
+                "file": "8 - Content Factory/Front-end Optimization (Part 2).md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Công thức tối ưu Frontend"
+              "title": "Outline of Front-end Optimization (Part 2)"
             }
           },
           {
@@ -234,8 +234,8 @@
   },
   "active": "8b4d934c98a97c18",
   "lastOpenFiles": [
-    "8 - Content Factory/Front-end Optimization (Part 2).md",
     "8 - Content Factory/Front-end Optimization (Part 1).md",
+    "8 - Content Factory/Front-end Optimization (Part 2).md",
     "2- Source Material/Videos/Công thức tối ưu Frontend.md",
     "2- Source Material/Books/Dive into Design Pattern.md",
     "8 - Content Factory",
