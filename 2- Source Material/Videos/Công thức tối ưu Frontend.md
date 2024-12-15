@@ -78,6 +78,37 @@ const shuffledArr = shuffle(shuffledArr)
 - Ví dụ: 
 ![[Pasted image 20241121155140.png]]
 - Bản chất Tương tự với việc split database => Partition 
+- Ví dụ
+```js
+// before
+
+import {heavyCalculation1, heavyCalculation2} from './calculation.js';
+
+document.getElementById('calc1').addEventListener('click', () => {
+  heavyCalculation1()
+});
+document.getElementById('calc2').addEventListener('click', () => {
+  heavyCalculation2()
+});
+
+
+// after
+
+document.getElementById('calc1').addEventListener('click', () => {
+  import('./calculation-1.js').then((module) => {
+    const { heavyCalculation1 } = module;
+    heavyCalculation1();
+  });
+});
+
+document.getElementById('calc2').addEventListener('click', () => {
+  import('./calculation-2.js').then((module) => {
+    const { heavyCalculation2 } = module;
+    heavyCalculation2();
+  });
+});
+
+```
 ### Compress
 - Cần xử lý compress ở server
 - 2 thuật toán zip:
