@@ -56,6 +56,18 @@ Thay vì tìm tips & trick -> Cần biết gốc rễ là cách mà browser hi�
  - Các build tool có thể support ddieuf này ==nếu như== sử dụng import đúng (chỉ import những hàm có sử dụng) 
 ![[Pasted image 20241121140330.png]]
 - Công cụ check tree-shaking cho npm: bundlephobia
+```js
+import { shuffle } from "lodash"
+
+// Or
+
+import shuffle from "lodash/shuffle"
+
+
+const arr = [1,2,3,4,5]
+const shuffledArr = shuffle(shuffledArr)
+
+```
 ### Phân tích file bundle
 - Bundle analyzer
 - Khi sử dụng tool sẽ cho ra kết quả:
