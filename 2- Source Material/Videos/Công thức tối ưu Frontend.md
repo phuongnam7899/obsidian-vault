@@ -151,9 +151,34 @@ document.getElementById('calc2').addEventListener('click', () => {
 - Fold: ngăn cách giữa cái nhìn thấy và ko thấy
 	![[Pasted image 20241121165126.png]]
 - Chỉ load những cái phía trên Fold
+- Lazy loading ảnh: có thể dùng `loading="lazy"`:
+```html
+
+<img src="image.jpg" loading="lazy" alt="Example Image">
+
+<iframe src="video-url" loading="lazy"></iframe>
+
+```
 - Có thể áp dụng ==IntersectionObserver== cho:
 	- Ảnh
 	- Call API
+```js
+
+const images = document.querySelectorAll('img[data-src]');
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const img = entry.target;
+      img.src = img.dataset.src;
+      observer.unobserve(img);
+    }
+  });
+});
+
+images.forEach(img => observer.observe(img));
+
+```
 - Ảnh/iframe cũng có thể dung propertiy `loading="lazy"` để lazy loading
 - Áp dụng Virtual Scroll: lấy sẵn, chỉ giảm thiểu xây dựng DOM
 	- Call Lấy hết 100 bản ghi
