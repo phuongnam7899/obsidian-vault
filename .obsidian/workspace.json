@@ -35,8 +35,7 @@
               "title": "Công thức tối ưu Frontend"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "7294abffb9d354a3",
@@ -154,10 +152,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2- Source Material/Videos/Công thức tối ưu Frontend.md"
+                "file": "8 - Content Factory/Front-end Optimization (Part 2).md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Công thức tối ưu Frontend"
+              "title": "Outline of Front-end Optimization (Part 2)"
             }
           },
           {
@@ -234,10 +232,10 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "8b4d934c98a97c18",
+  "active": "732021b90ce52f80",
   "lastOpenFiles": [
-    "8 - Content Factory/Front-end Optimization (Part 2).md",
     "8 - Content Factory/Front-end Optimization (Part 1).md",
+    "8 - Content Factory/Front-end Optimization (Part 2).md",
     "2- Source Material/Videos/Công thức tối ưu Frontend.md",
     "2- Source Material/Books/Dive into Design Pattern.md",
     "8 - Content Factory",

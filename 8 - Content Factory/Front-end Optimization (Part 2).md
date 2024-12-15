@@ -4,7 +4,7 @@ At the end of part 1, I stated "To increase performance, we could either increas
 My choice is inspired by this video: https://www.youtube.com/shorts/RRZGH7VVIi8 
 -> Summary: You won't need to try running faster if you can find a shorter way. 
 
-So, in this part, I will talk about techniques to reduce the amount of work a browser needs to complete the CRP, which could increase the performance of the web application.
+So, in this part, I will write about techniques to reduce the amount of work a browser needs to complete the CRP, which could increase the performance of the web application.
 
 
 
