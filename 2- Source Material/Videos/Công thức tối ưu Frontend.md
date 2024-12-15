@@ -183,6 +183,25 @@ images.forEach(img => observer.observe(img));
 - Áp dụng Virtual Scroll: lấy sẵn, chỉ giảm thiểu xây dựng DOM
 	- Call Lấy hết 100 bản ghi
 	- Hiện lần lượt khi scroll xuống
+```jsx
+
+import React from "react";
+import { List } from "react-virtualized";
+
+const MyVirtualizedList = () => {
+  const rowCount = 10000;
+
+  const rowRenderer = ({ index, key, style }) => {
+    return (<div key={key} style={style}>Row #{index + 1}</div>);
+  };
+
+  return (
+    <List width={300} height={400} rowHeight={30} rowCount={rowCount} rowRenderer={rowRenderer}/>
+  );
+};
+
+
+```
 - Áp dụng Infinity Scroll: giảm thiểu cả việc lấy
 	- Call lấy 1 phần
 	- Khi scroll xuống -> call tiếp

@@ -2,5 +2,6 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "6 - Main Notes",
   "attachmentFolderPath": "7 - Files",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "readableLineLength": false
 }
