@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "342195fb73bcde42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/K8S in local with minikube.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "K8S in local with minikube"
+            }
+          },
+          {
             "id": "8b4d934c98a97c18",
             "type": "leaf",
             "state": {
@@ -35,7 +49,8 @@
               "title": "Công thức tối ưu Frontend"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -152,10 +167,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "8 - Content Factory/Front-end Optimization (Part 2).md"
+                "file": "6 - Main Notes/K8S in local with minikube.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Front-end Optimization (Part 2)"
+              "title": "Outline of K8S in local with minikube"
             }
           },
           {
@@ -232,10 +247,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "732021b90ce52f80",
+  "active": "342195fb73bcde42",
   "lastOpenFiles": [
-    "8 - Content Factory/Front-end Optimization (Part 1).md",
+    "7 - Files/Pasted image 20241217084744.png",
     "8 - Content Factory/Front-end Optimization (Part 2).md",
+    "6 - Main Notes/K8S in local with minikube.md",
+    "8 - Content Factory/Front-end Optimization (Part 1).md",
     "2- Source Material/Videos/Công thức tối ưu Frontend.md",
     "2- Source Material/Books/Dive into Design Pattern.md",
     "8 - Content Factory",
@@ -272,8 +289,6 @@
     "7 - Files/Thiết kế hệ thống mạng xã hội 200tr Users - System Design 2024-11-30 09.58.59.excalidraw.md",
     "2- Source Material/Videos/Web Workers - Công cụ tăng hiệu năng trang web mạnh mẽ.md",
     "2- Source Material/Videos/Mô hình Trục quay tối ưu Frontend.md",
-    "6 - Main Notes/Fullstack NodeJS Interview Question.md",
-    "3 - Tags/Interview.md",
     "2- Source Material/Books",
     "1 - Rough Notes",
     "smart-chats",
