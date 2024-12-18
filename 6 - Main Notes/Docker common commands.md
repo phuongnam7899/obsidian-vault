@@ -28,7 +28,7 @@ docker run -d --name [container_name] -p 1234:2345 [image_name]
 ```
 - `-d`: run container in detached mode
 - `--name`: give container a name
-- `-p`: map port (1234) on the host machine to port (2345) of contaier
+- `-p`: map port (1234) on the host machine to port (2345) of container
 ## Stop a running container
 ```sh
 docker stop [contianer_name_or_id]
