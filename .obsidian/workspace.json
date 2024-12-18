@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/K8S in local with minikube.md",
+                "file": "8 - Content Factory/Front-end Optimization (Part 3).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "K8S in local with minikube"
+              "title": "Front-end Optimization (Part 3)"
             }
           },
           {
@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 240.50312423706055
   },
   "right": {
     "id": "7294abffb9d354a3",
@@ -167,10 +167,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/K8S in local with minikube.md"
+                "file": "2- Source Material/Videos/Công thức tối ưu Frontend.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of K8S in local with minikube"
+              "title": "Outline of Công thức tối ưu Frontend"
             }
           },
           {
@@ -241,15 +241,19 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "callout-manager:Insert Callout": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "342195fb73bcde42",
+  "active": "8b4d934c98a97c18",
   "lastOpenFiles": [
-    "7 - Files/Pasted image 20241217084744.png",
+    "8 - Content Factory/Front-end Optimization (Part 3).md",
     "8 - Content Factory/Front-end Optimization (Part 2).md",
-    "6 - Main Notes/K8S in local with minikube.md",
     "8 - Content Factory/Front-end Optimization (Part 1).md",
+    "6 - Main Notes/K8S in local with minikube.md",
+    "7 - Files/Pasted image 20241217084744.png",
     "2- Source Material/Videos/Công thức tối ưu Frontend.md",
     "2- Source Material/Books/Dive into Design Pattern.md",
     "8 - Content Factory",
@@ -269,7 +273,6 @@
     "Untitled.canvas",
     "7 - Files/Pasted image 20241209164522.png",
     "7 - Files/Pasted image 20241209164322.png",
-    "7 - Files/Pasted image 20241208204618.png",
     "conflict-files-obsidian-git.md",
     "7 - Files/Dive into Design Pattern 2024-12-07 14.35.39.excalidraw.md",
     "7 - Files/Dive into Design Pattern 2024-12-02 21.39.16.excalidraw.md",

@@ -1,3 +1,9 @@
+2024-12-17 21:08
+
+Tags: [[Kubenetes]] [[Docker]]
+
+---
+
 - Create application code
 ![[Pasted image 20241217084744.png]]
 - Create `dockerfile`
@@ -132,3 +138,6 @@ minikube kubectl -- get ingress
 - If using NodePort or Loadbalancer services, run `minikube ip` to expose services properly
 - Get the cluster IP with `minikube ip` (get sth like `192.168.49.2`)
 - Access the application with `(IP):(PORT)` (in this casew it's http://192.168.49.2:30001/)
+
+---
+# References
