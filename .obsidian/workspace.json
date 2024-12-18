@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -181,10 +181,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/Postgres with Sequelize in Nodejs.md"
+                "file": "6 - Main Notes/Docker common commands.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Postgres with Sequelize in Nodejs"
+              "title": "Outline of Docker common commands"
             }
           },
           {
@@ -261,10 +261,10 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "7fe1d51d9deb3f76",
+  "active": "8b4d934c98a97c18",
   "lastOpenFiles": [
-    "3 - Tags/NodeJS.md",
     "6 - Main Notes/Postgres with Sequelize in Nodejs.md",
+    "3 - Tags/NodeJS.md",
     "3 - Tags/Postgres.md",
     "6 - Main Notes/Docker common commands.md",
     "2- Source Material/Videos/Công thức tối ưu Frontend.md",
