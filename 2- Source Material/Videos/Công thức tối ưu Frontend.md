@@ -132,6 +132,9 @@ document.getElementById('calc2').addEventListener('click', () => {
 	- User ở đâu -> load từ server gần đó
 - Cache trên máy user
 	- Kiểm tra xem có ùng cache không -> check header có `Expires`(thời hạn cache đến bao giờ)
+		- `Cache-Control`:
+		- `ETag`
+		- `Expired`
 		![[Pasted image 20241121163312.png]]
 	- Sử dụng ==IndexedDB==:
 		- Tại sao ko dùng local storage hay session storage? -> vì giới hạn dung lượng

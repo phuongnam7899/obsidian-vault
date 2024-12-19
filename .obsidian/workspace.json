@@ -137,10 +137,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "2- Source Material/Videos/Công thức tối ưu Frontend.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of conflict-files-obsidian-git"
+              "title": "Outline of Công thức tối ưu Frontend"
             }
           },
           {
@@ -196,10 +196,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6a2fc9cd813311bb",
+  "active": "0edb329211dbfda0",
   "lastOpenFiles": [
-    "2- Source Material/Videos/Công thức tối ưu Frontend.md",
     "conflict-files-obsidian-git.md",
+    "2- Source Material/Videos/Công thức tối ưu Frontend.md",
     "8 - Content Factory/Front-end Optimization (Part 3).md",
     "8 - Content Factory/Front-end Optimization (Part 2).md",
     "8 - Content Factory/Front-end Optimization (Part 1).md",
