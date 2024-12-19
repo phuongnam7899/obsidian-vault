@@ -4,52 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ff21ae936793a218",
+        "id": "0ebd1eca8611d8ed",
         "type": "tabs",
         "children": [
           {
-            "id": "062f117462a938ea",
+            "id": "0edb329211dbfda0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2- Source Material/Books/Dive into Design Pattern.md",
+                "file": "2- Source Material/Videos/Công thức tối ưu Frontend.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dive into Design Pattern"
-            }
-          },
-          {
-            "id": "bb9bfa6e8700d775",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.7"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "6e37b6a6314863ef",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a48f95a26132c868",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "7 - Files/Dive into Design Pattern 2024-12-02 21.39.16.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Dive into Design Pattern 2024-12-02 21.39.16.excalidraw"
+              "title": "Công thức tối ưu Frontend"
             }
           }
         ]
@@ -168,10 +137,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "7 - Files/Dive into Design Pattern 2024-12-02 21.39.16.excalidraw.md"
+                "file": "conflict-files-obsidian-git.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Dive into Design Pattern 2024-12-02 21.39.16.excalidraw"
+              "title": "Outline of conflict-files-obsidian-git"
             }
           },
           {
@@ -209,7 +178,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 523.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -227,12 +196,36 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a48f95a26132c868",
+  "active": "6a2fc9cd813311bb",
   "lastOpenFiles": [
-    "7 - Files/Dive into Design Pattern 2024-12-02 21.39.16.excalidraw.md",
-    "2- Source Material/Books/Dive into Design Pattern.md",
-    "2- Source Material/Articles/React Server Component Document.md",
+    "2- Source Material/Videos/Công thức tối ưu Frontend.md",
     "conflict-files-obsidian-git.md",
+    "8 - Content Factory/Front-end Optimization (Part 3).md",
+    "8 - Content Factory/Front-end Optimization (Part 2).md",
+    "8 - Content Factory/Front-end Optimization (Part 1).md",
+    "7 - Files/7 main properties of User Experience 2024-10-30 21.23.31.excalidraw.md",
+    "2- Source Material/Books/Dive into Design Pattern.md",
+    "8 - Content Factory",
+    "7 - Files/Pasted image 20241217084744.png",
+    "7 - Files/Pasted image 20241211115857.png",
+    "7 - Files/Pasted image 20241210112342.png",
+    "7 - Files/Pasted image 20241210111212.png",
+    "7 - Files/Pasted image 20241210104632.png",
+    "7 - Files/Pasted image 20241210093907.png",
+    "7 - Files/Pasted image 20241209171115.png",
+    "7 - Files/Pasted image 20241209171013.png",
+    "7 - Files/Pasted image 20241209164522.png",
+    "7 - Files/Pasted image 20241209164322.png",
+    "7 - Files/Dive into Design Pattern 2024-12-08 15.26.06.excalidraw.md",
+    "7 - Files/Dive into Design Pattern 2024-12-07 14.35.39.excalidraw.md",
+    "6 - Main Notes/Postgres with Sequelize in Nodejs.md",
+    "6 - Main Notes/K8S in local with minikube.md",
+    "6 - Main Notes/Docker common commands.md",
+    "5 - Templates/Design Pattern.md",
+    "3 - Tags/Postgres.md",
+    "3 - Tags/NodeJS.md",
+    "7 - Files/Dive into Design Pattern 2024-12-02 21.39.16.excalidraw.md",
+    "2- Source Material/Articles/React Server Component Document.md",
     "Untitled.canvas",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
@@ -240,34 +233,11 @@
     "7 - Files/Web Workers - Công cụ tăng hiệu năng trang web mạnh mẽ 2024-11-18 21.07.12.excalidraw.md",
     "7 - Files/Thiết kế hệ thống mạng xã hội 200tr Users - System Design 2024-12-01 13.42.20.excalidraw.md",
     "7 - Files/Thiết kế hệ thống mạng xã hội 200tr Users - System Design 2024-11-30 09.58.59.excalidraw.md",
-    "7 - Files/Pasted image 20241201145132.png",
-    "7 - Files/Pasted image 20241201145106.png",
-    "7 - Files/Pasted image 20241201144931.png",
-    "7 - Files/Pasted image 20241201144901.png",
-    "7 - Files/Pasted image 20241121170511.png",
-    "7 - Files/Pasted image 20241121165126.png",
-    "7 - Files/Pasted image 20241121164301.png",
-    "7 - Files/Pasted image 20241121163312.png",
-    "7 - Files/Pasted image 20241121155708.png",
-    "7 - Files/Pasted image 20241121155140.png",
     "7 - Files/Nexus 2024-11-17 07.46.39.excalidraw.md",
     "7 - Files/Dive into Design Pattern 2024-12-01 20.44.28.excalidraw.md",
     "7 - Files/Dive into Design Pattern 2024-12-01 20.38.48.excalidraw.md",
     "7 - Files/Dive into Design Pattern 2024-12-01 20.22.20.excalidraw.md",
     "7 - Files/Dive into Design Pattern 2024-12-01 15.57.03.excalidraw.md",
-    "7 - Files/Công thức tối ưu Frontend 2024-11-21 16.00.16.excalidraw.md",
-    "7 - Files/Công thức tối ưu Frontend 2024-11-19 15.54.56.excalidraw.md",
-    "7 - Files/Công thức tối ưu Frontend 2024-11-19 15.48.27.excalidraw.md",
-    "6 - Main Notes/when a stock start a trend.md",
-    "2- Source Material/Videos/Mô hình Trục quay tối ưu Frontend.md",
-    "2- Source Material/Books/How to trade in stock.md",
-    "2- Source Material/Articles/The 4 Golden Rules of UI Design.md",
-    "2- Source Material/Articles/Chính sách tài khóa.md",
-    "1 - Rough Notes/validate_negative_batch.md",
-    "1 - Rough Notes/logic tính khấu hao tài sản erpnext.md",
-    "6 - Main Notes/Fiscal policy - chính sách tài khóa.md",
-    "6 - Main Notes/Structure of feature spec.md",
-    "6 - Main Notes/Sources of deficit financing.md",
     "1 - Rough Notes",
     "smart-chats",
     "What is good UX",
@@ -276,7 +246,6 @@
     "5 - Templates",
     "4 - Indexes",
     "3 - Tags",
-    "2- Source Material/Others",
-    "2- Source Material/Videos"
+    "2- Source Material/Others"
   ]
 }

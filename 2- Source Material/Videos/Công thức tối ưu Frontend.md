@@ -56,6 +56,18 @@ Thay vì tìm tips & trick -> Cần biết gốc rễ là cách mà browser hi�
  - Các build tool có thể support ddieuf này ==nếu như== sử dụng import đúng (chỉ import những hàm có sử dụng) 
 ![[Pasted image 20241121140330.png]]
 - Công cụ check tree-shaking cho npm: bundlephobia
+```js
+import { shuffle } from "lodash"
+
+// Or
+
+import shuffle from "lodash/shuffle"
+
+
+const arr = [1,2,3,4,5]
+const shuffledArr = shuffle(shuffledArr)
+
+```
 ### Phân tích file bundle
 - Bundle analyzer
 - Khi sử dụng tool sẽ cho ra kết quả:
@@ -66,6 +78,37 @@ Thay vì tìm tips & trick -> Cần biết gốc rễ là cách mà browser hi�
 - Ví dụ: 
 ![[Pasted image 20241121155140.png]]
 - Bản chất Tương tự với việc split database => Partition 
+- Ví dụ
+```js
+// before
+
+import {heavyCalculation1, heavyCalculation2} from './calculation.js';
+
+document.getElementById('calc1').addEventListener('click', () => {
+  heavyCalculation1()
+});
+document.getElementById('calc2').addEventListener('click', () => {
+  heavyCalculation2()
+});
+
+
+// after
+
+document.getElementById('calc1').addEventListener('click', () => {
+  import('./calculation-1.js').then((module) => {
+    const { heavyCalculation1 } = module;
+    heavyCalculation1();
+  });
+});
+
+document.getElementById('calc2').addEventListener('click', () => {
+  import('./calculation-2.js').then((module) => {
+    const { heavyCalculation2 } = module;
+    heavyCalculation2();
+  });
+});
+
+```
 ### Compress
 - Cần xử lý compress ở server
 - 2 thuật toán zip:
@@ -108,13 +151,57 @@ Thay vì tìm tips & trick -> Cần biết gốc rễ là cách mà browser hi�
 - Fold: ngăn cách giữa cái nhìn thấy và ko thấy
 	![[Pasted image 20241121165126.png]]
 - Chỉ load những cái phía trên Fold
+- Lazy loading ảnh: có thể dùng `loading="lazy"`:
+```html
+
+<img src="image.jpg" loading="lazy" alt="Example Image">
+
+<iframe src="video-url" loading="lazy"></iframe>
+
+```
 - Có thể áp dụng ==IntersectionObserver== cho:
 	- Ảnh
 	- Call API
+```js
+
+const images = document.querySelectorAll('img[data-src]');
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const img = entry.target;
+      img.src = img.dataset.src;
+      observer.unobserve(img);
+    }
+  });
+});
+
+images.forEach(img => observer.observe(img));
+
+```
 - Ảnh/iframe cũng có thể dung propertiy `loading="lazy"` để lazy loading
 - Áp dụng Virtual Scroll: lấy sẵn, chỉ giảm thiểu xây dựng DOM
 	- Call Lấy hết 100 bản ghi
 	- Hiện lần lượt khi scroll xuống
+```jsx
+
+import React from "react";
+import { List } from "react-virtualized";
+
+const MyVirtualizedList = () => {
+  const rowCount = 10000;
+
+  const rowRenderer = ({ index, key, style }) => {
+    return (<div key={key} style={style}>Row #{index + 1}</div>);
+  };
+
+  return (
+    <List width={300} height={400} rowHeight={30} rowCount={rowCount} rowRenderer={rowRenderer}/>
+  );
+};
+
+
+```
 - Áp dụng Infinity Scroll: giảm thiểu cả việc lấy
 	- Call lấy 1 phần
 	- Khi scroll xuống -> call tiếp
