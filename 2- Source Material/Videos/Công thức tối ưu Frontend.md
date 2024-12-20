@@ -217,6 +217,26 @@ const MyVirtualizedList = () => {
 - [[Web Workers - Công cụ tăng hiệu năng trang web mạnh mẽ]]
 ### Pref-X
 - Cốt lõi: Phỏng đoán cần gì -> chuẩn bị trước
+
+```html
+<head>
+  <link rel="preload" href="/fonts/my-font.woff2" as="font" type="woff2">
+  <link rel="prefetch" href="/scripts/next-page.js">
+  <link rel="preconnect" href="https://api.example.com">
+  <link rel="dns-prefetch" href="https://analytics.example.com">
+</head>
+```
+
+``` tsx
+
+function Page() {
+	return <div>
+		// About page is pre-fetched
+		<Link href="/about">About</Link>
+	</div>
+}
+
+```
 #### Preload
 - Ngược với lazyload
 - 
