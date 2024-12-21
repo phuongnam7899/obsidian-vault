@@ -369,8 +369,8 @@ function getTaxRate(country) {
 - Step 2: Declare the Abstract factory - ==interface with list of creation methods== for products. The return of those methods must be the abstract declared in step 1
 - Step 3: For each variant, create a class that implement the  Abstract Factory 
 ![[Pasted image 20241221090508.png]]
-#### Solution
 #### Structure
+![[Pasted image 20241221091826.png]]
 #### Applicability
 #### How to Implement
 #### Pros & Cons
