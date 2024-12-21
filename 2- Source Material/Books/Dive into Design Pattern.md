@@ -360,10 +360,15 @@ function getTaxRate(country) {
 > [!!info] Let you produce families of related objects without specifying their concrete classes
 
 #### Problem
-- You have a set of related objects (family) that have multiple themes/variants
+- You have a **set of related objects** (family) that have **multiple themes/variants**
 ![[Pasted image 20241211115857.png]]
-- 
-
+- You don't want to update code when adding new product or new theme  
+#### Solution
+- Step 1: Explicitly ==declare interface== for each product of family -> ==make all variants== of product following that interface
+![[Pasted image 20241221085754.png]]
+- Step 2: Declare the Abstract factory - ==interface with list of creation methods== for products. The return of those methods must be the abstract declared in step 1
+- Step 3: For each variant, create a class that implement the  Abstract Factory 
+![[Pasted image 20241221090508.png]]
 #### Solution
 #### Structure
 #### Applicability
