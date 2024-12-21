@@ -25,8 +25,17 @@ Status: #source-eating
 
 # Stackoverflow
 - No need microservices
-- 
-
+- Tăng ram
+# Notion
+- Center of Notion's data model is blocks -> It has billions of blocks
+- Issue when using Postgres:
+	- Postgres cho mỗi transaction sử dụng 1 token
+	- Có thể sử dụng token xoay vòng
+	- Chỉ hỗ trợ 2 tỉ transaction -> nếu hết 2 tỉ transaction mà transaction 1 chưa xong -> lỗi
+- GIải pháp: có 1 "Vaccum" đánh dấu token có được ghi đè không -> vẫn có case người dọn dẹp chưa kịp xử lý đến
+- Sự khác biệt trong việc chỉnh sửa records trong postgres: Postgres sẽ tạp thêm 1 bản ghi với giá trị mới -> Bỏ bản ghi cũ (công việc  của vacuum) --> User notion update rất nhiều -> vacuum hoatk động nhiều -> ảnh hưởng hiệu năng
+> [!info] Xem thêm chơ chế MVCC
+- Giải pháp: Notion phải sharding (32 p)
 
 
 ---
