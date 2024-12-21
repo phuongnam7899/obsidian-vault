@@ -35,7 +35,13 @@ Status: #source-eating
 - GIải pháp: có 1 "Vaccum" đánh dấu token có được ghi đè không -> vẫn có case người dọn dẹp chưa kịp xử lý đến
 - Sự khác biệt trong việc chỉnh sửa records trong postgres: Postgres sẽ tạp thêm 1 bản ghi với giá trị mới -> Bỏ bản ghi cũ (công việc  của vacuum) --> User notion update rất nhiều -> vacuum hoatk động nhiều -> ảnh hưởng hiệu năng
 > [!info] Xem thêm chơ chế MVCC
-- Giải pháp: Notion phải sharding (32 p)
+- Notion phải sharding do write nhiều
+- Khi nhiều user hơn -> Vẫn quá tải connection pool
+	- Tăng số physical DB
+- 
+
+
+# Tổng kết
 
 
 ---
