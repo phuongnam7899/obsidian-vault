@@ -14,7 +14,6 @@ Status: #source-eating
 
 ![[Cách thức mở rộng DB 2024-12-21 10.11.22.excalidraw]]
 
-
 > [!info] Cân bằng tải giữa nhiều máy chủ
 - Chia tải ra các DB read-only
 ![[Cách thức mở rộng DB 2024-12-21 10.20.27.excalidraw]]
@@ -22,7 +21,6 @@ Status: #source-eating
 
 > [!info] Phân mảnh (Shard) cơ sở dữ liệu 
 - Sharding phù hợp trong trường hợp write-heavy
-
 # Stackoverflow
 - No need microservices
 - Tăng ram
@@ -38,10 +36,15 @@ Status: #source-eating
 - Notion phải sharding do write nhiều
 - Khi nhiều user hơn -> Vẫn quá tải connection pool
 	- Tăng số physical DB
-- 
-
-
+	- CDC
 # Tổng kết
+- Bắt đầu 1 cách đơn giản chỉ với 1 DB + 1 backup, tập trung ==tối ưu SQL query + tham số==
+- ==Mở rộng read==: mở rộng các DB dự phòng, chi tải phần read sang
+- ==Mở động write==: Sharding thành các DB nhỏ hơn
+- ==Chi theo nghiệp vụ==: ví dụ tách phần thao tác user với phần phân tích, và có 1 bên ở giữa để đồng bộ data
+
+> [!info] Có thể kết hợp các loại này
+
 
 
 ---
