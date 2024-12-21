@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8 - Content Factory/Front-end Optimization (Part 3).md",
+                "file": "2- Source Material/Books/Dive into Design Pattern.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Front-end Optimization (Part 3)"
+              "title": "Dive into Design Pattern"
             }
           }
         ]
@@ -137,10 +137,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "8 - Content Factory/Front-end Optimization (Part 3).md"
+                "file": "2- Source Material/Books/Dive into Design Pattern.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Front-end Optimization (Part 3)"
+              "title": "Outline of Dive into Design Pattern"
             }
           },
           {
@@ -198,10 +198,10 @@
   },
   "active": "0edb329211dbfda0",
   "lastOpenFiles": [
-    "2- Source Material/Videos/Công thức tối ưu Frontend.md",
-    "2- Source Material/Videos/Web Workers - Công cụ tăng hiệu năng trang web mạnh mẽ.md",
-    "conflict-files-obsidian-git.md",
     "8 - Content Factory/Front-end Optimization (Part 3).md",
+    "2- Source Material/Videos/Web Workers - Công cụ tăng hiệu năng trang web mạnh mẽ.md",
+    "2- Source Material/Videos/Công thức tối ưu Frontend.md",
+    "conflict-files-obsidian-git.md",
     "8 - Content Factory/Front-end Optimization (Part 2).md",
     "8 - Content Factory/Front-end Optimization (Part 1).md",
     "7 - Files/7 main properties of User Experience 2024-10-30 21.23.31.excalidraw.md",
