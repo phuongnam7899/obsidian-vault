@@ -157,10 +157,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2- Source Material/Videos/Cách thức mở rộng DB.md"
+                "file": "7 - Files/Cách thức mở rộng DB 2024-12-21 10.20.27.excalidraw.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Cách thức mở rộng DB"
+              "title": "Outline of Cách thức mở rộng DB 2024-12-21 10.20.27.excalidraw"
             }
           },
           {
@@ -211,15 +211,15 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "callout-manager:Insert Callout": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "smart-connections:Open: Smart Chat Conversation": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "febdc3174a1e9277",
+  "active": "a3e57631bda860c8",
   "lastOpenFiles": [
-    "7 - Files/Cách thức mở rộng DB 2024-12-21 10.20.27.excalidraw.md",
     "2- Source Material/Videos/Cách thức mở rộng DB.md",
+    "7 - Files/Cách thức mở rộng DB 2024-12-21 10.20.27.excalidraw.md",
     "7 - Files/Cách thức mở rộng DB 2024-12-21 10.11.22.excalidraw.md",
     "5 - Templates/Source Material.md",
     "5 - Templates/Main Note.md",
