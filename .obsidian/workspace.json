@@ -21,8 +21,23 @@
               "icon": "lucide-file",
               "title": "Cách thức mở rộng DB"
             }
+          },
+          {
+            "id": "e95f563cbf361f02",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Frontend Techlead Interview Questions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Frontend Techlead Interview Questions"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "3d3bfc328917dd99",
@@ -211,13 +226,14 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "callout-manager:Insert Callout": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
   "active": "a3e57631bda860c8",
   "lastOpenFiles": [
+    "6 - Main Notes/Frontend Techlead Interview Questions.md",
     "2- Source Material/Videos/Cách thức mở rộng DB.md",
     "7 - Files/Cách thức mở rộng DB 2024-12-21 10.20.27.excalidraw.md",
     "7 - Files/Cách thức mở rộng DB 2024-12-21 10.11.22.excalidraw.md",
@@ -257,7 +273,6 @@
     "Untitled.canvas",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
-    "7 - Files/reasonable decision when trade 2024-11-16 14.59.09.excalidraw.md",
     "1 - Rough Notes",
     "smart-chats",
     "What is good UX",
