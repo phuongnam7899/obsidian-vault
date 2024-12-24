@@ -1,0 +1,6 @@
+- Typescript
+- React
+- Jest (unit + intergration)
+- Healthcare domain (HL7, FHIR, better studio (AQL, Archetypes)
+- Tanstack
+- 
