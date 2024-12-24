@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Fullstack NodeJS Interview Code Challange.md",
+                "file": "6 - Main Notes/Fullstack NodeJS Interview Question.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fullstack NodeJS Interview Code Challange"
+              "title": "Fullstack NodeJS Interview Question"
             }
           },
           {
@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,10 +166,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/ACID principle in DB transactions.md"
+                "file": "6 - Main Notes/Fullstack NodeJS Interview Question.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of ACID principle in DB transactions"
+              "title": "Outline of Fullstack NodeJS Interview Question"
             }
           },
           {
@@ -225,7 +225,7 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "be7d78fcdcfacb10",
+  "active": "e95f563cbf361f02",
   "lastOpenFiles": [
     "6 - Main Notes/Fullstack NodeJS Interview Code Challange.md",
     "6 - Main Notes/ACID principle in DB transactions.md",
