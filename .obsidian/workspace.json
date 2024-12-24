@@ -6,7 +6,6 @@
       {
         "id": "b4f047b565e8e46e",
         "type": "tabs",
-        "dimension": 68.73297002724796,
         "children": [
           {
             "id": "febdc3174a1e9277",
@@ -28,35 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Fullstack NodeJS Interview Question.md",
+                "file": "6 - Main Notes/Fullstack NodeJS Interview Code Challange.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fullstack NodeJS Interview Question"
+              "title": "Fullstack NodeJS Interview Code Challange"
             }
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "3d3bfc328917dd99",
-        "type": "tabs",
-        "dimension": 31.26702997275204,
-        "children": [
-          {
-            "id": "a3e57631bda860c8",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "7 - Files/Cách thức mở rộng DB 2024-12-21 10.20.27.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Cách thức mở rộng DB 2024-12-21 10.20.27.excalidraw"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -172,10 +152,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "7 - Files/Cách thức mở rộng DB 2024-12-21 10.20.27.excalidraw.md"
+                "file": "6 - Main Notes/Fullstack NodeJS Interview Code Challange.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Cách thức mở rộng DB 2024-12-21 10.20.27.excalidraw"
+              "title": "Outline of Fullstack NodeJS Interview Code Challange"
             }
           },
           {
@@ -231,11 +211,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "a3e57631bda860c8",
+  "active": "e95f563cbf361f02",
   "lastOpenFiles": [
     "6 - Main Notes/Fullstack NodeJS Interview Question.md",
-    "6 - Main Notes/Frontend Techlead Interview Questions.md",
     "7 - Files/Cách thức mở rộng DB 2024-12-21 10.20.27.excalidraw.md",
+    "6 - Main Notes/Frontend Techlead Interview Questions.md",
     "2- Source Material/Videos/Cách thức mở rộng DB.md",
     "7 - Files/Cách thức mở rộng DB 2024-12-21 10.11.22.excalidraw.md",
     "5 - Templates/Source Material.md",
