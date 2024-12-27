@@ -50,6 +50,20 @@
             }
           },
           {
+            "id": "db88ed3859a1015e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Python Interview Question.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Python Interview Question"
+            }
+          },
+          {
             "id": "2e89f554c1e4df8e",
             "type": "leaf",
             "state": {
@@ -78,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -194,10 +208,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/VMO knowledge prepare.md"
+                "file": "6 - Main Notes/Python Interview Question.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of VMO knowledge prepare"
+              "title": "Outline of Python Interview Question"
             }
           },
           {
@@ -253,10 +267,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0a243eda0df6ccd3",
+  "active": "db88ed3859a1015e",
   "lastOpenFiles": [
-    "6 - Main Notes/JEST.md",
     "6 - Main Notes/VMO knowledge prepare.md",
+    "6 - Main Notes/Python Interview Question.md",
+    "6 - Main Notes/JEST.md",
     "6 - Main Notes/Fullstack NodeJS Interview Question.md",
     "6 - Main Notes/Fullstack NodeJS Interview Code Challange.md",
     "6 - Main Notes/ACID principle in DB transactions.md",
@@ -291,7 +306,6 @@
     "7 - Files/Dive into Design Pattern 2024-12-08 15.26.06.excalidraw.md",
     "7 - Files/Dive into Design Pattern 2024-12-07 14.35.39.excalidraw.md",
     "6 - Main Notes/Postgres with Sequelize in Nodejs.md",
-    "6 - Main Notes/K8S in local with minikube.md",
     "Untitled.canvas",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
