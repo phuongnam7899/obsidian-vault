@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -194,10 +194,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/JEST.md"
+                "file": "6 - Main Notes/VMO knowledge prepare.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of JEST"
+              "title": "Outline of VMO knowledge prepare"
             }
           },
           {
@@ -248,15 +248,15 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "callout-manager:Insert Callout": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "smart-connections:Open: Smart Chat Conversation": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2e89f554c1e4df8e",
+  "active": "0a243eda0df6ccd3",
   "lastOpenFiles": [
-    "6 - Main Notes/VMO knowledge prepare.md",
     "6 - Main Notes/JEST.md",
+    "6 - Main Notes/VMO knowledge prepare.md",
     "6 - Main Notes/Fullstack NodeJS Interview Question.md",
     "6 - Main Notes/Fullstack NodeJS Interview Code Challange.md",
     "6 - Main Notes/ACID principle in DB transactions.md",
