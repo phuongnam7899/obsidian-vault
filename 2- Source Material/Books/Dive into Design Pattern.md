@@ -418,8 +418,13 @@ Example:
 - Builder pattern suggest to move all construction parts to a separate object called *builder* 
 ![[Pasted image 20241228144536.png]]
 - Not necessary to call all steps, only call what you need
-- Can create a 
+- Can create other builder to create different implementation of each step
+	![[Pasted image 20241228155906.png]]
+- Can even go further by extract the steps to another class called ==Director==
+	- Director help us to store the construction routine
+	 ![[Pasted image 20241228155950.png]]
 #### Structure
+![[Pasted image 20241228160150.png]]
 #### Applicability
 #### How to Implement
 #### Pros & Cons
