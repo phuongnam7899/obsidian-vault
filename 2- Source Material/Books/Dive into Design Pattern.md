@@ -39,7 +39,7 @@ Status: #source-eating
 - Main purpose is reusability
 #### 4. Polymorphism
 - Animals defined "make_sound" behavious, but "make_sound" of cat is different from "make_sound" of dog
-- Polymorphism: ability to pretend to be another class
+- Polymorphism: give an object the ability to pretend to be another class (its parent or abstract/interface)
 ### Relation between Objects
 #### 1. Dependency
 - Key: <mark style="background: #BBFABBA6;">Changes -> Changes</mark>
@@ -238,7 +238,7 @@ function getTaxRate(country) {
 - Open = ==Extendable== = Can create subclass from it and add new fields/methods or override
 - Closed = ==100% ready to be used== by the other -> avoid modify -> extend instead
 - 
-![[Dive into Design Pattern 2024-12-08 15.26.06.excalidraw]]
+![[Dive into Design Pattern 2024-12-08 15.26.06.excalidraw]]             
 
 - A class ==could be both open== (for extend) ==and closed== (for modify) at ==the same time==
 - <mark style="background: #FFB8EBA6;">DON'T apply</mark> this principle <mark style="background: #FFB8EBA6;">for bug fix</mark>
