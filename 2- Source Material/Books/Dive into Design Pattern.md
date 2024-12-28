@@ -405,7 +405,9 @@ Example:
 > [!info] To construct complex object step by step. Allow produce diferrent types and representations of an object using the same construction code
 
 #### Problem
-- 
+- When you have objects that contain many fields, and even nested objects:
+	- The constructor might be very complex
+	- No all fields will need in all construct
 #### Solution
 #### Structure
 #### Applicability
