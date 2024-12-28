@@ -418,7 +418,7 @@ Example:
 - Builder pattern suggest to move all construction parts to a separate object called *builder* 
 ![[Pasted image 20241228144536.png]]
 - Not necessary to call all steps, only call what you need
-- 
+- Can create a 
 #### Structure
 #### Applicability
 #### How to Implement
