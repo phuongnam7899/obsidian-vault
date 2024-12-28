@@ -305,6 +305,7 @@ function getTaxRate(country) {
 > [!info] Patterns that provide object creation mechanism
 
 ### 1. Factory Method (Virtual Constructor)
+![[Pasted image 20241228111018.png]]
 
 > [!info] Provide interface for creating objects in a superclass. but allows subclass to alter the type of objects that created
 
@@ -356,6 +357,7 @@ function getTaxRate(country) {
 - Factory method may ==serve as a step== in ==Template Method==
 
 ### 2. Abstract Factory
+![[Pasted image 20241228111100.png]]
 
 > [!!info] Let you produce families of related objects without specifying their concrete classes
 
@@ -371,16 +373,39 @@ function getTaxRate(country) {
 ![[Pasted image 20241221090508.png]]
 #### Structure
 ![[Pasted image 20241221091826.png]]
+Example:
+![[Pasted image 20241228101419.png]]
 #### Applicability
+- When you have ==multiple families== of ==related products==
+- When you have class that have ==many factory method==
 #### How to Implement
+![[Pasted image 20241221091826.png]]
+- ==Map out the product types and variants==
+- Declare ==interface for all product types== -> make ==concrete classes== implement those interfaces
+- Declare the ==interface of Abstract factory== that have factory methods that create each product types
+- Declare the ==concrete factories for each variant== that implement the Abstract Factory (only different at the return type of the factory methods)
+- ==Use the concrete factory== in the code
 #### Pros & Cons
+- Pros:
+	- Make sure all product created from a (concrete) factory is of same family/variant
+	- Avoid tightly coupling between concrete product with client code
+	- Single responsibility: extracted all products creation to 1 place
+	- Open/Closed: Can create new variants without breaking client code
+- Cons:
+	- Code become more complicated
 #### Relation with other Patterns
+- Many design start with Factory Methods -> Evolve to Abstract Factory
+- Abstract factory might be used as alternative for Facade when only want to hide the subsystem creation code
+- Abstract factory might use along with Bridge (useful when some abstraction define by Bridge can only work with some specific implementation)
+- Abstract Factory can be implemented as Singleton
 
 ### 3. Builder
+![[Pasted image 20241228111118.png]]
 
 > [!info] To construct complex object step by step. Allow produce diferrent types and representations of an object using the same construction code
 
 #### Problem
+- 
 #### Solution
 #### Structure
 #### Applicability
