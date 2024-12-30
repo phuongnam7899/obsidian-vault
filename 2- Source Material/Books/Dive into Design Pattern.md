@@ -481,8 +481,20 @@ Example:
 ![[Pasted image 20241230101353.png]]
 
 #### Applicability
+- Use when you don't want code depend on the concrete class when clone (only know that the class has `clone` method)
+- When you want to ==reduce number of sub-classes with the only different in the initialization== of respective object
 #### How to Implement
+- Create a prototype interface with `clone()` inside
+- ??
+- Clone method usually only contain 1 line of `new` with all fields of `this`
+	- Every class need to override the clone method to use its class name after `new`
+- (Optional) Create a Prototype Registry to store catalog of frequently used prototype
 #### Pros & Cons
+- Pros:
+	- Can clone without depend on concrete class
+	- Get rid of repeated initialization code in favor of clone prebuilt prototype
+	- Produce complex object faster
+	- 
 #### Relation with other Patterns
 ### 5. Singleton
 
