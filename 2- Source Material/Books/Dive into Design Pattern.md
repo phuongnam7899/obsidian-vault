@@ -450,13 +450,36 @@ Example:
 - Cons:
 	- Create more classes -> Overall code complexity is increase
 #### Relation with other Patterns
+- Factory Method can evolve to Builder
+- Builder is used to create complex `Composite Tree`
+- Can combine Builder with Bridge: Director can play the role of abstraction, and different builders act as implementation
+- Builder could be implemented as Singleton
 ### 4. Prototype
 
 > [!info] Let you copy the existing objects without making code depend on their class
 
 #### Problem
+- You have an object, and want to create exact copy of it
+- You might need to create a new object of same class -> get all properties of the root to copy to new one
+> [!error] Problem
+> - Not all objects could be copied that way (copy from outside) because some fields might be private
+> - Your code is depend on the class (because you  need to know which class it is)
+> - Sometimes you only know the interface, not the concrete class
+ 
 #### Solution
+- `Prototype` delegate the cloning process of an object
+- It declare interface for all object that support cloning
+- Usually only contain `clone` method
+- Analogy: division of a cell
+	- It's ==not process of copy from outside==
+	- The origin cell is the one that clone itself
 #### Structure
+![[Pasted image 20241230095301.png]]
+- Prototype interface, in most case, only declare the `clone()` method
+- `Concrete Protorype` implement the clone methods + handle edge cases ()
+- `Prototype Registry` provide easy way to access frequency used Prototype
+![[Pasted image 20241230101353.png]]
+
 #### Applicability
 #### How to Implement
 #### Pros & Cons
