@@ -431,8 +431,24 @@ Example:
 - `Director`: Contain the call order of steps in the building phase
 - Client need to assign a builder to the Director (usually the Director only stick with one Builder, but it could be changed)
 #### Applicability
+- Use `Builder` to ==get rid of "telescoping constructor"== (overload the constructor of class to allow different ways to call the constructor)
+- When want to create different representation of product that have same construction steps (like beef pizza and shrimp pizza)
+- Use `Builder` to construct `Composite Tree` or other complex objects
 #### How to Implement
+- Clearly list down the steps need to take to build an object
+- Create `Builder` interface that contain the ==definition of all possible steps==
+- Create `Concrete Builder` from the `Builder` ==for each representation of product== and define logic in each step
+> [!info] Remember to create method to get the final result of construction process (this method is not included in the `Builder` interface because different Concrete Builder might return different Product)
+- Create Director class to hold all the call order of steps
+- In client, create both Director and Concrete Builder -> Assign a Builder to a Director -> Start the build process
+- Get the final result from Director (if all product follow same interface) or the Concrete Builder
 #### Pros & Cons
+- Pros:
+	- ==Flexible in calling== the construct steps (step-by step, defer some steps or call recursively)
+	- ==Reusable construction code== when create different representation
+	- Single responsibility: the construction code from business logic
+- Cons:
+	- Create more classes -> Overall code complexity is increase
 #### Relation with other Patterns
 ### 4. Prototype
 
