@@ -425,6 +425,11 @@ Example:
 	 ![[Pasted image 20241228155950.png]]
 #### Structure
 ![[Pasted image 20241228160150.png]]
+- `Builder` declare all construction steps that are common for all builders
+- `Concrete Builder` implement the `Builder` and may produce the products differently
+- `Product` is result of  `Concrete Builder`, products from  different `COncrete Builder` do not need to belong to same origin
+- `Director`: Contain the call order of steps in the building phase
+- Client need to assign a builder to the Director (usually the Director only stick with one Builder, but it could be changed)
 #### Applicability
 #### How to Implement
 #### Pros & Cons
