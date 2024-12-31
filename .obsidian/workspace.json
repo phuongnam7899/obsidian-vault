@@ -205,11 +205,15 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
-      "callout-manager:Insert Callout": false
+      "callout-manager:Insert Callout": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
   "active": "e95f563cbf361f02",
   "lastOpenFiles": [
+    "7 - Files/Pasted image 20241231090811.png",
     "7 - Files/Pasted image 20241230101353.png",
     "7 - Files/Pasted image 20241230095301.png",
     "2- Source Material/Videos/Cách thức mở rộng DB.md",
@@ -223,7 +227,6 @@
     "7 - Files/Pasted image 20241228141029.png",
     "7 - Files/Pasted image 20241228111118.png",
     "7 - Files/Pasted image 20241228111100.png",
-    "7 - Files/Pasted image 20241228111018.png",
     "6 - Main Notes/What is good expaination.md",
     "3 - Tags/Leadership.md",
     "6 - Main Notes/Short and maintainable.md",

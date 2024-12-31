@@ -455,6 +455,7 @@ Example:
 - Can combine Builder with Bridge: Director can play the role of abstraction, and different builders act as implementation
 - Builder could be implemented as Singleton
 ### 4. Prototype
+![[Pasted image 20241231090811.png]]
 
 > [!info] Let you copy the existing objects without making code depend on their class
 
@@ -491,11 +492,30 @@ Example:
 - (Optional) Create a Prototype Registry to store catalog of frequently used prototype
 #### Pros & Cons
 - Pros:
-	- Can clone without depend on concrete class
-	- Get rid of repeated initialization code in favor of clone prebuilt prototype
+	- Can clone <mark style="background: #BBFABBA6;">without depend on concrete</mark> class
+	- <mark style="background: #BBFABBA6;">Get rid of repeated initialization code</mark> in favor of clone prebuilt prototype
 	- Produce complex object faster
-	- 
+	- Could be <mark style="background: #BBFABBA6;">alternative way of inheritance</mark> when you want to have preset config for objects
+- Cons:
+	- Clone object with <mark style="background: #FFB8EBA6;">circular reference </mark>might be tricky
 #### Relation with other Patterns
+- Factory Method might evolve to Prototype
+- Abstract factory often based on set of factory method , but also could use Prototype to compose the method
+```python
+class PrototypeShapeFactory(ShapeFactory):
+    def __init__(self, circle_prototype, rectangle_prototype):
+        self.circle_prototype = circle_prototype
+        self.rectangle_prototype = rectangle_prototype
+
+    def create_circle(self):
+        return self.circle_prototype.clone()
+
+    def create_rectangle(self):
+        return self.rectangle_prototype.clone()
+```
+- Could be used top save copies of `Command` into history
+- Design that use may of `Comnposite` and `Decorator` might benefit from `Prototype` (it helps quickly create objects)
+- Sometimes 
 ### 5. Singleton
 
 > [!info] Make sure that a class has only one instance, and provide global access point to the instance
