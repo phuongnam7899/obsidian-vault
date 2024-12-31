@@ -538,12 +538,34 @@ class PrototypeShapeFactory(ShapeFactory):
 - Singleton class contains:
 	- static field for the instance
 	- static `getInstance` method for instance creation/retrieve
-	- 
-#### Applicability
-#### How to Implement
-#### Pros & Cons
-#### Relation with other Patterns
 
+>[!info] You can always change the limit of instance number if want
+
+#### Applicability
+- When there should be only one instance in application
+- When want to strictly control the global variables
+
+#### How to Implement
+- Add static field in class to store the instance
+- Make the constructor private
+- Add static creation method:
+	- Create new instance in first call -> save to static field in last step
+	- Return created instance from the 2nd call
+- Go to all client codes -> Change the constructor calls to static method created in last step
+#### Pros & Cons
+- Pros:
+	- Make sure class has only one instance -> easy to manage
+	- Make the instance globally accessible
+- Cons:
+	- Violates SRP: class serve 2 goals
+	- Required special treatment in multi-thread 
+	- Difficult to do unit test
+#### Relation with other Patterns
+- `Facade` could be transformed into Singleton (since in most case, a single Facade object is enough)
+- `Flyweight` could be resemble to Singleton if you manage to reduce all shared state objects to one object. But 2 fundamental different:
+	- Flyweight could have more than 1 instance
+	- Singleton object could be mutable, Flyweight is not
+- `Abstract Factory`, `Builder` and `Prototype` could be implemented as Singleton
 
 
 

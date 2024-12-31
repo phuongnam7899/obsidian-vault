@@ -27,16 +27,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2- Source Material/Books/Dive into Design Pattern.md",
+                "file": "2- Source Material/Videos/Công thức tối ưu Frontend.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dive into Design Pattern"
+              "title": "Công thức tối ưu Frontend"
+            }
+          },
+          {
+            "id": "aaf58d58cca71049",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/The core of Frontend Optimization.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "The core of Frontend Optimization"
+            }
+          },
+          {
+            "id": "7617f8caacddff56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Reduce the Amount of work for browser to increase FE performance.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Reduce the Amount of work for browser to increase FE performance"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -152,10 +180,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2- Source Material/Books/Dive into Design Pattern.md"
+                "file": "6 - Main Notes/Reduce the Amount of work for browser to increase FE performance.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Dive into Design Pattern"
+              "title": "Outline of Reduce the Amount of work for browser to increase FE performance"
             }
           },
           {
@@ -211,22 +239,28 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "e95f563cbf361f02",
+  "active": "7617f8caacddff56",
   "lastOpenFiles": [
-    "7 - Files/Pasted image 20241231101608.png",
-    "7 - Files/Pasted image 20241231095530.png",
-    "7 - Files/Pasted image 20241231090811.png",
-    "7 - Files/Pasted image 20241230101353.png",
-    "7 - Files/Pasted image 20241230095301.png",
-    "2- Source Material/Videos/Cách thức mở rộng DB.md",
+    "6 - Main Notes/Minify technique.md",
+    "7 - Files/Pasted image 20241231121131.png",
+    "6 - Main Notes/Reduce the Amount of work for browser to increase FE performance.md",
+    "6 - Main Notes/The core of Frontend Optimization.md",
+    "6 - Main Notes/What is CRP.md",
+    "6 - Main Notes/The root of optimization.md",
+    "7 - Files/Pasted image 20241231120107.png",
+    "2- Source Material/Videos/Công thức tối ưu Frontend.md",
+    "6 - Main Notes/CRP phases.md",
+    "7 - Files/Pasted image 20241231115538.png",
+    "7 - Files/Pasted image 20241231115511.png",
+    "7 - Files/Pasted image 20241231115415.png",
+    "7 - Files/Pasted image 20241231115404.png",
+    "7 - Files/Pasted image 20241231115326.png",
+    "7 - Files/Pasted image 20241231115310.png",
+    "7 - Files/Pasted image 20241231115152.png",
+    "7 - Files/Pasted image 20241231115049.png",
     "2- Source Material/Books/Dive into Design Pattern.md",
-    "7 - Files/Pasted image 20241228160150.png",
-    "7 - Files/Pasted image 20241228155950.png",
-    "7 - Files/Pasted image 20241228155906.png",
+    "2- Source Material/Videos/Cách thức mở rộng DB.md",
     "6 - Main Notes/Fullstack NodeJS Interview Question.md",
-    "7 - Files/Pasted image 20241228144536.png",
-    "7 - Files/Pasted image 20241228141152.png",
-    "7 - Files/Pasted image 20241228141029.png",
     "6 - Main Notes/What is good expaination.md",
     "3 - Tags/Leadership.md",
     "6 - Main Notes/Short and maintainable.md",
@@ -242,13 +276,6 @@
     "5 - Templates/Source Material.md",
     "5 - Templates/Main Note.md",
     "5 - Templates/Design Pattern.md",
-    "2- Source Material/Videos/Web Workers - Công cụ tăng hiệu năng trang web mạnh mẽ.md",
-    "2- Source Material/Videos/Thiết kế hệ thống mạng xã hội 200tr Users - System Design.md",
-    "2- Source Material/Videos/How to deploy Nodejs with AWS EKS.md",
-    "2- Source Material/Videos/Công thức tối ưu Frontend.md",
-    "8 - Content Factory/Front-end Optimization (Part 3).md",
-    "conflict-files-obsidian-git.md",
-    "8 - Content Factory/Front-end Optimization (Part 2).md",
     "8 - Content Factory",
     "Untitled.canvas",
     "Untitled 2.canvas",
