@@ -1,7 +1,44 @@
 {
   "callouts": {
-    "custom": [],
-    "settings": {}
+    "custom": [
+      "i",
+      "w",
+      "e",
+      "q"
+    ],
+    "settings": {
+      "i": [
+        {
+          "changes": {
+            "icon": "lucide-info"
+          }
+        }
+      ],
+      "w": [
+        {
+          "changes": {
+            "icon": "lucide-alert-triangle",
+            "color": "233, 151, 63"
+          }
+        }
+      ],
+      "e": [
+        {
+          "changes": {
+            "icon": "lucide-x",
+            "color": "251, 70, 76"
+          }
+        }
+      ],
+      "q": [
+        {
+          "changes": {
+            "icon": "lucide-quote",
+            "color": "166, 189, 197"
+          }
+        }
+      ]
+    }
   },
   "calloutDetection": {
     "obsidian": true,

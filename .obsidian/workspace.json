@@ -27,44 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2- Source Material/Videos/Công thức tối ưu Frontend.md",
+                "file": "3 - Tags/JS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Công thức tối ưu Frontend"
-            }
-          },
-          {
-            "id": "aaf58d58cca71049",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/The core of Frontend Optimization.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "The core of Frontend Optimization"
-            }
-          },
-          {
-            "id": "7617f8caacddff56",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Reduce the Amount of work for browser to increase FE performance.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Reduce the Amount of work for browser to increase FE performance"
+              "title": "JS"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -136,6 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "3 - Tags/JS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for JS"
             }
           },
           {
@@ -154,11 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "3 - Tags/JS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from JS"
             }
           },
           {
@@ -180,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/Reduce the Amount of work for browser to increase FE performance.md"
+                "file": "3 - Tags/JS.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Reduce the Amount of work for browser to increase FE performance"
+              "title": "Outline of JS"
             }
           },
           {
@@ -216,12 +190,11 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 207.5
+    "width": 514.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,43 +212,45 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "7617f8caacddff56",
+  "active": "e95f563cbf361f02",
   "lastOpenFiles": [
-    "6 - Main Notes/Minify technique.md",
-    "7 - Files/Pasted image 20241231121131.png",
-    "6 - Main Notes/Reduce the Amount of work for browser to increase FE performance.md",
+    "6 - Main Notes/Maximize the speed in FE optimization.md",
     "6 - Main Notes/The core of Frontend Optimization.md",
-    "6 - Main Notes/What is CRP.md",
-    "6 - Main Notes/The root of optimization.md",
-    "7 - Files/Pasted image 20241231120107.png",
-    "2- Source Material/Videos/Công thức tối ưu Frontend.md",
-    "6 - Main Notes/CRP phases.md",
-    "7 - Files/Pasted image 20241231115538.png",
-    "7 - Files/Pasted image 20241231115511.png",
-    "7 - Files/Pasted image 20241231115415.png",
-    "7 - Files/Pasted image 20241231115404.png",
-    "7 - Files/Pasted image 20241231115326.png",
-    "7 - Files/Pasted image 20241231115310.png",
-    "7 - Files/Pasted image 20241231115152.png",
-    "7 - Files/Pasted image 20241231115049.png",
-    "2- Source Material/Books/Dive into Design Pattern.md",
+    "6 - Main Notes/how to use web worker.md",
+    "3 - Tags/JS.md",
+    "3 - Tags/Product Management.md",
     "2- Source Material/Videos/Cách thức mở rộng DB.md",
-    "6 - Main Notes/Fullstack NodeJS Interview Question.md",
-    "6 - Main Notes/What is good expaination.md",
-    "3 - Tags/Leadership.md",
-    "6 - Main Notes/Short and maintainable.md",
-    "6 - Main Notes/VMO knowledge prepare.md",
-    "6 - Main Notes/JEST.md",
-    "6 - Main Notes/ACID principle in DB transactions.md",
-    "7 - Files/Dive into Design Pattern 2024-12-08 15.26.06.excalidraw.md",
-    "6 - Main Notes/Python Interview Question.md",
-    "6 - Main Notes/Fullstack NodeJS Interview Code Challange.md",
-    "7 - Files/Cách thức mở rộng DB 2024-12-21 10.20.27.excalidraw.md",
-    "6 - Main Notes/Frontend Techlead Interview Questions.md",
-    "7 - Files/Cách thức mở rộng DB 2024-12-21 10.11.22.excalidraw.md",
-    "5 - Templates/Source Material.md",
-    "5 - Templates/Main Note.md",
-    "5 - Templates/Design Pattern.md",
+    "2- Source Material/Videos/Công thức tối ưu Frontend.md",
+    "2- Source Material/Videos/Thiết kế hệ thống mạng xã hội 200tr Users - System Design.md",
+    "2- Source Material/Videos/Web Workers - Công cụ tăng hiệu năng trang web mạnh mẽ.md",
+    "2- Source Material/Videos/How to deploy Nodejs with AWS EKS.md",
+    "3 - Tags/Frontend Optimization.md",
+    "7 - Files/Pasted image 20241231140223.png",
+    "6 - Main Notes/Reduce wait time to increase FE performance.md",
+    "6 - Main Notes/Use case for each script load type.md",
+    "3 - Tags/HTML.md",
+    "7 - Files/Pasted image 20241231135939.png",
+    "7 - Files/Pasted image 20241231135923.png",
+    "7 - Files/Pasted image 20241231135900.png",
+    "7 - Files/Pasted image 20241231135817.png",
+    "7 - Files/Pasted image 20241231135653.png",
+    "7 - Files/Pasted image 20241231135640.png",
+    "7 - Files/Pasted image 20241231135612.png",
+    "7 - Files/Pasted image 20241231135530.png",
+    "6 - Main Notes/Process of loading resources in browser.md",
+    "7 - Files/Pasted image 20241231135321.png",
+    "6 - Main Notes/Communication between web worker and main thread.md",
+    "6 - Main Notes/Browser cache types.md",
+    "6 - Main Notes/Reduce the Amount of work for browser to increase FE performance.md",
+    "6 - Main Notes/Lazy data fetching.md",
+    "6 - Main Notes/Lazy Rendering with Virtual Scroll.md",
+    "6 - Main Notes/Lazy loading images or videos.md",
+    "Lazy loading images/videos.md",
+    "Lazy loading images",
+    "6 - Main Notes/Code Splitting for Lazy Loading Codes.md",
+    "3 - Tags/Optimization.md",
+    "6 - Main Notes/Remove redundant size of images.md",
+    "6 - Main Notes/Tree shaking technique.md",
     "8 - Content Factory",
     "Untitled.canvas",
     "Untitled 2.canvas",
@@ -287,7 +262,6 @@
     "6 - Main Notes",
     "5 - Templates",
     "4 - Indexes",
-    "3 - Tags",
-    "2- Source Material/Others"
+    "3 - Tags"
   ]
 }
