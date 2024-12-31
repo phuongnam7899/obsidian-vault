@@ -520,9 +520,25 @@ class PrototypeShapeFactory(ShapeFactory):
 
 > [!info] Make sure that a class has only one instance, and provide global access point to the instance
 
+![[Pasted image 20241231095530.png]]
+
 #### Problem
+- Ensure a class has only 1 instance: Why to control the number of instances? Most common reason is to ==control access for shared resources== (like files for databases)
+- ==Provide a global access== point for that instance, and ==protect it from being overwritten==
 #### Solution
+- Make the constructor private -> prevent others to call it
+- Create static creation method to:
+	- act as constructor
+	- use that  private constructor
+	- save created object to a static field
+	- Return cached object when called again
+- Analogy: Government - one country only has one, anywhere, anyone when wan to refer to will reach it
 #### Structure
+![[Pasted image 20241231101608.png]]
+- Singleton class contains:
+	- static field for the instance
+	- static `getInstance` method for instance creation/retrieve
+	- 
 #### Applicability
 #### How to Implement
 #### Pros & Cons
