@@ -10,7 +10,8 @@
       "i": [
         {
           "changes": {
-            "icon": "lucide-info"
+            "icon": "lucide-info",
+            "color": "0, 191, 188"
           }
         }
       ],

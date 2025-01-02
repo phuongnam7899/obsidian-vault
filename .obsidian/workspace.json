@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Tags/JS.md",
+                "file": "2- Source Material/Books/Dive into Design Pattern.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JS"
+              "title": "Dive into Design Pattern"
             }
           }
         ],
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3 - Tags/JS.md",
+                "file": "2- Source Material/Books/Dive into Design Pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for JS"
+              "title": "Backlinks for Dive into Design Pattern"
             }
           },
           {
@@ -154,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3 - Tags/JS.md"
+                "file": "2- Source Material/Books/Dive into Design Pattern.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of JS"
+              "title": "Outline of Dive into Design Pattern"
             }
           },
           {
@@ -214,10 +214,11 @@
   },
   "active": "e95f563cbf361f02",
   "lastOpenFiles": [
+    "7 - Files/Pasted image 20250102093132.png",
+    "3 - Tags/JS.md",
     "6 - Main Notes/Maximize the speed in FE optimization.md",
     "6 - Main Notes/The core of Frontend Optimization.md",
     "6 - Main Notes/how to use web worker.md",
-    "3 - Tags/JS.md",
     "3 - Tags/Product Management.md",
     "2- Source Material/Videos/Cách thức mở rộng DB.md",
     "2- Source Material/Videos/Công thức tối ưu Frontend.md",
@@ -250,7 +251,6 @@
     "6 - Main Notes/Code Splitting for Lazy Loading Codes.md",
     "3 - Tags/Optimization.md",
     "6 - Main Notes/Remove redundant size of images.md",
-    "6 - Main Notes/Tree shaking technique.md",
     "8 - Content Factory",
     "Untitled.canvas",
     "Untitled 2.canvas",

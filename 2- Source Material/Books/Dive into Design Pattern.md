@@ -6,7 +6,7 @@ Status: #source-eating
 
 # Introduction to OOP
 ## Basics of OOP
-- Is a paramigm
+- Is a paradigm
 - Based on concept of wrapping pieces of data and behaviors related to those data into 1 thing called Object
 ![[Dive into Design Pattern 2024-12-01 15.57.03.excalidraw]]
 - Objects are constructed from a set of blueprints called Classes
@@ -202,7 +202,7 @@ function getTaxRate(country) {
 	- After: make the `getEmployees()` as abstract
 		![[Pasted image 20241207174923.png]]
 
-### Composition over Inheritance
+### 3. Composition over Inheritance
 - Inheritance is the easiest wat to reuse code, but problem will appear when there are a lot of classes:
 	- **Redundant code**: Sub class cannot reduce the interface of parent: still need define even if not use
 	- **Risk of break when override**: When override method of child -> Need to ensure new thing compatible with existing ones (For example: when update what a cat `eat()` -> need make sure the cat  can `digest()` it)
@@ -302,7 +302,7 @@ function getTaxRate(country) {
 
 ## Creational Patterns
 
-> [!info] Patterns that provide object creation mechanism
+> [!i] Patterns that provide object creation mechanism
 
 ### 1. Factory Method (Virtual Constructor)
 ![[Pasted image 20241228111018.png]]
@@ -566,6 +566,76 @@ class PrototypeShapeFactory(ShapeFactory):
 	- Flyweight could have more than 1 instance
 	- Singleton object could be mutable, Flyweight is not
 - `Abstract Factory`, `Builder` and `Prototype` could be implemented as Singleton
+## Structural Patterns
+
+> [!i] Structural pattern explain how to assemble objects into larger structure
+### 1. Adapter
+
+![[Pasted image 20250102093132.png]]
+
+> [!i] Allow object with incompatible interface to colaborate
+
+#### Problem
+#### Solution
+#### Structure
+#### Applicability
+#### How to Implement
+#### Pros & Cons
+#### Relation with other Patterns
+### 2. Bridge
+#### Problem
+#### Solution
+#### Structure
+#### Applicability
+#### How to Implement
+#### Pros & Cons
+#### Relation with other Patterns
+### 3. Composite
+#### Problem
+#### Solution
+#### Structure
+#### Applicability
+#### How to Implement
+#### Pros & Cons
+#### Relation with other Patterns
+### 4. Decorator
+#### Problem
+#### Solution
+#### Structure
+#### Applicability
+#### How to Implement
+#### Pros & Cons
+#### Relation with other Patterns
+### 5. Facade
+#### Problem
+#### Solution
+#### Structure
+#### Applicability
+#### How to Implement
+#### Pros & Cons
+#### Relation with other Patterns
+### 6. Flyweight
+#### Problem
+#### Solution
+#### Structure
+#### Applicability
+#### How to Implement
+#### Pros & Cons
+#### Relation with other Patterns
+### 7. Proxy
+#### Problem
+#### Solution
+#### Structure
+#### Applicability
+#### How to Implement
+#### Pros & Cons
+#### Relation with other Patterns
+
+
+
+
+
+
 
 
 
