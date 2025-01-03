@@ -576,14 +576,128 @@ class PrototypeShapeFactory(ShapeFactory):
 > [!i] Allow object with incompatible interface to colaborate
 
 #### Problem
+- You are creating a stock analysis application
+	- Data provider sends data in XML format and your core classes also use XML
+	- One day you want to use an external library but it only accept JSON format
+![[Pasted image 20250103133651.png]]
 #### Solution
+- Create an Adapter - an object that convert interface of other object so that others object can use/understand it
+![[Pasted image 20250103134438.png]]
+- Analogy: Wire adapter for laptop
+![[Pasted image 20250103134659.png]]
 #### Structure
+##### Object Adapter
+![[Pasted image 20250103134801.png]]
+- Client Interface: Describe protocol that other classes must follow
+- Service: class that do some helpful things (usually 3-party libs/ legacy code)
+- Adapter: receive calls from client and translate it to calls to wrapped service
+> [!i] Client code does not coupled to the concrete Adapter because it is working with Client Interface => You can create new types of Adapter without breaking existing code
+##### Class Adapter
+- Adapter inherits interfaces from both objects at the same time
+> [!w] Only do-able in languages that support multi-inheritance
+- It override the method of the class that Client is calling
+![[Pasted image 20250103135836.png]]
+
 #### Applicability
+- When you want to use existing class but the interface is not compatible with your code => Adapter works as a translator
+- When you want to reuse several subclasses but they do not have same functionality so that cannot be added into superclass, for example
+```ts
+// Step 1: Define a common interface
+interface PaymentProcessor {
+  processPayment(amount: number): void;
+}
+
+// Step 2: Create Adapter classes for each payment gateway
+class PayPalAdapter implements PaymentProcessor {
+  private paypal: PayPal;
+
+  constructor(paypal: PayPal) {
+    this.paypal = paypal;
+  }
+
+  processPayment(amount: number): void {
+    this.paypal.makePayment(amount); // Adapts PayPal's method
+  }
+}
+
+class StripeAdapter implements PaymentProcessor {
+  private stripe: Stripe;
+
+  constructor(stripe: Stripe) {
+    this.stripe = stripe;
+  }
+
+  processPayment(amount: number): void {
+    this.stripe.charge(amount); // Adapts Stripe's method
+  }
+}
+
+class SquareAdapter implements PaymentProcessor {
+  private square: Square;
+
+  constructor(square: Square) {
+    this.square = square;
+  }
+
+  processPayment(amount: number): void {
+    this.square.pay(amount); // Adapts Square's method
+  }
+}
+
+// Step 3: Existing payment gateway classes
+class PayPal {
+  makePayment(amount: number): void {
+    console.log(`Paid $${amount} using PayPal.`);
+  }
+}
+
+class Stripe {
+  charge(amount: number): void {
+    console.log(`Charged $${amount} using Stripe.`);
+  }
+}
+
+class Square {
+  pay(amount: number): void {
+    console.log(`Processed $${amount} through Square.`);
+  }
+}
+
+// Step 4: Usage
+const paypal = new PayPalAdapter(new PayPal());
+const stripe = new StripeAdapter(new Stripe());
+const square = new SquareAdapter(new Square());
+
+paypal.processPayment(100); // Output: Paid $100 using PayPal.
+stripe.processPayment(200); // Output: Charged $200 using Stripe.
+square
+
+```
 #### How to Implement
+- Make sure you have different classes that interfaces are not compatible
+	- 1 useful service class that you cannot or don't want to change
+	- One or more client class that benefit from the service class
+- Declare the client interface that define how client communicate with service
+- Create adapter class that follow the client interface, leave the implementation empty now
+- Add a field in adapter that contain the object of service object (the value might passes through constructor or when the method called)
+- Implement all methods of the interface (focus on the conversion, not the real logic of service)
+- Client use the adapter via Client interface
 #### Pros & Cons
+- Pros
+	- SRP: the conversion code is isolated
+	- OCP: can add new adapter without breaking client code
+- Cons: Overall complexity is increased
 #### Relation with other Patterns
+- `Bridge` is designed up-front, Adapter is used with existing code
+- Adapter create completely different interface, `Decorator` let it stay the same or extended, `Proxy` interface is the same
+- `Facade`tries to define new interface,`Adapter` tries to make current interface usable
 ### 2. Bridge
+![[Pasted image 20250103144347.png]]
+
+> [!i] Let you split a large class or set of closely related class into 2 separate hierarchies: abstraction and implementation which can be developed independently from each other
+
 #### Problem
+- 
 #### Solution
 #### Structure
 #### Applicability
