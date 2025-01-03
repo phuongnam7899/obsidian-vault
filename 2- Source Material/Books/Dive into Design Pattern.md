@@ -697,6 +697,8 @@ square
 > [!i] Let you split a large class or set of closely related class into 2 separate hierarchies: abstraction and implementation which can be developed independently from each other
 
 #### Problem
+- When add new Shape or Color -> create many classes
+![[Pasted image 20250103151220.png]]
 - 
 #### Solution
 #### Structure
