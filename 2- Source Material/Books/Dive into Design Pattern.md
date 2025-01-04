@@ -712,15 +712,18 @@ square
 
 #### Structure
 ![[Pasted image 20250104095340.png]]
-- `Abstraction` provide high level control logic, rely on the Implement to do real work
-- `Implementation` provide common interface for all concrete implementation (the Abstraction can only communicate with implement object method that declared here)
-- `Concrete Implementation` contain platform specific code
-- `Refined abstraction` used to create different variants of control logic
-- `Client` usually call the Abstraction only, but client need to link between abstraction and implementation
+- `Abstraction` provide ==high level control logic==, rely on the Implement to do real work
+- `Implementation` provide ==common interface== for all concrete implementation (the Abstraction can only communicate with implement object method that declared here)
+- `Concrete Implementation` contain ==platform specific== code
+- `Refined abstraction` used to create different ==variants of control logic==
+- `Client` usually ==call the Abstraction== only, but client need to ==link== between ==abstraction and implementation==
+![[Pasted image 20250104103201.png]]
 - Example:
 	- 
 ![[Pasted image 20250104101031.png]]
 #### Applicability
+- When you want to divide monolith class that has ==several variants of functionality== 
+- 
 #### How to Implement
 #### Pros & Cons
 #### Relation with other Patterns
