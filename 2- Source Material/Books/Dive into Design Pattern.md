@@ -722,11 +722,34 @@ square
 	- 
 ![[Pasted image 20250104101031.png]]
 #### Applicability
-- When you want to divide monolith class that has ==several variants of functionality== 
-- 
+- When you want to ==divide== monolith class that has ==several variants of functionality== 
+- When you  want to extend a class in several independent dimension (each dimension is separated into different class hierarchy)
+- When you want to switch implementation at runtime
 #### How to Implement
+- Find out the independent dimensions, it could be:
+	- Abstraction/platform
+	- Domain/Infra
+	- Front-end/Back-end
+	- Interface/Implementation
+- Define the base abstraction class with the operations that clients need
+- Declare  operation that required in all platform -> Put it in a general implementation interface
+- Create concrete implementation for each platform
+- Inside abstraction class, define a field to refer the implementation
+- (Optional) Create refined abstraction if you have variants of high level logic
+- Client code should pass a implementation object to the abstraction to create association => After that, client only work with abstraction object
 #### Pros & Cons
+- Pros
+	- Can create platform-independent classes/apps
+	- Clients only work with high-level abstraction, no need to care about the implementation
+	- Open/Closed: can create more abstraction or implementation without break current code
+	- Single Responsibility: abstraction and implementation are separated
+- Cons
+	- Complicated code
 #### Relation with other Patterns
+- Bridge is created upfront, Adapter created to work with existing classes
+- Bridge, State and Strategy have similar structure because they are all based on composition, but solve different problem
+- Can use Abstract Factory along with Bridge. It's useful when some abstraction of Bridge only work with specific implementation
+- Can combine Builder with Bridge: director class play the role of abstraction, while different builder are implementation
 ### 3. Composite
 #### Problem
 #### Solution
