@@ -699,9 +699,27 @@ square
 #### Problem
 - When add new Shape or Color -> create many classes
 ![[Pasted image 20250103151220.png]]
-- 
+- => Problem happens when you want to scale the class in 2 different dimension (Form and color) (Often happen with inheritance)
 #### Solution
+- Switch from inheritance to composition: 
+	- split one of dimension into another class hierarchy
+	- the origin class will refer to it instead of all states and behaviors in 1 class
+![[Pasted image 20250104094117.png]]
+
+> [!i] Abstraction (interface) is a high-level control layer of an entity. It doesn't do any real work, just to delegate the work of implementation layer
+
+![[Pasted image 20250104095010.png]]
+
 #### Structure
+![[Pasted image 20250104095340.png]]
+- `Abstraction` provide high level control logic, rely on the Implement to do real work
+- `Implementation` provide common interface for all concrete implementation (the Abstraction can only communicate with implement object method that declared here)
+- `Concrete Implementation` contain platform specific code
+- `Refined abstraction` used to create different variants of control logic
+- `Client` usually call the Abstraction only, but client need to link between abstraction and implementation
+- Example:
+	- 
+![[Pasted image 20250104101031.png]]
 #### Applicability
 #### How to Implement
 #### Pros & Cons
