@@ -750,15 +750,79 @@ square
 - Bridge, State and Strategy have similar structure because they are all based on composition, but solve different problem
 - Can use Abstract Factory along with Bridge. It's useful when some abstraction of Bridge only work with specific implementation
 - Can combine Builder with Bridge: director class play the role of abstraction, while different builder are implementation
-### 3. Composite
+### 3. Composite (Object Tree)
+![[Pasted image 20250105140247.png]]
+> [!i] Let you compose objects into tree structures and then work with these structure as individual objects
+
 #### Problem
+- When you have an object which could be represented as a tree, and you want to do something related to multiple elements of it
+![[Pasted image 20250105140711.png]]
+- For example: when want to calculate total value of all item, it is not simple as do a loop
 #### Solution
+- Work with `Box` and `Product` with the same interface which declare method to calculate price => Run a behavior recursively over all components of the tree
+![[Pasted image 20250105142013.png]]
+- The benefit is that you won't need to care that a component is Box or Product, but still can treat them the same way
+- Analogy: Military hierarchy
 #### Structure
+![[Pasted image 20250105142801.png]]
+- The `Component` is interface that contains all common methods that could be used by both simple and complex elements in tree
+- `Leaf` is the simple element, do not contain any sub element
+- `Composite` (or Container): is element that contains sub element
+- Client work with elements through `Component` interface
+- Example:
+![[Pasted image 20250105143352.png]]
 #### Applicability
+- When you have tree-like object structures
+- When you want client treat simple and complex object similarly
 #### How to Implement
+- Declare the component interface that contains methods that simple and complex elements both have
+- Create leaf classes for simple elements
+- Create container class to represent complex elements:
+	- Has array field to contain reference to sub items
+	- Should be able to contain both leaf and other containers
+	- Has methods to add and remove child elements
+
+>[!i] The add/remove operation could be declared in the component interface (even if it break the Interface Segregation Principle)
+
 #### Pros & Cons
+- Pros:
+	- Can work with complex tree structures more effectively: make use of polymorphism and recursion
+	- OCP: Can create more elements types without breaking current code
+- Cons:
+	- Difficult to find common interface for classes. In some scenarios, you might need to over-generalize the interface -> harder to comprehend
 #### Relation with other Patterns
+- Can use Builder to create complex Composite tree because you can make the construction step recursively
+```ts
+
+const builder = new FileSystemBuilderImpl("root");
+
+const fileSystem = builder
+  .buildFolder("Documents")
+    .buildFile("Resume.docx", 120)
+    .buildFile("CoverLetter.docx", 90)
+    .endFolder()
+  .buildFolder("Pictures")
+    .buildFolder("Vacation")
+      .buildFile("Beach.png", 2048)
+      .buildFile("Sunset.png", 1024)
+      .endFolder()
+    .endFolder()
+  .buildFile("notes.txt", 45)
+  .getResult();
+
+fileSystem.display("");
+
+```
+- `Chain of Responsibility` is often used in conjunction with Composite: When a leaf get the request, it will pass through the parent -> down to the root
+- Can use `Iteration` to traverse (travel through) the Composite tree
+- Can use `Visitor` to do operation over the tree
+- Can implement shared leaf node of composite tree as `Flyweights` to save some RAM
+- Composite and Decorator have similar structure because both rely on the recursive composition
+	- Decorator is composite with 1 child only
+	- Decorator add responsibility to objects, while Composite just "sum up" its children results
+- Design with heavy use of Composite gets benefit from Prototype to clone complex object without recreate it
 ### 4. Decorator
+![[Pasted image 20250105152614.png]]
 #### Problem
 #### Solution
 #### Structure
