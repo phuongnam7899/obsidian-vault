@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2- Source Material/Books/Dive into Design Pattern.md",
+                "file": "2- Source Material/Videos/Clean Architecture in NextJS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dive into Design Pattern"
+              "title": "Clean Architecture in NextJS"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2- Source Material/Books/Dive into Design Pattern.md",
+                "file": "2- Source Material/Videos/Clean Architecture in NextJS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Dive into Design Pattern"
+              "title": "Backlinks for Clean Architecture in NextJS"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2- Source Material/Books/Dive into Design Pattern.md"
+                "file": "2- Source Material/Videos/Clean Architecture in NextJS.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Dive into Design Pattern"
+              "title": "Outline of Clean Architecture in NextJS"
             }
           },
           {
@@ -199,6 +199,9 @@
   },
   "active": "febdc3174a1e9277",
   "lastOpenFiles": [
+    "6 - Main Notes/Docker common commands.md",
+    "2- Source Material/Videos/Clean Architecture in NextJS.md",
+    "2- Source Material/Books/Dive into Design Pattern.md",
     "7 - Files/Pasted image 20250105152614.png",
     "7 - Files/Pasted image 20250105143352.png",
     "7 - Files/Pasted image 20250105142801.png",
@@ -207,12 +210,10 @@
     "7 - Files/Pasted image 20250105140247.png",
     "2- Source Material/Videos/Cách thức mở rộng DB.md",
     "5 - Templates/Design Pattern.md",
-    "2- Source Material/Books/Dive into Design Pattern.md",
     "7 - Files/Pasted image 20250104103201.png",
     "7 - Files/Pasted image 20250104101031.png",
     "7 - Files/Pasted image 20250104095340.png",
     "7 - Files/Pasted image 20250104095010.png",
-    "7 - Files/Pasted image 20250104094117.png",
     "2- Source Material/Videos/How To Handle Permissions Like A Senior Dev.md",
     "3 - Tags/JS.md",
     "6 - Main Notes/Maximize the speed in FE optimization.md",
@@ -234,7 +235,6 @@
     "6 - Main Notes/Lazy data fetching.md",
     "6 - Main Notes/Lazy Rendering with Virtual Scroll.md",
     "6 - Main Notes/Lazy loading images or videos.md",
-    "Lazy loading images/videos.md",
     "Lazy loading images",
     "8 - Content Factory",
     "Untitled.canvas",
