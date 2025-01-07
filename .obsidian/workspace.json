@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2- Source Material/Videos/Clean Architecture in NextJS.md",
+                "file": "2- Source Material/Videos/Clean Architecture in TypeScript.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Clean Architecture in NextJS"
+              "title": "Clean Architecture in TypeScript"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2- Source Material/Videos/Clean Architecture in NextJS.md",
+                "file": "2- Source Material/Videos/Clean Architecture in TypeScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Clean Architecture in NextJS"
+              "title": "Backlinks for Clean Architecture in TypeScript"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2- Source Material/Videos/Clean Architecture in NextJS.md"
+                "file": "2- Source Material/Videos/Clean Architecture in TypeScript.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Clean Architecture in NextJS"
+              "title": "Outline of Clean Architecture in TypeScript"
             }
           },
           {
@@ -199,20 +199,22 @@
   },
   "active": "febdc3174a1e9277",
   "lastOpenFiles": [
+    "7 - Files/Pasted image 20250107111749.png",
+    "7 - Files/Pasted image 20250107110757.png",
+    "7 - Files/Pasted image 20250107105848.png",
+    "7 - Files/Pasted image 20250107105553.png",
+    "7 - Files/Pasted image 20250107105022.png",
+    "2- Source Material/Videos/Clean Architecture in NextJS.md",
+    "2- Source Material/Videos/Clean Architecture NodeJS MongoDB.md",
+    "2- Source Material/Videos/Clean Architecture in TypeScript.md",
+    "7 - Files/Pasted image 20250107100959.png",
+    "7 - Files/Pasted image 20250107094508.png",
+    "7 - Files/Pasted image 20250107094353.png",
+    "7 - Files/Pasted image 20250107093607.png",
     "7 - Files/Pasted image 20250107085324.png",
     "7 - Files/Pasted image 20250106162957.png",
-    "7 - Files/Pasted image 20250106162723.png",
-    "7 - Files/Pasted image 20250106162409.png",
-    "7 - Files/Pasted image 20250106162233.png",
-    "7 - Files/Pasted image 20250106161656.png",
-    "7 - Files/Pasted image 20250106160432.png",
-    "7 - Files/Pasted image 20250106160246.png",
     "6 - Main Notes/Docker common commands.md",
-    "2- Source Material/Videos/Clean Architecture in NextJS.md",
     "2- Source Material/Books/Dive into Design Pattern.md",
-    "7 - Files/Pasted image 20250105152614.png",
-    "7 - Files/Pasted image 20250105143352.png",
-    "7 - Files/Pasted image 20250105142801.png",
     "2- Source Material/Videos/Cách thức mở rộng DB.md",
     "5 - Templates/Design Pattern.md",
     "2- Source Material/Videos/How To Handle Permissions Like A Senior Dev.md",
@@ -233,8 +235,6 @@
     "6 - Main Notes/Communication between web worker and main thread.md",
     "6 - Main Notes/Browser cache types.md",
     "6 - Main Notes/Reduce the Amount of work for browser to increase FE performance.md",
-    "6 - Main Notes/Lazy data fetching.md",
-    "6 - Main Notes/Lazy Rendering with Virtual Scroll.md",
     "Lazy loading images",
     "8 - Content Factory",
     "Untitled.canvas",
