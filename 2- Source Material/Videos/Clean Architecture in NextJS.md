@@ -35,5 +35,7 @@ Produce system that are:
 - `tests`:
 	- `unit`: contain unit, follow same structure of `/src`
 # Implementation Flow
-
+- `Framework and Driver Layer`
+	- `actions.ts`: to consume the business logic
+		- Throw error from other layers
 ---
