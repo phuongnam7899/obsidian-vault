@@ -823,7 +823,18 @@ fileSystem.display("");
 - Design with heavy use of Composite gets benefit from Prototype to clone complex object without recreate it
 ### 4. Decorator
 ![[Pasted image 20250105152614.png]]
+> [!i] Let you add more behaviors to an object by place it inside a special wrapper object that contains new behaviors
+
 #### Problem
+- Imagine working on notification library like this
+![[Pasted image 20250108140754.png]]
+- At  some point, you want to add more type of sender like email, slack,... You might update like this
+![[Pasted image 20250108141327.png]]
+- But what if you need to send through multiple channels at once? It should not be like this:
+![[Pasted image 20250108141631.png]]
+> [!w] Some points to aware about inheritance:
+> - Inheritance is static - cannot alter the behavior of an object in runtime -> only be able to replace the object with another
+> - Subclass can only have 1 parent class
 #### Solution
 #### Structure
 #### Applicability
