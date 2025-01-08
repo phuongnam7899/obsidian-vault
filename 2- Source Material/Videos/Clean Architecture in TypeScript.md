@@ -30,6 +30,7 @@ Status: #source-eating
 # Side thought
 - Can use dependency injection framework or factories function
 # Code flow
+> https://github.com/donnyroufs/clean-architecture-in-typescript-yt/blob/main/src/presentation/ApiServer.ts
 - Create a `main.ts`
 - Create a folder for each layer
 - `application`:
@@ -37,7 +38,40 @@ Status: #source-eating
 	- File should export a class that have 1 `execute()` method
 	- Create an interface for `CreateLogBookDataTransferObject` -> use it for the `execute` argument
 	- Create interface for `execute()`'s output
-	- 
+```ts
+import { Logbook } from "../domain/Logbook"
+import { IUseCase } from "../shared/IUseCase"
+import { ILogbookRepository } from "./ILogbookRepository"
+
+interface ICreateLogbookDto {
+  name: string
+  userId: string
+}
+
+export interface ICreateLogbookResult {
+  logbookId: string
+}
+
+export class CreateLogbookUseCase implements IUseCase<ICreateLogbookDto, ICreateLogbookResult> {
+  public constructor(private readonly _logbookRepo: ILogbookRepository) {}
+
+  public async execute(
+    input: ICreateLogbookDto
+  ): Promise<ICreateLogbookResult> {
+    const logbook = new Logbook(input.name, input.userId)
+
+    const result = await this._logbookRepo.save(logbook)
+
+    if (!result) {
+      throw new Error("Could not save logbook.")
+    }
+
+    return {
+      logbookId: logbook.id,
+    }
+  }
+}
+```
  
 
 
