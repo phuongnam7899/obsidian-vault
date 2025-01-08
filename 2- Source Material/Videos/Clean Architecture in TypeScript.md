@@ -33,10 +33,23 @@ Status: #source-eating
 > https://github.com/donnyroufs/clean-architecture-in-typescript-yt/blob/main/src/presentation/ApiServer.ts
 - Create a `main.ts`
 - Create a folder for each layer
-- `application`:
+- `/domain`: contains entity define  (and validate)
+```ts
+import { randomUUID } from "crypto";
+
+export class Logbook {
+  public constructor(
+    public readonly name: string,
+    public readonly userId: string,
+    public readonly id: string = randomUUID()
+  ) { }
+}
+```
+- `/application`:
 	- Create a file for each use case
 	- File should export a class that have 1 `execute()` method
 	- Create an interface for `CreateLogBookDataTransferObject` -> use it for the `execute` argument
+	- The `_logbookRepo` should be injected to class with interface `ILogbookRepository` (we will create implementation for it later)
 	- Create interface for `execute()`'s output
 ```ts
 import { Logbook } from "../domain/Logbook"
@@ -72,7 +85,28 @@ export class CreateLogbookUseCase implements IUseCase<ICreateLogbookDto, ICreate
   }
 }
 ```
- 
+ - `/presentation`: 
+	 - `apiServer.ts`: create server using ExpressJS or other framework
+		 - Controllers should be injected into server class
+```ts
+import express from 'express'
+import { CreateLogbookController } from './CreateLogbookController'
+import { GetLogbookController } from './GetLogbookController'
+
+export class ApiServer {
+  public static async run(port: number, controller: CreateLogbookController, getController: GetLogbookController): Promise<void> {
+    const app = express()
+    app.use(express.json())
+
+    app.post('/logbooks', (req, res) => controller.handle(req, res))
+    app.get('/logbooks', (req, res) => getController.handle(req, res))
+
+    app.listen(port, () => {
+      console.log('server is running')
+    })
+  }
+}
+```
 
 
 
