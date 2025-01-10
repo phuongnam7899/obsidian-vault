@@ -22,24 +22,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "6686dba2476dd1b2",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "36184274b78eb766",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "7 - Files/Cloud Practitioner Essentials 2025-01-10 11.40.22.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Cloud Practitioner Essentials 2025-01-10 11.40.22.excalidraw"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
