@@ -13,12 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2- Source Material/Videos/Clean Architecture in TypeScript.md",
+                "file": "2- Source Material/Courses/Cloud Practitioner Essentials.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Clean Architecture in TypeScript"
+              "title": "Cloud Practitioner Essentials"
+            }
+          }
+        ]
+      },
+      {
+        "id": "393d5af5e2e26871",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "15d59e321680ad8f",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "7 - Files/Cloud Practitioner Essentials 2025-01-10 11.20.20.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Cloud Practitioner Essentials 2025-01-10 11.20.20.excalidraw"
             }
           }
         ]
@@ -93,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2- Source Material/Videos/Clean Architecture in TypeScript.md",
+                "file": "2- Source Material/Courses/Cloud Practitioner Essentials.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +121,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Clean Architecture in TypeScript"
+              "title": "Backlinks for Cloud Practitioner Essentials"
             }
           },
           {
@@ -139,10 +157,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2- Source Material/Videos/Clean Architecture in TypeScript.md"
+                "file": "2- Source Material/Courses/Cloud Practitioner Essentials.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Clean Architecture in TypeScript"
+              "title": "Outline of Cloud Practitioner Essentials"
             }
           },
           {
@@ -151,8 +169,8 @@
             "state": {
               "type": "smart-connections-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "smart-connections",
+              "title": "Smart Connections"
             }
           },
           {
@@ -161,8 +179,8 @@
             "state": {
               "type": "smart-connections-chat-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "message-square",
+              "title": "Smart Chat Conversation View"
             }
           },
           {
@@ -171,11 +189,12 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -197,8 +216,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "febdc3174a1e9277",
+  "active": "6a2fc9cd813311bb",
   "lastOpenFiles": [
+    "smart-chats",
+    "7 - Files/Cloud Practitioner Essentials 2025-01-10 11.20.20.excalidraw.md",
+    "2- Source Material/Courses/Cloud Practitioner Essentials.md",
+    "7 - Files/Cloud Practitioner Essentials 2025-01-10 11.02.47.excalidraw.md",
+    "7 - Files/Cloud Practitioner Essentials 2025-01-10 10.10.41.excalidraw.md",
+    "2- Source Material/Videos/Clean Architecture in TypeScript.md",
+    "2- Source Material/Courses",
     "7 - Files/Pasted image 20250107111749.png",
     "7 - Files/Pasted image 20250107110757.png",
     "7 - Files/Pasted image 20250107105848.png",
@@ -206,13 +232,11 @@
     "7 - Files/Pasted image 20250107105022.png",
     "2- Source Material/Videos/Clean Architecture in NextJS.md",
     "2- Source Material/Videos/Clean Architecture NodeJS MongoDB.md",
-    "2- Source Material/Videos/Clean Architecture in TypeScript.md",
     "7 - Files/Pasted image 20250107100959.png",
     "7 - Files/Pasted image 20250107094508.png",
     "7 - Files/Pasted image 20250107094353.png",
     "7 - Files/Pasted image 20250107093607.png",
     "7 - Files/Pasted image 20250107085324.png",
-    "7 - Files/Pasted image 20250106162957.png",
     "6 - Main Notes/Docker common commands.md",
     "2- Source Material/Books/Dive into Design Pattern.md",
     "2- Source Material/Videos/Cách thức mở rộng DB.md",
@@ -231,22 +255,16 @@
     "6 - Main Notes/Reduce wait time to increase FE performance.md",
     "6 - Main Notes/Use case for each script load type.md",
     "3 - Tags/HTML.md",
-    "6 - Main Notes/Process of loading resources in browser.md",
-    "6 - Main Notes/Communication between web worker and main thread.md",
-    "6 - Main Notes/Browser cache types.md",
-    "6 - Main Notes/Reduce the Amount of work for browser to increase FE performance.md",
     "Lazy loading images",
     "8 - Content Factory",
     "Untitled.canvas",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "1 - Rough Notes",
-    "smart-chats",
     "What is good UX",
     "7 - Files",
     "6 - Main Notes",
     "5 - Templates",
-    "4 - Indexes",
-    "3 - Tags"
+    "4 - Indexes"
   ]
 }

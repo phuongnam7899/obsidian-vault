@@ -4,7 +4,8 @@
       "i",
       "w",
       "e",
-      "q"
+      "q",
+      "s"
     ],
     "settings": {
       "i": [
@@ -36,6 +37,14 @@
           "changes": {
             "icon": "lucide-quote",
             "color": "166, 189, 197"
+          }
+        }
+      ],
+      "s": [
+        {
+          "changes": {
+            "icon": "lucide-check",
+            "color": "68, 207, 110"
           }
         }
       ]
