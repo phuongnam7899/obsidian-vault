@@ -94,13 +94,16 @@ Status: #source-eating
 		- Pay for code running time
 		- Use other AWS service to trigger code with Lambda
 			![[Cloud Practitioner Essentials 2025-01-10 11.40.22.excalidraw]]
-	- Container Service:
+	- Container Ochestration Service:
 		- Only need to use a container, not care about the server
 		- AWS Elastic Container Service (ECS)
 			- Run and scale containerized application
 			- Use simple API calls to control Docker-enabled  application
 		- AWS Elastic Kubernetes Service (EKS):
-			- 
+			- Run and scale K8S application
+	- AWS Fargate
+		- Run serverless containers with Amazone ECS or EKS
+		- Pay only for used resources
 # Module 3: Global infrastructure and Reliability
 # Module 4: Networking
 # Module 5: Storages and Database
