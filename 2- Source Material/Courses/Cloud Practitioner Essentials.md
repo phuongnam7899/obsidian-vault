@@ -88,7 +88,12 @@ Status: #source-eating
 	- Amazon Simple Queue Service (SQS)
 		- Send, store and receive message between software components
 		- Queue message ==without other services to be available==
-- Serverless computing
+- Server-less computing (AWS Lambda):
+	- Run code without provisioning or managing server
+	- Pay for code running time
+	- Use other AWS service to trigger code with Lambda
+		![[Cloud Practitioner Essentials 2025-01-10 11.40.22.excalidraw]]
+	- 
 # Module 3: Global infrastructure and Reliability
 # Module 4: Networking
 # Module 5: Storages and Database
