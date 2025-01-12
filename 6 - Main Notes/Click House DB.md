@@ -1,6 +1,6 @@
 2025-01-12 15:56
 
-Tags: 
+Tags: [[Database]]
 
 ---
 
@@ -19,3 +19,5 @@ Tags:
 ---
 # References
 - [[What is columnar storage]]
+- [[What is Dictionary Encoding]]
+- What is delta encoding
