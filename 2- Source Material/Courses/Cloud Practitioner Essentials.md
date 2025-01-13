@@ -159,7 +159,8 @@ Determine religion for services, data, applications based on:
 - Types:
 	- Block storage
 		- File are separated into blocks of data
-		- Used for application
+		- Used for application that run on Amazon EC2 instances (because data is frequently changed)
+		- Example: SSD, USB, Instance Store (store that attached to an instance -> when the instance is down -> the store is deleted), Amazon EBS Volumes (store attached to an instance, but when the instance is down -> data still)
 	- Object storage
 	- File storage
 - 
