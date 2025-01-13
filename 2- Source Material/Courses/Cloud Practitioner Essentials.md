@@ -294,7 +294,13 @@ Contain resources to learn about AWS compliance
 - Give ==real-time guidance== to improve the AWS environment
 - ==Compare== your infra ==to best practices== in 5 categories
 - ==Evaluate and implement guidance== at all stage of deployment
+- Provide dashboard to show:
+	- Number of no-problem items
+	- Number of recommended investigation
+	- Number of recommended actions
+- 2 level: Basic and Advanced (cost)
 # Module 8: Pricing and Support 
+- Free: https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all
 # Module 9: Migration and Innovation
 # Module 10: AWS Certified Cloud Practitioner Basic 
 
