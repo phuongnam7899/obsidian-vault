@@ -117,7 +117,10 @@ Determine religion for services, data, applications based on:
 - Price
 ## Availability zones
 ![[Cloud Practitioner Essentials 2025-01-13 08.35.12.excalidraw]]
-- Each religion contain multiple logically isolated zone that contain data centers of that religion -> when an availability zone got problem -> use other one to ensure the availability 
+- Each religion contain multiple logically isolated zone that contain data centers of that religion -> when an availability zone got problem -> use other one to ensure the availability
+## Global content delivery
+- Amazon CloudFront: is a CDN service provided by Amazon, put (cache) the content to nearer location from user -> increase speed 
+- AWS Outpost: Extend AWS infra and services to your on-premises data center
 # Module 4: Networking
 # Module 5: Storages and Database
 # Module 6: Security
