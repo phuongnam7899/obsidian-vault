@@ -202,7 +202,18 @@ Determine religion for services, data, applications based on:
 - ==Automate== time-consuming ==administrative tasks==
 - Store and transmit data ==securely==
 - Supported all engines: Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle Database, Microsoft SQL Server
-- 
+- Amazon Aurora:
+	- store data in an enterprise-class relational database
+	- reduce cost by remove unnecessary I/O operation
+	- replicate 6 copies in 3 Availability zones
+### Amazon DynamoDB
+- For non-relational database
+- Is a server-less key-value database
+- Automatically scale
+- Can handle 10 trillions requests per day
+### AWS Database Migration Service (DMS)
+- Used to migrate relational/non-relational/other database types to another
+### Other 
 
 # Module 6: Security
 # Module 7: Monitoring and Analytics
