@@ -147,7 +147,12 @@ Determine religion for services, data, applications based on:
 		- By default ==denies all in== traffic and ==allow all out== traffic
 		- Perform stateful packet filtering: remember the previous decision that were made
 ## Interact with global network
-- 
+- DNS (Domain Name System)
+![[Cloud Practitioner Essentials 2025-01-13 11.02.51.excalidraw]]
+- Amazon Route 53: 
+	- Route user to internet application
+	- Connect user request to infra inside/outside of AWS
+	- Manage DNS record for domain name
 # Module 5: Storages and Database
 # Module 6: Security
 # Module 7: Monitoring and Analytics

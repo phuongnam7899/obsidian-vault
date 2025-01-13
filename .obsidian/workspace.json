@@ -6,6 +6,7 @@
       {
         "id": "b4f047b565e8e46e",
         "type": "tabs",
+        "dimension": 62.55172413793103,
         "children": [
           {
             "id": "febdc3174a1e9277",
@@ -26,6 +27,7 @@
       {
         "id": "9e7f190714e8605b",
         "type": "tabs",
+        "dimension": 37.44827586206896,
         "children": [
           {
             "id": "9a6fea4cac0aaf4d",
@@ -33,10 +35,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "7 - Files/Cloud Practitioner Essentials 2025-01-13 09.33.03.excalidraw.md"
+                "file": "7 - Files/Cloud Practitioner Essentials 2025-01-13 11.02.51.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Cloud Practitioner Essentials 2025-01-13 09.33.03.excalidraw"
+              "title": "Cloud Practitioner Essentials 2025-01-13 11.02.51.excalidraw"
             }
           }
         ]
@@ -218,8 +220,9 @@
   },
   "active": "febdc3174a1e9277",
   "lastOpenFiles": [
-    "7 - Files/Cloud Practitioner Essentials 2025-01-13 09.33.03.excalidraw.md",
+    "7 - Files/Cloud Practitioner Essentials 2025-01-13 11.02.51.excalidraw.md",
     "2- Source Material/Courses/Cloud Practitioner Essentials.md",
+    "7 - Files/Cloud Practitioner Essentials 2025-01-13 09.33.03.excalidraw.md",
     "7 - Files/Cloud Practitioner Essentials 2025-01-13 08.35.12.excalidraw.md",
     "7 - Files/Cloud Practitioner Essentials 2025-01-13 08.05.33.excalidraw.md",
     "7 - Files/Cloud Practitioner Essentials 2025-01-10 11.40.22.excalidraw.md",
@@ -255,7 +258,6 @@
     "2- Source Material/Videos/Thiết kế hệ thống mạng xã hội 200tr Users - System Design.md",
     "2- Source Material/Videos/Web Workers - Công cụ tăng hiệu năng trang web mạnh mẽ.md",
     "2- Source Material/Videos/How to deploy Nodejs with AWS EKS.md",
-    "3 - Tags/Frontend Optimization.md",
     "Lazy loading images",
     "8 - Content Factory",
     "Untitled.canvas",
