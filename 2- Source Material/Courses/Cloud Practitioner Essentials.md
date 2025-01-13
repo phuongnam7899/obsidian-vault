@@ -254,7 +254,8 @@ Determine religion for services, data, applications based on:
 	- Multi-factor authentication (MFA)
 		- Beside username and password, it require 1 or more authentication layer(s): mobile
 	- Organizational units (OU)
-![[Cloud Practitioner Essentials 2025-01-13 14.38.02.excalidraw]]
+		- Policies can be applied for individual account (IAM user or external user) or a OU
+			![[Cloud Practitioner Essentials 2025-01-13 14.38.02.excalidraw]]
 
 > [!i] Best practices:
 > - Use root user (first user) to create another user (User A) -> use user B to create other other. Avoid using root user
@@ -262,7 +263,10 @@ Determine religion for services, data, applications based on:
 > - For policies: follow the security principle of least privilege
 > - Attach policy to group instead of individual
 
-
+## AWS Artifacts
+Provide on-demand access to security and compliance reports and select online agreements:
+## Customer Compliance Center
+Contain resources to learn about AWS compliance
 
 # Module 7: Monitoring and Analytics
 # Module 8: Pricing and Support 
