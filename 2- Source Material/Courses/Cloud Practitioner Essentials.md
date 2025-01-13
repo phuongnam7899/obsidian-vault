@@ -301,7 +301,19 @@ Contain resources to learn about AWS compliance
 - 2 level: Basic and Advanced (cost)
 # Module 8: Pricing and Support 
 - Free: https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all
+- Overall concepts:
+	- Pay as you go
+	- Pay less where you reserve
+	- Pay-less with volume-based discount
+- Calculator: https://calculator.aws/#/
+- AWS cost explorer to visualize and understand the cost
+- Support: 
+	- Basic:
+		- Technical paper, docs and communities
+		- AWS Personal Heath Dashboard
+		- Limited Trust Advisor
 # Module 9: Migration and Innovation
+
 # Module 10: AWS Certified Cloud Practitioner Basic 
 
 ---
