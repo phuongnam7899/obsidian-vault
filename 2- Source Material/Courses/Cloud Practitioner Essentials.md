@@ -153,6 +153,7 @@ Determine religion for services, data, applications based on:
 	- Route user to internet application
 	- Connect user request to infra inside/outside of AWS
 	- Manage DNS record for domain name
+![[Cloud Practitioner Essentials 2025-01-13 11.10.56.excalidraw]]
 # Module 5: Storages and Database
 # Module 6: Security
 # Module 7: Monitoring and Analytics
