@@ -191,7 +191,7 @@ Determine religion for services, data, applications based on:
 		- S3 Glacier Deep Archive
 			- Lowest-cost
 			- Retrieve objects within 12h
-### File storage (Amazon Elastic File System)
+### File storage (Amazon Elastic File System - EFS)
 - Multiple clients (server, user, application) can access to data stored in shred file folders
 - Store data in scalable file system
 - Provide data to thousands of EC2 instance concurrently
@@ -221,9 +221,23 @@ Determine religion for services, data, applications based on:
 - Amazon Managed Blockchain: Run a decentralize ledger DB
 - Amazon ElasticCache: adding caching layers for application to increase speed
 - Amazon Dynama Accelerator: Improve Dynamo response time (from single digit mili-seconds to microseconds)
-- 
 
 # Module 6: Security
+## Shared responsibility model
+- Customer: take responsibility for what they created
+	- Customer data
+	- Platform, application, Identity and Access management
+	- Operating System, Network and Fire
+- AWS:
+	- Hardware/AWS Global Infra
+		- Religions
+		- Availability Zones
+		- Edge location
+	- Software:
+		- Computing
+		- Storage
+		- Database
+		- Networking 
 # Module 7: Monitoring and Analytics
 # Module 8: Pricing and Support 
 # Module 9: Migration and Innovation
