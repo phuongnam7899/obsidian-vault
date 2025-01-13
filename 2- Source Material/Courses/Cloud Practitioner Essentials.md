@@ -196,7 +196,14 @@ Determine religion for services, data, applications based on:
 - Store data in scalable file system
 - Provide data to thousands of EC2 instance concurrently
 - Store data in and across multiple Availability Zone
+## Databases
+### Amazon Relational Database Service (RDS)
+- ==Operate and scale== relational databases in AWS Cloud
+- ==Automate== time-consuming ==administrative tasks==
+- Store and transmit data ==securely==
+- Supported all engines: Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle Database, Microsoft SQL Server
 - 
+
 # Module 6: Security
 # Module 7: Monitoring and Analytics
 # Module 8: Pricing and Support 
