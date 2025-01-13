@@ -267,9 +267,14 @@ Determine religion for services, data, applications based on:
 Provide on-demand access to security and compliance reports and select online agreements:
 ## Customer Compliance Center
 Contain resources to learn about AWS compliance
-## AWS Web Application Firewall (WAF)
-- Check the IP before the request come to application to prevent DoS and DDoS
-- 
+## AWS Web Application Firewall (WAF) and Shield
+- WAF:
+	- Primarily for layer 7 attacks (application layer) such as SQL Injection, XSS, HTTP Flood attacks
+	- Allow to define custom rules to filter/block malcious requests
+- Shield:
+	- Protect application from level 3 & 4 attacks (network ans transport) such as DoS/DDoS
+	- 2 tiers: Standard and Advanced
+- WAF and Shield could be used together for better protection
 # Module 7: Monitoring and Analytics
 # Module 8: Pricing and Support 
 # Module 9: Migration and Innovation
