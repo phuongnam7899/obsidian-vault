@@ -136,7 +136,8 @@ Determine religion for services, data, applications based on:
 - Subnet: a section in VPC in which you can place group of isolate resources
 ![[Cloud Practitioner Essentials 2025-01-13 09.33.03.excalidraw]]
 - Internet Gateway: a gate to handle request between VPC's ==public subnet== and  the internet
-- Virtual Private Gateway: a gate to handle requests between VPC's private subnet and 
+- Virtual Private Gateway: a gate to handle requests between VPC's ==private subnets== and the internet -> 
+- If you want a more stable connection -> use AWS direct connection
 # Module 5: Storages and Database
 # Module 6: Security
 # Module 7: Monitoring and Analytics
