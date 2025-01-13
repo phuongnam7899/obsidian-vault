@@ -121,6 +121,15 @@ Determine religion for services, data, applications based on:
 ## Global content delivery
 - Amazon CloudFront: is a CDN service provided by Amazon, put (cache) the content to nearer location from user -> increase speed 
 - AWS Outpost: Extend AWS infra and services to your on-premises data center
+## Interact with AWS services
+- Actions:
+	- Launch EC2 instances
+	- Create load balancer
+	- Invoke lambda function
+- Can trigger action through:
+	- AWS management console
+	- AWS CLI
+	- Software development kits
 # Module 4: Networking
 # Module 5: Storages and Database
 # Module 6: Security
