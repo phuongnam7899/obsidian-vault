@@ -227,7 +227,10 @@ Determine religion for services, data, applications based on:
 - Customer: take responsibility for what they created
 	- Customer data
 	- Platform, application, Identity and Access management
-	- Operating System, Network and Fire
+	- Operating System, Network and Firewall config
+		- Client-side encrypt
+		- Server-side encrypt
+		- Networking Traffic protection (security group, access list)
 - AWS:
 	- Hardware/AWS Global Infra
 		- Religions
@@ -238,6 +241,19 @@ Determine religion for services, data, applications based on:
 		- Storage
 		- Database
 		- Networking 
+## AWS Identity and Access Management (IAM)
+- Allow manage access to AWS services and resources
+- Features:
+	- IAM user
+	- IAM policy
+	- IAM role
+	- IAM group
+	- Multi-factor authentication (MFA)
+> [!i] Best practices:
+> - Use root user (first user) to create another user (User A) -> use user B to create other other. Avoid using root user
+> - Create different us
+
+
 # Module 7: Monitoring and Analytics
 # Module 8: Pricing and Support 
 # Module 9: Migration and Innovation
