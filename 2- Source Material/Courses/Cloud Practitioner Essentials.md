@@ -245,13 +245,17 @@ Determine religion for services, data, applications based on:
 - Allow manage access to AWS services and resources
 - Features:
 	- IAM user
-	- IAM policy
-	- IAM role
-	- IAM group
+		- Each user has access key, secret access key and password
+	- IAM policy: define the action could be take with objects in some location
+	- IAM role: identity that can assume to gain temporary access to permissions
+	- IAM group: multiple users
 	- Multi-factor authentication (MFA)
 > [!i] Best practices:
 > - Use root user (first user) to create another user (User A) -> use user B to create other other. Avoid using root user
-> - Create different us
+> - Create different user for each person that need to access
+> - For policies: follow the security principle of least privilege
+> - Attach policy to group instead of individual
+> - 
 
 
 # Module 7: Monitoring and Analytics
