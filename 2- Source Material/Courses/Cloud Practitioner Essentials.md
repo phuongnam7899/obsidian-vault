@@ -247,9 +247,12 @@ Determine religion for services, data, applications based on:
 	- IAM user
 		- Each user has access key, secret access key and password
 	- IAM policy: define the action could be take with objects in some location
-	- IAM role: identity that can assume to gain temporary access to permissions
+	- IAM role: 
+		- identity that can assume to gain ==temporary== access to permissions
+		- user can have ==multiple roles==
 	- IAM group: multiple users
 	- Multi-factor authentication (MFA)
+		- Beside username and password, it require 1 or more things
 > [!i] Best practices:
 > - Use root user (first user) to create another user (User A) -> use user B to create other other. Avoid using root user
 > - Create different user for each person that need to access
