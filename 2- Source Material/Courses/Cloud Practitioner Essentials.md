@@ -155,6 +155,14 @@ Determine religion for services, data, applications based on:
 	- Manage DNS record for domain name
 ![[Cloud Practitioner Essentials 2025-01-13 11.10.56.excalidraw]]
 # Module 5: Storages and Database
+## Storage
+- Types:
+	- Block storage
+		- File are separated into blocks of data
+		- Used for application
+	- Object storage
+	- File storage
+- 
 # Module 6: Security
 # Module 7: Monitoring and Analytics
 # Module 8: Pricing and Support 
