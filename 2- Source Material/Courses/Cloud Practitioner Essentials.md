@@ -268,7 +268,8 @@ Provide on-demand access to security and compliance reports and select online ag
 ## Customer Compliance Center
 Contain resources to learn about AWS compliance
 ## AWS Web Application Firewall (WAF)
-- Check the IP before the request come to application
+- Check the IP before the request come to application to prevent DoS and DDoS
+- 
 # Module 7: Monitoring and Analytics
 # Module 8: Pricing and Support 
 # Module 9: Migration and Innovation

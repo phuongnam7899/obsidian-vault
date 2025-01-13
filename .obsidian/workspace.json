@@ -21,6 +21,20 @@
               "icon": "lucide-file",
               "title": "Cloud Practitioner Essentials"
             }
+          },
+          {
+            "id": "42ff60b0c3c314bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/What is DDoS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "What is DDoS"
+            }
           }
         ]
       },
@@ -220,8 +234,11 @@
   },
   "active": "febdc3174a1e9277",
   "lastOpenFiles": [
-    "7 - Files/Cloud Practitioner Essentials 2025-01-13 14.38.02.excalidraw.md",
+    "6 - Main Notes/What is DDoS.md",
     "2- Source Material/Courses/Cloud Practitioner Essentials.md",
+    "6 - Main Notes/What is DoS.md",
+    "3 - Tags/Security.md",
+    "7 - Files/Cloud Practitioner Essentials 2025-01-13 14.38.02.excalidraw.md",
     "7 - Files/Cloud Practitioner Essentials 2025-01-13 11.10.56.excalidraw.md",
     "7 - Files/Cloud Practitioner Essentials 2025-01-13 11.02.51.excalidraw.md",
     "7 - Files/Cloud Practitioner Essentials 2025-01-13 09.33.03.excalidraw.md",
@@ -255,9 +272,6 @@
     "6 - Main Notes/Maximize the speed in FE optimization.md",
     "6 - Main Notes/The core of Frontend Optimization.md",
     "6 - Main Notes/how to use web worker.md",
-    "3 - Tags/Product Management.md",
-    "2- Source Material/Videos/Công thức tối ưu Frontend.md",
-    "2- Source Material/Videos/Thiết kế hệ thống mạng xã hội 200tr Users - System Design.md",
     "Lazy loading images",
     "8 - Content Factory",
     "Untitled.canvas",
