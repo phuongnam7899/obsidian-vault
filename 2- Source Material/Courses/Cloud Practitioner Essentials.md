@@ -270,11 +270,17 @@ Contain resources to learn about AWS compliance
 ## AWS Web Application Firewall (WAF) and Shield
 - WAF:
 	- Primarily for layer 7 attacks (application layer) such as SQL Injection, XSS, HTTP Flood attacks
-	- Allow to define custom rules to filter/block malcious requests
+	- Allow to define custom rules to filter/block malicious requests
 - Shield:
-	- Protect application from level 3 & 4 attacks (network ans transport) such as DoS/DDoS
+	- Protect application from level 3 & 4 attacks (network and transport) such as DoS/DDoS
 	- 2 tiers: Standard and Advanced
 - WAF and Shield could be used together for better protection
+## AWS Key Management Service (KMS)
+- Help customer perform encryption operation by using cryptographic keys
+- Can custom the access level for each key
+## Amazon GuardDuty
+- Provide intelligent threats detection for AWS products/service
+- It detect threats by analyze the logs of all actions of other services
 # Module 7: Monitoring and Analytics
 # Module 8: Pricing and Support 
 # Module 9: Migration and Innovation
