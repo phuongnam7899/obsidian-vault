@@ -103,9 +103,10 @@ Status: #source-eating
 	- AWS Elastic Kubernetes Service (EKS):
 		- Run and scale K8S application
 - AWS Faregate
-	- Run server-less containers with Amazone ECS or EKS
+	- Run server-less containers with Amazon ECS or EKS
 	- Pay only for used resources
 # Module 3: Global infrastructure and Reliability
+- 
 # Module 4: Networking
 # Module 5: Storages and Database
 # Module 6: Security
