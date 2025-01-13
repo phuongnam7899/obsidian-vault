@@ -285,6 +285,13 @@ Contain resources to learn about AWS compliance
 ## Cloudwatch
 - Track metric of service
 - Provide dashboard
+## CloudTrail
+- Track user activities and API request through the AWS infra
+- Help trace for the process that make something happen or analyzing the actions
+- Answer what, who, when, how questions for each event
+- Automatically detect unusual account activity
+## AWS Trust Advisor
+- 
 # Module 8: Pricing and Support 
 # Module 9: Migration and Innovation
 # Module 10: AWS Certified Cloud Practitioner Basic 
