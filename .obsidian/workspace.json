@@ -22,6 +22,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "9e7f190714e8605b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a6fea4cac0aaf4d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "7 - Files/Cloud Practitioner Essentials 2025-01-13 09.33.03.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Cloud Practitioner Essentials 2025-01-13 09.33.03.excalidraw"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -139,10 +157,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2- Source Material/Courses/Cloud Practitioner Essentials.md"
+                "file": "7 - Files/Cloud Practitioner Essentials 2025-01-13 09.33.03.excalidraw.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Cloud Practitioner Essentials"
+              "title": "Outline of Cloud Practitioner Essentials 2025-01-13 09.33.03.excalidraw"
             }
           },
           {
@@ -198,10 +216,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "febdc3174a1e9277",
+  "active": "9a6fea4cac0aaf4d",
   "lastOpenFiles": [
-    "7 - Files/Cloud Practitioner Essentials 2025-01-13 08.35.12.excalidraw.md",
     "2- Source Material/Courses/Cloud Practitioner Essentials.md",
+    "7 - Files/Cloud Practitioner Essentials 2025-01-13 09.33.03.excalidraw.md",
+    "7 - Files/Cloud Practitioner Essentials 2025-01-13 08.35.12.excalidraw.md",
     "7 - Files/Cloud Practitioner Essentials 2025-01-13 08.05.33.excalidraw.md",
     "7 - Files/Cloud Practitioner Essentials 2025-01-10 11.40.22.excalidraw.md",
     "smart-chats",
@@ -237,7 +256,6 @@
     "2- Source Material/Videos/Web Workers - Công cụ tăng hiệu năng trang web mạnh mẽ.md",
     "2- Source Material/Videos/How to deploy Nodejs with AWS EKS.md",
     "3 - Tags/Frontend Optimization.md",
-    "6 - Main Notes/Reduce wait time to increase FE performance.md",
     "Lazy loading images",
     "8 - Content Factory",
     "Untitled.canvas",

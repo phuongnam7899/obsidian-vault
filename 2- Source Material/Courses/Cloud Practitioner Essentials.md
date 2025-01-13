@@ -132,7 +132,9 @@ Determine religion for services, data, applications based on:
 	- Software development kits
 # Module 4: Networking
 ## Amazon VPC (Virtual Private Cloud)
-- 
+- Enable you to launch resources in a virtual private network that you define
+- Subnet: a section in VPC in which you can place group of isolate resources
+![[Cloud Practitioner Essentials 2025-01-13 09.33.03.excalidraw]]
 # Module 5: Storages and Database
 # Module 6: Security
 # Module 7: Monitoring and Analytics
