@@ -286,12 +286,14 @@ Contain resources to learn about AWS compliance
 - Track metric of service
 - Provide dashboard
 ## CloudTrail
-- Track user activities and API request through the AWS infra
+- ==Track user activities and API request== through the AWS infra
 - Help trace for the process that make something happen or analyzing the actions
-- Answer what, who, when, how questions for each event
-- Automatically detect unusual account activity
+- Answer ==what, who, when, how== questions for each event
+- Automatically ==detect unusual account== activity
 ## AWS Trust Advisor
-- 
+- Give ==real-time guidance== to improve the AWS environment
+- ==Compare== your infra ==to best practices== in 5 categories
+- ==Evaluate and implement guidance== at all stage of deployment
 # Module 8: Pricing and Support 
 # Module 9: Migration and Innovation
 # Module 10: AWS Certified Cloud Practitioner Basic 
