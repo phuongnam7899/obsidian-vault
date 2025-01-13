@@ -252,13 +252,16 @@ Determine religion for services, data, applications based on:
 		- user can have ==multiple roles==
 	- IAM group: multiple users
 	- Multi-factor authentication (MFA)
-		- Beside username and password, it require 1 or more things
+		- Beside username and password, it require 1 or more authentication layer(s): mobile
+	- Organizational units (OU)
+![[Cloud Practitioner Essentials 2025-01-13 14.38.02.excalidraw]]
+
 > [!i] Best practices:
 > - Use root user (first user) to create another user (User A) -> use user B to create other other. Avoid using root user
 > - Create different user for each person that need to access
 > - For policies: follow the security principle of least privilege
 > - Attach policy to group instead of individual
-> - 
+
 
 
 # Module 7: Monitoring and Analytics
