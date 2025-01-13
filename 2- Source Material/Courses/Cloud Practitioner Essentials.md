@@ -160,8 +160,17 @@ Determine religion for services, data, applications based on:
 	- Block storage
 		- File are separated into blocks of data
 		- Used for application that run on Amazon EC2 instances (because data is frequently changed)
-		- Example: SSD, USB, Instance Store (store that attached to an instance -> when the instance is down -> the store is deleted), Amazon EBS Volumes (store attached to an instance, but when the instance is down -> data still)
+		- Example: SSD, USB, 
+		- **Instance Store** (store that attached to an instance -> when the instance is down -> the store is deleted), 
+		- **Amazon EBS Volumes**
+			- store attached to an instance, but when the instance is down -> data is persistent
+			- EBS snapshot: is backup. Only changed data since last snapshot is backed up
 	- Object storage
+		- Data in object store is objects with ==data==, ==metadata== and ==key==
+		- Amazon Simple Storage Service (**Amazon S3**):
+			- Stores objects in ==buckets==
+			- Set ==permission== to control access to objects
+			- There are many storage type taht could b
 	- File storage
 - 
 # Module 6: Security
