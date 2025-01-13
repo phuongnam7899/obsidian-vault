@@ -282,6 +282,9 @@ Contain resources to learn about AWS compliance
 - Provide intelligent threats detection for AWS products/service
 - It detect threats by analyze the logs of all actions of other services
 # Module 7: Monitoring and Analytics
+## Cloudwatch
+- Track metric of service
+- Provide dashboard
 # Module 8: Pricing and Support 
 # Module 9: Migration and Innovation
 # Module 10: AWS Certified Cloud Practitioner Basic 
