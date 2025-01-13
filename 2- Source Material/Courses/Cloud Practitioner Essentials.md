@@ -108,7 +108,10 @@ Status: #source-eating
 # Module 3: Global infrastructure and Reliability
 - Build a global footprint: route user to nearest available footprint
 ![[Cloud Practitioner Essentials 2025-01-13 08.05.33.excalidraw]]
-- Availability zone: data centers that 
+## Select region
+Determine religion for services, data, applications based on:
+- Legal: is it allowed to placed there?
+	- For example: GDPR (General Data Protection Regulation): 
 # Module 4: Networking
 # Module 5: Storages and Database
 # Module 6: Security
