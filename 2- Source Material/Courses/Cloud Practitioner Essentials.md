@@ -163,7 +163,7 @@ Determine religion for services, data, applications based on:
 - Example: SSD, USB, 
 - **Instance Store** (store that attached to an instance -> when the instance is down -> the store is deleted), 
 - **Amazon EBS Volumes**
-	- store attached to an instance, but when the instance is down -> data is persistent
+	- store attached to an instance (single availability zone), but when the instance is down -> data is persistent
 	- EBS snapshot: is backup. Only changed data since last snapshot is backed up
 ### Object storage
 - Data in object store is objects with ==data==, ==metadata== and ==key==
@@ -213,7 +213,15 @@ Determine religion for services, data, applications based on:
 - Can handle 10 trillions requests per day
 ### AWS Database Migration Service (DMS)
 - Used to migrate relational/non-relational/other database types to another
-### Other 
+### Other DB service
+- Amazon Redshift: query and analyze data across a data warehouse
+- Amazon DocumentDB: Run MongoDB workload in a document database service
+- Amazon Neptune: Run application that use highly connected dataset
+- Amazon QLDB: to review changes history of data (like blockchain)
+- Amazon Managed Blockchain: Run a decentralize ledger DB
+- Amazon ElasticCache: adding caching layers for application to increase speed
+- Amazon Dynama Accelerator: Improve Dynamo response time (from single digit mili-seconds to microseconds)
+- 
 
 # Module 6: Security
 # Module 7: Monitoring and Analytics
