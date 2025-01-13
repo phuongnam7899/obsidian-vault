@@ -141,9 +141,13 @@ Determine religion for services, data, applications based on:
 - To more detailed manage the access to VPC -> use the:
 	- Network Access Control List (ACL) (==a virtual firewall for subnets==). Default:
 		- Default network ACL allow all inbound and outbound traffic
-		- Custom network ACL deny all inbound and outbound traffic (Stateless packet filtering)
-	- Security groups: a ==virtual firewall for EC2 instance==:
-		- By default ==denies all in== traffic and ==allow all out== traffic (stateful packet filtering)
+		- Custom network ACL deny all inbound and outbound traffic (
+		- Perform Stateless packet filtering
+	- Security groups: a ==virtual firewall for EC2 instance or group of instances==:
+		- By default ==denies all in== traffic and ==allow all out== traffic
+		- Perform stateful packet filtering: remember the previous decision that were made
+## Interact with global network
+- 
 # Module 5: Storages and Database
 # Module 6: Security
 # Module 7: Monitoring and Analytics
