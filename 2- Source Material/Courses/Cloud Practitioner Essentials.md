@@ -313,6 +313,21 @@ Contain resources to learn about AWS compliance
 		- AWS Personal Heath Dashboard
 		- Limited Trust Advisor
 # Module 9: Migration and Innovation
+## Perspectives
+- Business Capacities:
+
+|            | Goal                                                                                   | Main Roles                                                        |
+| ---------- | -------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| Business   | Ensure that IT aligns with business needs and IT investment linked to business resul - Business Manager<br>- Finance Manager<br>- Budget Owner<br>-  -  -  |
+| People     |                                                                                                                                                            |
+| Governance |                                                                                                                                                            |
+- Technical Capacities:
+
+|            | Goal | Main Roles |
+| ---------- | ---- | ---------- |
+| Platform   |      |            |
+| Security   |      |            |
+| Operations |      |            |
 
 # Module 10: AWS Certified Cloud Practitioner Basic 
 
