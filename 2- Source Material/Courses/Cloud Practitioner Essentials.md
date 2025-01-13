@@ -106,8 +106,9 @@ Status: #source-eating
 	- Run server-less containers with Amazon ECS or EKS
 	- Pay only for used resources
 # Module 3: Global infrastructure and Reliability
-- Build a global footprint:
+- Build a global footprint: route user to nearest available footprint
 ![[Cloud Practitioner Essentials 2025-01-13 08.05.33.excalidraw]]
+- Availability zone: data centers that 
 # Module 4: Networking
 # Module 5: Storages and Database
 # Module 6: Security
