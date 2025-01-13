@@ -131,6 +131,8 @@ Determine religion for services, data, applications based on:
 	- AWS CLI
 	- Software development kits
 # Module 4: Networking
+## Amazon VPC (Virtual Private Cloud)
+- 
 # Module 5: Storages and Database
 # Module 6: Security
 # Module 7: Monitoring and Analytics
