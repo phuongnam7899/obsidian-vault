@@ -156,34 +156,46 @@ Determine religion for services, data, applications based on:
 ![[Cloud Practitioner Essentials 2025-01-13 11.10.56.excalidraw]]
 # Module 5: Storages and Database
 ## Storage
-- Types:
-	- Block storage
-		- File are separated into blocks of data
-		- Used for application that run on Amazon EC2 instances (because data is frequently changed)
-		- Example: SSD, USB, 
-		- **Instance Store** (store that attached to an instance -> when the instance is down -> the store is deleted), 
-		- **Amazon EBS Volumes**
-			- store attached to an instance, but when the instance is down -> data is persistent
-			- EBS snapshot: is backup. Only changed data since last snapshot is backed up
-	- Object storage
-		- Data in object store is objects with ==data==, ==metadata== and ==key==
-		- Amazon Simple Storage Service (**Amazon S3**):
-			- Stores objects in ==buckets==
-			- Unlimited number of objects, maximum 5TB per object
-			- Set ==permission== to control access to objects
-			- There are ==many storage (classes) types== that could be chosen for different use cases:
-				- S3 standard:
-					- Designed for ==frequently accessed== data
-					- Data stored in minimum of 3 Availability Zones
-				- S3 standard-IA:
-					- For ==infrequently accessed== data
-					- Similar to standard but ==lower price for store and higher price for retrieval==
-				- S3 One Zone-IA:
-					- Similar to standard-IA but only store data in 1 Availability Zone -> lower availibility
-					- Lower price than standard-IA
-				- S3 Intelligent-Tiering:
-					- For unknown or changinf
-	- File storage
+
+### Block storage
+- File are separated into blocks of data
+- Used for application that run on Amazon EC2 instances (because data is frequently changed)
+- Example: SSD, USB, 
+- **Instance Store** (store that attached to an instance -> when the instance is down -> the store is deleted), 
+- **Amazon EBS Volumes**
+	- store attached to an instance, but when the instance is down -> data is persistent
+	- EBS snapshot: is backup. Only changed data since last snapshot is backed up
+### Object storage
+- Data in object store is objects with ==data==, ==metadata== and ==key==
+- Amazon Simple Storage Service (**Amazon S3**):
+	- Stores objects in ==buckets==
+	- Unlimited number of objects, maximum 5TB per object
+	- Set ==permission== to control access to objects
+	- There are ==many storage (classes) types== that could be chosen for different use cases:
+		- S3 standard:
+			- Designed for ==frequently accessed== data
+			- Data stored in minimum of 3 Availability Zones
+		- S3 standard-IA:
+			- For ==infrequently accessed== data
+			- Similar to standard but ==lower price for store and higher price for retrieval==
+		- S3 One Zone-IA:
+			- Similar to standard-IA but only store data in 1 Availability Zone -> lower availibility
+			- Lower price than standard-IA
+		- S3 Intelligent-Tiering:
+			- For unknown or changing access frequency
+			- Require small monthly monitor and automation fee (per object)
+		- S3 Glacier:
+			- Low-cost
+			- Ideal for data archiving
+			- Retrieve very slowly (minutes to hours)
+		- S3 Glacier Deep Archive
+			- Lowest-cost
+			- Retrieve objects within 12h
+### File storage (Amazon Elastic File System)
+- Multiple clients (server, user, application) can access to data stored in shred file folders
+- Store data in scalable file system
+- Provide data to thousands of EC2 instance concurrently
+- Store data in and across multiple Availability Zone
 - 
 # Module 6: Security
 # Module 7: Monitoring and Analytics
