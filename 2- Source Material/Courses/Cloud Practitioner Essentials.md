@@ -138,8 +138,12 @@ Determine religion for services, data, applications based on:
 - Internet Gateway: a gate to handle request between VPC's ==public subnet== and  the internet
 - Virtual Private Gateway: a gate to handle requests between VPC's ==private subnets== and the corporate network through internet -> 
 - If you want a more stable connection for private subnet  -> use AWS direct connection
-## Network access control list and security groups
-- To manage the access
+- To more detailed manage the access to VPC -> use the:
+	- Network Access Control List (ACL) (==a virtual firewall for subnets==). Default:
+		- Default network ACL allow all inbound and outbound traffic
+		- Custom network ACL deny all inbound and outbound traffic (Stateless packet filtering)
+	- Security groups: a ==virtual firewall for EC2 instance==:
+		- By default ==denies all in== traffic and ==allow all out== traffic (stateful packet filtering)
 # Module 5: Storages and Database
 # Module 6: Security
 # Module 7: Monitoring and Analytics
