@@ -169,8 +169,20 @@ Determine religion for services, data, applications based on:
 		- Data in object store is objects with ==data==, ==metadata== and ==key==
 		- Amazon Simple Storage Service (**Amazon S3**):
 			- Stores objects in ==buckets==
+			- Unlimited number of objects, maximum 5TB per object
 			- Set ==permission== to control access to objects
-			- There are many storage type taht could b
+			- There are ==many storage (classes) types== that could be chosen for different use cases:
+				- S3 standard:
+					- Designed for ==frequently accessed== data
+					- Data stored in minimum of 3 Availability Zones
+				- S3 standard-IA:
+					- For ==infrequently accessed== data
+					- Similar to standard but ==lower price for store and higher price for retrieval==
+				- S3 One Zone-IA:
+					- Similar to standard-IA but only store data in 1 Availability Zone -> lower availibility
+					- Lower price than standard-IA
+				- S3 Intelligent-Tiering:
+					- For unknown or changinf
 	- File storage
 - 
 # Module 6: Security
