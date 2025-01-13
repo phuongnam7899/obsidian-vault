@@ -138,6 +138,8 @@ Determine religion for services, data, applications based on:
 - Internet Gateway: a gate to handle request between VPC's ==public subnet== and  the internet
 - Virtual Private Gateway: a gate to handle requests between VPC's ==private subnets== and the corporate network through internet -> 
 - If you want a more stable connection for private subnet  -> use AWS direct connection
+## Network access control list and security groups
+- To manage the access
 # Module 5: Storages and Database
 # Module 6: Security
 # Module 7: Monitoring and Analytics
