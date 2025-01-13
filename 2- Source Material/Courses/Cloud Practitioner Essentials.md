@@ -111,7 +111,12 @@ Status: #source-eating
 ## Select region
 Determine religion for services, data, applications based on:
 - Legal: is it allowed to placed there?
-	- For example: GDPR (General Data Protection Regulation): 
+	- For example: GDPR (General Data Protection Regulation): data from EU is not allowed to move to outer of EU
+- Nearest to customer: to reduce delay
+- Available services within religion: some new religions may not support all services (might need to use from other regions -> slower)
+- Price
+## Availability zones
+![[Cloud Practitioner Essentials 2025-01-13 08.35.12.excalidraw]]
 # Module 4: Networking
 # Module 5: Storages and Database
 # Module 6: Security
