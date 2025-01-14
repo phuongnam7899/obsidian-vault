@@ -329,7 +329,12 @@ Contain resources to learn about AWS compliance
 | Security    | Ensure the ==organization meet security objectives== for visibility,<br>auditability, control and agility               | - CISO<br>- IT Security manager<br>- IT security analyst |
 | Operations  | Enable, run, use, operate and recover IT workloads to the agreed level                                                  | - IT Operation Manager<br>- IT Support Manager           |
 ## Migration strategies
-### 1. 
+### 1. Re-host
+- Only change the host, every thing else keep the same
+### 2. Re-platform
+- Change the platform of 1 or more component in the architect
+- Example: 
+### 3. 
 # Module 10: AWS Certified Cloud Practitioner Basic 
 
 ---
