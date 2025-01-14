@@ -316,19 +316,20 @@ Contain resources to learn about AWS compliance
 ## Perspectives
 - Business Capacities:
 
-|            | Goal                                                                                              | Main Roles                                                                           |
-| ---------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| Business   | Ensure that ==IT aligns with business== ==needs== and <br>IT investment linked to business result | - Business Manager<br>- Finance Manager<br>- Budget Owner<br>- Strategy stakeholders |
-| People     | Develop ==change management strategy== for the <br>cloud adoption through the organization        | - HR<br>- Staffing<br>- People manager                                               |
-| Governance | Focus on ==skills and processes== to align IT strategy<br> and business strategy                  | - CIO<br>- Program managers<br>- Enterprise architect<br>- BA<br>- Portfolio manager |
+| Perspective | Goal                                                                                              | Main Roles                                                                           |
+| ----------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| Business    | Ensure that ==IT aligns with business== ==needs== and <br>IT investment linked to business result | - Business Manager<br>- Finance Manager<br>- Budget Owner<br>- Strategy stakeholders |
+| People      | Develop ==change management strategy== for the <br>cloud adoption through the organization        | - HR<br>- Staffing<br>- People manager                                               |
+| Governance  | Focus on ==skills and processes== to align IT strategy<br> and business strategy                  | - CIO<br>- Program managers<br>- Enterprise architect<br>- BA<br>- Portfolio manager |
 - Technical Capacities:
 
-|            | Goal                                                                                                                    | Main Roles                                               |
-| ---------- | ----------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| Platform   | Includes ==principles and patterns== for implement new<br>solution in cloud + ==migrate on-premises== workload to cloud | - CTO<br>- IT manager<br>- SA                            |
-| Security   | Ensure the organization meet security objectives for visibility,<br>auditability, control and agility                   | - CISO<br>- IT Security manager<br>- IT security analyst |
-| Operations |                                                                                                                         |                                                          |
-
+| Perspective | Goal                                                                                                                    | Main Roles                                               |
+| ----------- | ----------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| Platform    | Includes ==principles and patterns== for implement new<br>solution in cloud + ==migrate on-premises== workload to cloud | - CTO<br>- IT manager<br>- SA                            |
+| Security    | Ensure the ==organization meet security objectives== for visibility,<br>auditability, control and agility               | - CISO<br>- IT Security manager<br>- IT security analyst |
+| Operations  | Enable, run, use, operate and recover IT workloads to the agreed level                                                  | - IT Operation Manager<br>- IT Support Manager           |
+## Migration strategies
+### 1. 
 # Module 10: AWS Certified Cloud Practitioner Basic 
 
 ---
