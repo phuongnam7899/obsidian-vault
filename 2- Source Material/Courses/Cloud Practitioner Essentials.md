@@ -316,11 +316,11 @@ Contain resources to learn about AWS compliance
 ## Perspectives
 - Business Capacities:
 
-|            | Goal                                                                                                                                                  | Main Roles |
-| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
-| Business   | Ensure that IT aligns with business needs and IT investment linked to business resul - Business Manager<br>- Finance Manager<br>- Budget Owner<br>-   |            |
-| People     |                                                                                                                                                       |            |
-| Governance |                                                                                                                                                       |            |
+|            | Goal                                                                                      | Main Roles                                                                           |
+| ---------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| Business   | Ensure that ==IT aligns with business== needs and IT investment linked to business result | - Business Manager<br>- Finance Manager<br>- Budget Owner<br>- Strategy stakeholders |
+| People     | Develop change management strategy for the cloud adoption through the organization        | - HR<br>- Staffing<br>- People manager                                               |
+| Governance |                                                                                           |                                                                                      |
 - Technical Capacities:
 
 |            | Goal | Main Roles |
