@@ -823,12 +823,59 @@ fileSystem.display("");
 - Design with heavy use of Composite gets benefit from Prototype to clone complex object without recreate it
 ### 4. Decorator
 ![[Pasted image 20250105152614.png]]
+> [!i] Let you add more behaviors to an object by place it inside a special wrapper object that contains new behaviors
+
 #### Problem
+- Imagine working on notification library like this
+![[Pasted image 20250108140754.png]]
+- At  some point, you want to add more type of sender like email, slack,... You might update like this
+![[Pasted image 20250108141327.png]]
+- But what if you need to send through multiple channels at once? It should not be like this:
+![[Pasted image 20250108141631.png]]
+> [!w] Some points to aware about inheritance:
+> - Inheritance is static - cannot alter the behavior of an object in runtime -> only be able to replace the object with another
+> - Subclass can only have 1 parent class
 #### Solution
+- Using aggregation/composition  instead of inheritance: Create a "wrapper" object that:
+	- linked to a target
+	- contain all methods of the target (same interface)
+	- can alter the result by doing something before or after the methods run
+	- the reference field should accept all objects that follow an interface -> be able to have many wrappers
+![[Pasted image 20250108155356.png]]
+- Analogy: you get the effects of all clothes layers (warm, water-proof)
+![[Pasted image 20250108155814.png]]
 #### Structure
+![[Pasted image 20250108160005.png]]
+- `The Component`: interface that both wrapper and wrappee follow
+- `Concrete component`: define the wrappee that contain basic behavior
+- `Base Decorator`: 
+	- contain the reference object, should allow all object that have Component interface
+	- delegates all operations of reference object
+- `Concrete Decorator`: define extra behaviors that could be added dynamically
+- Client can wrap component in multiple layer of decorator as they want
+![[Pasted image 20250108162347.png]]
 #### Applicability
+- When you need to add behaviors dynamically at runtime without breaking the code
+- When it's awkward or not possible to add new behaviors by inheritance
 #### How to Implement
+- Make sure the business logic could be represented as a ==primary component with multiple optional layer==
+![[Dive into Design Pattern 2025-01-08 16.32.27.excalidraw]]
+- Find out common ==methods that used in both primary component and the optional layer== -> Put it in the component interface
+- Create concrete component and define the ==base behavior==
+- Create base decorator the contain:
+	- ==reference fields== to store wrapped object
+	- ==delegate all method of concrete== component
+- Make sure ==all classes implement the component interface==
+- Create ==concrete decorator the define the extra behaviors== for methods
+- Client must create base object and use the decorator on its demands
 #### Pros & Cons
+- Pros:
+	- Can extend an object behavior without create new inheritance class
+	- Can add/ remove/combine the responsibilities of an object at runtime
+	- SRP:  Each decorator only take responsibility for 1 behavior
+- Cons:
+	- Hard to remove a specific wrapper from stack
+	- Hard t o implement the decorator in way that its behavior does not depend on the order of the stack
 #### Relation with other Patterns
 ### 5. Facade
 #### Problem
