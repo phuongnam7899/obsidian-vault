@@ -13,9 +13,20 @@ Tags: [[Vim]]
 - Visual Mode (For marking text)
 	- Start visual mode: `v`
 # Cursor movement
-- Left: `h`
-- Right: `l`
-- 
+- Single
+	- Left: `h`
+	- Right: `l`
+	- Up: `k`
+	- Down: `j`
+- Word:
+	- Start of next word: `w`
+	- Next end of word: `e`
+	- Backward to start: `b`
+- Line:
+	- Start of line: `^`
+	- End of line: `$`
+- File:
+	- Go to local declaration: `gd`
 
 ---
 # References
