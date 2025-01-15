@@ -4,7 +4,9 @@ Tags: [[Spring Framework]]
 
 ---
 
-- 
+- BeanFactory is one of IoC container in Spring (along with ApplicationContext) to instantiate, 
+- Follow Factory Pattern
 
 ---
 # References
+- [[IoC in Spring]]
