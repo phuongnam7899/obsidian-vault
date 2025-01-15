@@ -4,9 +4,7 @@ Tags: [[Java]]
 
 ---
 
-IoC can be implement in Spring in 2 ways
-
-# Bean
+In Spring Bean is objects that follow IoC: bean is managed by the framework, and configured at runtime
 ## Define
 In Spring, beans could be defined in some ways
 ### Annotations
@@ -61,8 +59,27 @@ public class FeatureController {
     }
 }
 ```
+- Using `getBean()`:
+```java
 
-# Dependency Injection
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+ 
+public class Mobile {
+    public static void main(String[] args) {
+        // Using ApplicationContext tom implement Spring IoC
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("beans.xml");
+         
+        // Get the bean
+        Sim sim = applicationContext.getBean("sim", Sim.class);
+         
+        // Calling the methods
+        sim.calling();
+        sim.data();
+    }
+}
+
+```
 
 ---
 # References
