@@ -10,7 +10,7 @@ Tags: [[Vim]]
 > - aw: word + space after it 
 > - d: delete/cut
 > - y: copy (yank)
-> - 
+
 # Mode change
 - Normal Mode: `ESC`
 - Insert Mode:
@@ -53,7 +53,7 @@ Tags: [[Vim]]
 	- Before cursor: `P`
 # Marking text
 - Block:
-	- Marking block of `{}`, `()`: `a{` or `a(`
+	- Marking outer block of `{}`, `()`: `a{` or `a(`
 	- Marking block of tag `<>`: `at`
 - Inner block: same as block but use `i` instead of `a`
 ---
