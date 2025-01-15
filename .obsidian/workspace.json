@@ -4,109 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "b4f047b565e8e46e",
+        "id": "9a6de2027bbf6a24",
         "type": "tabs",
         "children": [
           {
-            "id": "febdc3174a1e9277",
+            "id": "2678430acaafafac",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2- Source Material/Courses/Cloud Practitioner Essentials.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cloud Practitioner Essentials"
-            }
-          },
-          {
-            "id": "97a93bbbf7854d9f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/IoC in Spring.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "IoC in Spring"
-            }
-          },
-          {
-            "id": "fbb6bf084946f18c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/BeanFactory.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "BeanFactory"
-            }
-          },
-          {
-            "id": "ea24a768bb70d7b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Common used Vim commands.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Common used Vim commands"
-            }
-          },
-          {
-            "id": "cb38a4d19b0087c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/POJO class.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "POJO class"
-            }
-          },
-          {
-            "id": "63d5c86c87e6a364",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/what is DTO.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "what is DTO"
-            }
-          },
-          {
-            "id": "42ff60b0c3c314bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/What is DDoS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "What is DDoS"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -223,11 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "6 - Main Notes/Common used Vim commands.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of Common used Vim commands"
+              "title": "Outline"
             }
           },
           {
@@ -283,20 +192,23 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "ea24a768bb70d7b0",
+  "active": "2678430acaafafac",
   "lastOpenFiles": [
+    "7 - Files/Design Pattern 2025-01-15 17.26.53.excalidraw.md",
+    "3 - Tags/Vim.md",
+    "6 - Main Notes/Problem statement.md",
+    "3 - Tags/Security.md",
+    "2- Source Material/Courses/Cloud Practitioner Essentials.md",
+    "6 - Main Notes/IoC in Spring.md",
+    "6 - Main Notes/BeanFactory.md",
+    "6 - Main Notes/Common used Vim commands.md",
     "6 - Main Notes/Dependency Injection In Spring.md",
     "5 - Templates/Design Pattern.md",
-    "7 - Files/Design Pattern 2025-01-15 17.26.53.excalidraw.md",
     "5 - Templates/Source Material.md",
     "5 - Templates/Main Note.md",
     "6 - Main Notes/New note.md",
     "6 - Main Notes/How long should we let users wait - Doherty Threshold.md",
-    "6 - Main Notes/Common used Vim commands.md",
-    "6 - Main Notes/BeanFactory.md",
     "7 - Files/Pasted image 20250115154129.png",
-    "6 - Main Notes/IoC in Spring.md",
-    "2- Source Material/Courses/Cloud Practitioner Essentials.md",
     "6 - Main Notes/Inversion of Control (IoC).md",
     "6 - Main Notes/what is DTO.md",
     "6 - Main Notes/POJO class.md",
@@ -317,9 +229,6 @@
     "6 - Main Notes/What is columnar storage.md",
     "6 - Main Notes/Elasticsearch vs Click house.md",
     "6 - Main Notes/What is DDoS.md",
-    "6 - Main Notes/What is DoS.md",
-    "3 - Tags/Security.md",
-    "7 - Files/Cloud Practitioner Essentials 2025-01-13 11.10.56.excalidraw.md",
     "smart-chats",
     "2- Source Material/Courses",
     "7 - Files/Pasted image 20250107111749.png",
