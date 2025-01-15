@@ -1,10 +1,10 @@
 2025-01-15 14:13
 
-Tags: [[Java]] 
+Tags: [[Spring Framework]] 
 
 ---
 
-In Spring Bean is objects that follow IoC: bean is managed by the framework, and configured at runtime
+In Spring, `BeanFactory` and `ApplicationContext` are represent IoC container
 ## Define
 In Spring, beans could be defined in some ways
 ### Annotations
