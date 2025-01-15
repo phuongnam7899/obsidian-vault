@@ -47,7 +47,10 @@ Tags: [[Vim]]
 	- To the start of next word: `dw`
 	- Whole word: `diw`
 	- Line: `dd`
-- Find and replace: `:%s/old/new/g`
+- Find and replace: `:%s/old/new/g` (`:%s/old/new/gc` if want have confirmation)
+- Paste: 
+	- After cursor: `p`
+	- Before cursor: `P`
 # Marking text
 - Block:
 	- Marking block of `{}`, `()`: `a{` or `a(`
