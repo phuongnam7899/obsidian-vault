@@ -27,6 +27,13 @@ Tags: [[Vim]]
 	- End of line: `$`
 - File:
 	- Go to local declaration: `gd`
-
+- Workspace:
+	- Go to global declaration: `gD`
+# Edit
+- Replace until end of word: `cw`
+- Undo: `u`
+- Redo: `Ctrl+r`
+# Marking text
+- 
 ---
 # References
