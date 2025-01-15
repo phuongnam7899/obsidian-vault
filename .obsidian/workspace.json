@@ -51,6 +51,34 @@
             }
           },
           {
+            "id": "cb38a4d19b0087c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/POJO class.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "POJO class"
+            }
+          },
+          {
+            "id": "63d5c86c87e6a364",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/what is DTO.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "what is DTO"
+            }
+          },
+          {
             "id": "42ff60b0c3c314bf",
             "type": "leaf",
             "state": {
@@ -65,7 +93,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       },
       {
         "id": "9e7f190714e8605b",
@@ -217,10 +245,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/IoC in Spring.md"
+                "file": "6 - Main Notes/what is DTO.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of IoC in Spring"
+              "title": "Outline of what is DTO"
             }
           },
           {
@@ -276,10 +304,12 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "97a93bbbf7854d9f",
+  "active": "63d5c86c87e6a364",
   "lastOpenFiles": [
-    "6 - Main Notes/Inversion of Control (IoC).md",
+    "6 - Main Notes/POJO class.md",
+    "6 - Main Notes/what is DTO.md",
     "6 - Main Notes/IoC in Spring.md",
+    "6 - Main Notes/Inversion of Control (IoC).md",
     "3 - Tags/Java.md",
     "2- Source Material/Courses/Cloud Practitioner Essentials.md",
     "6 - Main Notes/Untitled.md",
@@ -315,8 +345,6 @@
     "7 - Files/Pasted image 20250107110757.png",
     "7 - Files/Pasted image 20250107105848.png",
     "2- Source Material/Videos/Clean Architecture in NextJS.md",
-    "2- Source Material/Videos/Clean Architecture NodeJS MongoDB.md",
-    "6 - Main Notes/Docker common commands.md",
     "Lazy loading images",
     "8 - Content Factory",
     "Untitled 2.canvas",
