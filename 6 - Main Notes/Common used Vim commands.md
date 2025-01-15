@@ -4,6 +4,13 @@ Tags: [[Vim]]
 
 ---
 
+> [!i] Common language
+> - w: start of next word
+> - iw: whole word
+> - aw: word + space after it 
+> - d: delete/cut
+> - y: copy (yank)
+> - 
 # Mode change
 - Normal Mode: `ESC`
 - Insert Mode:
@@ -27,6 +34,9 @@ Tags: [[Vim]]
 	- End of line: `$`
 - File:
 	- Go to local declaration: `gd`
+	- Go to pattern: `/pattern` -> `Enter` ->
+		- `n`: next
+		- `N`: previous
 - Workspace:
 	- Go to global declaration: `gD`
 # Edit
@@ -34,9 +44,10 @@ Tags: [[Vim]]
 - Undo: `u`
 - Redo: `Ctrl+r`
 - Delete/cut:
-	- To the end of word: `dw`
-	- Whole word: ``
+	- To the start of next word: `dw`
+	- Whole word: `diw`
 	- Line: `dd`
+- Find and replace: `:%s/old/new/g`
 # Marking text
 - Block:
 	- Marking block of `{}`, `()`: `a{` or `a(`
