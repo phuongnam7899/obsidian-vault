@@ -20,8 +20,37 @@
               "icon": "lucide-file",
               "title": "Common used Vim commands"
             }
+          },
+          {
+            "id": "db30de19549c781f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Spring Annotations.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Spring Annotations"
+            }
+          },
+          {
+            "id": "3b6fce52e55c113d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/What is annotation in Java.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "What is annotation in Java"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -139,10 +168,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/Common used Vim commands.md"
+                "file": "6 - Main Notes/What is annotation in Java.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Common used Vim commands"
+              "title": "Outline of What is annotation in Java"
             }
           },
           {
@@ -198,8 +227,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "3122fb030de4a4e6",
+  "active": "3b6fce52e55c113d",
   "lastOpenFiles": [
+    "6 - Main Notes/Spring Annotations.md",
+    "6 - Main Notes/What is annotation in Java.md",
+    "6 - Main Notes/Common used Vim commands.md",
     "3 - Tags/Robot Framework.md",
     "6 - Main Notes/Web Development.md",
     "7 - Files/Design Pattern 2025-01-15 17.26.53.excalidraw.md",
@@ -209,7 +241,6 @@
     "2- Source Material/Courses/Cloud Practitioner Essentials.md",
     "6 - Main Notes/IoC in Spring.md",
     "6 - Main Notes/BeanFactory.md",
-    "6 - Main Notes/Common used Vim commands.md",
     "6 - Main Notes/Dependency Injection In Spring.md",
     "5 - Templates/Design Pattern.md",
     "5 - Templates/Source Material.md",
@@ -233,8 +264,6 @@
     "7 - Files/Pasted image 20250108141631.png",
     "7 - Files/Pasted image 20250108141327.png",
     "7 - Files/Pasted image 20250108140754.png",
-    "7 - Files/Dive into Design Pattern 2025-01-08 16.32.27.excalidraw.md",
-    "6 - Main Notes/What is columnar storage.md",
     "smart-chats",
     "2- Source Material/Courses",
     "7 - Files/Pasted image 20250107111749.png",
