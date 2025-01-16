@@ -7,6 +7,7 @@ Tags: [[Java]]
 # 1. Define annotation interface
 - `@interface` keyword to mark as annotation
 - `@Retention`: 
+- `@Target`
 ```java
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
