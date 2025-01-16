@@ -59,7 +59,7 @@ public class Employee {}
 - `@Scheduled`
 - `@Schedules`
 # Spring Data Annotation
-provides an abstraction over data storage technologies
+- Provides an abstraction over data storage technologies
 - Common Spring Data Annotations
     - `@Transactional`
     - `@NoRepositoryBean`
@@ -79,6 +79,14 @@ provides an abstraction over data storage technologies
     - `@Query
     - `@EnableMongoRepositories
 # Spring Bean Annotation
+- `@ComponentScan
+- `@Configuration
+- Stereotype Annotations
+	- `@Component
+	- `@Service
+	- `@Repository
+	- `@Controller
+![[Pasted image 20250116104231.png]]
 ---
 # References
 - [[What is annotation in Java]]
