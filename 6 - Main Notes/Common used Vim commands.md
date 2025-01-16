@@ -40,6 +40,7 @@ Tags: [[Vim]]
 	- Go to pattern: `/pattern` -> `Enter` ->
 		- `n`: next
 		- `N`: previous
+		- Remove all highlight: `nohlseach`
 	- Move to line number X: `Xgg`
 - Workspace:
 	- Go to global declaration: `gD`
@@ -63,5 +64,6 @@ Tags: [[Vim]]
 	- Marking outer block of `{}`, `()`: `a{` or `a(`
 	- Marking block of tag `<>`: `at`
 - Inner block: same as block but use `i` instead of `a`
+
 ---
 # References
