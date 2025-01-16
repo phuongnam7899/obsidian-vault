@@ -32,13 +32,20 @@ Tags: [[Vim]]
 - Line:
 	- Start of line: `^`
 	- End of line: `$`
+- Block:
+	- Move to next paragraph: `}`
+	- Move to previous paragraph: `{`
 - File:
 	- Go to local declaration: `gd`
 	- Go to pattern: `/pattern` -> `Enter` ->
 		- `n`: next
 		- `N`: previous
+	- Move to line number X: `Xgg`
 - Workspace:
 	- Go to global declaration: `gD`
+# Screen movement
+- Move screen down 1/2 page: `Ctrl+d`
+- Move screen up 1/2 page: `Ctrl+u`
 # Edit
 - Replace until end of word: `cw`
 - Undo: `u`

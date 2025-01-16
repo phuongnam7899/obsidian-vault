@@ -11,10 +11,14 @@
             "id": "3122fb030de4a4e6",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Common used Vim commands.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Common used Vim commands"
             }
           }
         ]
@@ -134,9 +138,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "6 - Main Notes/Common used Vim commands.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Common used Vim commands"
             }
           },
           {
