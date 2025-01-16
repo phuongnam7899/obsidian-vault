@@ -11,7 +11,7 @@ There're 6 types of annotation in Spring
 - `@Autowired`
 	- To mark the dependency to be injected by the Spring container
 	- Could be applied to fields, setters, constructor
-## Context configuration 
+## Context configuration
 # Spring Web Annotation
 # Spring Boot Annotation
 # Spring Scheduling Annotation
