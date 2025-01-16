@@ -43,8 +43,41 @@ public class Employee {}
 - `@ModelAtrribute`
 - `@CrossOrigin`
 # Spring Boot Annotation
+- `@SpringBootApplication`
+- `@EnableAutoConfiguration`
+- `@ConditionalOnClass` & `@ConditionalOnMissingClass`
+- `@ConditionalOnBean` & `@ConditionalOnMissingBean`
+- `@ConditionalOnProperty`
+- `@ConditionalOnResource`
+- `@ConditionalOn...`
+- `@ConditionalExpression`
+- `@Conditional`
 # Spring Scheduling Annotation
+- `@EnableAsync`
+- `@EnableScheduling`
+- `@Async`
+- `@Scheduled`
+- `@Schedules`
 # Spring Data Annotation
+provides an abstraction over data storage technologies
+- Common Spring Data Annotations
+    - `@Transactional`
+    - `@NoRepositoryBean`
+    - `@Param
+    - `@Id
+    - `@Transient
+    - `@CreatedBy, @LastModifiedBy, @CreatedDate, @LastModifiedDate
+- Spring Data JPA Annotations
+    - `@Query
+    - `@Procedure
+    - `@Lock
+    - `@Modifying
+    - `@EnableJpaRepositories
+- Spring Data Mongo Annotations
+    - `@Document
+    - `@Field
+    - `@Query
+    - `@EnableMongoRepositories
 # Spring Bean Annotation
 ---
 # References
