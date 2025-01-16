@@ -7,11 +7,13 @@ Tags: [[Spring Framework]]
 There're 6 types of annotation in Spring
 
 # Spring Core Annotation
-## DI realated
+## DI related
 - `@Autowired`
 	- To mark the dependency to be injected by the Spring container
 	- Could be applied to fields, setters, constructor
 ## Context configuration
+- `@Profile`
+	- when want to use other annotation only when certain profile is active 
 # Spring Web Annotation
 # Spring Boot Annotation
 # Spring Scheduling Annotation
