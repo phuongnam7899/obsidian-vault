@@ -11,9 +11,25 @@ There're 6 types of annotation in Spring
 - `@Autowired`
 	- To mark the dependency to be injected by the Spring container
 	- Could be applied to fields, setters, constructor
+- `@Qualifier`
+- `@Primary`
+- `@Bean`
+- `@Lazy`
+- `@Required`
+- `@Value`
+- `@Scope`
+- `@Lookup`
 ## Context configuration
 - `@Profile`
 	- when want to use other annotation only when certain profile is active 
+```java
+@Component
+@Profile("developer")
+public class Employee {}
+```
+- `@Import`
+- `@ImportResource`
+- `@Pro`
 # Spring Web Annotation
 # Spring Boot Annotation
 # Spring Scheduling Annotation
