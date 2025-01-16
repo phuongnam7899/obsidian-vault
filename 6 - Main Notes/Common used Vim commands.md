@@ -60,6 +60,7 @@ Tags: [[Vim]]
 - Paste: 
 	- After cursor: `p`
 	- Before cursor: `P`
+- Append to next new line: `o`
 # Marking text
 - Block:
 	- Marking outer block of `{}`, `()`: `a{` or `a(`
