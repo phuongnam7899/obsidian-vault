@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9a6de2027bbf6a24",
+        "id": "c7b52259dca580f6",
         "type": "tabs",
         "children": [
           {
-            "id": "2678430acaafafac",
+            "id": "3122fb030de4a4e6",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -192,8 +192,10 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "2678430acaafafac",
+  "active": "3122fb030de4a4e6",
   "lastOpenFiles": [
+    "3 - Tags/Robot Framework.md",
+    "6 - Main Notes/Web Development.md",
     "7 - Files/Design Pattern 2025-01-15 17.26.53.excalidraw.md",
     "3 - Tags/Vim.md",
     "6 - Main Notes/Problem statement.md",
@@ -227,8 +229,6 @@
     "7 - Files/Pasted image 20250108140754.png",
     "7 - Files/Dive into Design Pattern 2025-01-08 16.32.27.excalidraw.md",
     "6 - Main Notes/What is columnar storage.md",
-    "6 - Main Notes/Elasticsearch vs Click house.md",
-    "6 - Main Notes/What is DDoS.md",
     "smart-chats",
     "2- Source Material/Courses",
     "7 - Files/Pasted image 20250107111749.png",
