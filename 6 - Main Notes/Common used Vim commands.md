@@ -42,11 +42,12 @@ Tags: [[Vim]]
 		- `N`: previous
 		- Remove all highlight: `nohlseach`
 	- Move to line number X: `Xgg`
+	- Move screen down 1/2 page: `Ctrl+d`
+	- Move screen up 1/2 page: `Ctrl+u`
+	- Center cursor on screen: `zz`
 - Workspace:
 	- Go to global declaration: `gD`
-# Screen movement
-- Move screen down 1/2 page: `Ctrl+d`
-- Move screen up 1/2 page: `Ctrl+u`
+
 # Edit
 - Replace until end of word: `cw`
 - Undo: `u`
