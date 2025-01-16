@@ -29,8 +29,19 @@ public class Employee {}
 ```
 - `@Import`
 - `@ImportResource`
-- `@Pro`
+- `@PropertySource`
 # Spring Web Annotation
+- `@RequestMapping`
+- `@RequestBody`
+- `@PathVariable`
+- `@RequestParam`
+- `@ResponseBody`
+- `@ExceptionHandler`
+- `@ResponseStatus`
+- `@Controller`
+- `@RestController`
+- `@ModelAtrribute`
+- `@CrossOrigin`
 # Spring Boot Annotation
 # Spring Scheduling Annotation
 # Spring Data Annotation
