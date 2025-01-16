@@ -14,3 +14,5 @@ Tags: [[Java]]
 
 ---
 # References
+- [[Spring Annotations]]
+- [[How to create custom annotation in Java]]
