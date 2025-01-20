@@ -7,8 +7,14 @@ Tags:
 - Stand for: Simple Text Oriented Message Protocol
 - Is a protocol for messaging  over WebSockets
 - Key features:
-	- Simple text-based aformat -> easy to read and debug
-	- Inter-operability: STOMP clients can communicate with any 
-
+	- Simple text-based format -> easy to read and debug
+	- Inter-operability: STOMP clients can communicate with any STOMP-compliant message broker
+	- Web socket support: to enable real-time messaging
+	- Message models: support both point-to-point (queues) and pub-sub 
+- Commands:
+	- CONNECT: establish connection with the message broker
+	- SEND: Send message to destination (topic/queue)
+	- SUBSCRIBE:  Subscribe to a destination to receive messages
+	- UNSUBSCRI
 ---
 # References
