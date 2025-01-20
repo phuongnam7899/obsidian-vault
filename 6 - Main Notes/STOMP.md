@@ -8,7 +8,7 @@ Tags:
 - Is a protocol for messaging  over WebSockets
 - Key features:
 	- Simple text-based aformat -> easy to read and debug
-	- Inter-operability:  
+	- Inter-operability: STOMP clients can communicate with any 
 
 ---
 # References
