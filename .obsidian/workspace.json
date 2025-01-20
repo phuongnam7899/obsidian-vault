@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Untitled 1.md",
+                "file": "6 - Main Notes/STOMP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 1"
+              "title": "STOMP"
             }
           }
         ],
@@ -182,10 +182,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/Untitled 1.md"
+                "file": "6 - Main Notes/STOMP.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled 1"
+              "title": "Outline of STOMP"
             }
           },
           {
@@ -244,7 +244,7 @@
   "active": "7b2a660f4e825367",
   "lastOpenFiles": [
     "6 - Main Notes/synchronized keyword in java.md",
-    "6 - Main Notes/Untitled 1.md",
+    "6 - Main Notes/STOMP.md",
     "6 - Main Notes/Spring Annotations.md",
     "7 - Files/Pasted image 20250116104231.png",
     "6 - Main Notes/Common used Vim commands.md",
