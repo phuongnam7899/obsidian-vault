@@ -60,7 +60,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -159,7 +160,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "7 - Files/LMA Code flows 2025-02-05 07.44.12.excalidraw.md"
+                "file": "7 - Files/LMA Code flows 2025-02-05 07.44.12.excalidraw.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
               "title": "Outline of LMA Code flows 2025-02-05 07.44.12.excalidraw"
