@@ -6,7 +6,6 @@
       {
         "id": "7a472648d1f3b52d",
         "type": "tabs",
-        "dimension": 17.448275862068964,
         "children": [
           {
             "id": "6f1fa045665052c4",
@@ -25,20 +24,19 @@
         ]
       },
       {
-        "id": "bd44a0350c39308e",
+        "id": "764c12e5c4bec87c",
         "type": "tabs",
-        "dimension": 82.55172413793103,
         "children": [
           {
-            "id": "918727cacc397a8e",
+            "id": "134624c127cfe538",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "7 - Files/LMA Code flows 2025-02-05 07.44.12.excalidraw.md"
+                "file": "7 - Files/LMA Code flows 2025-02-07 14.46.06.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "LMA Code flows 2025-02-05 07.44.12.excalidraw"
+              "title": "LMA Code flows 2025-02-07 14.46.06.excalidraw"
             }
           }
         ]
@@ -160,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "7 - Files/LMA Code flows 2025-02-05 07.44.12.excalidraw.md",
+                "file": "7 - Files/LMA Code flows 2025-02-07 14.46.06.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of LMA Code flows 2025-02-05 07.44.12.excalidraw"
+              "title": "Outline of LMA Code flows 2025-02-07 14.46.06.excalidraw"
             }
           },
           {
@@ -222,9 +220,10 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "918727cacc397a8e",
+  "active": "134624c127cfe538",
   "lastOpenFiles": [
     "6 - Main Notes/LMA Code flows.md",
+    "7 - Files/LMA Code flows 2025-02-07 14.46.06.excalidraw.md",
     "7 - Files/LMA Code flows 2025-02-05 07.44.12.excalidraw.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
@@ -252,7 +251,6 @@
     "5 - Templates/Design Pattern.md",
     "5 - Templates/Source Material.md",
     "5 - Templates/Main Note.md",
-    "6 - Main Notes/New note.md",
     "7 - Files/Pasted image 20250115154129.png",
     "7 - Files/Pasted image 20250108162347.png",
     "7 - Files/Pasted image 20250108160005.png",
