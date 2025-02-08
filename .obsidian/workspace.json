@@ -46,7 +46,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -165,13 +165,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "7 - Files/LMA Code flows 2025-02-07 14.46.06.excalidraw.md",
+                "file": "7 - Files/LMA Code flows 2025-02-05 07.44.12.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of LMA Code flows 2025-02-07 14.46.06.excalidraw"
+              "title": "Outline of LMA Code flows 2025-02-05 07.44.12.excalidraw"
             }
           },
           {
@@ -227,10 +227,10 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "1b801932831bc5c9",
+  "active": "730cd306f07ccda2",
   "lastOpenFiles": [
-    "7 - Files/LMA Code flows 2025-02-05 07.44.12.excalidraw.md",
     "7 - Files/LMA Code flows 2025-02-07 14.46.06.excalidraw.md",
+    "7 - Files/LMA Code flows 2025-02-05 07.44.12.excalidraw.md",
     "6 - Main Notes/LMA Code flows.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
