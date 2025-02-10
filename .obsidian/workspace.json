@@ -6,6 +6,7 @@
       {
         "id": "764c12e5c4bec87c",
         "type": "tabs",
+        "dimension": 34.55172413793103,
         "children": [
           {
             "id": "134624c127cfe538",
@@ -43,6 +44,25 @@
               },
               "icon": "excalidraw-icon",
               "title": "LMA Code flows 2025-02-05 07.44.12.excalidraw"
+            }
+          }
+        ]
+      },
+      {
+        "id": "15e25c12a565d215",
+        "type": "tabs",
+        "dimension": 65.44827586206895,
+        "children": [
+          {
+            "id": "5fce96a3f41845dc",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "7 - Files/LMA Code flows 2025-02-10 10.19.42.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "LMA Code flows 2025-02-10 10.19.42.excalidraw"
             }
           }
         ]
@@ -164,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/LMA Code flows.md",
+                "file": "7 - Files/LMA Code flows 2025-02-10 10.19.42.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of LMA Code flows"
+              "title": "Outline of LMA Code flows 2025-02-10 10.19.42.excalidraw"
             }
           },
           {
@@ -226,11 +246,12 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "134624c127cfe538",
+  "active": "5fce96a3f41845dc",
   "lastOpenFiles": [
-    "7 - Files/LMA Code flows 2025-02-07 14.46.06.excalidraw.md",
-    "7 - Files/LMA Code flows 2025-02-05 07.44.12.excalidraw.md",
     "6 - Main Notes/LMA Code flows.md",
+    "7 - Files/LMA Code flows 2025-02-05 07.44.12.excalidraw.md",
+    "7 - Files/LMA Code flows 2025-02-07 14.46.06.excalidraw.md",
+    "7 - Files/LMA Code flows 2025-02-10 10.19.42.excalidraw.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "6 - Main Notes/How to managew SSH keys with ssh-agent.md",
@@ -256,7 +277,6 @@
     "6 - Main Notes/Dependency Injection In Spring.md",
     "5 - Templates/Design Pattern.md",
     "5 - Templates/Source Material.md",
-    "5 - Templates/Main Note.md",
     "7 - Files/Pasted image 20250115154129.png",
     "7 - Files/Pasted image 20250108162347.png",
     "7 - Files/Pasted image 20250108160005.png",
