@@ -3,4 +3,4 @@
 # Receive P360 Message
 ![[LMA Code flows 2025-02-07 14.46.06.excalidraw]]
 # Send Notifications
-![[LMA Code flows 2025-02-10 10.19.42.excalidraw]]
+
