@@ -8,5 +8,6 @@
 - 1. `MessageType.java`: add new message type, contains
 	- `classType` (will define in step 2)
 	- `dtoType` (will define in step 3)
-- 2. `/messages/dto`
-	- 
+- 2. `/messages/dto`:
+	- Create `classType` to define the JSON mapping when received from MRES (Also need to create separate class to define message details if needed)
+	- Create `dtoType` to...
