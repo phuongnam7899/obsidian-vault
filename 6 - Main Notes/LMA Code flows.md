@@ -4,3 +4,9 @@
 ![[LMA Code flows 2025-02-07 14.46.06.excalidraw]]
 # Send Notifications
 
+# Flow to receive new message
+- 1. `MessageType.java`: add new message type, contains
+	- `classType` (will define in step 2)
+	- `dtoType` (will define in step 3)
+- 2. `/messages/dto`
+	- 
