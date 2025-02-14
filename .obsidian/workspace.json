@@ -104,7 +104,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#source-eating",
+                "query": "handle",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -125,7 +125,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -253,7 +254,7 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "50011ecdf6f4b460",
+  "active": "d54b7381ec464fcd",
   "lastOpenFiles": [
     "6 - Main Notes/LMA Code flows.md",
     "6 - Main Notes/Common used Vim commands.md",
