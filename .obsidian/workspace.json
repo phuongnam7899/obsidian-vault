@@ -46,6 +46,18 @@
             }
           },
           {
+            "id": "6931b71f106be8a5",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "7 - Files/LMA Code flows 2025-02-05 07.44.12.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "LMA Code flows 2025-02-05 07.44.12.excalidraw"
+            }
+          },
+          {
             "id": "50011ecdf6f4b460",
             "type": "leaf",
             "state": {
@@ -194,13 +206,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/Common used Vim commands.md",
+                "file": "7 - Files/LMA Code flows 2025-02-05 07.44.12.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Common used Vim commands"
+              "title": "Outline of LMA Code flows 2025-02-05 07.44.12.excalidraw"
             }
           },
           {
@@ -256,11 +268,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "50011ecdf6f4b460",
+  "active": "6931b71f106be8a5",
   "lastOpenFiles": [
-    "7 - Files/LMA Code flows 2025-02-05 07.44.12.excalidraw.md",
     "6 - Main Notes/LMA Code flows.md",
     "6 - Main Notes/Common used Vim commands.md",
+    "7 - Files/LMA Code flows 2025-02-05 07.44.12.excalidraw.md",
     "7 - Files/LMA Code flows 2025-02-10 10.19.42.excalidraw.md",
     "7 - Files/LMA Code flows 2025-02-07 14.46.06.excalidraw.md",
     "Untitled.canvas",
