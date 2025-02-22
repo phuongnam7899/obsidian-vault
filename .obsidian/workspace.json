@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "26f00c900dc03081",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "7 - Files/LMA Code flows 2025-02-07 14.46.06.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "LMA Code flows 2025-02-07 14.46.06.excalidraw"
+            }
+          },
+          {
             "id": "e7fe14359859b89b",
             "type": "leaf",
             "state": {
@@ -60,7 +72,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -180,13 +192,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "7 - Files/LMA Code flows 2025-02-10 10.19.42.excalidraw.md",
+                "file": "7 - Files/LMA Code flows 2025-02-05 07.44.12.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of LMA Code flows 2025-02-10 10.19.42.excalidraw"
+              "title": "Outline of LMA Code flows 2025-02-05 07.44.12.excalidraw"
             }
           },
           {
@@ -242,13 +254,13 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "e7fe14359859b89b",
+  "active": "b7d472f4c9a6adc0",
   "lastOpenFiles": [
-    "6 - Main Notes/LMA Code flows.md",
+    "7 - Files/LMA Code flows 2025-02-10 10.19.42.excalidraw.md",
     "7 - Files/LMA Code flows 2025-02-05 07.44.12.excalidraw.md",
     "7 - Files/LMA Code flows 2025-02-07 14.46.06.excalidraw.md",
+    "6 - Main Notes/LMA Code flows.md",
     "6 - Main Notes/Common used Vim commands.md",
-    "7 - Files/LMA Code flows 2025-02-10 10.19.42.excalidraw.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "6 - Main Notes/How to managew SSH keys with ssh-agent.md",
