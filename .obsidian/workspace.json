@@ -22,18 +22,6 @@
             }
           },
           {
-            "id": "26f00c900dc03081",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "7 - Files/LMA Code flows 2025-02-07 14.46.06.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "LMA Code flows 2025-02-07 14.46.06.excalidraw"
-            }
-          },
-          {
             "id": "e7fe14359859b89b",
             "type": "leaf",
             "state": {
@@ -97,8 +85,7 @@
               "title": "Common used Vim commands"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -218,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/Handle Rest API Exception Globally in Spring.md",
+                "file": "6 - Main Notes/LMA Code flows.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Handle Rest API Exception Globally in Spring"
+              "title": "Outline of LMA Code flows"
             }
           },
           {
@@ -280,7 +267,7 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "277d31cc73cf72bb",
+  "active": "730cd306f07ccda2",
   "lastOpenFiles": [
     "7 - Files/LMA Code flows 2025-02-05 07.44.12.excalidraw.md",
     "6 - Main Notes/Handle Rest API Exception Globally in Spring.md",

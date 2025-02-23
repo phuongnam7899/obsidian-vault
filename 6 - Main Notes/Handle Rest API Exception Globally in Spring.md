@@ -55,7 +55,6 @@ public class LogisticMgmtUnauthorizedException extends LogisticMgmtException {
     private static final long serialVersionUID = 1L;
 
     public LogisticMgmtUnauthorizedException(int code,
-
                                         String message) {
         super(code, message);
 
@@ -63,103 +62,46 @@ public class LogisticMgmtUnauthorizedException extends LogisticMgmtException {
 
 
     public LogisticMgmtUnauthorizedException(int code,
-
                                         String message,
-
                                         Throwable cause) {
-
         super(code, message, cause);
-
-  
-
     }
-
-  
-
-    /**
-
-     * Instantiates a new Tug mgmt unauthorized exception.
-
-     *
-
-     * @param code  the code
-
-     * @param cause the cause
-
-     */
-
-    public LogisticMgmtUnauthorizedException(int code,
-
-                                        Throwable cause) {
-
-        super(code, cause);
-
-  
-
-    }
-
-  
-
-    /**
-
-     * Instantiates a new Tug mgmt unauthorized exception.
-
-     *
-
-     * @param message the message
-
-     */
-
-    public LogisticMgmtUnauthorizedException(String message) {
-
-        super(message);
-
-  
-
-    }
-
-  
-
-    /**
-
-     * Instantiates a new Tug mgmt unauthorized exception.
-
-     *
-
-     * @param cause the cause
-
-     */
-
-    public LogisticMgmtUnauthorizedException(Throwable cause) {
-
-        super(cause);
-
-  
-
-    }
-
-  
-
-    /**
-
-     * Instantiates a new Tug mgmt unauthorized exception.
-
-     *
-
-     * @param errorCode the error code
-
-     */
-
-    public LogisticMgmtUnauthorizedException(int errorCode) {
-
-        super(errorCode);
-
-    }
-
-  
-  
-
 }
+
+public class LogisticMgmtException extends Exception {
+
+    private static final long serialVersionUID = 1L;
+
+    private int code;
+    
+    protected String[] resources;
+
+    public LogisticMgmtException(int code,
+                            String message) {
+        super(message);
+        this.code = code;
+
+    }
+}
+```
+- Define response class
+```java
+public class ResponseEntity<T> extends HttpEntity<T> {
+
+    private final Object status;
+
+    public ResponseEntity(HttpStatus status) {
+
+        this(null, null, status);
+
+    }
+
+
+    public ResponseEntity(@Nullable T body, HttpStatus status) {
+
+        this(body, null, status);
+
+    }
 ```
 ---
 # References
