@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/LMA Code flows.md",
+                "file": "6 - Main Notes/LMA flows.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LMA Code flows"
+              "title": "LMA flows"
             }
           },
           {
@@ -117,7 +117,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "handle",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -138,8 +138,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -205,13 +204,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/LMA Code flows.md",
+                "file": "6 - Main Notes/LMA flows.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of LMA Code flows"
+              "title": "Outline of LMA flows"
             }
           },
           {
@@ -267,10 +266,10 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "730cd306f07ccda2",
+  "active": "3b58730af2b80326",
   "lastOpenFiles": [
     "7 - Files/LMA Code flows 2025-02-05 07.44.12.excalidraw.md",
-    "6 - Main Notes/LMA Code flows.md",
+    "6 - Main Notes/LMA flows.md",
     "6 - Main Notes/Handle Rest API Exception Globally in Spring.md",
     "7 - Files/LMA Code flows 2025-02-10 10.19.42.excalidraw.md",
     "7 - Files/LMA Code flows 2025-02-07 14.46.06.excalidraw.md",
