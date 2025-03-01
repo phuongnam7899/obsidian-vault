@@ -17,6 +17,10 @@
 	- Select protocol RFP
 	- Enter Port
 	- Auth type VM Password
-	- Username: $trongP@ssw0rd01
-	- Password: ******
+	- Username: psamsysadmin
+	- Password: $trongP@ssw0rd01
+- Connect to DB: [[Account]]
+- View logs:
+	- Login to azure portal in virtual machine
+	- SSH to server
 # Manually Rebuild Dev Application
