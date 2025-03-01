@@ -32,9 +32,9 @@ git commit -m"resolve conflict"
 git rebase --continue
 ```
 - Repeat 4,5,6,7 (the number of rebase times depend on how much commits needed to be rebased)
-- Push the code:
+- Push the code with force:
 ```
-git push origin my-feature-branch --force-with-lease
+git push origin branch-a --force-with-lease
 ```
 ---
 # References
