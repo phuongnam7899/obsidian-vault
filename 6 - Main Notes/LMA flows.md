@@ -24,8 +24,10 @@
 	- Login to azure portal in virtual machine
 	- SSH to server
 - Rebuild:
-	- Login to Jenkin:
-		- URL: [http://10.1.43.23:8181/](http://10.1.43.23:8181/)  
-		- Account: admin/admin
-	- 
+	- Build jar file
+		- Login to Jenkin:
+			- URL: [http://10.1.43.23:8181/](http://10.1.43.23:8181/)  
+			- Account: admin/admin
+		- Click "Play" icon (to build jar file)
+	- Run deployment script in `deploy-backend/LMA/` or  `deploy-backend/TMA/`
 # Manually Rebuild Dev Application
