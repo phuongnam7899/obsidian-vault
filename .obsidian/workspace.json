@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Account.md",
+                "file": "6 - Main Notes/LMA flows.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Account"
+              "title": "LMA flows"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/Account.md",
+                "file": "6 - Main Notes/LMA flows.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Account"
+              "title": "Outline of LMA flows"
             }
           },
           {
@@ -205,8 +205,8 @@
   "active": "3fad8a211d87528c",
   "lastOpenFiles": [
     "6 - Main Notes/Scripts.md",
-    "6 - Main Notes/LMA flows.md",
     "6 - Main Notes/Account.md",
+    "6 - Main Notes/LMA flows.md",
     "6 - Main Notes/TMA-LMA.md",
     "7 - Files/LMA Code flows 2025-02-05 07.44.12.excalidraw.md",
     "6 - Main Notes/Git resolve conflicts.md",
