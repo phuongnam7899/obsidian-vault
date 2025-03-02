@@ -10,17 +10,19 @@
 	- Create `dtoType` to...
 - 3. Create new message service if need, then add it in the `JobMessageServiceFactory.java`
 - 4. Create message builder class (like `BunkeringJobMessageBuilder`, `PilotJobMessageBuilder`)
-# Dev environment connect
+# Dev environment management
 - Login https://portal.azure.com/
 - Select VM `fleetadm01a`
 - Connect -> Bastion:
 	- Select protocol RFP
 	- Enter Port
-	- Auth type VM Password
+	- Auth type: VM Password
 	- Username: psamsysadmin
 	- Password: $trongP@ssw0rd01
 - Connect to DB: [[Account]]
 - View logs:
 	- Login to azure portal in virtual machine
 	- SSH to server
+- Rebuild:
+	- 
 # Manually Rebuild Dev Application
