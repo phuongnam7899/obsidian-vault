@@ -24,5 +24,8 @@
 	- Login to azure portal in virtual machine
 	- SSH to server
 - Rebuild:
+	- Login to Jenkin:
+		- URL: [http://10.1.43.23:8181/](http://10.1.43.23:8181/)  
+		- Account: admin/admin
 	- 
 # Manually Rebuild Dev Application
