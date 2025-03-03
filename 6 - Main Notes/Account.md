@@ -11,7 +11,14 @@ Tags: [[TMA-LMA]]
 - Database Name: `tma-dev-sea-sqldb-01`
 - Username: `fleetnprdsqlsrvadmin`
 - Password: `x/XmCb*!.DFP`
+### FAT
+- Host: `tma-nprd-sea-sqlsrv-01.database.windows.net
+- Port: `1433`
+- Database Name: `tma-fat-sea-sqldb-01`
+- Username: `fleetnprdsqlsrvadmin`
+- Password: `x/XmCb*!.DFP`
 ## LMA
+### FAT
 
 
 ---
