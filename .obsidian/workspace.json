@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Account.md",
+                "file": "6 - Main Notes/LMA flows.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Account"
+              "title": "LMA flows"
             }
           },
           {
@@ -33,8 +33,7 @@
               "title": "LMA Code flows 2025-02-05 07.44.12.excalidraw"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -153,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "7 - Files/LMA Code flows 2025-02-05 07.44.12.excalidraw.md",
+                "file": "6 - Main Notes/LMA flows.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of LMA Code flows 2025-02-05 07.44.12.excalidraw"
+              "title": "Outline of LMA flows"
             }
           },
           {
@@ -215,14 +214,14 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "7e59f87224f7d10d",
+  "active": "3fad8a211d87528c",
   "lastOpenFiles": [
-    "6 - Main Notes/Untitled 1.md",
     "6 - Main Notes/Account.md",
+    "7 - Files/LMA Code flows 2025-02-05 07.44.12.excalidraw.md",
+    "6 - Main Notes/Untitled 1.md",
     "6 - Main Notes/LMA flows.md",
     "6 - Main Notes/Scripts.md",
     "6 - Main Notes/TMA-LMA.md",
-    "7 - Files/LMA Code flows 2025-02-05 07.44.12.excalidraw.md",
     "6 - Main Notes/Git resolve conflicts.md",
     "3 - Tags/Git.md",
     "6 - Main Notes/Handle Rest API Exception Globally in Spring.md",
