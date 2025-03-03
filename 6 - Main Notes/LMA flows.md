@@ -23,6 +23,7 @@
 - View logs:
 	- Login to azure portal in virtual machine
 	- SSH to server
+	- View latest 1000 line of logs: `tail -n 1000 ./LogFiles/Applications/[...].log`
 - Rebuild:
 	- Build jar file
 		- Login to Jenkin:
