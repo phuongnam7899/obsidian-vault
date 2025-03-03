@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Account"
             }
+          },
+          {
+            "id": "7e59f87224f7d10d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "7 - Files/LMA Code flows 2025-02-05 07.44.12.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "LMA Code flows 2025-02-05 07.44.12.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,13 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/Account.md",
+                "file": "7 - Files/LMA Code flows 2025-02-05 07.44.12.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Account"
+              "title": "Outline of LMA Code flows 2025-02-05 07.44.12.excalidraw"
             }
           },
           {
@@ -202,11 +215,12 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "3fad8a211d87528c",
+  "active": "7e59f87224f7d10d",
   "lastOpenFiles": [
+    "6 - Main Notes/Untitled 1.md",
+    "6 - Main Notes/Account.md",
     "6 - Main Notes/LMA flows.md",
     "6 - Main Notes/Scripts.md",
-    "6 - Main Notes/Account.md",
     "6 - Main Notes/TMA-LMA.md",
     "7 - Files/LMA Code flows 2025-02-05 07.44.12.excalidraw.md",
     "6 - Main Notes/Git resolve conflicts.md",
@@ -232,7 +246,6 @@
     "7 - Files/Design Pattern 2025-01-15 17.26.53.excalidraw.md",
     "3 - Tags/Vim.md",
     "6 - Main Notes/Problem statement.md",
-    "3 - Tags/Security.md",
     "7 - Files/Pasted image 20250115154129.png",
     "7 - Files/Pasted image 20250108162347.png",
     "7 - Files/Pasted image 20250108160005.png",
