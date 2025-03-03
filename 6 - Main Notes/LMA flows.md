@@ -10,7 +10,7 @@
 	- Create `dtoType` to...
 - 3. Create new message service if need, then add it in the `JobMessageServiceFactory.java`
 - 4. Create message builder class (like `BunkeringJobMessageBuilder`, `PilotJobMessageBuilder`)
-# Dev environment management
+# Dev/FAT environment management
 - Login https://portal.azure.com/
 - Select VM `fleetadm01a`
 - Connect -> Bastion:
@@ -29,5 +29,5 @@
 			- URL: [http://10.1.43.23:8181/](http://10.1.43.23:8181/)  
 			- Account: admin/admin
 		- Click "Play" icon (to build jar file)
-	- Run deployment script in `deploy-backend/LMA/` or  `deploy-backend/TMA/`
+	- Run deployment script in `deploy-backend/LMA/` or  `deploy-backend/TMA/` (each environment has a file)
 # Manually Rebuild Dev Application
