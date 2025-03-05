@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Docker common commands.md",
+                "file": "6 - Main Notes/Account.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker common commands"
+              "title": "Account"
             }
           }
         ],
@@ -155,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/Docker common commands.md",
+                "file": "6 - Main Notes/Account.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Docker common commands"
+              "title": "Outline of Account"
             }
           },
           {
@@ -219,6 +219,7 @@
   },
   "active": "51168b5ebaf35be4",
   "lastOpenFiles": [
+    "6 - Main Notes/Docker common commands.md",
     "6 - Main Notes/Account.md",
     "6 - Main Notes/LMA flows.md",
     "6 - Main Notes/Handle Rest API Exception Globally in Spring.md",
@@ -247,7 +248,6 @@
     "6 - Main Notes/Web Development.md",
     "7 - Files/Design Pattern 2025-01-15 17.26.53.excalidraw.md",
     "3 - Tags/Vim.md",
-    "6 - Main Notes/Problem statement.md",
     "7 - Files/Pasted image 20250115154129.png",
     "7 - Files/Pasted image 20250108162347.png",
     "7 - Files/Pasted image 20250108160005.png",
