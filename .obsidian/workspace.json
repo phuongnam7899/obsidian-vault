@@ -35,8 +35,7 @@
               "title": "Account"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/Account.md",
+                "file": "6 - Main Notes/LMA flows.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Account"
+              "title": "Outline of LMA flows"
             }
           },
           {
@@ -217,10 +216,10 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "51168b5ebaf35be4",
+  "active": "2cf6efc2b98dea16",
   "lastOpenFiles": [
-    "6 - Main Notes/Docker common commands.md",
     "6 - Main Notes/Account.md",
+    "6 - Main Notes/Docker common commands.md",
     "6 - Main Notes/LMA flows.md",
     "6 - Main Notes/Handle Rest API Exception Globally in Spring.md",
     "7 - Files/LMA Code flows 2025-02-05 07.44.12.excalidraw.md",
