@@ -3,8 +3,11 @@
 Tags: [[Spring Framework]] 
 
 ---
-- Need to noticve on the `produces` and the `ResponseEntity.contentType()`:
+- Need to notice on the `produces` and the `ResponseEntity.contentType()` to tell the browser about the content what being downloaded is:
 	- For `xlsx` file: `application/vnd.openxmlformats-officedocument.spreadsheetml.sheet`
+
+> [!w] If not, there might be issue when download in mobile devices (auto added .json in Android, and .html in iOS)
+
 ```java
 @RequestMapping(value = "/download", method = RequestMethod.GET, produces = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
 
