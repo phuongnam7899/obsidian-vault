@@ -41,16 +41,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/What is Dictionary Encoding.md",
+                "file": "6 - Main Notes/Account.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "What is Dictionary Encoding"
+              "title": "Account"
+            }
+          },
+          {
+            "id": "56c221564c0c2923",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Handover.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Handover"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -168,10 +182,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "6 - Main Notes/Handover.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of conflict-files-obsidian-git"
+              "title": "Outline of Handover"
             }
           },
           {
@@ -227,10 +241,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6a2fc9cd813311bb",
+  "active": "56c221564c0c2923",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "6 - Main Notes/Account.md",
+    "6 - Main Notes/Handover.md",
     "6 - Main Notes/What is Dictionary Encoding.md",
+    "conflict-files-obsidian-git.md",
     "7 - Files/Pasted image 20250116104231.png",
     "7 - Files/Pasted image 20250115154129.png",
     "7 - Files/LMA Code flows 2025-02-10 10.19.42.excalidraw.md",
@@ -255,8 +271,6 @@
     "6 - Main Notes/To create download api.md",
     "6 - Main Notes/TMA-LMA.md",
     "6 - Main Notes/Spring Annotations.md",
-    "6 - Main Notes/Scripts.md",
-    "6 - Main Notes/STOMP.md",
     "7 - Files/Pasted image 20250112160645.png",
     "2- Source Material/Courses",
     "Untitled.canvas",
