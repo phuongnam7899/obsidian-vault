@@ -238,9 +238,9 @@
       "obsidian-git:Open Git source control": false,
       "callout-manager:Insert Callout": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
   "active": "58f72f174aed628c",
