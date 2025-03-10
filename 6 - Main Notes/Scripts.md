@@ -1,0 +1,1 @@
+- View Latest 1000 lines of Log: `tail -n 1000 ./Log.../Applications/...`
