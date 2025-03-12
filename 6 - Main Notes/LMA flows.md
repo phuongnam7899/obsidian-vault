@@ -39,4 +39,11 @@
 	- `data`: custom data passes when come to page
 		- `title`: page title shown on screen
 - Screens: each screen stored in a folder inside `src/app/epics`
-- 
+- Component structure:
+	- HTML file
+	- SCSS file
+	- TS file:
+		- `@Component` decorator: define metadata:
+			- Selector: used to 
+			- Template file: link to HTML file
+			- Style files
