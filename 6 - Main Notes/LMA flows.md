@@ -24,11 +24,19 @@
 	- Login to azure portal in virtual machine
 	- SSH to server
 	- View latest 1000 line of logs: `tail -n 1000 ./LogFiles/Applications/[...].log`
-- Rebuild:
+- Deploy:
 	- Build jar file
 		- Login to Jenkin:
 			- URL: [http://10.1.43.23:8181/](http://10.1.43.23:8181/)  
 			- Account: admin/admin
 		- Click "Play" icon (to build jar file)
 	- Run deployment script in `deploy-backend/LMA/` or  `deploy-backend/TMA/` (each environment has a file)
-# Manually Rebuild Dev Application
+# FE Code
+- Routing: `src\app\epics\layout\layout-routing.module.ts`
+	- `path`: route in browser
+	- `component`: which component to be render
+	- `canActivate`: define guard to handle logic before access to a path
+	- `data`: custom data passes when come to page
+		- `title`: page title shown on screen
+- Screens: each screen stored in a folder inside `src/app/epics`
+- 
