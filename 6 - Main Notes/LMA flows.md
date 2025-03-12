@@ -44,6 +44,8 @@
 	- SCSS file
 	- TS file:
 		- `@Component` decorator: define metadata:
-			- Selector: used to 
+			- Selector: used to use that component in other component (use like a tag name)
 			- Template file: link to HTML file
 			- Style files
+		- Class properties
+		- Class methods
