@@ -1,4 +1,4 @@
-# Main code flow
+# Main BE code flow
 ![[LMA Code flows 2025-02-05 07.44.12.excalidraw]]
 
 # Flow to receive new message
