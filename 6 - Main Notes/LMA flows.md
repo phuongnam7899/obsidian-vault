@@ -40,7 +40,9 @@
 		- `title`: page title shown on screen
 - Screens: each screen stored in a folder inside `src/app/epics`
 - Component structure:
-	- HTML file
+	- HTML file:
+		- HTML file can use properties declared in the TS file
+		- To render based on list: `*ngFor`
 	- SCSS file
 	- TS file:
 		- `@Component` decorator: define metadata:
