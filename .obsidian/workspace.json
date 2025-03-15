@@ -56,9 +56,21 @@
               "icon": "lucide-file",
               "title": "LMA flows"
             }
+          },
+          {
+            "id": "ca0721d9515277f7",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "7 - Files/LMA Code flows 2025-02-05 07.44.12.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "LMA Code flows 2025-02-05 07.44.12.excalidraw"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -177,13 +189,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/LMA flows.md",
+                "file": "7 - Files/LMA Code flows 2025-02-05 07.44.12.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of LMA flows"
+              "title": "Outline of LMA Code flows 2025-02-05 07.44.12.excalidraw"
             }
           },
           {
@@ -234,16 +246,16 @@
       "obsidian-git:Open Git source control": false,
       "callout-manager:Insert Callout": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "smart-connections:Open: Smart Chat Conversation": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "51168b5ebaf35be4",
+  "active": "ca0721d9515277f7",
   "lastOpenFiles": [
+    "6 - Main Notes/LMA flows.md",
     "6 - Main Notes/Account.md",
     "6 - Main Notes/To create download api.md",
-    "6 - Main Notes/LMA flows.md",
     "6 - Main Notes/Docker common commands.md",
     "6 - Main Notes/Handle Rest API Exception Globally in Spring.md",
     "7 - Files/LMA Code flows 2025-02-05 07.44.12.excalidraw.md",
