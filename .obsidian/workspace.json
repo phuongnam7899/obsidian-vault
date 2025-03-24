@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -189,13 +189,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "7 - Files/LMA Code flows 2025-02-05 07.44.12.excalidraw.md",
+                "file": "6 - Main Notes/LMA flows.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of LMA Code flows 2025-02-05 07.44.12.excalidraw"
+              "title": "Outline of LMA flows"
             }
           },
           {
@@ -251,7 +251,7 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "ca0721d9515277f7",
+  "active": "51168b5ebaf35be4",
   "lastOpenFiles": [
     "7 - Files/LMA Code flows 2025-02-05 07.44.12.excalidraw.md",
     "6 - Main Notes/LMA flows.md",
