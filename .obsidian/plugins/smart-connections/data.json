@@ -10,7 +10,8 @@
       "embedding_progress": true,
       "embedding_complete": true,
       "done_import": true,
-      "Notice_muted": true
+      "Notice_muted": true,
+      "loading": true
     }
   },
   "system_prompts_folder": "smart prompts",

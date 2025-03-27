@@ -25,11 +25,5 @@ Tags:[[Database]]
 | ----------- | ------ |
 | Nam, Norman | 26, 24 |
 
-> [!s] When want to calculate values from columns, for example average age -> no need to load other columns
-
-- Better for application that need to calculate much rely on columns
-- Support indexing and partitioning
-- Compress data: Store compressed data -> reduce I/O loa
-
 ---
 # References
