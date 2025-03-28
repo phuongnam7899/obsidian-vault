@@ -202,13 +202,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of conflict-files-obsidian-git"
+              "title": "Outline"
             }
           },
           {
