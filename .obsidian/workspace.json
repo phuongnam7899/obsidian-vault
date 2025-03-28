@@ -58,19 +58,6 @@
             }
           },
           {
-            "id": "f36c2c319d2cc455",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "6 - Main Notes/LMA flows.md",
-                "staged": false
-              },
-              "icon": "git-pull-request",
-              "title": "Diff View (LMA flows)"
-            }
-          },
-          {
             "id": "ca0721d9515277f7",
             "type": "leaf",
             "state": {
@@ -83,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -202,12 +189,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "6 - Main Notes/LMA flows.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of LMA flows"
             }
           },
           {
@@ -263,7 +251,7 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "6a2fc9cd813311bb",
+  "active": "51168b5ebaf35be4",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "6 - Main Notes/LMA flows.md",
