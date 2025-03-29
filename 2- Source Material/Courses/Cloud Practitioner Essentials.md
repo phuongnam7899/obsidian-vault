@@ -335,6 +335,6 @@ Contain resources to learn about AWS compliance
 - Change the platform of 1 or more component in the architect
 - Example: 
 ### 3. 
-# Module 10: AWS Certified Cloud Practitioner Basic 
+# Module 10: AWS Certified Cloud Practitioner Basic
 
 ---

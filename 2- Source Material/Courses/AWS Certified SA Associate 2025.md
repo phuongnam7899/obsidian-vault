@@ -4,6 +4,10 @@ Status: #source-eating
 
 ---
 
-
+# Introduction
+- For SSA-C03 exam
+- AWS (Amazon Web Service) 
+	- is a Cloud provider
+	- provide servers a
 
 ---
