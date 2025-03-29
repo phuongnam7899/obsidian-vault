@@ -248,10 +248,14 @@ Determine religion for services, data, applications based on:
 	- IAM user
 		- Each user has access key, secret access key and password
 	- IAM policy: define the action could be take with objects in some location
+![[Cloud Practitioner Essentials 2025-03-29 11.08.49.excalidraw]]
 	- IAM role: 
 		- identity that can assume to gain ==temporary== access to permissions
 		- user can have ==multiple roles==
-	- IAM group: multiple users
+	- IAM group: 
+		- multiple users
+		- 1 user can be in multiple group
+	![[Cloud Practitioner Essentials 2025-03-29 11.04.13.excalidraw]]
 	- Multi-factor authentication (MFA)
 		- Beside username and password, it require 1 or more authentication layer(s): mobile
 	- Organizational units (OU)

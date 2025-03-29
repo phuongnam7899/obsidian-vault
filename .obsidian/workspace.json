@@ -91,6 +91,24 @@
           }
         ],
         "currentTab": 5
+      },
+      {
+        "id": "d971138a44c0a076",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ca41a5629dc4304c",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "7 - Files/Cloud Practitioner Essentials 2025-03-29 11.08.49.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Cloud Practitioner Essentials 2025-03-29 11.08.49.excalidraw"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -253,7 +271,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 415.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -273,8 +291,10 @@
   },
   "active": "f8e93e8a0087d700",
   "lastOpenFiles": [
-    "2- Source Material/Courses/AWS Certified SA Associate 2025.md",
+    "7 - Files/Cloud Practitioner Essentials 2025-03-29 11.08.49.excalidraw.md",
     "2- Source Material/Courses/Cloud Practitioner Essentials.md",
+    "7 - Files/Cloud Practitioner Essentials 2025-03-29 11.04.13.excalidraw.md",
+    "2- Source Material/Courses/AWS Certified SA Associate 2025.md",
     "conflict-files-obsidian-git.md",
     "6 - Main Notes/Account.md",
     "6 - Main Notes/Handover.md",
@@ -299,8 +319,6 @@
     "6 - Main Notes/What is DDoS.md",
     "6 - Main Notes/Web Development.md",
     "6 - Main Notes/Untitled.md",
-    "6 - Main Notes/Untitled 1.md",
-    "6 - Main Notes/To create download api.md",
     "7 - Files/Pasted image 20250112160645.png",
     "2- Source Material/Courses",
     "Untitled.canvas",
