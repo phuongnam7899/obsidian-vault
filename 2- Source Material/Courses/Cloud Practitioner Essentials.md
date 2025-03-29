@@ -278,6 +278,17 @@ Determine religion for services, data, applications based on:
 > - For policies: follow the security principle of least privilege
 > - Attach policy to group instead of individual
 
+- Authentication mechanism
+	- Password policy that could be setup
+		- Minimum length
+		- Require specfic chars:
+			- Upper/lower
+			- numbers
+			- non-alphanumeric chars
+		- Allow change password
+		- Frequency of password change
+	- MFA (Multi factor authetication):
+		- 
 ## AWS CLI
 
 ## AWS Artifacts
