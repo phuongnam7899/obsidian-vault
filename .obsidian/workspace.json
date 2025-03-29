@@ -88,9 +88,21 @@
               "icon": "lucide-file",
               "title": "Cloud Practitioner Essentials"
             }
+          },
+          {
+            "id": "ccec3f15b38876f1",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "7 - Files/Cloud Practitioner Essentials 2025-03-29 11.08.49.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Cloud Practitioner Essentials 2025-03-29 11.08.49.excalidraw"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -209,13 +221,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2- Source Material/Courses/Cloud Practitioner Essentials.md",
+                "file": "7 - Files/Cloud Practitioner Essentials 2025-03-29 11.08.49.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Cloud Practitioner Essentials"
+              "title": "Outline of Cloud Practitioner Essentials 2025-03-29 11.08.49.excalidraw"
             }
           },
           {
@@ -271,11 +283,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f8e93e8a0087d700",
+  "active": "ccec3f15b38876f1",
   "lastOpenFiles": [
+    "2- Source Material/Courses/Cloud Practitioner Essentials.md",
     "7 - Files/Pasted image 20250329133715.png",
     "7 - Files/Cloud Practitioner Essentials 2025-03-29 11.08.49.excalidraw.md",
-    "2- Source Material/Courses/Cloud Practitioner Essentials.md",
     "7 - Files/Cloud Practitioner Essentials 2025-03-29 11.04.13.excalidraw.md",
     "2- Source Material/Courses/AWS Certified SA Associate 2025.md",
     "conflict-files-obsidian-git.md",
@@ -310,7 +322,6 @@
     "7 - Files/Pasted image 20250108155356.png",
     "7 - Files/Pasted image 20250108141631.png",
     "7 - Files/Pasted image 20250108141327.png",
-    "7 - Files/Pasted image 20250108140754.png",
     "Lazy loading images",
     "8 - Content Factory",
     "Untitled 2.canvas",
