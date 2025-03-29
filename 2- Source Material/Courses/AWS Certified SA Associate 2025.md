@@ -8,6 +8,7 @@ Status: #source-eating
 - For SSA-C03 exam
 - AWS (Amazon Web Service) 
 	- is a Cloud provider
-	- provide servers a
+	- provide servers and services can use on demand and scale easily
+- 
 
 ---
