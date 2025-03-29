@@ -1,47 +1,54 @@
 {{date}} {{time}}
 
-Tags: #AWS #Cloud #Compute
+Tags: [[AWS]] [[Cloud]] [[Compute]]
 
 ---
 
-- EC2 (Elastic Cloud Compute) is a core AWS service that provides virtual machines
-- Key features:
-  - Secure and sizable compute capacity
-  - Boot server instances in minutes
-  - Pay-for-use pricing model
+# Amazon EC2 (Elastic Cloud Compute)
+
+- Virtual machines running in AWS cloud
+- Provides secure and resizable compute capacity
+- Servers can be launched in minutes
+- Pay-as-you-go pricing model
 
 ## EC2 Instance Types
 
-- **General purpose**: Balance of compute, memory, and networking (ideal for broad range of workloads)
-- **Compute optimized**: Higher performance processors (ideal for high computing applications and batch processing)
-- **Memory optimized**: Fast performance for memory-intensive workloads (ideal for high-performance databases)
-- **Accelerated computing**: Uses hardware accelerators to expedite data processing (ideal for streaming and graphic work)
-- **Storage optimized**: Low latency and high I/O operations per second (ideal for distributed file systems and data warehouses)
+| Type                  | Features                                        | Ideal Use Cases                                                     |
+| --------------------- | ----------------------------------------------- | ------------------------------------------------------------------- |
+| General Purpose       | Balanced compute, memory, and networking        | Broad range of workloads, web servers, small databases              |
+| Compute Optimized     | High-performance processors                     | Batch processing, scientific modeling, high-performance web servers |
+| Memory Optimized      | Fast performance for memory-intensive workloads | High-performance databases, in-memory caches                        |
+| Accelerated Computing | Hardware accelerators for data processing       | Machine learning, graphics processing                               |
+| Storage Optimized     | Low latency and high I/O operations per second  | Distributed file systems, data warehousing applications             |
 
 ## EC2 Pricing Models
 
-- **On-demand**:
-  - No upfront cost or minimum contract
+- **On-Demand Instances**:
+  - No upfront costs or minimum contracts
   - Ideal for short-term, irregular workloads
-- **Spot**:
-  - Uses spare AWS capacity that can be reclaimed
-  - Up to 90% cheaper than on-demand
-  - Ideal for flexible start/end times and workloads that can withstand interruption
-- **Reserved**:
-  - Requires 1-year or 3-year commitment
-  - Cheaper than on-demand
+- **Spot Instances**:
+  - Use spare EC2 capacity
+  - Up to 90% discount compared to On-Demand
+  - Can be terminated when capacity is needed elsewhere
+  - Ideal for workloads with flexible start/end times
+- **Reserved Instances**:
+  - 1 or 3-year term commitment
+  - Significant discount compared to On-Demand
+  - Ideal for predictable workloads
 - **Compute Savings Plans**:
-  - 1 or 3 year commitment
-  - Cheaper than on-demand for consistent computing needs
+  - 1 or 3-year commitment to consistent amount of compute usage
+  - Flexible across instance family, size, OS, and region
 
-## Dedicated Computing Options
+## EC2 Dedicated Hosting Options
 
 - **Dedicated Instances**:
-  - Non-shared infrastructure but AWS manages placement
-  - Higher price than standard instances
+  - Run on hardware dedicated to a single customer
+  - May share hardware with other instances from the same AWS account
+  - AWS manages instance placement
 - **Dedicated Hosts**:
-  - Complete physical server isolation
-  - Full control over server
+  - Physical server dedicated entirely to your use
+  - Full control over instance placement
+  - Visibility into underlying physical server
   - Most expensive option
 
 ---
@@ -51,4 +58,3 @@ Tags: #AWS #Cloud #Compute
 - [[AWS Core Service Categories]]
 - [[EC2 Auto Scaling]]
 - [[Elastic Load Balancing]]
-- [[Server-less Computing]]

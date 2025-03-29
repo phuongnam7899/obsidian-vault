@@ -52,6 +52,7 @@
 
 ### 6 - Main Notes
 
+- No nested folder here, only notes files
 - Refined, organized knowledge
 - Use the Main Note template
 - Includes concept definitions, examples, and technical information
@@ -100,3 +101,4 @@
 - Create meaningful connections between notes
 - Regularly review and update existing notes
 - Maintain consistency in formatting and organization
+- For tags included in each note, using link to a file inside '3- Tags' folder (instead of using #) (For example `[[TagName]]` instead of `#TagName`)

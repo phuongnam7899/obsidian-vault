@@ -1,6 +1,6 @@
 {{date}} {{time}}
 
-Tags: #AWS #Cloud
+Tags: [[AWS]] [[Cloud]]
 
 ---
 
