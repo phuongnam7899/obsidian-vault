@@ -9,6 +9,7 @@ Status: #source-eating
 - AWS (Amazon Web Service) 
 	- is a Cloud provider
 	- provide servers and services can use on demand and scale easily
-- 
+- AWS use cases:
+	- Builf sotisphiacated, scalable applcation
 
 ---
