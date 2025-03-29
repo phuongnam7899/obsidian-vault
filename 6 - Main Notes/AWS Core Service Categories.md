@@ -4,37 +4,13 @@ Tags: [[AWS]] [[Cloud]]
 
 ---
 
-AWS provides a wide range of services organized into the following core categories:
-
-## Compute
-
-- Services that provide processing power
-- Examples: Amazon EC2, AWS Lambda
-
-## Storage
-
-- Services for data storage and management
-- Examples: Amazon S3, Amazon EBS
-
-## Database
-
-- Services for database management and operations
-- Examples: Amazon RDS, Amazon DynamoDB
-
-## Networking
-
-- Services for network configuration and connectivity
-- Examples: Amazon VPC, AWS Direct Connect, Amazon Route 53
-
-## Security, Identity & Compliance
-
-- Services to secure AWS resources and manage access
-- Examples: IAM, AWS Shield, AWS KMS
-
-## Management and Governance
-
-- Services to monitor, track, and manage AWS resources
-- Examples: AWS CloudWatch, AWS CloudTrail, AWS Trusted Advisor
+- AWS offers a wide range of cloud services organized into categories
+- Core AWS service categories:
+  - **Compute**: Services for processing workloads and running applications
+  - **Storage**: Services for storing and retrieving data
+  - **Database**: Services for database management and operations
+  - **Security, Identity & Compliance**: Services for securing AWS resources
+  - **Management and Governance**: Services for monitoring and managing AWS resources
 
 ---
 
@@ -42,4 +18,6 @@ AWS provides a wide range of services organized into the following core categori
 
 - [[What is cloud computing]]
 - [[Amazon EC2]]
-- [[AWS Lambda]]
+- [[AWS Storage Services]]
+- [[AWS Database Services]]
+- [[AWS Security Services]]
