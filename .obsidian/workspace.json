@@ -81,12 +81,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2- Source Material/Courses/AWS Certified SA Associate 2025.md",
+                "file": "2- Source Material/Courses/Cloud Practitioner Essentials.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS Certified SA Associate 2025"
+              "title": "Cloud Practitioner Essentials"
             }
           }
         ],
@@ -209,13 +209,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2- Source Material/Courses/AWS Certified SA Associate 2025.md",
+                "file": "2- Source Material/Courses/Cloud Practitioner Essentials.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of AWS Certified SA Associate 2025"
+              "title": "Outline of Cloud Practitioner Essentials"
             }
           },
           {
@@ -273,8 +273,8 @@
   },
   "active": "f8e93e8a0087d700",
   "lastOpenFiles": [
-    "2- Source Material/Courses/Cloud Practitioner Essentials.md",
     "2- Source Material/Courses/AWS Certified SA Associate 2025.md",
+    "2- Source Material/Courses/Cloud Practitioner Essentials.md",
     "conflict-files-obsidian-git.md",
     "6 - Main Notes/Account.md",
     "6 - Main Notes/Handover.md",
