@@ -254,9 +254,10 @@ Determine religion for services, data, applications based on:
 		- `Statement`: 
 			- `Sid` (optional)
 			- `Effect`: Allow/Deny
-			- `Principle`: 
-			- `Action`
-			- `Resource`
+			- `Principle`: Account/user/role that policy applied to
+			- `Action` (GetObject, PutObject,...)
+			- `Resource` that action work on
+			- `Condition` (Optional): When policy effect
 ![[Cloud Practitioner Essentials 2025-03-29 11.08.49.excalidraw]]
 	- IAM role: 
 		- identity that can assume to gain ==temporary== access to permissions
@@ -276,6 +277,8 @@ Determine religion for services, data, applications based on:
 > - Create different user for each person that need to access
 > - For policies: follow the security principle of least privilege
 > - Attach policy to group instead of individual
+
+## AWS CLI
 
 ## AWS Artifacts
 Provide on-demand access to security and compliance reports and select online agreements:
