@@ -277,12 +277,6 @@ Determine religion for services, data, applications based on:
 		- Policies can be applied for individual account (IAM user or external user) or a OU
 			![[Cloud Practitioner Essentials 2025-01-13 14.38.02.excalidraw]]
 
-> [!i] Best practices:
-> - Use root user (first user) to create another user (User A) -> use user B to create other other. Avoid using root user
-> - Create different user for each person that need to access
-> - For policies: follow the security principle of least privilege
-> - Attach policy to group instead of individual
-
 - Authentication mechanism
 	- Password policy that could be setup
 		- Minimum length
@@ -310,7 +304,21 @@ Determine religion for services, data, applications based on:
 ![[Pasted image 20250329144255.png]]
 - IAM security tools:
 	- IAM credential report
-	- IAM Access Advisor
+![[Pasted image 20250329151159.png]]
+	- IAM Access Advisor: to know which service does user use recently -> remove unneccessary permission
+
+> [!i] Best practices:
+> - Use root user (first user) to create another user (User A) -> use user B to create other other. Avoid using root user
+> - One physical user = one AWS user
+> - Attach policy to group instead of individual
+> - For policies: follow the security principle of least privilege
+> - Create strong password policy
+> - Enforce using MFA
+> - Use roles for giving perms to AWS services
+> - Use access key for Programatic access (CLI/SDK)
+> - Audit permission using IAM Credential Report and IAM Access Advisor
+> - Never share user/access key
+
 ## AWS CLI
 - Config:
 ```sh
