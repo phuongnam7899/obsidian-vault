@@ -295,7 +295,10 @@ Determine religion for services, data, applications based on:
 			- Universal 2nd factor (U2F) Sercurity key: YubiKey
 			- Hardware key Fob MFA device (Provided by Gelmato)
 			- Hardware key Fob MFA device for AWS GovCloud (provided by SurePassID)
-		- 
+	- How to access AWS, 3 options:
+		- AWS management cosole (protected by password + MFA)
+		- AWS CLI: protected by Access Key
+		- AWS SDK: protected by access key
 ## AWS CLI
 
 ## AWS Artifacts
@@ -369,7 +372,5 @@ Contain resources to learn about AWS compliance
 ### 2. Re-platform
 - Change the platform of 1 or more component in the architect
 - Example: 
-### 3. 
-# Module 10: AWS Certified Cloud Practitioner Basic
 
 ---
