@@ -287,7 +287,14 @@ Determine religion for services, data, applications based on:
 			- non-alphanumeric chars
 		- Allow change password
 		- Frequency of password change
+		![[Pasted image 20250329142820.png]]
 	- MFA (Multi factor authetication):
+		- = password you know + device you own
+		- MFA options in AWS:
+			- Virtual MFA device: GG autenticator, Authy
+			- Universal 2nd factor (U2F) Sercurity key: YubiKey
+			- Hardware key Fob MFA device (Provided by Gelmato)
+			- Hardware key Fob MFA device for AWS GovCloud (provided by SurePassID)
 		- 
 ## AWS CLI
 
