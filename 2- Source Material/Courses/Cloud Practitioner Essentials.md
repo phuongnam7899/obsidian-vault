@@ -243,6 +243,7 @@ Determine religion for services, data, applications based on:
 		- Database
 		- Networking 
 ## AWS Identity and Access Management (IAM)
+![[Pasted image 20250329133715.png]]
 - Allow manage access to AWS services and resources
 - Features:
 	- IAM user
