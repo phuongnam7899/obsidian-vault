@@ -62,9 +62,21 @@
               "icon": "lucide-file",
               "title": "Handover"
             }
+          },
+          {
+            "id": "ccc6faa1a2ad7278",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -83,7 +95,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -182,10 +195,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/Handover.md"
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Handover"
+              "title": "Outline"
             }
           },
           {
@@ -241,7 +256,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "56c221564c0c2923",
+  "active": "ccc6faa1a2ad7278",
   "lastOpenFiles": [
     "6 - Main Notes/Account.md",
     "6 - Main Notes/Handover.md",
