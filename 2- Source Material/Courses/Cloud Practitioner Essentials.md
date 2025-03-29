@@ -304,7 +304,13 @@ Determine religion for services, data, applications based on:
 		- don't share it
 ![[Pasted image 20250329144255.png]]
 ## AWS CLI
+- Config:
+```sh
+aws configure
 
+# Then enter access key, secret key, religion and format
+```
+- 
 ## AWS Artifacts
 Provide on-demand access to security and compliance reports and select online agreements:
 ## Customer Compliance Center
