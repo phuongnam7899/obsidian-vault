@@ -88,21 +88,9 @@
               "icon": "lucide-file",
               "title": "Cloud Practitioner Essentials"
             }
-          },
-          {
-            "id": "ccec3f15b38876f1",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "7 - Files/Cloud Practitioner Essentials 2025-03-29 11.08.49.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Cloud Practitioner Essentials 2025-03-29 11.08.49.excalidraw"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -221,13 +209,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "7 - Files/Cloud Practitioner Essentials 2025-03-29 11.08.49.excalidraw.md",
+                "file": "2- Source Material/Courses/Cloud Practitioner Essentials.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Cloud Practitioner Essentials 2025-03-29 11.08.49.excalidraw"
+              "title": "Outline of Cloud Practitioner Essentials"
             }
           },
           {
@@ -283,11 +271,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ccec3f15b38876f1",
+  "active": "f8e93e8a0087d700",
   "lastOpenFiles": [
+    "7 - Files/Cloud Practitioner Essentials 2025-03-29 11.08.49.excalidraw.md",
     "2- Source Material/Courses/Cloud Practitioner Essentials.md",
     "7 - Files/Pasted image 20250329133715.png",
-    "7 - Files/Cloud Practitioner Essentials 2025-03-29 11.08.49.excalidraw.md",
     "7 - Files/Cloud Practitioner Essentials 2025-03-29 11.04.13.excalidraw.md",
     "2- Source Material/Courses/AWS Certified SA Associate 2025.md",
     "conflict-files-obsidian-git.md",

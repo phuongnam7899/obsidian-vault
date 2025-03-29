@@ -248,7 +248,15 @@ Determine religion for services, data, applications based on:
 - Features:
 	- IAM user
 		- Each user has access key, secret access key and password
-	- IAM policy: define the action could be take with objects in some location
+	- IAM policy: define the action could be take with objects in some location, structure:
+		- `Version`: policy language version (alway be `2012-10-17`)
+		- `Id`: identifier
+		- `Statement`: 
+			- `Sid` (optional)
+			- `Effect`: Allow/Deny
+			- `Principle`: 
+			- `Action`
+			- `Resource`
 ![[Cloud Practitioner Essentials 2025-03-29 11.08.49.excalidraw]]
 	- IAM role: 
 		- identity that can assume to gain ==temporary== access to permissions
