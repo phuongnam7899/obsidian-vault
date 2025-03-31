@@ -12,10 +12,6 @@ Tags: [[AWS EC2]]
 	- Download files from internet
 	- Any think else
 - All scripts will be run at root user
-- Example:
-```
-
-```
 
 ---
 # References
