@@ -17,14 +17,22 @@ Status: #source-eating
   ![[Cloud Practitioner Essentials 2025-01-10 10.10.41.excalidraw]]
 - Mainly consist ability of:
 	- Renting VM (EC2)
-	- Store data in virtual drives (EBS)
-	- Distribute load over machines (ELB)
-	- Scaling service in a scaling group (ASG)
+	- Store data in virtual drives ([[EBS]])
+	- Distribute load over machines ([[ELB]])
+	- Scaling service in a scaling group ([[ASG]])
+	- [[Network card]]: speed od card, public IP address
+	- Firewall rules: security group
+	- Bootstrap script (configure on launch): [[EC2 user data]]
+- 
 
 > [!info] Knowing EC2 is fundamental to understand how Cloud works
 
 ### EC2 sizing and config options
-- OS: Linux, Wid
+- OS: Linux, Widows, MacOS
+- How much compute power and cores (CPU)
+- How much RAM
+- How much storage
+- 
 ### EC2 types:
 
 - (https://aws.amazon.com/ec2/instance-types/)
