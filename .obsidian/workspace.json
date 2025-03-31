@@ -95,12 +95,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/AWS Database Services.md",
+                "file": "2- Source Material/Courses/Cloud Practitioner Essentials.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS Database Services"
+              "title": "Cloud Practitioner Essentials"
             }
           }
         ],
@@ -177,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - Main Notes/AWS Database Services.md",
+                "file": "2- Source Material/Courses/Cloud Practitioner Essentials.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for AWS Database Services"
+              "title": "Backlinks for Cloud Practitioner Essentials"
             }
           },
           {
@@ -223,13 +223,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/AWS Database Services.md",
+                "file": "2- Source Material/Courses/Cloud Practitioner Essentials.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of AWS Database Services"
+              "title": "Outline of Cloud Practitioner Essentials"
             }
           },
           {
@@ -278,14 +278,12 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
-      "callout-manager:Insert Callout": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "callout-manager:Insert Callout": false
     }
   },
   "active": "eaf3eb65978c5128",
   "lastOpenFiles": [
+    "6 - Main Notes/AWS Database Services.md",
     "6 - Main Notes/AWS Core Service Categories.md",
     "3 - Tags/AWS.md",
     "2- Source Material/Courses/Cloud Practitioner Essentials.md",
@@ -310,7 +308,6 @@
     "3 - Tags/Serverless.md",
     "3 - Tags/Compute.md",
     "3 - Tags/Cloud.md",
-    "6 - Main Notes/AWS Database Services.md",
     "6 - Main Notes/AWS Storage Services.md",
     "6 - Main Notes/AWS Notes",
     "7 - Files/Pasted image 20250329151159.png",
