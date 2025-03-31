@@ -29,6 +29,8 @@ Tags: [[AWS]]
 - Firewall rules: security group
 - Bootstrap script (configure on launch): [[EC2 user data]]
 [[Launch an AWS EC2 instance]]
+
+### EC2 details (after created)
 ### EC2 types:
 
 - (https://aws.amazon.com/ec2/instance-types/)
