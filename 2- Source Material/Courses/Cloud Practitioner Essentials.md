@@ -5,9 +5,7 @@ Status: #source-eating
 ---
 
 # Module 2: Compute in the cloud
-## Billing and Cost Management
-![[Pasted image 20250331203331.png]]
-- Allow to view Bills, 
+
 
 ## Amazon EC2 (Elastic Cloud Compute):
 
@@ -17,7 +15,16 @@ Status: #source-eating
 - Pay for what you use
 - How it works:
   ![[Cloud Practitioner Essentials 2025-01-10 10.10.41.excalidraw]]
+- Mainly consist ability of:
+	- Renting VM (EC2)
+	- Store data in virtual drives (EBS)
+	- Distribute load over machines (ELB)
+	- Scaling service in a scaling group (ASG)
 
+> [!info] Knowing EC2 is fundamental to understand how Cloud works
+
+### EC2 sizing and config options
+- OS: Linux, Wid
 ### EC2 types:
 
 - (https://aws.amazon.com/ec2/instance-types/)
