@@ -1,11 +1,11 @@
 2025-03-31 20:27
 
-Tags: 
+Tags: [[AWS]]
 
 ---
 
 # Config
-
+- Basic config (do first after install AWS)
 
 ```sh
 aws configure

@@ -5,6 +5,9 @@ Status: #source-eating
 ---
 
 # Module 2: Compute in the cloud
+## Billing and Cost Management
+![[Pasted image 20250331203331.png]]
+- Allow to view Bills, 
 
 ## Amazon EC2 (Elastic Cloud Compute):
 
@@ -214,12 +217,6 @@ Status: #source-eating
 - Amazon Dynama Accelerator: Improve Dynamo response time (from single digit mili-seconds to microseconds)
 
 # Module 6: Security
-
-
-## AWS CLI
-
-
--
 
 ## AWS Artifacts
 
