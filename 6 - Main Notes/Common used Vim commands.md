@@ -50,7 +50,8 @@ Tags: [[Vim]]
 - Workspace:
 	- Go to global declaration: `gD`
 - Marking:
-	- `m + [X]`: 
+	- `m + [X]`: mark current position as mark named X (X could be any char)
+	- `` ` + [X] ``: go to mark named X
 # Edit
 - Replace until end of word: `cw`
 - Undo: `u`
