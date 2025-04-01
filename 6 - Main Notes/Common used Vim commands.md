@@ -5,11 +5,13 @@ Tags: [[Vim]]
 ---
 
 > [!i] Common language
-> - w: start of next word
-> - iw: whole word
-> - aw: word + space after it 
-> - d: delete/cut
-> - y: copy (yank)
+> - `w`: start of next word
+> - `i...`: inner/inside ... (iw: inner of word, i{: inner of current {} )
+> - `t...`: till next ... - any char but not include (tw: till next word, t + X: till next X character)
+> - `T...`: till previous ...
+> - `a...`: ... + space after it (aw: word + space after it)
+> - `d`: delete/cut
+> - `y`: copy (yank)
 
 # Mode change
 - Normal Mode: `ESC`
@@ -47,7 +49,8 @@ Tags: [[Vim]]
 	- Center cursor on screen: `zz`
 - Workspace:
 	- Go to global declaration: `gD`
-
+- Marking:
+	- `m + [X]`: 
 # Edit
 - Replace until end of word: `cw`
 - Undo: `u`
