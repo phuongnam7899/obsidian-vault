@@ -34,8 +34,8 @@ Tags: [[AWS]]
 ![[Pasted image 20250402201626.png]]
 - Details:
 	- Instance ID
-	- Public [[IPv4]] address
-	- Private IPv4 address
+	- Public [[IPv4]] address (==When the instance is restarted, the public IP may change==)
+	- Private IPv4 address (==Never change when instance is restarted==)
 	- Private DNS
 	- Host name
 	- State (Runing/...)
@@ -45,8 +45,11 @@ Tags: [[AWS]]
 	- Key pair name
 - Security:
 	- [[Security group]]
+	- Role
 - Storage
-- 
+- Status check
+- Monitoring
+- Tags
 ### EC2 types:
 
 - (https://aws.amazon.com/ec2/instance-types/)
