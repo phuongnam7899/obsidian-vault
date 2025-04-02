@@ -11,7 +11,9 @@ Tags: [[Database]]
 	- Caching
 	- Realtime analytics
 	- Session management
-- 
+- Can be **volatile** (loss data on power loss) **or persistence** (with backup mechanism)
+- Example: [[Redis]], [[Memcached]], [[H2 database]], [[HSQLDB]]
+- Tradeoff: Speed vs Consistency/Capacity (RAM is more expensive and volatile when compare to disk)
 
 
 ---
