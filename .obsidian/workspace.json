@@ -95,12 +95,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/AWS EC2.md",
+                "file": "6 - Main Notes/In-memory databases.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS EC2"
+              "title": "In-memory databases"
             }
           },
           {
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - Main Notes/AWS EC2.md",
+                "file": "6 - Main Notes/In-memory databases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,7 +201,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for AWS EC2"
+              "title": "Backlinks for In-memory databases"
             }
           },
           {
@@ -237,13 +237,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/AWS EC2.md",
+                "file": "6 - Main Notes/In-memory databases.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of AWS EC2"
+              "title": "Outline of In-memory databases"
             }
           },
           {
@@ -300,10 +300,11 @@
   },
   "active": "eaf3eb65978c5128",
   "lastOpenFiles": [
+    "6 - Main Notes/AWS EC2.md",
+    "6 - Main Notes/In-memory databases.md",
     "7 - Files/Pasted image 20250402201626.png",
     "2- Source Material/Courses/Cloud Practitioner Essentials.md",
     "6 - Main Notes/Launch an AWS EC2 instance.md",
-    "6 - Main Notes/AWS EC2.md",
     "6 - Main Notes/EC2 user data.md",
     "6 - Main Notes/AWS Billing and Cost Management.md",
     "7 - Files/Pasted image 20250331203331.png",
@@ -338,7 +339,6 @@
     "2- Source Material/Courses",
     "Untitled.canvas",
     "7 - Files/Pasted image 20250108162347.png",
-    "7 - Files/Pasted image 20250108160005.png",
     "Lazy loading images",
     "8 - Content Factory",
     "Untitled 2.canvas",
