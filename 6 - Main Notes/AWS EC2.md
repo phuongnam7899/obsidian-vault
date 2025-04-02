@@ -30,7 +30,23 @@ Tags: [[AWS]]
 - Bootstrap script (configure on launch): [[EC2 user data]]
 [[Launch an AWS EC2 instance]]
 
-### EC2 details (after created)
+### EC2 Info (after created)
+![[Pasted image 20250402201626.png]]
+- Details:
+	- Instance ID
+	- Public [[IPv4]] address
+	- Private IPv4 address
+	- Private DNS
+	- Host name
+	- State (Runing/...)
+	- Instance type
+	- [[AMI ID]]
+	- Platform
+	- Key pair name
+- Security:
+	- [[Security group]]
+- Storage
+- 
 ### EC2 types:
 
 - (https://aws.amazon.com/ec2/instance-types/)
