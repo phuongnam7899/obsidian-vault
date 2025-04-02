@@ -1,10 +1,10 @@
 2025-04-02 20:57
 
-Tags: [[Database]]
+Tags: [[System Design]]
 
 ---
 
-- A type of database designed to handle **multiple concurrent transaction in** **realtime**
+- A type of system architecture designed to handle **multiple concurrent transaction in** **realtime**
 - Characteristic:
 	- Handle many **small/quick transactions**
 	- Focus on data **consistency and integrity**
@@ -18,7 +18,21 @@ Tags: [[Database]]
 	- PoS system
 - Key features:
 	- Transaction-oriented
-	- Realtime proce
+	- Realtime process
+	- High concurrency support
+	- Data integrity
+	- Fast response
+	- Structured data
+- Structure:
+	- Database layer: [[OLTP databases]]
+	- Application layer:
+		- Business logic
+		- Interface
+		- ...
+
+
+
+> [!i] OLTP is contrasted with [[OLAP]]
 
 ---
-# Refe
+# References
