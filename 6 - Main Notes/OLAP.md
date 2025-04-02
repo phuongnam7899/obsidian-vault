@@ -15,7 +15,21 @@ Tags: [[System Design]]
 	- Hierarchical org
 	- Aggregated data
 - Complex queries
-- 
+- Use cases:
+	- BI:
+		- Sales analysis
+		- Trend analysis
+		- Customer behaviour analysis
+		- Performance metrics
+	- Financial analysis
+		- Budget Planing
+		- Forecasting
+		- Risk analysis
+		- Investment analysis
+	- Reporting:
+		- Dashboard
+		- KPI monitor
+	- [[Data mining]]
 
 ---
 # References
