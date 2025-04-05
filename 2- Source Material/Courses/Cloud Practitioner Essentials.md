@@ -37,9 +37,7 @@ Status: #source-eating
     - Default network ACL allow all inbound and outbound traffic
     - Custom network ACL deny all inbound and outbound traffic (
     - Perform Stateless packet filtering
-  - Security groups: a ==virtual firewall for EC2 instance or group of instances==:
-    - By default ==denies all in== traffic and ==allow all out== traffic
-    - Perform stateful packet filtering: remember the previous decision that were made
+  - [[Security group]]
 
 ## Interact with global network
 
