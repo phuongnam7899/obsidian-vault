@@ -13,42 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2- Source Material/Courses/Cloud Practitioner Essentials.md",
+                "file": "6 - Main Notes/4 main components of empathy map.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cloud Practitioner Essentials"
-            }
-          },
-          {
-            "id": "16ae74cde10d55c1",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "7 - Files/Cloud Practitioner Essentials 2025-01-13 09.33.03.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Cloud Practitioner Essentials 2025-01-13 09.33.03.excalidraw"
-            }
-          },
-          {
-            "id": "b55193fd4f70eae6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Security group.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Security group"
+              "title": "4 main components of empathy map"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - Main Notes/Security group.md",
+                "file": "6 - Main Notes/4 main components of empathy map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Security group"
+              "title": "Backlinks for 4 main components of empathy map"
             }
           },
           {
@@ -167,33 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/Security group.md",
+                "file": "6 - Main Notes/4 main components of empathy map.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Security group"
-            }
-          },
-          {
-            "id": "958b5c2345f33e61",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "38fc5e4157b4c6a9",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-chat-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "title": "Outline of 4 main components of empathy map"
             }
           },
           {
@@ -206,12 +159,12 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 385.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -229,36 +182,37 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "b55193fd4f70eae6",
+  "active": "aeac94ce6b21681c",
   "lastOpenFiles": [
-    "7 - Files/Security group 2025-04-05 09.40.13.excalidraw.md",
-    "6 - Main Notes/Security group.md",
+    "6 - Main Notes/4 aspects of holistic product.md",
+    "6 - Main Notes/3 types of persona.md",
+    "6 - Main Notes/3 reasons for buying stocks.md",
+    "6 - Main Notes/3 levels of expenses.md",
+    "6 - Main Notes/3 common product managers profiles.md",
+    "6 - Main Notes/2 types of feedback.md",
+    "6 - Main Notes/2 types of empathy map.md",
+    "6 - Main Notes/2 pshychology when invest.md",
+    "6 - Main Notes/AWS Route 53.md",
+    "2- Source Material/Courses/AWS Certified SA Associate 2025.md",
     "2- Source Material/Courses/Cloud Practitioner Essentials.md",
-    "7 - Files/Cloud Practitioner Essentials 2025-01-13 09.33.03.excalidraw.md",
-    "6 - Main Notes/AWS EC2.md",
-    "6 - Main Notes/OLAP.md",
-    "6 - Main Notes/online transaction processing (OLTP).md",
-    "6 - Main Notes/OLTP databases.md",
-    "6 - Main Notes/OLAP databases.md",
-    "3 - Tags/System Design.md",
-    "2- Source Material/Books/Dive into Design Pattern.md",
-    "6 - Main Notes/Click House DB.md",
-    "6 - Main Notes/Account.md",
-    "6 - Main Notes/Handover.md",
-    "6 - Main Notes/AWS Core Service Categories.md",
-    "6 - Main Notes/In-memory databases.md",
+    "6 - Main Notes/Security group.md",
+    "6 - Main Notes/ICMP.md",
+    "6 - Main Notes/network layer.md",
+    "6 - Main Notes/UDP.md",
+    "6 - Main Notes/TCP vs UDP.md",
+    "6 - Main Notes/transport layer.md",
+    "6 - Main Notes/Untitled 2.md",
+    "6 - Main Notes/TCP.md",
+    "6 - Main Notes/Network Protocols Relationship.md",
+    "6 - Main Notes/OSI Model.md",
+    "6 - Main Notes/Common TCP Ports.md",
+    "7 - Files/Pasted image 20250405132835.png",
+    "6 - Main Notes/Amazon VPC (Virtual Private Cloud).md",
+    "6 - Main Notes/IPv6.md",
+    "6 - Main Notes/IPv4.md",
+    "6 - Main Notes/IP address.md",
     "7 - Files/Pasted image 20250402201626.png",
-    "6 - Main Notes/Launch an AWS EC2 instance.md",
-    "6 - Main Notes/EC2 user data.md",
-    "6 - Main Notes/AWS Billing and Cost Management.md",
     "7 - Files/Pasted image 20250331203331.png",
-    "6 - Main Notes/AWS CLI commands.md",
-    "6 - Main Notes/AWS Global Infrastructure and Reliability.md",
-    "6 - Main Notes/AWS Global Infrastructure and Reliability.md",
-    "6 - Main Notes/AWS Shared responsibility model.md",
-    "6 - Main Notes/AWS IAM - Identity and Access Management.md",
-    "6 - Main Notes/AWS Database Services.md",
-    "3 - Tags/AWS.md",
     "6 - Main Notes/AWS Notes",
     "7 - Files/Pasted image 20250329151159.png",
     "7 - Files/Pasted image 20250329144255.png",
@@ -269,7 +223,6 @@
     "7 - Files/Pasted image 20250112160645.png",
     "2- Source Material/Courses",
     "Untitled.canvas",
-    "7 - Files/Pasted image 20250108162347.png",
     "Lazy loading images",
     "8 - Content Factory",
     "Untitled 2.canvas",
