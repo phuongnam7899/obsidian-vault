@@ -4,16 +4,16 @@ Tags: [[AWS]]
 
 ---
 
-- **Customer**: take responsibility for what they created
+- **Customer**: takes responsibility for what they created
   - Customer data
   - Platform, application, Identity and Access management
   - Operating System, Network and Firewall config
-    - Client-side encrypt
-    - Server-side encrypt
+    - Client-side encryption
+    - Server-side encryption
     - Networking Traffic protection (security group, access list)
 - **AWS**:
-  - Hardware/AWS Global Infra
-    - Religions
+  - Hardware/AWS Global Infrastructure
+    - Regions
     - Availability Zones
     - Edge location
   - Software:
@@ -22,7 +22,6 @@ Tags: [[AWS]]
     - Database
     - Networking
 
-
-
 ---
+
 # References

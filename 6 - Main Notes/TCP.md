@@ -6,17 +6,21 @@ Tags: [[Networking]]
 
 - Transmission Control Protocol
 - a **connection-oriented** protocol that **ensures reliable data delivery**
+
 # Key characteristic
+
 - Connection oriented:
-	- Establish connection before send data
-	- Maintain connection during transfer data
-	- Close connection after completion
+  - Establish connection before send data
+  - Maintain connection during transferring data
+  - Close connection after completion
 - Reliable:
-	- Guarantee delivery
-	- Orders packets correctly
-	- Check for errors
-	- Retransmit loss packets
+  - Guarantee delivery
+  - Orders packets correctly
+  - Check for errors
+  - Retransmit lost packets
+
 # TCP Handshake (Connection Establish)
+
 ```mermaid
 sequenceDiagram
     participant Client
@@ -26,7 +30,6 @@ sequenceDiagram
     Client->>Server: ACK (Acknowledge)
     Note over Client,Server: Connection Established
 ```
-
 
 # Use cases
 
@@ -40,6 +43,8 @@ graph TD
 ```
 
 ---
+
 # References
+
 - [[Common TCP Ports]]
 - [[TCP vs UDP]]

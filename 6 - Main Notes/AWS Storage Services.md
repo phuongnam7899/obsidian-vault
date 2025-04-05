@@ -1,6 +1,6 @@
-{{date}} {{time}}
+2025-03-31 20:25
 
-Tags: #AWS #Cloud #Storage
+Tags: [[AWS]] [[Cloud]] [[Storage]]
 
 ---
 

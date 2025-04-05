@@ -6,10 +6,12 @@ Tags: [[Database]]
 
 - Row-oriented
 - Optimized for CRUD operations
-- String ACID support
+- Strong ACID support
 - High concurrency support
-- Example: Oracle, SQL Serer, PostgreSQL
+- Example: Oracle, SQL Server, PostgreSQL
 
 ---
+
 # References
+
 - [[OLAP databases]]

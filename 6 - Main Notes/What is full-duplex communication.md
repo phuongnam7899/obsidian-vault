@@ -1,11 +1,13 @@
 2025-01-20 14:00
 
-Tags: [[UNTAGGED]] 
+Tags: [[Networking]] [[Communication]]
 
 ---
 
-- In full-duplex communication, both parties can send and receive message at the same time (similar to conservation through telephone)
+- In full-duplex communication, both parties can send and receive message at the same time (similar to conversation through telephone)
 
 ---
+
 # References
+
 - [[Half-duplex communication]]

@@ -1,18 +1,19 @@
 2025-01-15 14:57
 
-Tags: 
+Tags: [[Java]] [[Programming]]
 
 ---
 
 - Stands for: Data Transfer Object
 - Is a type of POJO
 - Is simple object used to transfer data between layers/components
-- Characteristic:
-	- No business logic
-	- Serializable
-	- Has Getter and Setter methods
-	- Simple structure: fields, constructor, getters and setters
+- Characteristics:
+  - No business logic
+  - Serializable
+  - Has Getter and Setter methods
+  - Simple structure: fields, constructor, getters and setters
 - Example:
+
 ```java
 public class FeatureDTO implements Serializable {
     private int code;
@@ -57,5 +58,7 @@ public class FeatureDTO implements Serializable {
 ```
 
 ---
+
 # References
+
 - [[POJO class]]

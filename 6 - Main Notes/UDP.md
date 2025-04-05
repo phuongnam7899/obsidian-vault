@@ -6,20 +6,23 @@ Tags: [[Networking]]
 
 - User Datagram Protocol
 - Is a connectionless [[transport layer]] protocol
-# Characteristic
+
+# Characteristics
+
 - Connectionless:
-	- No handshake required
-	- No connection state
-	- Just send data immedately
+  - No handshake required
+  - No connection state
+  - Just send data immediately
 - Speed:
-	- Faster (Than [[TCP]])
-	- Low latency
-	- No overhead
+  - Faster (Than [[TCP]])
+  - Low latency
+  - No overhead
 - Less reliability:
-	- No guaranteed delivery
-	- No packet order
-	- Basic error checking only
-	- No flow control
+  - No guaranteed delivery
+  - No packet order
+  - Basic error checking only
+  - No flow control
+
 # Common ports/application
 
 ```mermaid
@@ -33,20 +36,22 @@ graph TB
 ```
 
 # Use cases
+
 - Real-time Applications:
-	- Video streaming
-	- Online gaming
-	- Voice over IP (VoIP)
-	- Live broadcasts
+  - Video streaming
+  - Online gaming
+  - Voice over IP (VoIP)
+  - Live broadcasts
 - DNS Queries:
-	- Quick name resolution
-	- Single request/response
+  - Quick name resolution
+  - Single request/response
 - Metrics & Monitoring:
-	- System logs
-	- Network monitoring
-	- Performance metrics
+  - System logs
+  - Network monitoring
+  - Performance metrics
 
 > [!s] When to use
+>
 > - Speed is critical
 > - Real-time data
 > - Small queries
@@ -54,16 +59,17 @@ graph TB
 > - Application handles reliability
 
 > [!e] When not to use
+>
 > - File transfers
 > - Database operations
 > - Email
 > - Web browsing
 > - Critical data transmission
 
-
-
 ---
+
 # References
+
 - [[VoIP]]
 - [[SNMP]]
 - [[DHCP]]

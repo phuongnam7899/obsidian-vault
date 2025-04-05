@@ -1,6 +1,6 @@
-{{date}} {{time}}
+2025-03-31 20:25
 
-Tags: [[AWS]] [[Cloud]] [[Finance]]
+Tags: [[AWS]] [[Cloud]] [[Finance]] [[Support]]
 
 ---
 
@@ -9,24 +9,24 @@ Tags: [[AWS]] [[Cloud]] [[Finance]]
 
 ## AWS Pricing Principles
 
-- Pay-as-you-go: pay only for services you consume with no long-term contracts
-- Pay less when you reserve: get discounts for committing to usage terms
-- Pay less with volume-based discounts: unit cost decreases as usage increases
+- Pay-as-you-go: Pay only for services you consume with no long-term contracts
+- Pay less when you reserve: Get discounts for committing to usage terms
+- Pay less with volume-based discounts: Unit cost decreases as usage increases
 
 ## AWS Free Tier
 
 - Provides limited free usage for certain services
 - Three types of free offers:
-  - 12-month free - limited usage free for first year after sign-up
-  - Always free - services with certain usage limits that never expire
-  - Trials - short-term free trials of services that start from activation
+  - 12-month free: Limited usage free for first year after sign-up
+  - Always free: Services with certain usage limits that never expire
+  - Trials: Short-term free trials of services that start from activation
 
 ## Cost Management Tools
 
-- AWS Pricing Calculator: estimate costs before deployment
-- AWS Cost Explorer: visualize and analyze costs over time
-- AWS Budgets: set custom cost and usage budgets
-- AWS Cost and Usage Reports: comprehensive cost and usage data
+- AWS Pricing Calculator: Estimate costs before deployment
+- AWS Cost Explorer: Visualize and analyze costs over time
+- AWS Budgets: Set custom cost and usage budgets
+- AWS Cost and Usage Reports: Comprehensive cost and usage data
 
 ## AWS Support Plans
 
