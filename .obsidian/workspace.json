@@ -6,7 +6,6 @@
       {
         "id": "b4f047b565e8e46e",
         "type": "tabs",
-        "dimension": 21.904024767801857,
         "children": [
           {
             "id": "aeac94ce6b21681c",
@@ -50,25 +49,6 @@
           }
         ],
         "currentTab": 2
-      },
-      {
-        "id": "c07868feae61a97a",
-        "type": "tabs",
-        "dimension": 78.09597523219814,
-        "children": [
-          {
-            "id": "28a5b94a49fb1f9b",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "7 - Files/Security group 2025-04-05 09.40.13.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Security group 2025-04-05 09.40.13.excalidraw"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -141,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "7 - Files/Security group 2025-04-05 09.40.13.excalidraw.md",
+                "file": "6 - Main Notes/Security group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +131,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Security group 2025-04-05 09.40.13.excalidraw"
+              "title": "Backlinks for Security group"
             }
           },
           {
@@ -187,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "7 - Files/Security group 2025-04-05 09.40.13.excalidraw.md",
+                "file": "6 - Main Notes/Security group.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Security group 2025-04-05 09.40.13.excalidraw"
+              "title": "Outline of Security group"
             }
           },
           {
@@ -249,10 +229,10 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "28a5b94a49fb1f9b",
+  "active": "b55193fd4f70eae6",
   "lastOpenFiles": [
-    "6 - Main Notes/Security group.md",
     "7 - Files/Security group 2025-04-05 09.40.13.excalidraw.md",
+    "6 - Main Notes/Security group.md",
     "2- Source Material/Courses/Cloud Practitioner Essentials.md",
     "7 - Files/Cloud Practitioner Essentials 2025-01-13 09.33.03.excalidraw.md",
     "6 - Main Notes/AWS EC2.md",
