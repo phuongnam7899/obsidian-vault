@@ -1,6 +1,6 @@
 2025-01-22 13:17
 
-Tags: [[UNTAGGED]] 
+Tags: [[SSH connect to EC2]] 
 
 ---
 
