@@ -25,14 +25,13 @@
             "id": "3e919371e7f3156c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "6 - Main Notes/EC2 Hibernate.md",
-                "mode": "source",
-                "source": false
+                "file": "6 - Main Notes/Common used Vim commands.md",
+                "staged": false
               },
-              "icon": "lucide-file",
-              "title": "EC2 Hibernate"
+              "icon": "git-pull-request",
+              "title": "Diff View (Common used Vim commands)"
             }
           },
           {
@@ -136,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - Main Notes/EC2 Hibernate.md",
+                "file": "6 - Main Notes/Common used Vim commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +145,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for EC2 Hibernate"
+              "title": "Backlinks for Common used Vim commands"
             }
           },
           {
@@ -182,13 +181,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/EC2 Hibernate.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of EC2 Hibernate"
+              "title": "Outline"
             }
           },
           {
@@ -222,10 +220,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6a2fc9cd813311bb",
+  "active": "3e919371e7f3156c",
   "lastOpenFiles": [
-    "6 - Main Notes/EC2 Pricing Models.md",
+    "6 - Main Notes/Common used Vim commands.md",
     "6 - Main Notes/EC2 Hibernate.md",
+    "6 - Main Notes/EC2 Pricing Models.md",
     "6 - Main Notes/EC2 Instance Types.md",
     "6 - Main Notes/AMI ID.md",
     "6 - Main Notes/AWS EC2.md",
@@ -254,7 +253,6 @@
     "6 - Main Notes/Amazon EC2.md",
     "6 - Main Notes/Putty.md",
     "3 - Tags/Product Design.md",
-    "6 - Main Notes/EC2 Dedicated Hosting.md",
     "7 - Files/Pasted image 20250405132835.png",
     "7 - Files/Pasted image 20250402201626.png",
     "7 - Files/Pasted image 20250331203331.png",
