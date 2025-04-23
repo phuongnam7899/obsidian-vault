@@ -1,23 +1,26 @@
 2025-01-12 15:56
 
-Tags: [[Database]]
+Tags: [[Database]] [[OLAP]] [[ClickHouse]]
 
 ---
 
--  Is OLAP (Online Analytical Processing) database
+- Is an OLAP (Online Analytical Processing) database
 - Is a Columnar Storage DB
-- Better for application that need to ==calculate much rely on columns==
-- Support ==indexing and partitioning==
-- ==Compress data==: Store compressed data -> reduce I/O disk -> increase process speed
+- Better for applications that need to ==perform calculations based on columns==
+- Supports ==indexing and partitioning==
+- ==Compresses data==: Stores compressed data -> reduces I/O disk -> increases processing speed
 
-## How Click House compress data?
+## How does ClickHouse compress data?
+
 2 steps:
-- Encode data: Technique like Delta Encoding or Dictionary encoding will be used based on the data type -> Reduce complexity and storage used
-- Compress data: 
 
+- Encode data: Techniques like Delta Encoding or Dictionary Encoding will be used based on the data type -> Reduces complexity and storage usage
+- Compress data: Apply compression algorithms to the encoded data
 
 ---
+
 # References
+
 - [[What is columnar storage]]
 - [[What is Dictionary Encoding]]
-- What is delta encoding
+- [[What is Delta Encoding]]

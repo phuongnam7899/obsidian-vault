@@ -1,13 +1,16 @@
 2024-11-08 10:44
 
-Tags: [[Product Design]] [[Product Management]]
+Tags: [[Product Design]] [[Product Management]] [[UX]]
 
 ---
 
-- ==Functionality==: can it do its job?
-- ==UX==: do user feel good when use it?
-- ==Technology==: is it possible to be created technically?
-- ==Business==: can it make value?
+# Four Aspects of Holistic Product Design
+
+- ==Functionality==: Can it perform its intended job?
+- ==UX==: Do users feel good when using it?
+- ==Technology==: Is it technically feasible to create?
+- ==Business==: Can it generate value?
 
 ---
+
 # References

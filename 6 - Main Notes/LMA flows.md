@@ -1,3 +1,4 @@
+cd /opt
 # Main BE code flow
 ![[LMA Code flows 2025-02-05 07.44.12.excalidraw]]
 
@@ -10,9 +11,10 @@
 	- Create `dtoType` to...
 - 3. Create new message service if need, then add it in the `JobMessageServiceFactory.java`
 - 4. Create message builder class (like `BunkeringJobMessageBuilder`, `PilotJobMessageBuilder`)
-# Dev/FAT environment management
+# Azure
 - Login https://portal.azure.com/
-- Select VM `fleetadm01a`
+## VM
+### General actions
 - Connect -> Bastion:
 	- Select protocol RFP
 	- Enter Port
@@ -20,21 +22,51 @@
 	- Username: psamsysadmin
 	- Password: $trongP@ssw0rd01
 - Connect to DB: [[Account]]
+- Reset credential (to download build file for deployment): `az login --tenant bc1b92b9-5dc9-49be-995b-c97eb515a1d3`
+### fleetadm01a
+- Use to:
+	- Postman (to send job to LMA/TMA FAT/SIT)
+	- DB LMA/TMA FAT/UAT
+	- View LMA/TMA services logs
+	- Deploy LMA/TMA FAT/SIT
+
+#### Deploy services
+- Build jar file
+	- Start Jenkin in .43.23 if need:
+		- Window -> Search "Services"
+		- Find Jenkins -> Right CLick -> Properties -> Log On -> Local System account -> Apply -> Start
+		- Right CLick -> Properties -> Log On -> This account -> Enter password -> Apply -> Restart service
+	- Login to Jenkin:
+		- URL: [http://10.1.43.23:8181/](http://10.1.43.23:8181/)  
+		- Account: admin/admin
+	- Click "Play" icon (to build jar file)
+- Run deployment script in `deploy-backend/LMA/` or  `deploy-backend/TMA/` (each environment has a file)
+
+
+> For PMA: run `mvn clean package -DskipTests=true` to build jar file inlcoal
+
+
+### fleetnprdseaamq1a
+- Use to 
+	- host activeMQ
+	- host P360 SIT/FAT
+## Services
 - View logs:
-	- Login to azure portal in virtual machine
+	- Login to azure portal in VM `fleetadm01a`
+	- Go to `App Services` -> Select service to view logs
 	- SSH to server
 	- View latest 1000 line of logs: `tail -n 1000 ./LogFiles/Applications/[...].log`
-- Deploy:
-	- Build jar file
-		- Login to Jenkin:
-			- URL: [http://10.1.43.23:8181/](http://10.1.43.23:8181/)  
-			- Account: admin/admin
-		- Click "Play" icon (to build jar file)
-	- Run deployment script in `deploy-backend/LMA/` or  `deploy-backend/TMA/` (each environment has a file)
+
+
+
 - Restart P360:
-	- Enter VM 
- - VM activemq + p360: fleetnprdseaamq1a
- - Reset credential (to downlaod build file for deployment): `az login --tenant bc1b92b9-5dc9-49be-995b-c97eb515a1d3`
+
+
+# Gateway management
+![[Pasted image 20250421090657.png]]
+## Custom request/response headers
+![[Pasted image 20250421090754.png]]
+
 # FE Code
 - Routing: `src\app\epics\layout\layout-routing.module.ts`
 	- `path`: route in browser

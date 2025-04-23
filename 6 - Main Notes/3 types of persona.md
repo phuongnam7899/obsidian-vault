@@ -1,23 +1,37 @@
 2024-11-09 14:52
 
-Tags: [[Persona]] 
+Tags: [[Persona]] [[UX Research]] [[User Research]]
 
 ---
+
+# Three Types of Personas
 
 ## Proto Personas
-- created with no new research
-## Qualitative
-- creating personas is by running solid exploratory qualitative research (such as [interviewing users](https://www.nngroup.com/articles/user-interviews/)) 
-- with a small-to-medium sample size
-- segmenting users based on shared attitudes, goals, pain points, and expectations.
-## Statistical
-- Mix of Qualitative and Quantitative Research[^1]
-- how to?
-	- exploratory qualitative research to identify the main themes that come up repeatedly among users
-	- Based on this qualitative data, create a survey that will allow you to collect quantitative data about the major themes of interest at a larger scale
 
+- Created without new research
+- Based on existing knowledge and assumptions
+- Quick to create but less reliable
+
+## Qualitative Personas
+
+- Created through solid exploratory qualitative research (such as [user interviews](https://www.nngroup.com/articles/user-interviews/))
+- Uses small-to-medium sample size
+- Segments users based on shared:
+  - Attitudes
+  - Goals
+  - Pain points
+  - Expectations
+
+## Statistical Personas
+
+- Combines Qualitative and Quantitative Research[^1]
+- Process:
+  1. Conduct exploratory qualitative research to identify recurring themes among users
+  2. Create surveys based on qualitative data to collect quantitative data at scale
+  3. Analyze data to validate and refine personas
 
 ---
+
 # References
 
 [^1]: [[Qualitative metrics]] and [[Quantitative metrics]]
