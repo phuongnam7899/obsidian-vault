@@ -25,10 +25,10 @@ cd /opt
 - Reset credential (to download build file for deployment): `az login --tenant bc1b92b9-5dc9-49be-995b-c97eb515a1d3`
 ### fleetadm01a
 - Use to:
-	- Postman (to send job to LMA/TMA FAT/SIT)
-	- DB LMA/TMA FAT/UAT
-	- View LMA/TMA services logs
-	- Deploy LMA/TMA FAT/SIT
+	- Postman (to send job to LMA/TMA PROD)
+	- DB PROD
+	- View LMA/TMA PROD services logs
+	- Deploy LMA/TMA PROD
 
 #### Deploy services
 - Build jar file
@@ -53,6 +53,11 @@ cd /opt
 
 ### fleetnprdadm01a
 - Account: psamadmin / P@ssw0rd
+- Use to:
+	- Postman (to send job to LMA/TMA SIT/UAT)
+	- DB SIT/UAT
+	- View LMA/TMA SIT/UAT services logs
+	- Deploy LMA/TMA SIT/UAT
 ## Services
 - View logs:
 	- Login to azure portal in VM `fleetadm01a`
