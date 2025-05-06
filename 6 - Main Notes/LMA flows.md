@@ -50,6 +50,9 @@ cd /opt
 - Use to 
 	- host activeMQ
 	- host P360 SIT/FAT
+
+### fleetnprdadm01a
+- Account: psamadmin / P@ssw0rd
 ## Services
 - View logs:
 	- Login to azure portal in VM `fleetadm01a`

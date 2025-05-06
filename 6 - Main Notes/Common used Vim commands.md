@@ -4,6 +4,7 @@ Tags: [[Vim]]
 
 ---
 
+<<<<<<< HEAD
 > [!i] Common language
 > - `w`: start of next word
 > - `i...`: inner/inside ... (iw: inner of word, i{: inner of current {} )
@@ -12,6 +13,8 @@ Tags: [[Vim]]
 > - `a...`: ... + space after it (aw: word + space after it)
 > - `d`: delete/cut
 > - `y`: copy (yank)
+=======
+>>>>>>> origin/master
 
 # Mode change
 - Normal Mode: `ESC`
@@ -21,22 +24,34 @@ Tags: [[Vim]]
 	- Insert in new line: `o`
 - Visual Mode (For marking text)
 	- Start visual mode: `v`
-# Cursor movement
+# Motion (Cursor movement)
+
+
+> [!i] Common language
+> - i: inner of...
+> - a: inner of ... (include itself)
+> - f: forward to next ...
+> - F: back to previous...
+
 - Single
 	- Left: `h`
 	- Right: `l`
 	- Up: `k`
 	- Down: `j`
+## Horizontal
 - Word:
 	- Start of next word: `w`
 	- Next end of word: `e`
 	- Backward to start: `b`
-- Line:
+- In Line:
 	- Start of line: `^`
 	- End of line: `$`
+## Vertical
 - Block:
 	- Move to next paragraph: `}`
 	- Move to previous paragraph: `{`
+- `%`: matching start/end `{`, `[`, `(`
+## Global
 - File:
 	- Go to local declaration: `gd`
 	- Go to pattern: `/pattern` -> `Enter` ->
@@ -49,27 +64,41 @@ Tags: [[Vim]]
 	- Center cursor on screen: `zz`
 - Workspace:
 	- Go to global declaration: `gD`
+<<<<<<< HEAD
 - Marking:
 	- `m + [X]`: mark current position as mark named X (X could be any char)
 	- `` ` + [X] ``: go to mark named X
 # Edit
 - Replace until end of word: `cw`
+=======
+
+# Actions
+- Change (Replace until end of ...): `c` + `...` 
+>>>>>>> origin/master
 - Undo: `u`
 - Redo: `Ctrl+r`
-- Delete/cut:
-	- To the start of next word: `dw`
-	- Whole word: `diw`
+- Delete/cut: `d` + ...
 	- Line: `dd`
 - Find and replace: `:%s/old/new/g` (`:%s/old/new/gc` if want have confirmation)
+- Yank (copy): `y` + ...
 - Paste: 
 	- After cursor: `p`
 	- Before cursor: `P`
 - Append to next new line: `o`
-# Marking text
-- Block:
-	- Marking outer block of `{}`, `()`: `a{` or `a(`
-	- Marking block of tag `<>`: `at`
-- Inner block: same as block but use `i` instead of `a`
+
+
+| Actions (Verbs)   | Selectors (Modifiers) | Objects (Nouns)            |
+| ----------------- | --------------------- | -------------------------- |
+| d - delete        | i - inner             | w - word                   |
+| c - change        | a - around/including  | s - sentence               |
+| y - yank (copy)   | t - till (up to)      | p - paragraph              |
+| v - visual select | f - find forward      | b - block/parentheses ()   |
+| p - paste         | F - find backward     | B - block/braces {}        |
+| r - replace       | $ - end of line       | [ - square brackets []     |
+| x - delete char   | 0 - start of line     | ' - single quotes          |
+| s - substitute    | / - search forward    | " - double quotes          |
+| g - go            | ? - search backward   | t - HTML/XML tag           |
+| m - mark          | n - next match        | W - WORD (space separated) |
 
 ---
 # References

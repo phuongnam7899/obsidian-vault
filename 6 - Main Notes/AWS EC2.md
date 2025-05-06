@@ -37,8 +37,7 @@ Tags: [[AWS]]
 
 - Details:
   - Instance ID
-  - Public [[IPv4]] address (==When the instance is restarted, the public IP may change==)
-  - Private IPv4 address (==Never change when instance is restarted==)
+  - [[EC2 IP addresses]]
   - Private DNS
   - Host name
   - State (Running/...)
@@ -48,11 +47,28 @@ Tags: [[AWS]]
   - Key pair name
 - Security:
   - [[Security group]]
-  - Role
+  - Role 
+	![[Pasted image 20250406082504.png]]
 - Storage
 - Status check
 - Monitoring
 - Tags
+
+### Connect to EC2
+- SSH: [[SSH connect to EC2]]
+
+> [!w] You can only SSH to instances using their public IP
+
+- EC2 Instance Connect (in the browser)
+
+### EC2 placement group
+[[EC2 placement group]]
+
+### Elastic network interface (ENI)
+[[AWS ENI]]
+
+### EC2 Hibernate
+[[EC2 Hibernate]]
 
 ### EC2 types:
 
@@ -73,30 +89,8 @@ Tags: [[AWS]]
 - Compare: instances.vantage.sh
 
 ### Prices:
+[[EC2 instance purhase options]]
 
-- On demand:
-  - No upfront cost / minimum contract
-  - Ideal for short term, irregular workload
-- Spot:
-  - When there's some free resource of the amazon system, client can use it. But when it is needed again, client will be disconnected from it
-  - Cheaper than on-demand (-90%)
-  - Ideal for flexible start and end time work and can withstand interruption
-- Reserved:
-  - Require 1-year or 3-year term commitment
-  - Cheaper than on-demand
-- Computed saving:
-  - 1 or 3 year commitment
-  - Cheaper than on-demand for consistent computing
-
-### Dedicated computing:
-
-- Dedicated Instance:
-  - When don't want to share the infra of instance with other customers, AWS still manage its placement
-  - Higher price
-- Dedicated host
-  - When you want to run in completely separate physical server (do not share with other customers).
-  - You have full control on the server than dedicated instance
-  - Most expensive option
 
 ### EC2 Auto scale
 
