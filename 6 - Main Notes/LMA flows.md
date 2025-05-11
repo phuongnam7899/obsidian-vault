@@ -34,7 +34,7 @@
 - Restart P360:
 	- Enter VM 
  - VM activemq + p360: fleetnprdseaamq1a
- - Reset credential (to downlaod build file for deployment): `az login --tenant bc1b92b9-5dc9-49be-995b-c97eb515a1d3`
+ - Reset credential (to downlaod build file for deployment): ` `
 # FE Code
 - Routing: `src\app\epics\layout\layout-routing.module.ts`
 	- `path`: route in browser
