@@ -4,6 +4,17 @@ Tags: [[Vim]]
 
 ---
 
+<<<<<<< HEAD
+> [!i] Common language
+> - `w`: start of next word
+> - `i...`: inner/inside ... (iw: inner of word, i{: inner of current {} )
+> - `t...`: till next ... - any char but not include (tw: till next word, t + X: till next X character)
+> - `T...`: till previous ...
+> - `a...`: ... + space after it (aw: word + space after it)
+> - `d`: delete/cut
+> - `y`: copy (yank)
+=======
+>>>>>>> origin/master
 
 # Mode change
 - Normal Mode: `ESC`
@@ -53,9 +64,17 @@ Tags: [[Vim]]
 	- Center cursor on screen: `zz`
 - Workspace:
 	- Go to global declaration: `gD`
+<<<<<<< HEAD
+- Marking:
+	- `m + [X]`: mark current position as mark named X (X could be any char)
+	- `` ` + [X] ``: go to mark named X
+# Edit
+- Replace until end of word: `cw`
+=======
 
 # Actions
 - Change (Replace until end of ...): `c` + `...` 
+>>>>>>> origin/master
 - Undo: `u`
 - Redo: `Ctrl+r`
 - Delete/cut: `d` + ...

@@ -50,6 +50,34 @@
             }
           },
           {
+            "id": "16a48b5f426600b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/LMA flows.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LMA flows"
+            }
+          },
+          {
+            "id": "55f2b956662ac981",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/LMA flows.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LMA flows"
+            }
+          },
+          {
             "id": "9d9a37e72ada0943",
             "type": "leaf",
             "state": {
@@ -78,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -238,8 +266,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d54b7381ec464fcd",
+  "active": "55f2b956662ac981",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "6 - Main Notes/LMA flows.md",
+    "7 - Files/Pasted image 20250506171240.png",
+    "7 - Files/Pasted image 20250506170320.png",
+    "7 - Files/Pasted image 20250421090754.png",
+    "7 - Files/Pasted image 20250421090657.png",
+    "6 - Main Notes/NFS.md",
+    "6 - Main Notes/Mermaid Playground.md",
+    "6 - Main Notes/Amazon EFS.md",
     "6 - Main Notes/EBS.md",
     "6 - Main Notes/EBS multi attach.md",
     "6 - Main Notes/EC2 Instance Store.md",
@@ -266,16 +303,7 @@
     "6 - Main Notes/Amazon VPC (Virtual Private Cloud).md",
     "2- Source Material/Courses/Cloud Practitioner Essentials.md",
     "6 - Main Notes/IP address.md",
-    "6 - Main Notes/3 reasons for buying stocks.md",
-    "6 - Main Notes/How to manage SSH keys with ssh-agent.md",
-    "6 - Main Notes/EC2 instance purhase options.md",
-    "6 - Main Notes/EC2 Spot Instances.md",
     "7 - Files/Pasted image 20250406094816.png",
-    "6 - Main Notes/Spot Fleets.md",
-    "7 - Files/Pasted image 20250406090526.png",
-    "7 - Files/Pasted image 20250406082504.png",
-    "7 - Files/Pasted image 20250406080831.png",
-    "7 - Files/Pasted image 20250406075057.png",
     "6 - Main Notes/AWS Notes",
     "2- Source Material/Courses",
     "Untitled.canvas",
