@@ -50,6 +50,13 @@ cd /opt
 - Use to 
 	- host activeMQ
 	- host P360 SIT/FAT
+- Jetty account (used for `/admin` page):
+	- psamadmin / Ps@m2025
+- View config: `cd /opt/psa/activemq/conf`:
+	- `fetty-realm.properties`: for set jetty user login cred
+	- `jetty.xml`
+	- `activemq.xml`: activemq config (port)
+- 
 
 ### fleetnprdadm01a
 - Account: psamadmin / P@ssw0rd
