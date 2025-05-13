@@ -75,6 +75,9 @@ cd /opt
 
 
 - Restart P360:
+	- Enter VM 
+ - VM activemq + p360: fleetnprdseaamq1a
+ - Reset credential (to downlaod build file for deployment): 
 
 
 # Gateway management

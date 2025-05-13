@@ -196,13 +196,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/LMA flows.md",
+                "file": "conflict-files-obsidian-git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of LMA flows"
+              "title": "Outline of conflict-files-obsidian-git"
             }
           },
           {
@@ -269,11 +269,23 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "f0f0a10757b5a8c1",
+  "active": "6a2fc9cd813311bb",
   "lastOpenFiles": [
+    "6 - Main Notes/LMA flows.md",
+    "conflict-files-obsidian-git.md",
+    "7 - Files/Pasted image 20250427093641.png",
+    "7 - Files/Pasted image 20250427093427.png",
+    "7 - Files/Pasted image 20250416211309.png",
+    "7 - Files/Pasted image 20250416210628.png",
+    "7 - Files/Pasted image 20250416210512.png",
+    "6 - Main Notes/IOPS.md",
+    "6 - Main Notes/EC2 Types.md",
+    "6 - Main Notes/EC2 Instance Store.md",
+    "6 - Main Notes/EBS multi attach.md",
+    "6 - Main Notes/AMI.md",
+    "3 - Tags/Acronym.md",
     "6 - Main Notes/Common used Vim commands.md",
     "6 - Main Notes/Linux Commands.md",
-    "6 - Main Notes/LMA flows.md",
     "6 - Main Notes/Amazon EFS.md",
     "7 - Files/Pasted image 20250507083900.png",
     "7 - Files/Pasted image 20250507083810.png",
@@ -294,19 +306,7 @@
     "8 - Content Factory/Front-end Optimization (Part 3).md",
     "New Note Guideline.md",
     "6 - Main Notes/Mermaid Playground.md",
-    "conflict-files-obsidian-git.md",
     "7 - Files/Pasted image 20250406094816.png",
-    "7 - Files/Pasted image 20250406090526.png",
-    "7 - Files/Pasted image 20250406082504.png",
-    "7 - Files/Pasted image 20250406080831.png",
-    "7 - Files/Pasted image 20250406075057.png",
-    "6 - Main Notes/Spot Fleets.md",
-    "6 - Main Notes/SSH connect to EC2.md",
-    "6 - Main Notes/Putty.md",
-    "6 - Main Notes/EC2 placement group.md",
-    "6 - Main Notes/EC2 instance purhase options.md",
-    "6 - Main Notes/EC2 Spot Instances.md",
-    "7 - Files/Pasted image 20250421090754.png",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "smart-chats",
