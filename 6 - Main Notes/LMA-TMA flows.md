@@ -42,9 +42,7 @@ cd /opt
 	- Click "Play" icon (to build jar file)
 - Run deployment script in `deploy-backend/LMA/` or  `deploy-backend/TMA/` (each environment has a file)
 
-
-> For PMA: run `mvn clean package -DskipTests=true` to build jar file inlcoal
-
+> For PMA: run `mvn clean package -DskipTests=true` to build jar file in local
 
 ### fleetnprdseaamq1a
 - Use to 
@@ -84,6 +82,17 @@ cd /opt
 ![[Pasted image 20250421090657.png]]
 ## Custom request/response headers
 ![[Pasted image 20250421090754.png]]
+## Security Headers
+### TMA/LMA
+```json
+{
+	"Strict-Transport-Security": "max-age=63072000",
+	"X-Content-Type-Options": "nosniff",
+	"X-Frame-Options": "SAMEORIGIN",
+	"Referrer-Policy": "strict-origin-when-cross-origin",
+	"Content-Security-Policy": "font-src 'self' https://fonts.gstatic.com data:; default-src 'self' 'unsafe-inline' https://fonts.gstatic.com *.googleapis.com https://cdn.jsdelivr.net blob: *.googleapis.com https://login.microsoftonline.com; img-src 'self' data:; connect-src 'self' *.googleapis.com https://login.microsoftonline.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' 'unsafe-inline'"
+}
+```
 
 # FE Code
 - Routing: `src\app\epics\layout\layout-routing.module.ts`
