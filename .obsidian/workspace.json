@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/ActiveMQ 6 Setup Guide.md",
+                "file": "6 - Main Notes/Sync Kafka messages to Azure Event Hubs using Kafka Connect Sink.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ActiveMQ 6 Setup Guide"
+              "title": "Sync Kafka messages to Azure Event Hubs using Kafka Connect Sink"
             }
           },
           {
@@ -106,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -225,13 +225,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/Common used Vim commands.md",
+                "file": "6 - Main Notes/Sync Kafka messages to Azure Event Hubs using Kafka Connect Sink.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Common used Vim commands"
+              "title": "Outline of Sync Kafka messages to Azure Event Hubs using Kafka Connect Sink"
             }
           },
           {
@@ -298,17 +298,17 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "eac0d0b6c73c0026",
+  "active": "7580a68d4c32e23b",
   "lastOpenFiles": [
-    "6 - Main Notes/Terraform common syntax.md",
-    "6 - Main Notes/DevSecOp TMA-LMA.md",
     "6 - Main Notes/TMA-LMA.md",
+    "6 - Main Notes/DevSecOp TMA-LMA.md",
     "6 - Main Notes/Sync Kafka messages to Azure Event Hubs using Kafka Connect Sink.md",
-    "6 - Main Notes/LMA-TMA flows.md",
     "6 - Main Notes/ActiveMQ 6 Setup Guide.md",
+    "6 - Main Notes/Common used Vim commands.md",
+    "6 - Main Notes/Terraform common syntax.md",
+    "6 - Main Notes/LMA-TMA flows.md",
     "6 - Main Notes/Linux Common Commands.md",
     "6 - Main Notes/NFS.md",
-    "6 - Main Notes/Common used Vim commands.md",
     "TMA/LMA Local Setup.md",
     "TMA",
     "conflict-files-obsidian-git.md",
