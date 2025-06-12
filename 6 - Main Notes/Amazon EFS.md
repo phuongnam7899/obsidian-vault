@@ -128,14 +128,20 @@ flowchart TB
 ## Create new file system
 ### 1. File System setting
 ![[Pasted image 20250506170320.png]]
-### Network access setting
+### 2. Network access setting
 
 > [!i] Best practices:
 > - AWS suggests creating 1 mount target for each AZ
 > - Create the separate SG for the EFS
 
 ![[Pasted image 20250506171240.png]]
+### 3. File system policy (optional)
 
+## Attach to EC2 instance
+- Remember to ==select subnet first== to be able to select EFS
+![[Pasted image 20250507083810.png]]
+- Select EFS
+![[Pasted image 20250507083900.png]]
 
 ---
 # References
