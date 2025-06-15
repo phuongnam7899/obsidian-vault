@@ -1,0 +1,18 @@
+## Infras as a Code (IaC)
+- Cloud providers offer APIs to automate the infras provisioning
+- Transform manual hardware setup & config -> Automated, repeatable and reliable
+- Things to manage: ==Servers, Network, Database==
+- Benefits:
+	- ==Speed up the setup== work: Deployment that took days or weeks -> minutes or hours
+	- ==Consistency and reliability==: 
+		- eliminate human errors
+		- ensure every deployment is repeatable with same result
+	- ==Scalability and flexibility==:
+		- Infra easily be replicated in different environments
+		- Easily scale up/down
+- Key considerations & best practices
+	- ==Version control== the code of infra setup
+	- ==Collaboration== and ==documentation==
+	- ==Security and compliance==:
+		- integrate security to IaC process
+		- automate compliance check and security config

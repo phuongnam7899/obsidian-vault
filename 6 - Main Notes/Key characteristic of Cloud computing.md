@@ -1,0 +1,13 @@
+## Key characteristic of Cloud computing
+- ==On-demand self service==
+	- Ease of provisioning computing resources 
+	- User can provision computing capabilities: Server, Network, Databases
+- ==Broad network access==:
+	- Services are available over the network
+- ==Resource pooling==
+	- Computing resources are pooled to serve multiple customers -> economy of scale
+- ==Rapid elasticity==
+	- Capabilities can be elastically provisioned and released (may be automatically)
+- ==Measured Services==
+	- Cloud system automatically control and optimize resources usage
+	- Leverage metering capability at some level of abstraction -> only pay for what you use
