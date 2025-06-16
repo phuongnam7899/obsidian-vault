@@ -74,6 +74,11 @@ services:
 ```
 docker-compose up
 ```
+- Access to the container:
+```sh
+docker exec -it [container_name] [bash_path]
+``` 
+> [!i] bash_path could be `bash`/`bin/bash`/...
 
 ---
 # References

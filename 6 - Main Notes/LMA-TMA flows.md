@@ -44,6 +44,7 @@ cd /opt
 
 > For PMA: run `mvn clean package -DskipTests=true` to build jar file in local
 
+> To change the environment config selection before run: `java -Dspring.profiles.active=production -jar your-application.jar`
 ### fleetnprdseaamq1a
 - Use to 
 	- host activeMQ
@@ -114,3 +115,61 @@ cd /opt
 			- Style files
 		- Class properties
 		- Class methods
+
+
+
+
+- location_audit
+- operational_status_job
+- document
+- location document
+- message_audit
+- user_images
+- online user
+- offline_task
+- offlinetasks_events
+- predefine
+
+
+
+- ==location_audit==
+- ==operational_status_job==
+- ==location_document==
+- ==document==
+- ==message_audit==
+- ==user_images==
+- ==offlinetask==
+- ==offlinetask_events==
+- ==job_miccellaneousmessage==
+- ==login_audit==
+- ==pre_define==
+- ==online_user==
+
+- ui_audit
+- craft
+- api_audit
+- app_properties
+- faq
+- device
+- faq_image
+- notification
+- featureevent
+- job_timings
+- download_document
+- download_transaction
+- job
+- logisticuser
+- message
+- role_features
+- role
+- role_permission
+- feature
+- job_audit
+- user_roles
+- subscription
+- job_hítory
+- message_send_cache
+- notification_audit
+- location
+- language
+- subscription_audit
