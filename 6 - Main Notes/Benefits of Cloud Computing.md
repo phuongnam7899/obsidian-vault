@@ -21,3 +21,15 @@ These benefits provide both technical and business advantages, enabling organiza
 
 [[What is Cloud Computing]]
 [[Cloud Deployment Models]]
+
+## Benefit of Cloud Computing
+- ==Cost efficiently== and ==flexibility==
+	- Minimal upfront investment
+	- Scale resources up and down easily
+- ==Scalability==:
+	- Ensure application can adapt to market demand fast
+- Innovation and speed to market
+	- Organization can ship application very fast
+- ==Global reach and mobility==
+	- Erase the geographical gap -> can provide application globally
+- ==Security and Compiance==
