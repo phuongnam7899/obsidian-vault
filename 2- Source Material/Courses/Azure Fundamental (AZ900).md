@@ -120,44 +120,46 @@
 	- ==API==: allow microservices to commnicate with each other#
 # Module 2: Core Azure Services
 
-## Azure regions
-- Azure consits of data centers
-- Data centers are organized into regions
-- Each region has at least 1 data center
-- Data centers in same religion are networked together -> low latency
+[[Azure regions]]
 
-### Special regions
-- Azure government: 
-	- designed for US government agencies and their partners
-	- Strict compliance regulation and residency requirements 
-- Azure China cloud
-	- Operated by Chinese consortium
-	- Follow China sovereignty laws
-- Azure German cloud
-	- Operated by german subsidiary of Microsoft
-	- Follow German data privacy regulation
+[[Azure Availability Zones]]
 
-> [!i] Key consideration
-> - ==Data residency==: ensure data stay inside a specific geographic region
-> - ==Compliance==: help comply with industry or regulatory requirements
-> - ==Sovereignty== concern: Stick with data law in certain religion
-> - ==Not all services are available== in special regions
-> - Special regions may have ==higher latency==
-> - More ==complexity management== 
+[[Resources Group]]
 
-### Regions pairs
-- Offer robust mechanism to protect data and application agaisnt disaster
-- In each region, there're regional pairs:
-	- are 2 separated data center
-	- at least 300 miles far -> avoid single disaster
-- Benefit:
-	- Increase resilience
-	- Improve business continuty -> reduce downtime
-	- Enhance data protection
-- How it work:
-	- Automatically failover
-	- Automatically data replication
-	- 
+[[Azure Resource Manager (ARM)]]
 
+## Azure core services and products
+### [[Azure Compute services]]
+- Azure Virtual Machine
+- VM Scale set
+- Azure App Services
+- Azure Functions
+- Azure Container Services
+
+### Network connectivity
+- Virtual Networks
+- Load Balancer
+- VPN Gateway
+- Application Gateway
+- Content Delivery Network
+
+### Others
+- Azure Storage
+- Database services
+	- NoSQL
+	- Relational DB
+- Azure Marketplace
+- IoT
+- Data mining technologies
+	- Azure SQL Data Warehouse
+	- Azure HD Insight
+	- Azure Data lake analysis
+- AI:
+	- Machine learning services
+	- Machine learning studio
+- Serverless Computing
+- DevOps
+- Command Cloud Resource
+- 
 # Module 3: Security, Privacy, Compliance & Trust
 # Module 4: Azure pricing and support
