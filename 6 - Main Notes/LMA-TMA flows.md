@@ -95,6 +95,10 @@ cd /opt
 }
 ```
 
+## Request permission in PIM
+
+![[Pasted image 20250728093631.png]]
+
 # FE Code
 - Routing: `src\app\epics\layout\layout-routing.module.ts`
 	- `path`: route in browser

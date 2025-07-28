@@ -71,7 +71,7 @@ services:
       - zookeeper
 
   activemq:
-    image: apache/activemq-classic:5.19.0
+    image: apache/activemq-classic:6.1.6
     environment:
       ACTIVEMQ_ADMIN_LOGIN: "admin"
       ACTIVEMQ_ADMIN_PASSWORD: "admin123"
@@ -105,7 +105,7 @@ spring.kafka.bootstrap-servers=[your_ip_address]:9092
 > [!i] To make sure the DB is working well, you can try using DBeaver to connect to the DB by the `spring.datasource` configs (in the `application-azuredesktop.properties`) first
 
 - Select any `.java` file
-- Press `F5` (make sure you install mentioned extenstions and the JDK first)
+- Press `F5` (make sure you install mentioned extensions and the JDK first)
 
 # Front-end Setup
 ## Pre-install
