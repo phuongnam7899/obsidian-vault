@@ -39,7 +39,7 @@ graph TD
 	- Image name
 	- Image source:
 		- Quick start images
-		- [[Azure Container Registry]]
+		- [[Azure Container Registry (ACR)]]
 		- Docker Hub or other registry
 	- OS type: windows/linux
 	- Size:
