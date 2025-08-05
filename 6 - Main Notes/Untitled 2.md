@@ -1,0 +1,6 @@
+- lý dải tại sao 10 phút trên browser mới xanh lại
+	- traffic manager setup sau :
+		- dns ttl: 60 sec
+	- dns resolcer ko tuân theo ttl
+	- applicationgate way có trả về 502-503 không? đến bao giờ?
+	- 

@@ -42,10 +42,9 @@ cd /opt
 	- Click "Play" icon (to build jar file)
 - Run deployment script in `deploy-backend/LMA/` or  `deploy-backend/TMA/` (each environment has a file)
 
+> For PMA: run `mvn clean package -DskipTests=true` to build jar file in local
 
-> For PMA: run `mvn clean package -DskipTests=true` to build jar file inlcoal
-
-
+> To change the environment config selection before run: `java -Dspring.profiles.active=production -jar your-application.jar`
 ### fleetnprdseaamq1a
 - Use to 
 	- host activeMQ
@@ -84,6 +83,21 @@ cd /opt
 ![[Pasted image 20250421090657.png]]
 ## Custom request/response headers
 ![[Pasted image 20250421090754.png]]
+## Security Headers
+### TMA/LMA
+```json
+{
+	"Strict-Transport-Security": "max-age=63072000",
+	"X-Content-Type-Options": "nosniff",
+	"X-Frame-Options": "SAMEORIGIN",
+	"Referrer-Policy": "strict-origin-when-cross-origin",
+	"Content-Security-Policy": "font-src 'self' https://fonts.gstatic.com data:; default-src 'self' 'unsafe-inline' https://fonts.gstatic.com *.googleapis.com https://cdn.jsdelivr.net blob: *.googleapis.com https://login.microsoftonline.com; img-src 'self' data:; connect-src 'self' *.googleapis.com https://login.microsoftonline.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' 'unsafe-inline'"
+}
+```
+
+## Request permission in PIM
+
+![[Pasted image 20250728093631.png]]
 
 # FE Code
 - Routing: `src\app\epics\layout\layout-routing.module.ts`
@@ -105,3 +119,61 @@ cd /opt
 			- Style files
 		- Class properties
 		- Class methods
+
+
+
+
+- location_audit
+- operational_status_job
+- document
+- location document
+- message_audit
+- user_images
+- online user
+- offline_task
+- offlinetasks_events
+- predefine
+
+
+
+- ==location_audit==
+- ==operational_status_job==
+- ==location_document==
+- ==document==
+- ==message_audit==
+- ==user_images==
+- ==offlinetask==
+- ==offlinetask_events==
+- ==job_miccellaneousmessage==
+- ==login_audit==
+- ==pre_define==
+- ==online_user==
+
+- ui_audit
+- craft
+- api_audit
+- app_properties
+- faq
+- device
+- faq_image
+- notification
+- featureevent
+- job_timings
+- download_document
+- download_transaction
+- job
+- logisticuser
+- message
+- role_features
+- role
+- role_permission
+- feature
+- job_audit
+- user_roles
+- subscription
+- job_hítory
+- message_send_cache
+- notification_audit
+- location
+- language
+- subscription_audit
