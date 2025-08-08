@@ -9,7 +9,7 @@ Tags: [[Azure Cloud]]
 	- Scalable compute resources
 	- Empower build, deploy and manage of **applications**
 - Example:
-	- Azure Virtual Machine
+	- [[Azure Virtual Machine]]
 	- Azure App Service
 	- Azure Functions
 	- Azure Kubernetes Service
