@@ -1,0 +1,3 @@
+- Last message ID from PMA: Q5237573 (search in job_history)
+	- Message_ID (in message table): ID = 5758480
+		- Message attached with message audits: 9565157 and 9565158
