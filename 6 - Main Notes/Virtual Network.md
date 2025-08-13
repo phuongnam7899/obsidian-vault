@@ -26,5 +26,9 @@ Tags: [[Networking]]
 - Using [[Private Address Space]]
 - Setup [[subnet]] for the network (can have multiple subnets in same virtual network)
 
+# Cost
+- There's no cost of creating VNets
+- But if inbound/outbound traffic will cost
+
 ---
 # References
