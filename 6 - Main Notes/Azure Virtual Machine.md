@@ -80,6 +80,11 @@ graph TD
 	- Enable accelerated networking:
 		- Not available in all VM
 		- Increase the network speed
+
+> [!w] The Virtual Network and VM must be in same region
+> 
+
+
 - Load balancing: Distribute the incoming network across multiple VMs
 
 ## Management
