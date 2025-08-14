@@ -259,21 +259,6 @@
             }
           },
           {
-            "id": "891bcd924694ca65",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of conflict-files-obsidian-git"
-            }
-          },
-          {
             "id": "6a2fc9cd813311bb",
             "type": "leaf",
             "state": {
@@ -281,6 +266,21 @@
               "state": {},
               "icon": "git-pull-request",
               "title": "Source Control"
+            }
+          },
+          {
+            "id": "891bcd924694ca65",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "6 - Main Notes/LMA-TMA flows.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of LMA-TMA flows"
             }
           },
           {
@@ -315,7 +315,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6a2fc9cd813311bb",
+  "active": "891bcd924694ca65",
   "lastOpenFiles": [
     "6 - Main Notes/LMA-TMA flows.md",
     "conflict-files-obsidian-git.md",
