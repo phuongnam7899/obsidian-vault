@@ -32,43 +32,46 @@
 
 ### Setup Kafka + ActiveMQ containers
 - Create a `/tma-lma-docker` folder
-- Create `/kafka` folder inside `/tma-lma-docker`
-- Create `Dockerfile` inside `/kafka`:
-```Dockerfile
-FROM wurstmeister/kafka:2.13-2.7.0
-
-ENV KAFKA_BROKER_ID=1
-ENV KAFKA_ZOOKEEPER_CONNECT=zookeeper:2181
-ENV KAFKA_ADVERTISED_LISTENERS=10.1.43.136:9092
-ENV KAFKA_LISTENERS=10.1.43.136:9092
-ENV KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1
-
-EXPOSE 9092
-
-CMD ["start-kafka.sh"]
-```
 - Create `docker-compose.yml` inside `/tma-lma-docker`:
 ```yml
 
 services:
 
-  zookeeper:
-    image: wurstmeister/zookeeper:latest
-    ports:
-      - "2181:2181"
-
   kafka:
-    build:
-      context: ./kafka
+    image: confluentinc/cp-kafka:7.6.1
+    hostname: kafka
+    container_name: kafka
+    user: "0:0"  # Run as root to avoid permission issues
     environment:
-      KAFKA_ZOOKEEPER_CONNECT: "zookeeper:2181"
-      KAFKA_ADVERTISED_LISTENERS: "PLAINTEXT://localhost:9092"
-      KAFKA_LISTENERS: "PLAINTEXT://0.0.0.0:9092"
+      # KRaft mode configuration
+      KAFKA_NODE_ID: 1
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: 'CONTROLLER:PLAINTEXT,PLAINTEXT:PLAINTEXT'
+      KAFKA_ADVERTISED_LISTENERS: 'PLAINTEXT://localhost:9092'
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_JMX_PORT: 9104
+      KAFKA_JMX_HOSTNAME: localhost
+      KAFKA_PROCESS_ROLES: 'broker,controller'
+      KAFKA_CONTROLLER_QUORUM_VOTERS: '1@kafka:29093'
+      KAFKA_LISTENERS: 'PLAINTEXT://0.0.0.0:9092,CONTROLLER://kafka:29093'
+      KAFKA_INTER_BROKER_LISTENER_NAME: 'PLAINTEXT'
+      KAFKA_CONTROLLER_LISTENER_NAMES: 'CONTROLLER'
+      KAFKA_LOG_DIRS: '/tmp/kraft-combined-logs'
+      # Cluster ID for KRaft mode (generate with kafka-storage.sh random-uuid)
+      CLUSTER_ID: 'MkU3OEVBNTcwNTJENDM2Qk'
     ports:
       - "9092:9092"
-    depends_on:
-      - zookeeper
+      - "9104:9104"
+    volumes:
+      - kafka-data:/tmp/kraft-combined-logs
+    healthcheck:
+      test: ["CMD-SHELL", "kafka-broker-api-versions --bootstrap-server localhost:9092"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    restart: unless-stopped
 
   activemq:
     image: apache/activemq-classic:6.1.6
@@ -86,6 +89,9 @@ services:
       - ./activemq/conf:/opt/activemq/conf
       - ./activemq/data:/var/lib/activemq/data
 
+volumes:
+  kafka-data:
+    driver: local
 
 ```
 - Start the containers: `docker-compose up -d`
@@ -144,3 +150,18 @@ export const environment: EnvironmentMode = {
 	- `ATTNHUP1@globalpsa.com` / `P@ssw0rd321`
 	- `ATTMIND1@globalpsa.com` / `P@ssw0rd321`
 	- `ATTLING1@globalpsa.com` / `P@ssw0rd321`
+
+
+# P360 Setup
+
+## Pre-install
+- Same as TMA/LMA
+## Setup Steps
+### Clone the repository
+- [TMA - LMA Refresh / P360-BE · GitLab](https://git.vti.com.vn/tma-lma-refresh/p360)
+
+### Setup Database
+- Open DBeaver and connect to the P360 database (the connection info is stored at `application-azuredev.properties`)
+- Create a new database named `p360_[yourname]`
+- Dump the `p360_nam` database
+- 
