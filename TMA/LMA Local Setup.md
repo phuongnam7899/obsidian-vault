@@ -164,4 +164,16 @@ export const environment: EnvironmentMode = {
 - Open DBeaver and connect to the P360 database (the connection info is stored at `application-azuredev.properties`)
 - Create a new database named `p360_[yourname]`
 - Dump the `p360_nam` database
-- 
+	![[Pasted image 20250815150354.png]]
+- Restore the dumped to the new database you created
+![[Pasted image 20250815150502.png]]
+- In your new database:
+	- Open `end_point_properties` table 
+	- Filter the records: `END_POINT_ID > 19 and END_POINT_ID < 24 and END_POINT_PARAM_M IN ('bootstrap-servers', 'hostName')`
+	- Change the `END_POINT_VALUE_M` values to your IP address (keep the port)
+### Start the application
+
+> [!i] To make sure the DB is working well, you can try using DBeaver to connect to the DB by the `spring.datasource.url` configs (in the `application-azuredev.properties`) first
+
+- Select any `.java` file
+- Press `F5` (make sure you install mentioned extensions and the JDK first)
