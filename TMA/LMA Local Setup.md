@@ -170,7 +170,8 @@ export const environment: EnvironmentMode = {
 - In your new database:
 	- Open `end_point_properties` table 
 	- Filter the records: `END_POINT_ID > 19 and END_POINT_ID < 24 and END_POINT_PARAM_M IN ('bootstrap-servers', 'hostName')`
-	- Change the `END_POINT_VALUE_M` values to your IP address (keep the port)
+	- Change the `END_POINT_VALUE_M` values to your IP address (keep the port
+		![[Pasted image 20250815152110.png]]
 ### Start the application
 
 > [!i] To make sure the DB is working well, you can try using DBeaver to connect to the DB by the `spring.datasource.url` configs (in the `application-azuredev.properties`) first
