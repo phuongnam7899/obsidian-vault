@@ -61,7 +61,7 @@ sequenceDiagram
 - Only the server can decrypt this with its private key
 ## Session Key Generation
 - Both parties independently generate the same master secret
-- Uses client random + server random + pre-master secret
+- Uses client random (random number from client's initial message) + server random (random number from server's response) + pre-master secret
 - Master secret is used to derive symmetric encryption keys
 ## Handshake Completion
 - Both parties switch to encrypted communication
