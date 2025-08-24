@@ -23,8 +23,12 @@ Tags: [[Networking]] [[Azure Cloud]]
 # Key points to choose
 ## Performance and bandwidth
 - Choose a VPN Gateway SKU (size) aligns with the volume and performance needed
-
-
+## VPN protocols
+Azure support popular protocols:
+- IKEv2
+- OpenVPN
+## Region matters
+- The region that deploy the gateway can affect the latency and connectivity cost
 
 ---
 # References
