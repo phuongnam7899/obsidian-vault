@@ -74,3 +74,4 @@ sequenceDiagram
 
 ---
 # References
+- [[Session management strategies]]

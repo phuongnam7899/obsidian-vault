@@ -78,6 +78,18 @@
             }
           },
           {
+            "id": "36ff21731524d518",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.10"
+            }
+          },
+          {
             "id": "31be0cf241eeb9b1",
             "type": "leaf",
             "state": {
@@ -162,7 +174,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -309,6 +321,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
@@ -318,14 +331,14 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
-      "callout-manager:Insert Callout": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "callout-manager:Insert Callout": false
     }
   },
-  "active": "8fc46e484a30a420",
+  "active": "36ff21731524d518",
   "lastOpenFiles": [
-    "6 - Main Notes/TLS.md",
+    "6 - Main Notes/Session management strategies.md",
     "6 - Main Notes/encryption protocol.md",
+    "6 - Main Notes/TLS.md",
     "6 - Main Notes/Azure VPN Gateway.md",
     "6 - Main Notes/SSL.md",
     "6 - Main Notes/Azure Application Gateway.md",
@@ -352,7 +365,6 @@
     "6 - Main Notes/Azure Containers (ACI).md",
     "6 - Main Notes/Build custom apps and Azure Container Registry.md",
     "TMA/LMA Local Setup.md",
-    "TMA/LMA Git Flow.md",
     "TMA",
     "7 - Files/Pasted image 20250728093631.png",
     "7 - Files/Pasted image 20250507083900.png",
