@@ -273,13 +273,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/LMA-TMA flows.md",
+                "file": "conflict-files-obsidian-git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of LMA-TMA flows"
+              "title": "Outline of conflict-files-obsidian-git"
             }
           },
           {
@@ -314,15 +314,24 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a24d612ebcb02734",
+  "active": "6a2fc9cd813311bb",
   "lastOpenFiles": [
+    "6 - Main Notes/LMA-TMA flows.md",
+    "conflict-files-obsidian-git.md",
+    "6 - Main Notes/encryption protocol.md",
+    "6 - Main Notes/VPN.md",
+    "6 - Main Notes/TLS.md",
+    "6 - Main Notes/Session management strategies.md",
+    "6 - Main Notes/SSL.md",
+    "6 - Main Notes/Load Balancer.md",
+    "6 - Main Notes/Gateway.md",
+    "6 - Main Notes/Azure VPN Gateway.md",
+    "6 - Main Notes/Azure Application Gateway.md",
     "TMA/LMA Local Setup.md",
     "7 - Files/Pasted image 20250815152110.png",
     "7 - Files/Pasted image 20250815150502.png",
     "7 - Files/Pasted image 20250815150354.png",
     "6 - Main Notes/Kafka Connect local docker command.md",
-    "conflict-files-obsidian-git.md",
-    "6 - Main Notes/LMA-TMA flows.md",
     "6 - Main Notes/Private Address Space.md",
     "6 - Main Notes/Azure Bastion.md",
     "6 - Main Notes/Pages (aka blocks) in DB.md",
@@ -336,15 +345,6 @@
     "6 - Main Notes/Hyper visor.md",
     "6 - Main Notes/FQDN.md",
     "6 - Main Notes/Container vs VM.md",
-    "6 - Main Notes/Build custom apps and Azure Container Registry.md",
-    "6 - Main Notes/Azure Virtual Machine.md",
-    "6 - Main Notes/Azure Network Security Group.md",
-    "6 - Main Notes/Azure Containers (ACI).md",
-    "6 - Main Notes/Azure Container Registry (ACR).md",
-    "6 - Main Notes/Availability Sets.md",
-    "3 - Tags/Virtual Machine.md",
-    "3 - Tags/Application Layer.md",
-    "7 - Files/LMA Code flows 2025-02-05 07.44.12.excalidraw.md",
     "7 - Files/Pasted image 20250728093631.png",
     "TMA",
     "7 - Files/Pasted image 20250427093641.png",
