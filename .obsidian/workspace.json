@@ -145,8 +145,7 @@
               "title": "LMA Local Setup"
             }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "vertical"
@@ -274,13 +273,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TMA/LMA Local Setup.md",
+                "file": "6 - Main Notes/LMA-TMA flows.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of LMA Local Setup"
+              "title": "Outline of LMA-TMA flows"
             }
           },
           {
@@ -315,8 +314,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "157af159a66f4d9e",
+  "active": "a24d612ebcb02734",
   "lastOpenFiles": [
+    "TMA/LMA Local Setup.md",
     "7 - Files/Pasted image 20250815152110.png",
     "7 - Files/Pasted image 20250815150502.png",
     "7 - Files/Pasted image 20250815150354.png",
@@ -353,7 +353,6 @@
     "7 - Files/Pasted image 20250416210628.png",
     "7 - Files/Pasted image 20250416210512.png",
     "7 - Files/Pasted image 20250507083900.png",
-    "7 - Files/Pasted image 20250507083810.png",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "smart-chats",
