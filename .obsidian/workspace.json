@@ -69,24 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/encryption protocol.md",
+                "file": "6 - Main Notes/LMA-TMA flows.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "encryption protocol"
-            }
-          },
-          {
-            "id": "36ff21731524d518",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.10"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.10"
+              "title": "LMA-TMA flows"
             }
           },
           {
@@ -174,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -293,13 +281,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/encryption protocol.md",
+                "file": "6 - Main Notes/LMA-TMA flows.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of encryption protocol"
+              "title": "Outline of LMA-TMA flows"
             }
           },
           {
@@ -334,10 +322,10 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "36ff21731524d518",
+  "active": "8fc46e484a30a420",
   "lastOpenFiles": [
-    "6 - Main Notes/Session management strategies.md",
     "6 - Main Notes/encryption protocol.md",
+    "6 - Main Notes/Session management strategies.md",
     "6 - Main Notes/TLS.md",
     "6 - Main Notes/Azure VPN Gateway.md",
     "6 - Main Notes/SSL.md",
