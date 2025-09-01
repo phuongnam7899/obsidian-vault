@@ -24,6 +24,12 @@ Tags:
 	- Origin server: where the content lie at
 	- Point of present (PoP): Are servers located around the world to serve the content
 	- Cache Invalidation: process of remove outdated content to ensure user get the latest one
+	- Flow:
+		- User request content
+		- DNS lookup -> The nearest edge server's IP will be the result of the DNS resolution
+		- Edge server check the cache
+			- If cache hit -> Serve
+			- If cache missed -> Edge server retrieve from origin server -> Serve and cache
 
 ---
 # References
