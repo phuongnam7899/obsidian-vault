@@ -176,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "6 - Main Notes/LMA-TMA flows.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of conflict-files-obsidian-git"
+              "title": "Outline of LMA-TMA flows"
             }
           },
           {
@@ -214,14 +214,13 @@
       "obsidian-git:Open Git source control": false,
       "callout-manager:Insert Callout": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "6a2fc9cd813311bb",
+  "active": "ce9189f635a8a47e",
   "lastOpenFiles": [
-    "6 - Main Notes/LMA-TMA flows.md",
     "conflict-files-obsidian-git.md",
+    "6 - Main Notes/LMA-TMA flows.md",
     "6 - Main Notes/CDN.md",
     "6 - Main Notes/Who read the feature specs.md",
     "6 - Main Notes/who domesticated homo sapiens.md",
